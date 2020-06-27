@@ -248,7 +248,7 @@
 
    本文博客地址[[https://www.lofter.com/lpost/32137d91_1c991ed56]]
 
-   社区更新地址https://v2ex.com/member/tiglapiles
+   社区更新地址https://v2ex.com/member/tiglapiles（主要更新地址）
 
    如果你想访问更多我的文章欢迎访问我的[[https://github.com/tiglapiles/article][github仓库]]
 
