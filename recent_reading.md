@@ -322,8 +322,6 @@ Lisp之地
 
 本文地址<https://github.com/tiglapiles/article/blob/master/recent_reading.org>
 
-本文博客地址<https://www.lofter.com/lpost/32137d91_1c991ed56>
-
 社区更新地址<https://v2ex.com/member/tiglapiles（主要更新地址>）
 
 如果你想访问更多我的文章欢迎访问我的[github仓库](https://github.com/tiglapiles/article)
