@@ -1,0 +1,228 @@
+* 这是一个面试项目，赐教还有哪些需要优化的地方？
+
+  这是一个公司的面试小项目，根据数据生成多选框，要有一个全选的选项目，这是我的代码，请问还有哪些需要改进的地方和不足？因为对方不回复，只能来这里求教。
+
+* 项目需求
+
+  1. 写一个多选框小组件;
+  2. 需要有单元测试
+  3. 有全选选项目
+  4. 样式符合需求
+  5. 用react,typescript,jest技术
+  6. 全程不能出现中文
+  7. 需要有意义的注释
+  8. 代码尽量优美
+  9. 取名优美
+  10. 最后提交PR审核
+
+* 我的代码
+
+  + 多选框组件
+
+    #+BEGIN_SRC javascript
+    import React, { useState, useEffect, FunctionComponent } from "react";
+    import { fpMap, pipe } from "../utils";
+    import "./MultiCheck.css";
+
+    export type Option = {
+    label: string;
+    value: string;
+    checked: boolean;
+    };
+
+/**
+ * Notice:
+ * 1. There should be a special `Select All` option with checkbox to control all passing options
+ * 2. If columns > 1, the options should be placed from top to bottom in each column
+ *
+ * @param {string} label - the label text of this component
+ * @param {Option[]} options - options
+ * @param {number} columns - default value is 1
+ * @param {Function} onChange - when checked options are changed,
+ *                             they should be passed to outside
+ */
+type Props = {
+  label?: string;
+  options: Option[];
+  columns?: number;
+  onChange?: (options: Option[]) => void;
+};
+
+const selectAll = (c = false) => ({
+  label: "Select All",
+  value: "Select All",
+  checked: c
+});
+
+const MultiCheck: FunctionComponent<Props> = (props): JSX.Element => {
+  const { label = "", columns = 1, onChange = () => {} } = props;
+  const [value, setValue] = useState({}); // for call props.onChange
+  const [options, setOptions] = useState<Option[]>([
+    /* if original options all checked */
+    selectAll(!hasUnchecked(props.options)),
+    ...props.options
+  ]);
+
+  function hasUnchecked(o: Option[]) {
+    return o.filter(o => o.value !== selectAll().value).some(o => !o.checked);
+  }
+
+  function _handleClick(o: Option): void {
+    /* user toggle click checkbox */
+    const convertCheck = fpMap(i => {
+      if (i.value === o.value) {
+        return { ...i, checked: !o.checked };
+      }
+      return i;
+    });
+    /* user toggle click SelectAll option */
+    const convertSelectAll = fpMap(i => {
+      if (selectAll().value === o.value) {
+        return { ...i, checked: !o.checked };
+      }
+      return i;
+    });
+    /* if all other option checked than SelectAll option checked else unchecked */
+    const isAllChecked = (o: Option[]) => {
+      return fpMap(i => {
+        if (i.value === selectAll().value) {
+          return { ...i, checked: !hasUnchecked(o) };
+        }
+        return i;
+      })(o);
+    };
+
+    setOptions(prev =>
+      pipe(convertCheck, convertSelectAll, isAllChecked)(prev)
+    );
+    setValue(o);
+  }
+
+  function _getColumns(n: number): number {
+    return n > 0 ? Math.ceil(options.length / n) : 1;
+  }
+
+  useEffect(() => {
+    /* selectAll option can not be pass outside */
+    onChange(options.filter(i => i.value !== selectAll().value));
+  }, [value]);
+
+  return (
+    <div className="multi-check-container">
+      <div className="multi-check">
+        <div className="multi-check-label">
+          <label>{label}</label>
+        </div>
+        <div
+          className="multi-check-items"
+          style={{
+            gridTemplateRows: `repeat(${_getColumns(columns)},auto)`
+          }}
+        >
+          {fpMap(o => (
+            <label className="multi-check-item" key={o.value}>
+              <input
+                type="checkbox"
+                value={o.value}
+                checked={o.checked}
+                onChange={() => _handleClick(o)}
+              />
+              <span></span>
+              <div>{o.label}</div>
+            </label>
+          ))(options)}
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default MultiCheck;
+
+    #+END_SRC
+
+  + 测试用例
+
+    #+BEGIN_SRC javascript
+    import "@testing-library/jest-dom";
+    import React from "react";
+    import renderer from "react-test-renderer";
+    import { fireEvent, render, screen } from "@testing-library/react";
+    import { fpMap, pipe } from "../utils";
+    import MultiCheck from "./MultiCheck";
+
+describe("MultiCheck", () => {
+  describe("initialize", () => {
+    it("renders correctly", () => {
+      const tree = renderer.create(<MultiCheck options={[]} />).toJSON();
+
+      expect(tree).toMatchSnapshot();
+    });
+
+    it("renders the label if label provided", () => {
+      const label = "jest test";
+      render(<MultiCheck options={[]} label={label} />);
+
+      expect(screen.queryByLabelText(label)).toBeDefined();
+    });
+
+    it("render and click checkbox", () => {
+      const options = [{ label: "test", value: "test", checked: false }];
+      render(<MultiCheck options={options} />);
+
+      expect(screen.queryByLabelText(/test/i)).not.toBeChecked();
+
+      // simulate user click checkbox
+      fireEvent.click(screen.getByLabelText(/test/i));
+
+      expect(screen.queryByLabelText(/test/i)).toBeChecked();
+    });
+  });
+
+  describe("utils", () => {
+    it("fpMap", () => {
+      let arr = [1, 2, 3];
+      let add1 = (o: number) => o + 1;
+
+      expect(fpMap(add1)(arr)).toEqual([2, 3, 4]);
+    });
+
+    it("pipe", () => {
+      let arr = [1, 2, 3];
+      let add1Each = (i: []) => i.map(o => o + 1);
+      let prod2Each = (i: []) => i.map(o => o * 2);
+
+      expect(pipe(add1Each, prod2Each)(arr)).toEqual([4, 6, 8]);
+    });
+  });
+});
+
+    #+END_SRC
+
+  + 工具代码
+
+    #+BEGIN_SRC javascript
+    type fn = (arg: any) => any;
+
+// functional programming for map iterator
+export function fpMap(func: fn): fn {
+  return function(arr: unknown[]): unknown[] {
+    let length: number = arr.length || 0;
+    let i: number = 0;
+    let result: unknown[] = [];
+
+    while (i < length) {
+      result.push(func(arr[i]));
+      i++;
+    }
+    return result;
+  };
+}
+
+// functional programming pipe
+export function pipe(...fns: fn[]): fn {
+  return function(x: any) {
+    return fns.reduce((v: any, f: fn) => f(v), x);
+  };
+}
+    #+END_SRC
