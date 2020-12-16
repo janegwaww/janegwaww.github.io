@@ -202,7 +202,7 @@ describe("MultiCheck", () => {
   + 工具代码
 
     #+BEGIN_SRC javascript
-    type fn = (arg: any) => any;
+type fn = (arg: any) => any;
 
 // functional programming for map iterator
 export function fpMap(func: fn): fn {
@@ -225,4 +225,5 @@ export function pipe(...fns: fn[]): fn {
     return fns.reduce((v: any, f: fn) => f(v), x);
   };
 }
+
     #+END_SRC
