@@ -1,3 +1,3 @@
 * 更多文章后续推出
 
-** [分享最近阅读的书藉清单（一）](./recent_reading.org)
+** (分享最近阅读的书藉清单（一）)[./recent_reading.org]
