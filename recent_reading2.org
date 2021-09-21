@@ -1,0 +1,79 @@
+#+STARTUP: showall
+
+* 分享最近阅读的书藉清单(二)
+
+** Calculus Made Easy[fn:1]
+
+   *微积分简单入门*
+
+** How to Design Programs[fn:2]
+
+   *如何设计程序*
+
+** Teach Yourself Computer Science[fn:3]
+
+   *自学计算机科学*
+
+** 史记的读法－司马迀的历史世界[fn:4]
+
+** Calculus[Gilbert Strang][fn:5]
+
+   *微积分*
+
+** The Science of Functional Programming: A Tutorial, with Examples in Scala[fn:6]
+
+   *函数式编程－用scala语言讲解*
+
+** Introduction to Linear Algebra[fn:7]
+
+   *线性代数*
+
+** 吕氏春秋[fn:8]
+
+   #+BEGIN_QUOTE
+   故周公旦曰：“不如吾者，吾不与处，累我者也；与我齐者，吾不与处，无益我者也。惟贤者必与贤於己者处。贤者之可得与处也，礼之也。...”
+
+   --吕氏春秋.观世览
+   #+END_QUOTE
+
+   * 我的结论
+
+** How to Speak[fn:9]
+
+   *说话的艺术*
+
+   #+BEGIN_QUOTE
+   在接下来的60分钟中，您将接触到很多想法，其中一些您将融入到自己的生活中，它们将确保您有最大的机会让您的听众重视和接受您的想法。
+
+   --帕特里克·温斯顿
+   #+END_QUOTE
+
+   * 我的结论
+
+* 写在后面
+
+  1. [[https://github.com/tiglapiles/article/blob/master/recent_reading.org][分享最近阅读的书藉清单（一）]]
+  2. [[https://github.com/tiglapiles/article][本文地址]]
+  3. 如果你想访问更多我的文章欢迎访问我的[[https://github.com/tiglapiles/article][github仓库]]
+  4. 请捐助我的[[https://itch.io/profile/tiglapiles][游戏]]，支持我的创作
+  5. 转载请注明出处
+
+* Footnotes
+
+[fn:9] https://ocw.mit.edu/resources/res-tll-005-how-to-speak-january-iap-2018/how-to-speak/index.htm
+
+[fn:8] https://book.douban.com/subject/2053608/
+
+[fn:7] https://ocw.mit.edu/courses/mathematics/18-06-linear-algebra-spring-2010/video-lectures/
+
+[fn:6] https://github.com/winitzki/sofp
+
+[fn:5] https://book.douban.com/subject/30459914/
+
+[fn:4] https://book.douban.com/subject/34781358/
+
+[fn:3] https://teachyourselfcs.com/
+
+[fn:2] https://htdp.org/
+
+[fn:1] https://calculusmadeeasy.org/
