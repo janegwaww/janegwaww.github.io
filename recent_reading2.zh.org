@@ -4,29 +4,43 @@
 
 ** Calculus Made Easy[fn:1]
 
-   *微积分简单入门*
+   *微积分通俗入门*
+
+   * 我的结论
 
 ** How to Design Programs[fn:2]
 
    *如何设计程序*
 
+   * 我的结论
+
 ** Teach Yourself Computer Science[fn:3]
 
    *自学计算机科学*
 
+   * 我的结论
+
 ** 史记的读法－司马迀的历史世界[fn:4]
+
+   * 我的结论
 
 ** Calculus[Gilbert Strang][fn:5]
 
    *微积分*
 
+   * 我的结论
+
 ** The Science of Functional Programming: A Tutorial, with Examples in Scala[fn:6]
 
    *函数式编程－用scala语言讲解*
 
+   * 我的结论
+
 ** Introduction to Linear Algebra[fn:7]
 
-   *线性代数*
+   *线性代数*[fn:10]
+
+   * 我的结论
 
 ** 吕氏春秋[fn:8]
 
@@ -55,10 +69,12 @@
   1. [[https://github.com/tiglapiles/article/blob/master/recent_reading.org][分享最近阅读的书藉清单（一）]]
   2. [[https://github.com/tiglapiles/article][本文地址]]
   3. 如果你想访问更多我的文章欢迎访问我的[[https://github.com/tiglapiles/article][github仓库]]
-  4. 请捐助我的[[https://itch.io/profile/tiglapiles][游戏]]，支持我的创作
+  4. 捐助我的[[https://itch.io/profile/tiglapiles][游戏]]，支持我的创作
   5. 转载请注明出处
 
 * Footnotes
+
+[fn:10] 配套教材https://book.douban.com/subject/3582335/ 
 
 [fn:9] https://ocw.mit.edu/resources/res-tll-005-how-to-speak-january-iap-2018/how-to-speak/index.htm
 
