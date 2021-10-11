@@ -389,13 +389,11 @@
 
 ** 写在后面
 
-   本清单所列书藉我已看过一遍或多遍，还有一些没有看完。
-
-   [[https://github.com/tiglapiles/article/blob/master/recent_reading.org][本文地址]]
+   [[https://tiglapiles.github.io/article/src/recent_reading.html][本文地址]]
 
    [[https://v2ex.com/t/731734#reply20][社区更新地址]]
 
-   如果你想访问更多我的文章欢迎访问我的[[https://github.com/tiglapiles/article][github仓库]]
+   更多文章欢迎访问我的[[https://github.com/tiglapiles/article][github仓库]]
 
    转载请注明出处
 

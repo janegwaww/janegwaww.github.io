@@ -1,22 +1,22 @@
 
 # Table of Contents
 
-1.  [分享最近阅读的书籍清单(二)](#org939c22a)
-    1.  [Calculus Made Easy](#org51b2d3d)
-    2.  [How to Design Programs](#orga576d22)
-    3.  [Teach Yourself Computer Science](#org401c5e0)
-    4.  [Cambridge English](#orgc8e4903)
-    5.  [史记的读法－司马迀的历史世界](#org4fe39ad)
-    6.  [Calculus[Gilbert Strang]](#org791355b)
-    7.  [The Science of Functional Programming: A Tutorial, with Examples in Scala](#org036e394)
-    8.  [Introduction to Linear Algebra](#org3e52c33)
-    9.  [吕氏春秋](#org4946a78)
-    10. [How to Speak](#org97fe005)
-2.  [写在后面](#org3405c45)
+1.  [分享最近阅读的书籍清单(二)](#org04269ee)
+    1.  [Calculus Made Easy](#orga759f9e)
+    2.  [How to Design Programs](#org2729cbb)
+    3.  [Teach Yourself Computer Science](#orgbf21942)
+    4.  [Cambridge English](#org2d15a3e)
+    5.  [史记的读法－司马迀的历史世界](#org055d4fa)
+    6.  [Calculus[Gilbert Strang]](#orgba935dd)
+    7.  [The Science of Functional Programming: A Tutorial, with Examples in Scala](#orgef9a198)
+    8.  [Introduction to Linear Algebra](#orgc4f84fc)
+    9.  [吕氏春秋](#orgceb7a60)
+    10. [How to Speak](#orgb2a6898)
+2.  [写在后面](#org8fadcad)
 
 
 
-<a id="org939c22a"></a>
+<a id="org04269ee"></a>
 
 # 分享最近阅读的书籍清单(二)
 
@@ -28,7 +28,7 @@
 能让更多人知道并从中受益。这里只是做一个引荐，精彩需要你自己亲自拜读从中感受。
 
 
-<a id="org51b2d3d"></a>
+<a id="orga759f9e"></a>
 
 ## Calculus Made Easy<sup><a id="fnr.1" class="footref" href="#fn.1">1</a></sup>
 
@@ -49,7 +49,7 @@
     Strang的微积分是一本不错的全面学习微积分的好书。
 
 
-<a id="orga576d22"></a>
+<a id="org2729cbb"></a>
 
 ## How to Design Programs<sup><a id="fnr.2" class="footref" href="#fn.2">2</a></sup>
 
@@ -67,7 +67,7 @@
     你都可以进行简单的衍生，至少不会像无头苍蝇到处碰壁。
 
 
-<a id="org401c5e0"></a>
+<a id="orgbf21942"></a>
 
 ## Teach Yourself Computer Science<sup><a id="fnr.3" class="footref" href="#fn.3">3</a></sup>
 
@@ -84,7 +84,7 @@
     合的伙伴了。如果现代教育系统无法教授更好的知识，那我们又何必浪费时间进入呢。
 
 
-<a id="orgc8e4903"></a>
+<a id="org2d15a3e"></a>
 
 ## Cambridge English<sup><a id="fnr.4" class="footref" href="#fn.4">4</a></sup>
 
@@ -100,7 +100,7 @@
     碎片化的时间学习，他又非常接地气，每个知识点是经常要用到的，每个知识点清晰明了，给你最直接的英语学习。
 
 
-<a id="org4fe39ad"></a>
+<a id="org055d4fa"></a>
 
 ## 史记的读法－司马迀的历史世界<sup><a id="fnr.5" class="footref" href="#fn.5">5</a></sup>
 
@@ -115,7 +115,7 @@
     而项羽直呼其名应是有贬义的。此书建议要读懂史记你要谦虚面对他，不断追问为什么，为什么这里如此写，为什么如此编排，为什么如此难懂，为什么如此简练..。
 
 
-<a id="org791355b"></a>
+<a id="orgba935dd"></a>
 
 ## Calculus[Gilbert Strang]<sup><a id="fnr.6" class="footref" href="#fn.6">6</a></sup>
 
@@ -130,7 +130,7 @@
     一本全面学习微积分的好书。
 
 
-<a id="org036e394"></a>
+<a id="orgef9a198"></a>
 
 ## The Science of Functional Programming: A Tutorial, with Examples in Scala<sup><a id="fnr.7" class="footref" href="#fn.7">7</a></sup>
 
@@ -146,7 +146,7 @@
     要深入了解FP编程还是要一定的学习成本的，里面也有一些复杂的技术。这本书直接以大量的练习方式学习FP，他要求要有一定的数学代数知识和努力。
 
 
-<a id="org3e52c33"></a>
+<a id="orgc4f84fc"></a>
 
 ## Introduction to Linear Algebra<sup><a id="fnr.8" class="footref" href="#fn.8">8</a></sup>
 
@@ -164,7 +164,7 @@
     遨游。
 
 
-<a id="org4946a78"></a>
+<a id="orgceb7a60"></a>
 
 ## 吕氏春秋<sup><a id="fnr.10" class="footref" href="#fn.10">10</a></sup>
 
@@ -179,7 +179,7 @@
     后世知丘者以春秋，而罪丘者亦以春秋。
 
 
-<a id="org97fe005"></a>
+<a id="orgb2a6898"></a>
 
 ## How to Speak<sup><a id="fnr.11" class="footref" href="#fn.11">11</a></sup>
 
@@ -198,13 +198,13 @@
     不是以谢谢结束，他们不会说Thank You, 而是God bless you, God bless America.
 
 
-<a id="org3405c45"></a>
+<a id="org8fadcad"></a>
 
 # 写在后面
 
-1.  [分享最近阅读的书籍清单（一）](https://github.com/tiglapiles/article/blob/master/recent_reading.org)
-2.  [本文地址](https://github.com/tiglapiles/article)
-3.  如果你想访问更多我的文章欢迎访问我的[github仓库](https://github.com/tiglapiles/article)
+1.  [分享最近阅读的书籍清单（一）](https://tiglapiles.github.io/article/src/recent_reading.html)
+2.  [本文地址](https://tiglapiles.github.io/article/src/recent_reading2.zh.html)
+3.  更多文章欢迎访问我的[github仓库](https://github.com/tiglapiles/article)
 4.  捐助我的[游戏](https://itch.io/profile/tiglapiles)(定期上新)，支持我的创作
 5.  转载请注明出处
 6.  [社区更新地址](https://www.v2ex.com/t/805027)
