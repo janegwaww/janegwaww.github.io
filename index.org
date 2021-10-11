@@ -1,5 +1,0 @@
-* 更多文章后续推出
-
-** [[./src/recent_reading.org][分享最近阅读的书籍清单（一）]]
-
-** [[./src/recent_reading2.zh.org][分享最近阅读的书籍清单（二）]]
