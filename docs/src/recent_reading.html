@@ -1,0 +1,1086 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<!-- 2021-10-11 Mon 09:46 -->
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>&lrm;</title>
+<meta name="generator" content="Org mode" />
+<meta name="author" content="Dipper" />
+<style type="text/css">
+ <!--/*--><![CDATA[/*><!--*/
+  .title  { text-align: center;
+             margin-bottom: .2em; }
+  .subtitle { text-align: center;
+              font-size: medium;
+              font-weight: bold;
+              margin-top:0; }
+  .todo   { font-family: monospace; color: red; }
+  .done   { font-family: monospace; color: green; }
+  .priority { font-family: monospace; color: orange; }
+  .tag    { background-color: #eee; font-family: monospace;
+            padding: 2px; font-size: 80%; font-weight: normal; }
+  .timestamp { color: #bebebe; }
+  .timestamp-kwd { color: #5f9ea0; }
+  .org-right  { margin-left: auto; margin-right: 0px;  text-align: right; }
+  .org-left   { margin-left: 0px;  margin-right: auto; text-align: left; }
+  .org-center { margin-left: auto; margin-right: auto; text-align: center; }
+  .underline { text-decoration: underline; }
+  #postamble p, #preamble p { font-size: 90%; margin: .2em; }
+  p.verse { margin-left: 3%; }
+  pre {
+    border: 1px solid #ccc;
+    box-shadow: 3px 3px 3px #eee;
+    padding: 8pt;
+    font-family: monospace;
+    overflow: auto;
+    margin: 1.2em;
+  }
+  pre.src {
+    position: relative;
+    overflow: auto;
+    padding-top: 1.2em;
+  }
+  pre.src:before {
+    display: none;
+    position: absolute;
+    background-color: white;
+    top: -10px;
+    right: 10px;
+    padding: 3px;
+    border: 1px solid black;
+  }
+  pre.src:hover:before { display: inline; margin-top: 14px;}
+  /* Languages per Org manual */
+  pre.src-asymptote:before { content: 'Asymptote'; }
+  pre.src-awk:before { content: 'Awk'; }
+  pre.src-C:before { content: 'C'; }
+  /* pre.src-C++ doesn't work in CSS */
+  pre.src-clojure:before { content: 'Clojure'; }
+  pre.src-css:before { content: 'CSS'; }
+  pre.src-D:before { content: 'D'; }
+  pre.src-ditaa:before { content: 'ditaa'; }
+  pre.src-dot:before { content: 'Graphviz'; }
+  pre.src-calc:before { content: 'Emacs Calc'; }
+  pre.src-emacs-lisp:before { content: 'Emacs Lisp'; }
+  pre.src-fortran:before { content: 'Fortran'; }
+  pre.src-gnuplot:before { content: 'gnuplot'; }
+  pre.src-haskell:before { content: 'Haskell'; }
+  pre.src-hledger:before { content: 'hledger'; }
+  pre.src-java:before { content: 'Java'; }
+  pre.src-js:before { content: 'Javascript'; }
+  pre.src-latex:before { content: 'LaTeX'; }
+  pre.src-ledger:before { content: 'Ledger'; }
+  pre.src-lisp:before { content: 'Lisp'; }
+  pre.src-lilypond:before { content: 'Lilypond'; }
+  pre.src-lua:before { content: 'Lua'; }
+  pre.src-matlab:before { content: 'MATLAB'; }
+  pre.src-mscgen:before { content: 'Mscgen'; }
+  pre.src-ocaml:before { content: 'Objective Caml'; }
+  pre.src-octave:before { content: 'Octave'; }
+  pre.src-org:before { content: 'Org mode'; }
+  pre.src-oz:before { content: 'OZ'; }
+  pre.src-plantuml:before { content: 'Plantuml'; }
+  pre.src-processing:before { content: 'Processing.js'; }
+  pre.src-python:before { content: 'Python'; }
+  pre.src-R:before { content: 'R'; }
+  pre.src-ruby:before { content: 'Ruby'; }
+  pre.src-sass:before { content: 'Sass'; }
+  pre.src-scheme:before { content: 'Scheme'; }
+  pre.src-screen:before { content: 'Gnu Screen'; }
+  pre.src-sed:before { content: 'Sed'; }
+  pre.src-sh:before { content: 'shell'; }
+  pre.src-sql:before { content: 'SQL'; }
+  pre.src-sqlite:before { content: 'SQLite'; }
+  /* additional languages in org.el's org-babel-load-languages alist */
+  pre.src-forth:before { content: 'Forth'; }
+  pre.src-io:before { content: 'IO'; }
+  pre.src-J:before { content: 'J'; }
+  pre.src-makefile:before { content: 'Makefile'; }
+  pre.src-maxima:before { content: 'Maxima'; }
+  pre.src-perl:before { content: 'Perl'; }
+  pre.src-picolisp:before { content: 'Pico Lisp'; }
+  pre.src-scala:before { content: 'Scala'; }
+  pre.src-shell:before { content: 'Shell Script'; }
+  pre.src-ebnf2ps:before { content: 'ebfn2ps'; }
+  /* additional language identifiers per "defun org-babel-execute"
+       in ob-*.el */
+  pre.src-cpp:before  { content: 'C++'; }
+  pre.src-abc:before  { content: 'ABC'; }
+  pre.src-coq:before  { content: 'Coq'; }
+  pre.src-groovy:before  { content: 'Groovy'; }
+  /* additional language identifiers from org-babel-shell-names in
+     ob-shell.el: ob-shell is the only babel language using a lambda to put
+     the execution function name together. */
+  pre.src-bash:before  { content: 'bash'; }
+  pre.src-csh:before  { content: 'csh'; }
+  pre.src-ash:before  { content: 'ash'; }
+  pre.src-dash:before  { content: 'dash'; }
+  pre.src-ksh:before  { content: 'ksh'; }
+  pre.src-mksh:before  { content: 'mksh'; }
+  pre.src-posh:before  { content: 'posh'; }
+  /* Additional Emacs modes also supported by the LaTeX listings package */
+  pre.src-ada:before { content: 'Ada'; }
+  pre.src-asm:before { content: 'Assembler'; }
+  pre.src-caml:before { content: 'Caml'; }
+  pre.src-delphi:before { content: 'Delphi'; }
+  pre.src-html:before { content: 'HTML'; }
+  pre.src-idl:before { content: 'IDL'; }
+  pre.src-mercury:before { content: 'Mercury'; }
+  pre.src-metapost:before { content: 'MetaPost'; }
+  pre.src-modula-2:before { content: 'Modula-2'; }
+  pre.src-pascal:before { content: 'Pascal'; }
+  pre.src-ps:before { content: 'PostScript'; }
+  pre.src-prolog:before { content: 'Prolog'; }
+  pre.src-simula:before { content: 'Simula'; }
+  pre.src-tcl:before { content: 'tcl'; }
+  pre.src-tex:before { content: 'TeX'; }
+  pre.src-plain-tex:before { content: 'Plain TeX'; }
+  pre.src-verilog:before { content: 'Verilog'; }
+  pre.src-vhdl:before { content: 'VHDL'; }
+  pre.src-xml:before { content: 'XML'; }
+  pre.src-nxml:before { content: 'XML'; }
+  /* add a generic configuration mode; LaTeX export needs an additional
+     (add-to-list 'org-latex-listings-langs '(conf " ")) in .emacs */
+  pre.src-conf:before { content: 'Configuration File'; }
+
+  table { border-collapse:collapse; }
+  caption.t-above { caption-side: top; }
+  caption.t-bottom { caption-side: bottom; }
+  td, th { vertical-align:top;  }
+  th.org-right  { text-align: center;  }
+  th.org-left   { text-align: center;   }
+  th.org-center { text-align: center; }
+  td.org-right  { text-align: right;  }
+  td.org-left   { text-align: left;   }
+  td.org-center { text-align: center; }
+  dt { font-weight: bold; }
+  .footpara { display: inline; }
+  .footdef  { margin-bottom: 1em; }
+  .figure { padding: 1em; }
+  .figure p { text-align: center; }
+  .equation-container {
+    display: table;
+    text-align: center;
+    width: 100%;
+  }
+  .equation {
+    vertical-align: middle;
+  }
+  .equation-label {
+    display: table-cell;
+    text-align: right;
+    vertical-align: middle;
+  }
+  .inlinetask {
+    padding: 10px;
+    border: 2px solid gray;
+    margin: 10px;
+    background: #ffffcc;
+  }
+  #org-div-home-and-up
+   { text-align: right; font-size: 70%; white-space: nowrap; }
+  textarea { overflow-x: auto; }
+  .linenr { font-size: smaller }
+  .code-highlighted { background-color: #ffff00; }
+  .org-info-js_info-navigation { border-style: none; }
+  #org-info-js_console-label
+    { font-size: 10px; font-weight: bold; white-space: nowrap; }
+  .org-info-js_search-highlight
+    { background-color: #ffff00; color: #000000; font-weight: bold; }
+  .org-svg { width: 90%; }
+  /*]]>*/-->
+</style>
+<script type="text/javascript">
+// @license magnet:?xt=urn:btih:e95b018ef3580986a04669f1b5879592219e2a7a&dn=public-domain.txt Public Domain
+<!--/*--><![CDATA[/*><!--*/
+     function CodeHighlightOn(elem, id)
+     {
+       var target = document.getElementById(id);
+       if(null != target) {
+         elem.classList.add("code-highlighted");
+         target.classList.add("code-highlighted");
+       }
+     }
+     function CodeHighlightOff(elem, id)
+     {
+       var target = document.getElementById(id);
+       if(null != target) {
+         elem.classList.remove("code-highlighted");
+         target.classList.remove("code-highlighted");
+       }
+     }
+    /*]]>*///-->
+// @license-end
+</script>
+</head>
+<body>
+<div id="content">
+<div id="table-of-contents">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents">
+<ul>
+<li><a href="#orgfe19f5c">1. 分享最近阅读的书籍清单（一）</a>
+<ul>
+<li><a href="#org030a88d">1.1. Code Complete</a></li>
+<li><a href="#org82dd233">1.2. Structure and Interpretation of Computer Programs</a></li>
+<li><a href="#orgc520c64">1.3. The Pragmatic Programmer: Your Journey to Mastery</a></li>
+<li><a href="#orgfbc068d">1.4. Design Patterns: Elements of Reusable Object-Oriented Software</a></li>
+<li><a href="#orgca2bc77">1.5. Refactoring: Improving the Design of Existing Code,Second Edition</a></li>
+<li><a href="#orgefcae39">1.6. TypeScript Documentation</a></li>
+<li><a href="#org0fb4e7a">1.7. Fullstack Vue - The Complete Guide to Vue.js</a></li>
+<li><a href="#orgd56f4ac">1.8. An Introduction to Programming in Emacs Lisp</a></li>
+<li><a href="#orga3e4c4e">1.9. Composing Software</a></li>
+<li><a href="#orgb96b27f">1.10. Eloquent JavaScript</a></li>
+<li><a href="#org1524506">1.11. Simplifying JavaScript</a></li>
+<li><a href="#org9a1f785">1.12. A Philosophy of Software Design</a></li>
+<li><a href="#orgd35b697">1.13. Learning GNU Emacs</a></li>
+<li><a href="#orgad741f8">1.14. Rediscovering JavaScript</a></li>
+<li><a href="#org8f5199e">1.15. Harley Hahn's Emacs Field Guide</a></li>
+<li><a href="#org7659c2f">1.16. fullstack react</a></li>
+<li><a href="#org6853c48">1.17. Land of Lisp</a></li>
+<li><a href="#org558be83">1.18. 曾国潘家书</a></li>
+<li><a href="#orgf511575">1.19. Designing Data-Intensive Applications</a></li>
+<li><a href="#orgf9e7470">1.20. 史记</a></li>
+<li><a href="#org4a3de0b">1.21. 写在后面</a></li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-orgfe19f5c" class="outline-2">
+<h2 id="orgfe19f5c"><span class="section-number-2">1</span> 分享最近阅读的书籍清单（一）</h2>
+<div class="outline-text-2" id="text-1">
+<blockquote>
+<p>
+从长远来看，我们塑造我们的生活，我们塑造我们自己。这个过程永远不会结束, 直到我们死去。
+而我们做出的选择最终是我们自己的责任。
+</p>
+
+<p>
+&#x2014;埃莉诺·罗斯福
+</p>
+</blockquote>
+
+<p>
+这些都是在行业中或历史中的经典书藉，我想把这些优秀的书藉分享出来，并賳上自己的一些主观想法，能让更多人知道并从中受益。
+这里只是做一个引荐，精彩需要你自己亲自拜读从中感受。
+</p>
+</div>
+
+<div id="outline-container-org030a88d" class="outline-3">
+<h3 id="org030a88d"><span class="section-number-3">1.1</span> Code Complete<sup><a id="fnr.1" class="footref" href="#fn.1">1</a></sup></h3>
+<div class="outline-text-3" id="text-1-1">
+<p>
+代码大全
+</p>
+
+<blockquote>
+<p>
+一个软件设计师想通过需求进行合理的，没有错误的程序设计，那是不现实的。
+从来没有那样开发过任何系统，而且可能永远也不会。 甚至教科书和论文中显示的小型程序开发都是不现实的。
+在需求人向我们展示他希望他所要做的事，而不是已经实际发生的事之前，已经对它们进行了修改和修订。
+</p>
+
+<p>
+&#x2014; 大卫·帕纳斯（David Parnas）和保罗·克莱门特（Paul Clements）
+</p>
+</blockquote>
+
+<blockquote>
+<p>
+设计是一个启发式过程,隐喻是启示而不是算法。
+典型情况下需求会有多少改动？IBM和其他公司的研究发现， 平均水平的项目在开发过程中，需求会有25%的变化（Boehm 1981，Jones 1994，Jones 2000）。
+在典型的项目中，需求变更导致的返工占到返工总量的75%到85%（Leffingwell 1997，Wiegers 2003）。
+注意项目的商业案例：有些需求作为功能特色来看是不错的想法，但是当你评估“增加的商业价值”时就会觉得它是个糟透了的主意。
+一个好的项目规划者，应能尽早清楚项目中的主要风险，以使大部分工作能平稳进行。
+</p>
+
+<p>
+&#x2014; 文中摘要
+</p>
+</blockquote>
+
+<ul class="org-ul">
+<li><p>
+我的结论
+</p>
+
+<p>
+我们的设计不能局限于语言，应该利用语言，作为刚入行的人应该阅读他，他提供了丰富的经验和细节，而作为经验丰富的从业者也应该翻翻能刷新一些认知；
+一个项目从需求到设计到编码到发布，我们的主要工作是编码，可是结构设计对于项目的生死至关重要，所以设计做好了其他就能一气呵成。
+这是一本软件设计百科全书， 囊括了软件设计的方方面面。
+</p></li>
+
+<li><p>
+第一部份：打好基础
+</p>
+
+<p>
+一本好书的一开始一般会说明为什么会写这本书，本书也不例外。什么是软件构造，软件构造为什么如此重要，以及作为有1000页的大全书你应该如何去使用他。
+当你了解上面这些之后，然后会告诉中软件行业中的一些专业术语，或者说行话吧。（例如你想学数学那你要了解数学公式的表达，因为他可以大大缩减用正常语言来表达一个公式，
+我自己感受最深的是欧几里德几何原本，里面每一卷会给出公理和定义，然后在这些公理和定义之上推理出命题，都是用文字描述的，因为都是建立在公理定义之上的，严谨自不必说，
+但是现在都把这些都换成数学公式，如果你有一定的数学的严谨思维，你可以很快的通读这本书了。） 之后是一个项目开始之前的工作：首先是先决条件，然后你要开发的软件类型，
+并且一定要花足够多时间把这些前期条件作好，因为往往改需求的成本是最高的，以及作为一个开发如何应付领导。 （当要你冲冲上马项目并且与投资人关系不好时，那只能祝你好运了，
+或者假装在做项目了实际没有，第三是在技术上教育领导讲道理，最后是找另一份工作，市场虽然变化莫测但优秀的工程师总是稀缺资源）
+</p></li>
+
+<li><p>
+第二部分：创建高质量的代码
+</p>
+
+<p>
+设计是什么？设计就是构建，像盖房子;在软件构建中，你需要构建蓝图，设计模式，用类和路徑构建系统架构。讲道设计中挑战，关键，单元等。然后是构健类，软件又是一个个类组成的，
+而类其是就是抽像数据类型，如何写出高质量类接口，以及每个类都有合理存在的理由，及类之上的包等; 娄之后是如何写出高质量的路徑，好的路徑使代码更具可读性，可靠性，可维护性;
+下一个讲的是防御性编码，当他人运行代码时无后顾之忧，正确处理错误，bug，例外; 最后是伪代码编程，何谓伪代码，就是不能运行的代码，你把功能逻辑功能以一种类似代码的形式写出
+来，这样的好处是更容易看的懂，也方便做文档以便后期更新维护。
+</p></li>
+
+<li><p>
+第三部分：变量
+</p>
+
+<p>
+变量是什么？变量其实就是可以更改的数据，他是代码的重要组成部分，而变量中最重要的就是取名字，一个好的变量名字，可以大大提向代码的质量，变量中各种数据类型，包括： 数值，
+字符，枚举，不可变值，数组等，或者创建你自已类型;
+</p></li>
+
+<li><p>
+第四部分：语句
+</p>
+
+<p>
+代码中语句最好依一定的顺序进行组合，如果没有顺序就根据相关性组合在一起; 不要做太多if-else的嵌套，如果一定要做，最好有一定顺序，增加可读性; 然后环循或者递归是比较
+复杂的，我们要谨慎处理;
+</p></li>
+
+<li><p>
+第五部分：代码改善
+</p>
+
+<p>
+高质量的代码有什么特性，外部特性包括：可修复性，有用性，高效性，可靠性，完整性，适应性，准确性，稳健性; 内部特性包括：可维护性，灵活性，可移植性，可重用性，可读性，
+可测试性，易理解性; 如何进行代码测试，debug，重构等。
+</p></li>
+
+<li><p>
+第六部分：系统考虑
+</p>
+
+<p>
+软件大小，性能都要考虑到系统的效能;
+</p></li>
+
+<li><p>
+第七部分：软件工艺
+</p>
+
+<p>
+代码中的个人风格，缩进、排列、组合、排布等; 最好的要有注释，有个人主题和风格。
+</p></li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-org82dd233" class="outline-3">
+<h3 id="org82dd233"><span class="section-number-3">1.2</span> Structure and Interpretation of Computer Programs<sup><a id="fnr.2" class="footref" href="#fn.2">2</a></sup></h3>
+<div class="outline-text-3" id="text-1-2">
+<p>
+计算机程序的构造和解释
+</p>
+
+<blockquote>
+<p>
+"总之，我希望我们不是为了做任务而做任务。不要觉得自己是做产品销售的。这个世界已经有很多这种人了。
+我们知道的知识别人也将很容易学习到。不要认为成功就是把一切劳动掌握在手中。我们有什么？
+我想也希望是智慧：相比于我们第一次接触计算机科学，我们有能力看到更多，并能做的更多。
+我想我们做计算机科学的最重要是要保持开心。当开始学习时应该有很多乐趣。当我们按客户的需求做事时我们开始认真对待。
+我们也开始为成功和完成产品做事。我认为我们不是。我想我们的责任是把东西朝正确的方向规划出来之后，然后又可以快乐的玩爽了。
+我希望计算机科学永远不要失去乐趣。"
+</p>
+
+<p>
+&#x2014; 文中摘要
+</p>
+</blockquote>
+
+<ul class="org-ul">
+<li><p>
+我的结论
+</p>
+
+<p>
+这本书，准确的说应该是这门课程，因为这本书是这门课的配套教材，他是MIT的基础编程课程，而这门课在编程中经久不衰，从1985年开始到现在，
+现在MIT基础编程课程改用pythod了。但是lisp这门第二古老语言一点也不过时，而这本书或者说这个课程讲了很多思想也被现在各种软件设计和语言所借鉴。
+如递归，循环，作用域，lamada，分层等，并衍生出了多个方言。
+</p></li>
+</ul>
+</div>
+</div>
+
+
+<div id="outline-container-orgc520c64" class="outline-3">
+<h3 id="orgc520c64"><span class="section-number-3">1.3</span> The Pragmatic Programmer: Your Journey to Mastery<sup><a id="fnr.3" class="footref" href="#fn.3">3</a></sup></h3>
+<div class="outline-text-3" id="text-1-3">
+<p>
+程序员修炼之道-从小工到专家
+</p>
+
+<blockquote>
+<p>
+生活是你自己的。 分享它。 庆祝它。 构建它。 然后玩得开心！
+</p>
+
+<p>
+&#x2014; 最后一个提示
+</p>
+</blockquote>
+
+<ul class="org-ul">
+<li><p>
+我的结论
+</p>
+
+<p>
+技术千变万化，但使用技术的人是不容易改变的，而本书正是针对的是人，如何成为更好的程序员？如何帮助他人成为更好的程序员？你可以成为专家。
+这关乎你的态度，风格和解决问题方式，对自己的代码负责。
+</p></li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-orgfbc068d" class="outline-3">
+<h3 id="orgfbc068d"><span class="section-number-3">1.4</span> Design Patterns: Elements of Reusable Object-Oriented Software<sup><a id="fnr.4" class="footref" href="#fn.4">4</a></sup></h3>
+<div class="outline-text-3" id="text-1-4">
+<p>
+设计模式-可复用面向对象软件的基础
+</p>
+
+<blockquote>
+<p>
+请记住，这不是一本读完就放在书架上的书。 我们希望你把它当作一本参考书，时不时地翻阅它以获以新的设计见解和灵感。
+</p>
+
+<p>
+&#x2013;摘要
+</p>
+</blockquote>
+
+<ul class="org-ul">
+<li>我的结论
+橡棋大师和菜鸟的区别是能从棋盘中找到规律而后总能领先对手几步,如果棋子无任何规律摆放那大师和菜鸟没什么区别,
+做开发能从复杂的业务中抽象出普遍的设计模式,并能在遇到问题运用该模式,这就是开发大师和菜鸟的区别,
+这本书首先教你如何用设计模式解决问题然后列举到目前为止的模式并举例子</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-orgca2bc77" class="outline-3">
+<h3 id="orgca2bc77"><span class="section-number-3">1.5</span> Refactoring: Improving the Design of Existing Code,Second Edition<sup><a id="fnr.5" class="footref" href="#fn.5">5</a></sup></h3>
+<div class="outline-text-3" id="text-1-5">
+<p>
+重构-改善既有代码的设计（第2版）
+</p>
+
+<blockquote>
+<p>
+任何傻瓜都可以编写计算机可以理解的代码。 而好的程序员编写人类可以理解的代码。
+</p>
+
+<p>
+&#x2014; 重构代码tips
+</p>
+</blockquote>
+
+<ul class="org-ul">
+<li><p>
+我的结论
+</p>
+
+<p>
+当我们完成了一个完整功能的代码后，我们需要一次又一次轮循去修改它优化它，实现代码的可读性，可复用性和可维护性;大型的软件更是如此，
+但是确是很少有人能做到去优化代码，或者能做到正确的优化代码;而这本书填补了这么一个空白，即完成的代码和完美的代码之间的空白。
+代码和艺术似乎又有点类似，你需要一遍又一遍的去雕琢它，而好的重构也需要非常细微。当你第一次开始做某事时你就直接去做，当你第二次做时，
+可能会重复的做同一件事，当你第三次再做类似的事你就去重构它。
+</p></li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-orgefcae39" class="outline-3">
+<h3 id="orgefcae39"><span class="section-number-3">1.6</span> TypeScript Documentation<sup><a id="fnr.6" class="footref" href="#fn.6">6</a></sup></h3>
+<div class="outline-text-3" id="text-1-6">
+<p>
+TypeScript文档主页
+</p>
+
+<blockquote>
+<p>
+最佳软件工程实践与一般软件工程实践之间的差距非常广泛——也许比任何其他工程学科都要广泛。 而这时候能有一个传授最佳实践的工具就很重要了。
+</p>
+
+<p>
+——弗雷德·布鲁克斯
+</p>
+</blockquote>
+
+<ul class="org-ul">
+<li><p>
+我的结论
+</p>
+
+<p>
+珠玉在前，你如何在其上弥补瑕疵？因此一份好的文档尤为重要。JS的弱类型使其容易上手也给了TS机会，但是TS如何做到让别人放心使用他，
+首先由微软做后台，然后着重给做后台的人员使用的前端JS，然后语法上也没有做更多的改变，只是在原语法上扩展了类型，前端开发人员也无须过多的学习成本；
+还有用TS写出的强大好用的主载了前端开发的编辑器vscode；然后最最重要的：一份好的文档，一进入界面，
+就是非常有针对性的关于该语言的你所要知道的让你快速上手的知识，及很多大厂的使用范例，你无需任何顾忌；
+从简单的介绍，快速的上手到说明书再到API配置等，到说明书上针对类型的菜单，无不透露着只要这一份文档你有一定的JS基础不管是前端或后端的就可以简单易上手这个语言了。
+TS能在JS如此流行当下能快速的流行起来不无他的道理。
+</p></li>
+</ul>
+</div>
+</div>
+
+
+<div id="outline-container-org0fb4e7a" class="outline-3">
+<h3 id="org0fb4e7a"><span class="section-number-3">1.7</span> Fullstack Vue - The Complete Guide to Vue.js<sup><a id="fnr.7" class="footref" href="#fn.7">7</a></sup></h3>
+<div class="outline-text-3" id="text-1-7">
+<p>
+全栈VUE
+</p>
+
+<blockquote>
+<p>
+如果“盒子”是边界约束和条件，那么诀窍是找到盒子……不要跳出盒子思考——找到盒子。
+</p>
+
+<p>
+——安迪·亨特和戴夫 托马斯
+</p>
+</blockquote>
+
+<ul class="org-ul">
+<li><p>
+我的结论
+</p>
+
+<p>
+框架全栈系列书藉,先让你用框架最原始的方法写一个APP,让你对技术有一个基础的概念,然后琢步深入用教你如何使用框架,
+这个系列的书藉大体是这个框架，再到组件化开发，定制化事件，全局状态管理，与服务端交互，表单管理等.针对VUE这个书着重介绍单文件组件,Vuex,及VUE开发。
+</p></li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-orgd56f4ac" class="outline-3">
+<h3 id="orgd56f4ac"><span class="section-number-3">1.8</span> An Introduction to Programming in Emacs Lisp<sup><a id="fnr.8" class="footref" href="#fn.8">8</a></sup></h3>
+<div class="outline-text-3" id="text-1-8">
+<p>
+Emacs Lisp编程简介
+</p>
+
+<blockquote>
+<p>
+需求如水。 当它们被冻结时，它们更容易雕琢。
+</p>
+
+<p>
+&#x2013;摘要
+</p>
+</blockquote>
+
+<ul class="org-ul">
+<li>我的结论
+一个软件的强大或许更再于他文档的齐全和扩展性，作为emacs配套的扩展语言ellisp, 此书是该语言的入门，
+而此书的强大之处是他就像一本教科书级别的编程入门书，所有人都能看懂，当然后面还有更多配套的扩展书藉。</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-orga3e4c4e" class="outline-3">
+<h3 id="orga3e4c4e"><span class="section-number-3">1.9</span> Composing Software<sup><a id="fnr.9" class="footref" href="#fn.9">9</a></sup></h3>
+<div class="outline-text-3" id="text-1-9">
+<p>
+撰写软件
+</p>
+
+<blockquote>
+<p>
+如果我看得更远，那是因为我站在巨人的肩膀上
+</p>
+
+<p>
+&#x2014;艾萨克·牛顿
+</p>
+</blockquote>
+
+<ul class="org-ul">
+<li><p>
+我的结论
+</p>
+
+<p>
+用JS讲述编程的本质，即把一个复杂的问题分解为各简单的小问题，用编程单位一般是函数写这些小逻辑，然后把这些方法组合起来，
+解决复杂的业务逻辑。书里包含组合方法，着重介绍函数编程，并且推荐：纯函数&gt;组合函数&gt;组合对象&gt;Mixins&gt;继承，推荐给要在JS上更上一层楼的。
+</p></li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-orgb96b27f" class="outline-3">
+<h3 id="orgb96b27f"><span class="section-number-3">1.10</span> Eloquent JavaScript<sup><a id="fnr.10" class="footref" href="#fn.10">10</a></sup></h3>
+<div class="outline-text-3" id="text-1-10">
+<p>
+雄辩的JavaScript
+</p>
+
+<blockquote>
+<p>
+我们认为我们正在为自己的目的创建系统。 我们相信我们正在按照我们自己的形象制造它&#x2026;&#x2026;但计算机并不像我们一样。 它是我们自己非常纤细的一部分的投射：致力于逻辑、秩序、规则和清晰的那部分。
+</p>
+
+<p>
+&#x2014;艾伦·厄尔曼，接近机器：技术狂热及其不满
+</p>
+</blockquote>
+
+<ul class="org-ul">
+<li>我的结论
+这是另一本全面学习JS的好书，先讨论JS语言，然后与游览器的交互，最后nodejs。这是一本关于计算机指导的书，它立意高，
+通过JS这个跨平台游览器语言来指导编程算法设计等，让你不局限于语言有全局观。他适合初学者没有专业词汇，知识让人易于接受。</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-org1524506" class="outline-3">
+<h3 id="org1524506"><span class="section-number-3">1.11</span> Simplifying JavaScript<sup><a id="fnr.11" class="footref" href="#fn.11">11</a></sup></h3>
+<div class="outline-text-3" id="text-1-11">
+<p>
+简化JavaScript
+</p>
+
+<blockquote>
+<p>
+如果你不能向一个六岁的孩子解释清楚一个东西，那就是你自己真的不理解。
+</p>
+
+<p>
+－艾尔伯特 爱因斯坦
+</p>
+</blockquote>
+
+<ul class="org-ul">
+<li><p>
+我的结论
+</p>
+
+<p>
+如果你纠结于用Object, Array, Map还是Set.那这是一本难得的书，他给你在代码中最直接的提示，
+并分赋值，数据，集合，条件，循环等章节。如何让代码看起来更整洁，选择最优的集合等等。首先给你一个提示然后解释为什么这么做。解决代码选择困难症。
+</p></li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-org9a1f785" class="outline-3">
+<h3 id="org9a1f785"><span class="section-number-3">1.12</span> A Philosophy of Software Design<sup><a id="fnr.12" class="footref" href="#fn.12">12</a></sup></h3>
+<div class="outline-text-3" id="text-1-12">
+<p>
+软件设计哲学
+</p>
+
+<blockquote>
+<p>
+构建软件设计有两种方式：一种方式是简单到没有明显缺陷，另一种是复杂到没有明显缺陷。
+</p>
+
+<p>
+－C.A.R.霍尔
+</p>
+</blockquote>
+
+<ul class="org-ul">
+<li><p>
+我的结论
+</p>
+
+<p>
+如果你志力于软件设计，这本书是一个好的开始，它讲述了软件设计的基本原则：减少复杂性，封装方法，变量名，固定的风格等等，
+就是说你想做软件设计遵循这些原则一定是正确的方向。软件设计不一定要遵循这些原则，但一个好的软件设计一定能找到这些哲学。
+</p></li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-orgd35b697" class="outline-3">
+<h3 id="orgd35b697"><span class="section-number-3">1.13</span> Learning GNU Emacs<sup><a id="fnr.13" class="footref" href="#fn.13">13</a></sup></h3>
+<div class="outline-text-3" id="text-1-13">
+<p>
+学习GNU Emacs
+</p>
+
+<blockquote>
+<p>
+当我处理一个问题时，我从不考虑美。 我想只有如何解决问题。 但是当我完成后，如果解决方案不漂亮，我知道它是错误的。
+</p>
+
+<p>
+——R.巴克敏斯特富勒
+</p>
+</blockquote>
+
+<ul class="org-ul">
+<li><p>
+我的结论
+</p>
+
+<p>
+动物书，作为最强大的编辑器，此书的内容确实九牛一毛，简单的介绍，快速的上手，跟其他所有的动物书一样着重操作，
+他也几乎囊括了emacs的各个方面，但是是点到为止，也介绍了几种语言下的配置，emacs可以作为终生工具和操作系统来使用，有一定的编程经验此书作为入门不错。
+</p></li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-orgad741f8" class="outline-3">
+<h3 id="orgad741f8"><span class="section-number-3">1.14</span> Rediscovering JavaScript<sup><a id="fnr.14" class="footref" href="#fn.14">14</a></sup></h3>
+<div class="outline-text-3" id="text-1-14">
+<p>
+重新发现JavaScript
+</p>
+
+<blockquote>
+<p>
+不要先问系统做了什么； 问它有什么作用！
+</p>
+
+<p>
+——伯特兰·迈耶
+</p>
+</blockquote>
+
+<ul class="org-ul">
+<li><p>
+我的结论
+</p>
+
+<p>
+此书浅显易懂的讲JS最新语法，即使之前没有接触过JS的也能看懂，但如果要全面学习JS的这恐怕不是一本好书。
+他着重讲了JS好的语法，也讲述了JS最新的面向对象编程，同步方法以及更深层次的元编程等，有一定的JS基础此书用来学习JS最新语法是个不错的选择。
+</p></li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-org8f5199e" class="outline-3">
+<h3 id="org8f5199e"><span class="section-number-3">1.15</span> Harley Hahn's Emacs Field Guide<sup><a id="fnr.15" class="footref" href="#fn.15">15</a></sup></h3>
+<div class="outline-text-3" id="text-1-15">
+<p>
+哈雷·哈恩（Harley Hahn）的Emacs现场指南
+</p>
+
+<blockquote>
+<p>
+如有疑问，请使用蛮力。
+</p>
+
+<p>
+——巴特勒·兰普森
+</p>
+</blockquote>
+
+<ul class="org-ul">
+<li><p>
+我的结论
+</p>
+
+<p>
+工欲善其事必先利其器，好的编辑器可以改变你的思维方式。没人愿意花时间教一个人如何使用工具，
+你只能通过书来学习练习，而此书就像位老师把emacs历史、环境、益处、使用方法等娓娓道来，
+有人说如果vim是小孩的玩具，那emacs就是大人的工具。
+</p></li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-org7659c2f" class="outline-3">
+<h3 id="org7659c2f"><span class="section-number-3">1.16</span> fullstack react<sup><a id="fnr.16" class="footref" href="#fn.16">16</a></sup></h3>
+<div class="outline-text-3" id="text-1-16">
+<p>
+全栈react
+</p>
+
+<blockquote>
+<p>
+让事情尽可能简单——但不是随便。
+</p>
+
+<p>
+－艾尔伯特.爱因斯坦
+</p>
+</blockquote>
+
+<ul class="org-ul">
+<li><p>
+我的结论
+</p>
+
+<p>
+作为目前最流行的前端框架，react将交互性做到了最好，而这本书做入门指南也是操作与理论相结合，
+他指导你一步步将代码写出来，并在JS的基础上将react的概念解释清楚，并囊括react周边生态，他有大量的代码，详细的解释，阅读完本书你完全可以写一个react app.
+</p></li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-org6853c48" class="outline-3">
+<h3 id="org6853c48"><span class="section-number-3">1.17</span> Land of Lisp<sup><a id="fnr.17" class="footref" href="#fn.17">17</a></sup></h3>
+<div class="outline-text-3" id="text-1-17">
+<p>
+Lisp之地
+</p>
+
+<blockquote>
+<p>
+“天哪，Lisp 听起来确实与人们谈论的其他语言不同。 也许我应该找个时间拿起一本 Lisp 书。”
+</p>
+
+<p>
+&#x2013;摘要
+</p>
+</blockquote>
+
+<ul class="org-ul">
+<li><p>
+我的结论
+</p>
+
+<p>
+这本书语言有趣，用生动的动画讲述lisp这个第二古老的语言，最古老的是Fortran，他到现在还在被使用，
+而目前有很多语言都借鉴了他，包括现在流行的JS，他如此强大，以至于有人说作者发现了这门语言而不是发明他，
+他语法简洁，以至于当你学习他之后就能取代你熟练的语言成为你的母语。
+</p></li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-org558be83" class="outline-3">
+<h3 id="org558be83"><span class="section-number-3">1.18</span> 曾国潘家书<sup><a id="fnr.18" class="footref" href="#fn.18">18</a></sup></h3>
+<div class="outline-text-3" id="text-1-18">
+<blockquote>
+<p>
+夫家和则福自生，若一家之中兄有言，弟无不从，弟有请，兄无不应，和气蒸帮而家不兴者，未之有也。反是而不败者，亦未之有也。伏望大人察男之志！即此敬禀叔父之人，恕不另具。六弟将来必为叔父克家之子，即为吾族光大门弟，可喜也！谨述一二，余续禀。
+</p>
+
+<p>
+&#x2013;摘要
+</p>
+</blockquote>
+
+<ul class="org-ul">
+<li><p>
+我的结论
+</p>
+
+<p>
+曾国潘是传统中国儒家学者，他身体立行着儒学的礼义孝廉等，做到了兄恭弟及父慈子孝，修身齐家治国平天下，立功立德立言。立功是在朝为官，誉为“同治中兴”第一功臣; 立言是留下了一部《曾文正公全集》而流传下来的是这本
+《曾国潘家书》; 至于立德，曾国潘在朝时毁誉参半，有镇压太平天国的大功，也有”天津教案”中的杀人割地，至少在当时的历史中是毁德了。而这本书对了解一个中国传统儒家学者有很大的帮助，他记录了这么一个学者的言传身教和
+一言一行，如何处理国家危机，以至于对于了解中国传统文化都有很大的帮助，因为他离你不远，他就是传统的中国人，他受到的都是传统的教育。
+</p></li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-orgf511575" class="outline-3">
+<h3 id="orgf511575"><span class="section-number-3">1.19</span> Designing Data-Intensive Applications<sup><a id="fnr.19" class="footref" href="#fn.19">19</a></sup></h3>
+<div class="outline-text-3" id="text-1-19">
+<p>
+数据密集型应用系统设计
+</p>
+
+<blockquote>
+<p>
+技术是我们社会的强大力量。 数据、软件和通信可用于坏事：巩固不公平的权力结构、破坏人权和保护既得利益。 但它们也可以用于好的方面：让未被充分代表的人们的声音被听到，为每个人创造机会，并避免灾难。 本书献给所有为善而努力的人。
+</p>
+
+<p>
+&#x2013;摘要
+</p>
+</blockquote>
+
+<blockquote>
+<p>
+计算是流行文化。 [&#x2026;] 流行文化蔑视历史。 流行文化是关于身份和感觉就像你在参与。 它与合作无关，与过去或未来无关——它活在当下。 我认为大多数为金钱编写代码的人也是如此。 他们不知道[他们的文化来自哪里]。
+</p>
+
+<p>
+&#x2013;艾伦·凯
+</p>
+</blockquote>
+
+<ul class="org-ul">
+<li><p>
+我的结论
+</p>
+
+<p>
+如果要说现今最伟大的是什么，我想说应该是技术了，你无需多强大，只要你能熟练掌握，你也能改变世界。
+</p></li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-orgf9e7470" class="outline-3">
+<h3 id="orgf9e7470"><span class="section-number-3">1.20</span> 史记<sup><a id="fnr.20" class="footref" href="#fn.20">20</a></sup></h3>
+<div class="outline-text-3" id="text-1-20">
+<blockquote>
+<p>
+人固有一死，或重于泰山，或轻于鸿毛，用之所趋异也。
+</p>
+
+<p>
+&#x2014;司马迁
+</p>
+</blockquote>
+
+<ul class="org-ul">
+<li><p>
+我的结论
+</p>
+
+<p>
+我们为什么要读历史？因为时代虽然不一样，但历史总是重复的，但是历史本身又记录什么？举《史记》这个例子：司马迁说唯倜傥非常之人称焉，就是说历史记录的不是普通人，
+而是非常之人，例如我们耳熟能详的项羽本纪，项羽这个人中国五千年历史上几乎没出现过类似的，他的得失与其性格值得为之记录。而普通人就没什么好记的了，
+因为太多没什么好记的了;但是历史人物他们本身也是人，只是他们做到了人本身的极限并可以为之记录的人，既然如此我们看到了历史人物的故事那就可以以此伸展开并更容易猜出普通人的故事了。
+不仅是史书，现在关于记录的媒体就更多了，例如我看了辛普森一家关于婚姻的故事，故事很有想象力很幽默搞笑，其中讲到辛普森年轻时的老婆回来与现在老婆抢丈夫，
+这样辛普森就面临选择了，年轻的一个说我可以给你更加刺激与完美的服务，现一个说我知道你所有的优点与缺点并愿意接纳你，最后辛普森和现老婆抱在了一起，
+你如果没结婚当然不懂婚姻后的生活，但你可以借鉴这个至少以后和小三抢男人时知道了一个技巧。回到史记这部书，有十二本纪写的是十二个算是当时能操纵 国家命运的人，
+而里面唯一一个写女人是吕后本纪，所以你也可以以此为借鉴了解天下所有女人， 吕后是介绍给刘邦的，刘邦死后吕后掌权第一件事是杀戚夫人为人彘及各个威胁政权的人，
+然后分封各姓吕的人，你想是不是每个女人都会这么做，只是她们没办法达到那个位置，无法释放那欲望而已，当然肯定有不一样的女人，只是吕后作为一个极端例子，反应的也是绝大多数的女人，
+因为你没办法阅尽所有女人，所以典型的抓出来就了解了，这就是读书特别是史书的功用。回到现在本身，我们工作生活作为一个普通人，难道不是一直在重复历史吗？
+</p></li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-org4a3de0b" class="outline-3">
+<h3 id="org4a3de0b"><span class="section-number-3">1.21</span> 写在后面</h3>
+<div class="outline-text-3" id="text-1-21">
+<p>
+本清单所列书藉我已看过一遍或多遍，还有一些没有看完。
+</p>
+
+<p>
+<a href="https://github.com/tiglapiles/article/blob/master/recent_reading.org">本文地址</a>
+</p>
+
+<p>
+<a href="https://v2ex.com/t/731734#reply20">社区更新地址</a>
+</p>
+
+<p>
+如果你想访问更多我的文章欢迎访问我的<a href="https://github.com/tiglapiles/article">github仓库</a>
+</p>
+
+<p>
+转载请注明出处
+</p>
+</div>
+</div>
+</div>
+<div id="footnotes">
+<h2 class="footnotes">Footnotes: </h2>
+<div id="text-footnotes">
+
+<div class="footdef"><sup><a id="fn.1" class="footnum" href="#fnr.1">1</a></sup> <div class="footpara"><p class="footpara">
+<a href="https://book.douban.com/subject/1477390/">https://book.douban.com/subject/1477390/</a>
+</p></div></div>
+
+<div class="footdef"><sup><a id="fn.2" class="footnum" href="#fnr.2">2</a></sup> <div class="footpara"><p class="footpara">
+<a href="https://book.douban.com/subject/34464721/">https://book.douban.com/subject/34464721/</a>
+</p></div></div>
+
+<div class="footdef"><sup><a id="fn.3" class="footnum" href="#fnr.3">3</a></sup> <div class="footpara"><p class="footpara">
+<a href="https://book.douban.com/subject/1152111/">https://book.douban.com/subject/1152111/</a>
+</p></div></div>
+
+<div class="footdef"><sup><a id="fn.4" class="footnum" href="#fnr.4">4</a></sup> <div class="footpara"><p class="footpara">
+<a href="https://book.douban.com/subject/1052241/">https://book.douban.com/subject/1052241/</a>
+</p></div></div>
+
+<div class="footdef"><sup><a id="fn.5" class="footnum" href="#fnr.5">5</a></sup> <div class="footpara"><p class="footpara">
+<a href="https://book.douban.com/subject/30468597/">https://book.douban.com/subject/30468597/</a>
+</p></div></div>
+
+<div class="footdef"><sup><a id="fn.6" class="footnum" href="#fnr.6">6</a></sup> <div class="footpara"><p class="footpara">
+<a href="https://www.typescriptlang.org/docs/home.html">https://www.typescriptlang.org/docs/home.html</a>
+</p></div></div>
+
+<div class="footdef"><sup><a id="fn.7" class="footnum" href="#fnr.7">7</a></sup> <div class="footpara"><p class="footpara">
+<a href="https://book.douban.com/subject/30327032/">https://book.douban.com/subject/30327032/</a>
+</p></div></div>
+
+<div class="footdef"><sup><a id="fn.8" class="footnum" href="#fnr.8">8</a></sup> <div class="footpara"><p class="footpara">
+<a href="https://book.douban.com/subject/1432501/">https://book.douban.com/subject/1432501/</a>
+</p></div></div>
+
+<div class="footdef"><sup><a id="fn.9" class="footnum" href="#fnr.9">9</a></sup> <div class="footpara"><p class="footpara">
+<a href="https://book.douban.com/subject/35002566/">https://book.douban.com/subject/35002566/</a>
+</p></div></div>
+
+<div class="footdef"><sup><a id="fn.10" class="footnum" href="#fnr.10">10</a></sup> <div class="footpara"><p class="footpara">
+<a href="https://book.douban.com/subject/5402021/">https://book.douban.com/subject/5402021/</a>
+</p></div></div>
+
+<div class="footdef"><sup><a id="fn.11" class="footnum" href="#fnr.11">11</a></sup> <div class="footpara"><p class="footpara">
+<a href="https://book.douban.com/subject/30251546/">https://book.douban.com/subject/30251546/</a>
+</p></div></div>
+
+<div class="footdef"><sup><a id="fn.12" class="footnum" href="#fnr.12">12</a></sup> <div class="footpara"><p class="footpara">
+<a href="https://book.douban.com/subject/30218046/">https://book.douban.com/subject/30218046/</a>
+</p></div></div>
+
+<div class="footdef"><sup><a id="fn.13" class="footnum" href="#fnr.13">13</a></sup> <div class="footpara"><p class="footpara">
+<a href="https://book.douban.com/subject/1236987/">https://book.douban.com/subject/1236987/</a>
+</p></div></div>
+
+<div class="footdef"><sup><a id="fn.14" class="footnum" href="#fnr.14">14</a></sup> <div class="footpara"><p class="footpara">
+<a href="https://book.douban.com/subject/30322511/">https://book.douban.com/subject/30322511/</a>
+</p></div></div>
+
+<div class="footdef"><sup><a id="fn.15" class="footnum" href="#fnr.15">15</a></sup> <div class="footpara"><p class="footpara">
+<a href="https://book.douban.com/subject/26913125/">https://book.douban.com/subject/26913125/</a>
+</p></div></div>
+
+<div class="footdef"><sup><a id="fn.16" class="footnum" href="#fnr.16">16</a></sup> <div class="footpara"><p class="footpara">
+<a href="https://book.douban.com/subject/30346678/">https://book.douban.com/subject/30346678/</a>
+</p></div></div>
+
+<div class="footdef"><sup><a id="fn.17" class="footnum" href="#fnr.17">17</a></sup> <div class="footpara"><p class="footpara">
+<a href="https://book.douban.com/subject/3704991/">https://book.douban.com/subject/3704991/</a>
+</p></div></div>
+
+<div class="footdef"><sup><a id="fn.18" class="footnum" href="#fnr.18">18</a></sup> <div class="footpara"><p class="footpara">
+<a href="https://book.douban.com/subject/1491153/">https://book.douban.com/subject/1491153/</a>
+</p></div></div>
+
+<div class="footdef"><sup><a id="fn.19" class="footnum" href="#fnr.19">19</a></sup> <div class="footpara"><p class="footpara">
+<a href="https://book.douban.com/subject/30329536/">https://book.douban.com/subject/30329536/</a>
+</p></div></div>
+
+<div class="footdef"><sup><a id="fn.20" class="footnum" href="#fnr.20">20</a></sup> <div class="footpara"><p class="footpara">
+<a href="https://book.douban.com/subject/1077847/">https://book.douban.com/subject/1077847/</a>
+</p></div></div>
+
+
+</div>
+</div></div>
+<div id="postamble" class="status">
+<p class="author">Author: Dipper</p>
+<p class="date">Created: 2021-10-11 Mon 09:46</p>
+</div>
+</body>
+</html>
