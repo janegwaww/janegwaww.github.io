@@ -1,32 +1,32 @@
 
 # Table of Contents
 
-1.  [分享最近阅读的书籍清单（一）](#orgb244764)
-    1.  [Code Complete](#org463a9ae)
-    2.  [Structure and Interpretation of Computer Programs](#orgcd2f8df)
-    3.  [The Pragmatic Programmer: Your Journey to Mastery](#org64b511e)
-    4.  [Design Patterns: Elements of Reusable Object-Oriented Software](#orgc95ac2f)
-    5.  [Refactoring: Improving the Design of Existing Code,Second Edition](#org4dd6901)
-    6.  [TypeScript Documentation](#org4f634bb)
-    7.  [Fullstack Vue - The Complete Guide to Vue.js](#orgcb7e53c)
-    8.  [An Introduction to Programming in Emacs Lisp](#orgc343479)
-    9.  [Composing Software](#orgb99489b)
-    10. [Eloquent JavaScript](#org274b612)
-    11. [Simplifying JavaScript](#org2ef918e)
-    12. [A Philosophy of Software Design](#orgd11ed69)
-    13. [Learning GNU Emacs](#orgcc89207)
-    14. [Rediscovering JavaScript](#orgffcbe55)
-    15. [Harley Hahn's Emacs Field Guide](#org8520325)
-    16. [fullstack react](#org70a8219)
-    17. [Land of Lisp](#orgf759ff2)
-    18. [曾国潘家书](#orgecd39cb)
-    19. [Designing Data-Intensive Applications](#org159df0a)
-    20. [史记](#orgafe7eda)
-    21. [写在后面](#org0784f54)
+1.  [分享最近阅读的书籍清单（一）](#org6cb78d0)
+    1.  [Code Complete](#org6a76112)
+    2.  [Structure and Interpretation of Computer Programs](#org040f566)
+    3.  [The Pragmatic Programmer: Your Journey to Mastery](#org66a6d32)
+    4.  [Design Patterns: Elements of Reusable Object-Oriented Software](#orgd23e4dd)
+    5.  [Refactoring: Improving the Design of Existing Code,Second Edition](#orge2f4eda)
+    6.  [TypeScript Documentation](#org78a0e5b)
+    7.  [Fullstack Vue - The Complete Guide to Vue.js](#org8a28341)
+    8.  [An Introduction to Programming in Emacs Lisp](#orgaf0dfd7)
+    9.  [Composing Software](#org9a60646)
+    10. [Eloquent JavaScript](#org53d485f)
+    11. [Simplifying JavaScript](#orgadf64eb)
+    12. [A Philosophy of Software Design](#org5938bb6)
+    13. [Learning GNU Emacs](#org13cbdc1)
+    14. [Rediscovering JavaScript](#orgb69924e)
+    15. [Harley Hahn's Emacs Field Guide](#org3926aaa)
+    16. [fullstack react](#org9a845cd)
+    17. [Land of Lisp](#orgd5ebb97)
+    18. [曾国潘家书](#orgee53b05)
+    19. [Designing Data-Intensive Applications](#org45c94db)
+    20. [史记](#orgac15381)
+    21. [写在后面](#org9aec970)
 
 
 
-<a id="orgb244764"></a>
+<a id="org6cb78d0"></a>
 
 # 分享最近阅读的书籍清单（一）
 
@@ -39,7 +39,7 @@
 这里只是做一个引荐，精彩需要你自己亲自拜读从中感受。
 
 
-<a id="org463a9ae"></a>
+<a id="org6a76112"></a>
 
 ## Code Complete<sup><a id="fnr.1" class="footref" href="#fn.1">1</a></sup>
 
@@ -105,7 +105,7 @@
     代码中的个人风格，缩进、排列、组合、排布等; 最好的要有注释，有个人主题和风格。
 
 
-<a id="orgcd2f8df"></a>
+<a id="org040f566"></a>
 
 ## Structure and Interpretation of Computer Programs<sup><a id="fnr.2" class="footref" href="#fn.2">2</a></sup>
 
@@ -127,7 +127,7 @@
     如递归，循环，作用域，lamada，分层等，并衍生出了多个方言。
 
 
-<a id="org64b511e"></a>
+<a id="org66a6d32"></a>
 
 ## The Pragmatic Programmer: Your Journey to Mastery<sup><a id="fnr.3" class="footref" href="#fn.3">3</a></sup>
 
@@ -143,7 +143,7 @@
     这关乎你的态度，风格和解决问题方式，对自己的代码负责。
 
 
-<a id="orgc95ac2f"></a>
+<a id="orgd23e4dd"></a>
 
 ## Design Patterns: Elements of Reusable Object-Oriented Software<sup><a id="fnr.4" class="footref" href="#fn.4">4</a></sup>
 
@@ -160,7 +160,7 @@
     这本书首先教你如何用设计模式解决问题然后列举到目前为止的模式并举例子
 
 
-<a id="org4dd6901"></a>
+<a id="orge2f4eda"></a>
 
 ## Refactoring: Improving the Design of Existing Code,Second Edition<sup><a id="fnr.5" class="footref" href="#fn.5">5</a></sup>
 
@@ -178,7 +178,7 @@
     可能会重复的做同一件事，当你第三次再做类似的事你就去重构它。
 
 
-<a id="org4f634bb"></a>
+<a id="org78a0e5b"></a>
 
 ## TypeScript Documentation<sup><a id="fnr.6" class="footref" href="#fn.6">6</a></sup>
 
@@ -198,7 +198,7 @@ TypeScript文档主页
     TS能在JS如此流行当下能快速的流行起来不无他的道理。
 
 
-<a id="orgcb7e53c"></a>
+<a id="org8a28341"></a>
 
 ## Fullstack Vue - The Complete Guide to Vue.js<sup><a id="fnr.7" class="footref" href="#fn.7">7</a></sup>
 
@@ -214,7 +214,7 @@ TypeScript文档主页
     这个系列的书藉大体是这个框架，再到组件化开发，定制化事件，全局状态管理，与服务端交互，表单管理等.针对VUE这个书着重介绍单文件组件,Vuex,及VUE开发。
 
 
-<a id="orgc343479"></a>
+<a id="orgaf0dfd7"></a>
 
 ## An Introduction to Programming in Emacs Lisp<sup><a id="fnr.8" class="footref" href="#fn.8">8</a></sup>
 
@@ -225,11 +225,12 @@ Emacs Lisp编程简介
 > &#x2013;摘要
 
 -   我的结论
+    
     一个软件的强大或许更再于他文档的齐全和扩展性，作为emacs配套的扩展语言ellisp, 此书是该语言的入门，
     而此书的强大之处是他就像一本教科书级别的编程入门书，所有人都能看懂，当然后面还有更多配套的扩展书藉。
 
 
-<a id="orgb99489b"></a>
+<a id="org9a60646"></a>
 
 ## Composing Software<sup><a id="fnr.9" class="footref" href="#fn.9">9</a></sup>
 
@@ -245,7 +246,7 @@ Emacs Lisp编程简介
     解决复杂的业务逻辑。书里包含组合方法，着重介绍函数编程，并且推荐：纯函数>组合函数>组合对象>Mixins>继承，推荐给要在JS上更上一层楼的。
 
 
-<a id="org274b612"></a>
+<a id="org53d485f"></a>
 
 ## Eloquent JavaScript<sup><a id="fnr.10" class="footref" href="#fn.10">10</a></sup>
 
@@ -260,7 +261,7 @@ Emacs Lisp编程简介
     通过JS这个跨平台游览器语言来指导编程算法设计等，让你不局限于语言有全局观。他适合初学者没有专业词汇，知识让人易于接受。
 
 
-<a id="org2ef918e"></a>
+<a id="orgadf64eb"></a>
 
 ## Simplifying JavaScript<sup><a id="fnr.11" class="footref" href="#fn.11">11</a></sup>
 
@@ -276,7 +277,7 @@ Emacs Lisp编程简介
     并分赋值，数据，集合，条件，循环等章节。如何让代码看起来更整洁，选择最优的集合等等。首先给你一个提示然后解释为什么这么做。解决代码选择困难症。
 
 
-<a id="orgd11ed69"></a>
+<a id="org5938bb6"></a>
 
 ## A Philosophy of Software Design<sup><a id="fnr.12" class="footref" href="#fn.12">12</a></sup>
 
@@ -292,7 +293,7 @@ Emacs Lisp编程简介
     就是说你想做软件设计遵循这些原则一定是正确的方向。软件设计不一定要遵循这些原则，但一个好的软件设计一定能找到这些哲学。
 
 
-<a id="orgcc89207"></a>
+<a id="org13cbdc1"></a>
 
 ## Learning GNU Emacs<sup><a id="fnr.13" class="footref" href="#fn.13">13</a></sup>
 
@@ -308,7 +309,7 @@ Emacs Lisp编程简介
     他也几乎囊括了emacs的各个方面，但是是点到为止，也介绍了几种语言下的配置，emacs可以作为终生工具和操作系统来使用，有一定的编程经验此书作为入门不错。
 
 
-<a id="orgffcbe55"></a>
+<a id="orgb69924e"></a>
 
 ## Rediscovering JavaScript<sup><a id="fnr.14" class="footref" href="#fn.14">14</a></sup>
 
@@ -324,7 +325,7 @@ Emacs Lisp编程简介
     他着重讲了JS好的语法，也讲述了JS最新的面向对象编程，同步方法以及更深层次的元编程等，有一定的JS基础此书用来学习JS最新语法是个不错的选择。
 
 
-<a id="org8520325"></a>
+<a id="org3926aaa"></a>
 
 ## Harley Hahn's Emacs Field Guide<sup><a id="fnr.15" class="footref" href="#fn.15">15</a></sup>
 
@@ -341,7 +342,7 @@ Emacs Lisp编程简介
     有人说如果vim是小孩的玩具，那emacs就是大人的工具。
 
 
-<a id="org70a8219"></a>
+<a id="org9a845cd"></a>
 
 ## fullstack react<sup><a id="fnr.16" class="footref" href="#fn.16">16</a></sup>
 
@@ -357,7 +358,7 @@ Emacs Lisp编程简介
     他指导你一步步将代码写出来，并在JS的基础上将react的概念解释清楚，并囊括react周边生态，他有大量的代码，详细的解释，阅读完本书你完全可以写一个react app.
 
 
-<a id="orgf759ff2"></a>
+<a id="orgd5ebb97"></a>
 
 ## Land of Lisp<sup><a id="fnr.17" class="footref" href="#fn.17">17</a></sup>
 
@@ -374,7 +375,7 @@ Lisp之地
     他语法简洁，以至于当你学习他之后就能取代你熟练的语言成为你的母语。
 
 
-<a id="orgecd39cb"></a>
+<a id="orgee53b05"></a>
 
 ## 曾国潘家书<sup><a id="fnr.18" class="footref" href="#fn.18">18</a></sup>
 
@@ -389,7 +390,7 @@ Lisp之地
     一言一行，如何处理国家危机，以至于对于了解中国传统文化都有很大的帮助，因为他离你不远，他就是传统的中国人，他受到的都是传统的教育。
 
 
-<a id="org159df0a"></a>
+<a id="org45c94db"></a>
 
 ## Designing Data-Intensive Applications<sup><a id="fnr.19" class="footref" href="#fn.19">19</a></sup>
 
@@ -408,7 +409,7 @@ Lisp之地
     如果要说现今最伟大的是什么，我想说应该是技术了，你无需多强大，只要你能熟练掌握，你也能改变世界。
 
 
-<a id="orgafe7eda"></a>
+<a id="orgac15381"></a>
 
 ## 史记<sup><a id="fnr.20" class="footref" href="#fn.20">20</a></sup>
 
@@ -429,7 +430,7 @@ Lisp之地
     因为你没办法阅尽所有女人，所以典型的抓出来就了解了，这就是读书特别是史书的功用。回到现在本身，我们工作生活作为一个普通人，难道不是一直在重复历史吗？
 
 
-<a id="org0784f54"></a>
+<a id="org9aec970"></a>
 
 ## 写在后面
 
