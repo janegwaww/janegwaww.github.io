@@ -2,6 +2,18 @@
 
 * 分享最近阅读的书藉清单(三)
 
-** Category Theory for Programmers
+** Category Theory for Programmers[fn:1]
 
-** The Practice of Programming
+   * 我的结论
+
+     配套课程[fn:2]
+
+** The Practice of Programming[fn:3]
+
+* Footnotes
+
+[fn:3] http://brendanfong.com/programmingcats.html
+
+[fn:2] http://brendanfong.com/programmingcats.html
+
+[fn:1] https://github.com/hmemcpy/milewski-ctfp-pdf
