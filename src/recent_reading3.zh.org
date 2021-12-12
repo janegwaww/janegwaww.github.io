@@ -10,7 +10,11 @@
 
 ** The Practice of Programming[fn:3]
 
+** Introduction to Game Programming (C++)[fn:4]
+
 * Footnotes
+
+[fn:4] http://www.cs.mun.ca/~dchurchill/teaching.shtml
 
 [fn:3] http://brendanfong.com/programmingcats.html
 
