@@ -4,15 +4,57 @@
 
 ** Category Theory for Programmers[fn:1]
 
+   写给程序员的范畴论
+
    * 我的结论
 
      配套课程[fn:2]
 
 ** The Practice of Programming[fn:3]
 
+   程序设计实践
+
 ** Introduction to Game Programming (C++)[fn:4]
 
+   游戏编程简介（C++）
+
+** JavaScript for impatient programmers[fn:5]
+
+   写给不耐烦程序员的 JavaScript
+
+** Deep JavaScript[fn:6]
+
+   深入JavaScript
+
+** The Art of PostgreSQL[fn:7]
+
+   PostgreSQL的艺术
+
+** The Passionate Programmer: Creating a Remarkable Career in Software Development[fn:8]
+
+   我编程，我快乐: 程序员职业规划之道
+
+** Remote: Office Not Required[fn:9]
+
+   远程工作
+
+** The Clean Coder：A Code of Conduct for Professional Programmers[fn:10]
+
+   代码整洁之道: 程序员的职业素养
+
 * Footnotes
+
+[fn:10] https://book.douban.com/subject/11614538/
+
+[fn:9] https://book.douban.com/subject/21362627/
+
+[fn:8] https://book.douban.com/subject/4923179/
+
+[fn:7] https://theartofpostgresql.com/
+
+[fn:6] https://exploringjs.com/deep-js/toc.html
+
+[fn:5] https://exploringjs.com/impatient-js/toc.html
 
 [fn:4] http://www.cs.mun.ca/~dchurchill/teaching.shtml
 
