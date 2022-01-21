@@ -42,7 +42,13 @@
 
    代码整洁之道: 程序员的职业素养
 
+** Learn C++[fn:11]
+
+   C++学习
+
 * Footnotes
+
+[fn:11] https://www.learncpp.com/
 
 [fn:10] https://book.douban.com/subject/11614538/
 
