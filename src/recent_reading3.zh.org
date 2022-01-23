@@ -8,37 +8,84 @@
   --乔治 R·R 马丁
   #+END_QUOTE
 
+  这些都是在行业中的好书藉或好内容，我想把这些优秀的东西分享出来，并赋上自己的一些主观想法，
+  能让更多人知道并从中受益。这里只是做一个引荐，精彩需要你自己亲自拜读从中感受。
+
 ** Category Theory for Programmers[fn:1]
 
    写给程序员的范畴论
 
+   #+BEGIN_QUOTE
+   #+END_QUOTE
+
    * 我的结论
 
-     配套课程[fn:2]
+     这本书有一个配套课程[fn:2]，
 
 ** The Practice of Programming[fn:3]
 
    程序设计实践
 
+   #+BEGIN_QUOTE
+   如果人类能从历史中吸取教训，它会给我们什么教训！但是激情和党派蒙蔽了我们的双眼，经验所发出的光是茎上的一盏灯，只照亮我们身后的海浪！
+
+   --塞缪尔·泰勒·柯勒律治《回忆》
+   #+END_QUOTE
+
+   * 我的结论
+
 ** Introduction to Game Programming (C++)[fn:4]
 
-   游戏编程简介（C++）
+   游戏编程介绍（C++）
+
+   #+BEGIN_QUOTE
+   #+END_QUOTE
+
+   * 我的结论
+
+     这是免费的游戏编程公开课；
 
 ** JavaScript for impatient programmers[fn:5]
 
    写给不耐烦程序员的 JavaScript
 
+   #+BEGIN_QUOTE
+   #+END_QUOTE
+
+   * 我的结论
+
 ** Deep JavaScript[fn:6]
 
    深入JavaScript
+
+   #+BEGIN_QUOTE
+   #+END_QUOTE
+
+   * 我的结论
 
 ** The Art of PostgreSQL[fn:7]
 
    PostgreSQL的艺术
 
+   #+BEGIN_QUOTE
+   数据占主导地位。 如果您选择了正确的数据结构并将事物组织得井井有条，那么算法几乎总是不言而喻的。数据结构而不是算法才是编程的核心。
+
+   --罗布·派克
+   #+END_QUOTE
+
+   * 我的结论
+
 ** The Passionate Programmer: Creating a Remarkable Career in Software Development[fn:8]
 
    我编程，我快乐: 程序员职业规划之道
+
+   #+BEGIN_QUOTE
+   在我们的文化中，听从父母的建议是一件神圣的事情。它被视为孩子的职责，并与履行自己的宗教职责一样被视为正确的事情。书籍、电影和电视情节都以听取父母的智慧作为一种美德。但对于我们这个IT行业来说，这种美德是错误的。
+
+   --文中摘要
+   #+END_QUOTE
+
+   * 我的结论
 
 ** Remote: Office Not Required[fn:9]
 
@@ -64,9 +111,25 @@
 
    代码整洁之道: 程序员的职业素养
 
+   #+BEGIN_QUOTE
+   “哦笑吧，老男孩科廷。这是主对我们开的一个很好的玩笑，也或者是命运，或者自然开的，由你喜欢吧。 但是无论是谁，无论是什么，玩它的人肯定很有幽默感哈！”
+
+   --霍华德,《马德雷山脉的宝藏7》
+   #+END_QUOTE
+
+   * 我的结论
+
 ** Learn C++[fn:11]
 
    C++学习
+
+   #+BEGIN_QUOTE
+   请记住，程序老兵永远不死——他们只是超出了作用域。
+
+   --Alex
+   #+END_QUOTE
+
+   * 我的结论
 
 * Footnotes
 
