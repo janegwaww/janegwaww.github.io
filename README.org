@@ -3,3 +3,5 @@
 ** [[./src/recent_reading.md][分享最近阅读的书籍清单（一）]]
 
 ** [[./src/recent_reading2.zh.md][分享最近阅读的书籍清单（二）]]
+
+** [[./src/recent_reading3.zh.md][分享最近阅读的书籍清单（三）]]
