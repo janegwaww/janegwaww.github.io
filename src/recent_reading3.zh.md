@@ -1,25 +1,26 @@
 
 # Table of Contents
 
-1.  [分享最近阅读的书藉清单(三)](#org3007da7)
-    1.  [Category Theory for Programmers](#org59425a1)
-    2.  [The Practice of Programming](#org7448839)
-    3.  [Introduction to Game Programming (C++)](#org886eaf4)
-    4.  [JavaScript for impatient programmers](#org89d5940)
-    5.  [Deep JavaScript](#orge26bc42)
-    6.  [The Art of PostgreSQL](#orgea1334b)
-    7.  [The Passionate Programmer: Creating a Remarkable Career in Software Development](#org14f3277)
-    8.  [Remote: Office Not Required](#org109729d)
-    9.  [The Clean Coder：A Code of Conduct for Professional Programmers](#orgf2f86b7)
-    10. [Learn C++](#org0b5abb2)
+1.  [分享最近阅读的书藉清单(三)](#org3d83c7d)
+    1.  [Category Theory for Programmers](#org775857d)
+    2.  [The Practice of Programming](#org77bc70e)
+    3.  [Introduction to Game Programming (C++)](#org34081dc)
+    4.  [JavaScript for impatient programmers](#org917c9b1)
+    5.  [Deep JavaScript](#org41cfd33)
+    6.  [The Art of PostgreSQL](#org8516e8b)
+    7.  [The Passionate Programmer: Creating a Remarkable Career in Software Development](#orgf3888e5)
+    8.  [Remote: Office Not Required](#orgdc4e54a)
+    9.  [The Clean Coder：A Code of Conduct for Professional Programmers](#org9dbdc1e)
+    10. [Learn C++](#org3602866)
+2.  [写在后面](#org2107adb)
 
 
 
-<a id="org3007da7"></a>
+<a id="org3d83c7d"></a>
 
 # 分享最近阅读的书藉清单(三)
 
-> 一个经常阅读的人在他死之前已经活了一千次了……一个从不阅读的人只活了一次。
+> 一个经常阅读的人在他死之前已经活了上千次了……一个从不阅读的人只活了一次。
 > 
 > &#x2013;乔治 R·R 马丁
 
@@ -27,7 +28,7 @@
 能让更多人知道并从中受益。这里只是做一个引荐，精彩需要你自己亲自拜读从中感受。
 
 
-<a id="org59425a1"></a>
+<a id="org775857d"></a>
 
 ## Category Theory for Programmers<sup><a id="fnr.1" class="footref" href="#fn.1">1</a></sup>
 
@@ -42,7 +43,7 @@
     这本书有一个配套课程<sup><a id="fnr.2" class="footref" href="#fn.2">2</a></sup>，
 
 
-<a id="org7448839"></a>
+<a id="org77bc70e"></a>
 
 ## The Practice of Programming<sup><a id="fnr.3" class="footref" href="#fn.3">3</a></sup>
 
@@ -55,7 +56,7 @@
 -   我的结论
 
 
-<a id="org886eaf4"></a>
+<a id="org34081dc"></a>
 
 ## Introduction to Game Programming (C++)<sup><a id="fnr.4" class="footref" href="#fn.4">4</a></sup>
 
@@ -70,15 +71,18 @@
     这是免费的游戏编程公开课；
 
 
-<a id="org89d5940"></a>
+<a id="org917c9b1"></a>
 
 ## JavaScript for impatient programmers<sup><a id="fnr.5" class="footref" href="#fn.5">5</a></sup>
 
 写给不耐烦程序员的 JavaScript
 
 > 要是咱们，得罪了请原谅。
+> 
 > 咱们本来是，一片的好意，
+> 
 > 想要显一显。薄薄的伎俩，
+> 
 > 那才是咱们原来的本意。
 > 
 > &#x2013;威廉·莎士比亚，仲夏夜之梦
@@ -86,7 +90,7 @@
 -   我的结论
 
 
-<a id="orge26bc42"></a>
+<a id="org41cfd33"></a>
 
 ## Deep JavaScript<sup><a id="fnr.6" class="footref" href="#fn.6">6</a></sup>
 
@@ -99,7 +103,7 @@
 -   我的结论
 
 
-<a id="orgea1334b"></a>
+<a id="org8516e8b"></a>
 
 ## The Art of PostgreSQL<sup><a id="fnr.7" class="footref" href="#fn.7">7</a></sup>
 
@@ -112,20 +116,21 @@ PostgreSQL的艺术
 -   我的结论
 
 
-<a id="org14f3277"></a>
+<a id="orgf3888e5"></a>
 
 ## The Passionate Programmer: Creating a Remarkable Career in Software Development<sup><a id="fnr.8" class="footref" href="#fn.8">8</a></sup>
 
 我编程，我快乐: 程序员职业规划之道
 
-> 在我们的文化中，听从父母的建议是一件神圣的事情。它被视为孩子的职责，并与履行自己的宗教职责一样被视为正确的事情。书籍、电影和电视情节都以听取父母的智慧作为一种美德。但对于我们这个IT行业来说，这种美德是错误的。
+> 在我们的文化中，听从父母的建议是一件神圣的事情。它被视为孩子的职责，并与履行自己的宗教职责一样被视为正确的事情。
+> 书籍、电影和电视情节都以听取父母的智慧作为一种美德。但对于我们这个IT行业来说，这种美德是错误的。
 > 
 > &#x2013;文中摘要
 
 -   我的结论
 
 
-<a id="org109729d"></a>
+<a id="orgdc4e54a"></a>
 
 ## Remote: Office Not Required<sup><a id="fnr.9" class="footref" href="#fn.9">9</a></sup>
 
@@ -146,20 +151,21 @@ PostgreSQL的艺术
     他让你对工作有重新的认识。
 
 
-<a id="orgf2f86b7"></a>
+<a id="org9dbdc1e"></a>
 
 ## The Clean Coder：A Code of Conduct for Professional Programmers<sup><a id="fnr.10" class="footref" href="#fn.10">10</a></sup>
 
 代码整洁之道: 程序员的职业素养
 
-> “哦笑吧，老男孩科廷。这是主对我们开的一个很好的玩笑，也或者是命运，或者自然开的，由你喜欢吧。 但是无论是谁，无论是什么，玩它的人肯定很有幽默感哈！”
+> “哦笑吧，老男孩科廷。这是主对我们开的一个很好的玩笑，也或者是命运，或者自然开的，由你喜欢吧。但是无论是谁，无论是什么，
+> 玩它的人肯定很有幽默感哈！”
 > 
 > &#x2013;霍华德,《马德雷山脉的宝藏7》
 
 -   我的结论
 
 
-<a id="org0b5abb2"></a>
+<a id="org3602866"></a>
 
 ## Learn C++<sup><a id="fnr.11" class="footref" href="#fn.11">11</a></sup>
 
@@ -170,6 +176,29 @@ C++学习
 > &#x2013;Alex
 
 -   我的结论
+    
+    三人行则必有我师，网络时代有一技之长都可以成为老师；我只恨自己没有在更早时看到这个资源，以至于让我感慨自己在
+    学校花的如此多的时间和金钱简直就是一种浪费。他是由个人编写，发布在网站上的C++初学者学习课程，靠着网页浏览量
+    的广告收入来维持网站的运转，他的授课如此优秀，相比现实中的老师是有过之而无不及：他浅显易懂，在我的印象中C++
+    是一门抽象的语言，但是他的讲解简短，一章一个知识点，每一个知识点很有趣，总能让我对下一章充满兴趣；循序渐近，
+    他的每一章的编排也是互相关联慢慢增加你的知识的，跟现在许多优秀的入门教材一样，特别是在技术行业，你能很快的看
+    到自己努力的成果；接地气，没有专业的术语，没有深奥的理论，没有故作深沉，有的只是一个朋友侃侃而谈；
+    免费，无门槛，有解答，他是免费的可全网查看的资源，没有设置任何的门槛，他只希望你不要对他的网站广告拦截，
+    因为那是维持网站的收入来源，并且他也会解答一些在评论中的问题。或许所谓的网络时代就是只要我们肯努力，
+    都能找到最好的资源来指导自已前进的方向，这也是这个行业的优势，我们总是乐于毫无保留的分享自己的知识和成果。
+
+
+<a id="org2107adb"></a>
+
+# 写在后面
+
+1.  [分享最近阅读的书籍清单(一)](https://tiglapiles.github.io/article/src/recent_reading.html)
+2.  [分享最近阅读的书籍清单(二)](https://tiglapiles.github.io/article/src/recent_reading2.zh.html)
+3.  [本文地址](https://tiglapiles.github.io/article/src/recent_reading3.zh.html)
+4.  更多文章欢迎访问我的[github仓库](https://github.com/tiglapiles/article)
+5.  捐助我的[游戏](https://itch.io/profile/tiglapiles)(定期上新)，支持我的创作
+6.  转载请注明出处
+7.  [社区更新地址](https://www.v2ex.com/t/805027)
 
 
 # Footnotes
