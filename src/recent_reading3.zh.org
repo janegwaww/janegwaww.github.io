@@ -23,7 +23,8 @@
 
    * 我的结论
 
-     这本书有一个配套课程[fn:2]，
+     这本书有一个配套课程[fn:2]。范畴论（英语：Category theory）是[[https://zh.wikipedia.org/wiki/%E6%95%B0%E5%AD%A6][数学]]的一门学科，以抽象的方法处理数学概念，将这些概念形式化成一组组的“物件”及[[https://zh.wikipedia.org/wiki/%E6%80%81%E5%B0%84][“态射”]]。[fn:12]
+     范畴论运用最广是在Haskell这个语言中，而Bartosz Milewski写了这本书把它推广开来。
 
 ** The Practice of Programming[fn:3]
 
@@ -49,11 +50,11 @@
 
    * 我的结论
 
-     这是免费的游戏编程公开课；
+     这是免费的游戏编程公开课。
 
 ** JavaScript for impatient programmers[fn:5]
 
-   写给不耐烦程序员的 JavaScript
+   写给不耐烦程序员的JavaScript
 
    #+BEGIN_QUOTE
    要是咱们，得罪了请原谅。
@@ -173,6 +174,8 @@
   8. 邮箱:tiglapiles@gmail.com
 
 * Footnotes
+
+[fn:12] https://zh.wikipedia.org/zh-hans/%E8%8C%83%E7%95%B4%E8%AE%BA
 
 [fn:11] https://www.learncpp.com/
 
