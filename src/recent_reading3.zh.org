@@ -5,7 +5,7 @@
   #+BEGIN_QUOTE
   一个经常阅读的人在他死之前已经活了上千次了……一个从不阅读的人只活了一次。
 
-  --乔治 R·R 马丁
+  --乔治·R·R·马丁
   #+END_QUOTE
 
   这些都是在行业中的好书藉或好内容，我想把这些优秀的东西分享出来，并赋上自己的一些主观想法，
@@ -63,7 +63,7 @@
      是非常深入，但是听的懂，听的舒服有时候比什么都重要，因为听课原本就是枯燥无味的。本门课用到的编程语言是C++，而游戏编程运用最普遍的语言也是C++，但是也
      只是介绍了个基础内容，更加具体的学习可以到[[https://www.learncpp.com/][Learn C++]]和[[https://en.cppreference.com/w/][cpp refernce]]，[[http://cplusplus.com][cplusplus]]等。
 
-** JavaScript for impatient programmers[fn:5]
+** Javascript For Impatient Programmers[fn:5]
 
    写给不耐烦程序员的JavaScript
 
