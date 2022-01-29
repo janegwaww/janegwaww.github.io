@@ -1,34 +1,38 @@
 
 # Table of Contents
 
-1.  [分享最近阅读的书藉清单(三)](#org3d83c7d)
-    1.  [Category Theory for Programmers](#org775857d)
-    2.  [The Practice of Programming](#org77bc70e)
-    3.  [Introduction to Game Programming (C++)](#org34081dc)
-    4.  [JavaScript for impatient programmers](#org917c9b1)
-    5.  [Deep JavaScript](#org41cfd33)
-    6.  [The Art of PostgreSQL](#org8516e8b)
-    7.  [The Passionate Programmer: Creating a Remarkable Career in Software Development](#orgf3888e5)
-    8.  [Remote: Office Not Required](#orgdc4e54a)
-    9.  [The Clean Coder：A Code of Conduct for Professional Programmers](#org9dbdc1e)
-    10. [Learn C++](#org3602866)
-2.  [写在后面](#org2107adb)
+1.  [分享最近阅读的书藉清单(三)](#org7d7e47e)
+    1.  [Category Theory for Programmers](#org59ff9a0)
+    2.  [The Practice of Programming](#org1de11a3)
+    3.  [Introduction to Game Programming (C++)](#orgb027986)
+    4.  [Javascript For Impatient Programmers](#org98f9e46)
+    5.  [Deep JavaScript](#orgce0a1d7)
+    6.  [The Art of PostgreSQL](#orgcf1fa86)
+    7.  [The Passionate Programmer: Creating a Remarkable Career in Software Development](#orgb329b3b)
+    8.  [Remote: Office Not Required](#org9117ee1)
+    9.  [The Clean Coder：A Code of Conduct for Professional Programmers](#orgaa085f6)
+    10. [Learn C++](#org7f871f5)
+2.  [写在后面](#orge721ab0)
 
 
 
-<a id="org3d83c7d"></a>
+<a id="org7d7e47e"></a>
 
 # 分享最近阅读的书藉清单(三)
 
 > 一个经常阅读的人在他死之前已经活了上千次了……一个从不阅读的人只活了一次。
 > 
-> &#x2013;乔治 R·R 马丁
+> &#x2013;乔治·R·R·马丁
+
+> 一个人与另一个人交流的最佳方式是通过故事。
+> 
+> &#x2013;唐纳德·高德纳
 
 这些都是在行业中的好书藉或好内容，我想把这些优秀的东西分享出来，并赋上自己的一些主观想法，
 能让更多人知道并从中受益。这里只是做一个引荐，精彩需要你自己亲自拜读从中感受。
 
 
-<a id="org775857d"></a>
+<a id="org59ff9a0"></a>
 
 ## Category Theory for Programmers<sup><a id="fnr.1" class="footref" href="#fn.1">1</a></sup>
 
@@ -40,12 +44,16 @@
 
 -   我的结论
     
-    这本书有一个配套课程<sup><a id="fnr.2" class="footref" href="#fn.2">2</a></sup>，
+    这本书有一个配套课程<sup><a id="fnr.2" class="footref" href="#fn.2">2</a></sup>。范畴论（英语：Category theory）是[数学](https://zh.wikipedia.org/wiki/%E6%95%B0%E5%AD%A6)的一门学科，以抽象的方法处理数学概念，将这些概念形式化成一组组的“物件”及[“态射”](https://zh.wikipedia.org/wiki/%E6%80%81%E5%B0%84)。<sup><a id="fnr.3" class="footref" href="#fn.3">3</a></sup>
+    范畴论运用最广是在Haskell这个语言中，而Bartosz Milewski写了这本书把它推广开来。计算机行业每过几年会出现一些新的概念，例如面向对象编程，函数式编程到
+    范畴论，总能给自己一些新鲜感，他能如何影响到我，如何影响行业，以至于是否会影响到世界，可能很难得知；我自己之前很看好前端，但当我有一定积累之后，前端的人才
+    也越来越多了，失去了一定的议价能力。我不清楚范畴论这个概念是否会影响编程界，因为每年都有好多新的概念冒出来，例如这几年的WebAssamble，Container，No-Code
+    语言更是数不胜数了，范畴论是否值得去学习认识下，但是不管怎样，接受新事物，认识新事特，学习新事物也是这个行业的一部份。
 
 
-<a id="org77bc70e"></a>
+<a id="org1de11a3"></a>
 
-## The Practice of Programming<sup><a id="fnr.3" class="footref" href="#fn.3">3</a></sup>
+## The Practice of Programming<sup><a id="fnr.4" class="footref" href="#fn.4">4</a></sup>
 
 程序设计实践
 
@@ -54,11 +62,18 @@
 > &#x2013;塞缪尔·泰勒·柯勒律治《回忆》
 
 -   我的结论
+    
+    当我们有一些想法，或者做一些事情的时候，总希望能做的更好；编程也一样：我是否为一个可能错误的算法花了太多时间；我使用的数据结构是否过于复杂了；
+    测试一个程序但错过了一个明显的问题；花了一天时间找到的BUG可能留心点5分钟就能找到了；需要一个程序速度提升3倍并减少内存的使用&#x2026;。
+    跟理论不同的是这些很难从书本中习得，只能通过实践不断积累；而初学者的代码总是充满了僵硬的语法和无全局观，本书从三个准则讲述如何写好一个软件：
+    1.简单性，保持程序的简短和可管理；2.清晰性，代码是通俗易懂的；3.通用性，尽可能让代码能在更多不同环境中运行，这些都是基于多年的实践经验和大型
+    软件的维护。虽然不管是什么都不可能做到完美，或者说能达到一个标准就可以了，而编程中的完美标准就是那三个准则，本书围绕三个准则具体在语法风格，
+    算法数据结构，设计，API，Debug，测试，性能，移植等中实践，使你尽量能在脱离了特定语言，操作系统和编程范式上实现代码的最大优化。
 
 
-<a id="org34081dc"></a>
+<a id="orgb027986"></a>
 
-## Introduction to Game Programming (C++)<sup><a id="fnr.4" class="footref" href="#fn.4">4</a></sup>
+## Introduction to Game Programming (C++)<sup><a id="fnr.5" class="footref" href="#fn.5">5</a></sup>
 
 游戏编程介绍（C++）
 
@@ -68,14 +83,18 @@
 
 -   我的结论
     
-    这是免费的游戏编程公开课；
+    这是免费的游戏编程公开课。游戏被称为第九艺术，他能让你体验在现实中不可能的完成的事，更是让你沉浸在其中，大有取代其他所有娱乐方式之势。他有美妙的音乐、
+    有引人入胜的剧情，有切身体验的交互，有志同道合的朋友&#x2026;。但是如果你想创造自己的乐园，想让更多人体验你创造的世界，那游戏将是你最好的选择；而本公开课就是
+    游戏编程入门，他主要是实现你的创意，至于是什么创意不是本课的内容。而这门课给我最大的感受是老师的讲课非常标准，让我这个英语初学者都能听的懂，即便内容不
+    是非常深入，但是听的懂，听的舒服有时候比什么都重要，因为听课原本就是枯燥无味的。本门课用到的编程语言是C++，而游戏编程运用最普遍的语言也是C++，但是也
+    只是介绍了个基础内容，更加具体的学习可以到[Learn C++](https://www.learncpp.com/)和[cpp refernce](https://en.cppreference.com/w/)，[cplusplus](http://cplusplus.com)等。
 
 
-<a id="org917c9b1"></a>
+<a id="org98f9e46"></a>
 
-## JavaScript for impatient programmers<sup><a id="fnr.5" class="footref" href="#fn.5">5</a></sup>
+## Javascript For Impatient Programmers<sup><a id="fnr.6" class="footref" href="#fn.6">6</a></sup>
 
-写给不耐烦程序员的 JavaScript
+写给不耐烦程序员的JavaScript
 
 > 要是咱们，得罪了请原谅。
 > 
@@ -90,9 +109,9 @@
 -   我的结论
 
 
-<a id="org41cfd33"></a>
+<a id="orgce0a1d7"></a>
 
-## Deep JavaScript<sup><a id="fnr.6" class="footref" href="#fn.6">6</a></sup>
+## Deep JavaScript<sup><a id="fnr.7" class="footref" href="#fn.7">7</a></sup>
 
 深入JavaScript
 
@@ -103,9 +122,9 @@
 -   我的结论
 
 
-<a id="org8516e8b"></a>
+<a id="orgcf1fa86"></a>
 
-## The Art of PostgreSQL<sup><a id="fnr.7" class="footref" href="#fn.7">7</a></sup>
+## The Art of PostgreSQL<sup><a id="fnr.8" class="footref" href="#fn.8">8</a></sup>
 
 PostgreSQL的艺术
 
@@ -114,11 +133,16 @@ PostgreSQL的艺术
 > &#x2013;罗布·派克
 
 -   我的结论
+    
+    Postgresql是我很钟意的一个数据库，我自己的理想是小型开发用SQLite，中型开发用mongodb,大型开发，推荐算法，AI等开发用Postgresql。
+    软件开发数据有多重要数据库就有多重要，而PostgreSQL给我的感觉是有点复杂比较难驾驭，或许犹如书名，使用PostgreSQL是艺术，需要常年
+    不断积累与练习。至于PostgreSQL的使用官方的文档已经非常好了，也很难做的比文档好了，所以本书重点不在使用，而在更好的使用，
+    更好的设计你的数据库。
 
 
-<a id="orgf3888e5"></a>
+<a id="orgb329b3b"></a>
 
-## The Passionate Programmer: Creating a Remarkable Career in Software Development<sup><a id="fnr.8" class="footref" href="#fn.8">8</a></sup>
+## The Passionate Programmer: Creating a Remarkable Career in Software Development<sup><a id="fnr.9" class="footref" href="#fn.9">9</a></sup>
 
 我编程，我快乐: 程序员职业规划之道
 
@@ -128,11 +152,20 @@ PostgreSQL的艺术
 > &#x2013;文中摘要
 
 -   我的结论
+    
+    这本书的灵感来源于[《程序员修炼之道-从小工到专家》](https://tiglapiles.github.io/article/src/recent_reading.html#orgc607b75)。如果修炼之道是对这个职业的一个总览，那规划之道是对这个职业的具体实施规划。
+    就像修炼之道提到的：我们构建自己的生活，当你规划好自己的路线之后，后面不管是公司还是职位都应该为自己的路线让道。不管你是在公司
+    中开发还是自己独立开发，都需要一条正确道路和建议，少一点挫败多一些成功。选择你的技术和商业领域；投资你的产品，仅仅会Java已经
+    是不够了，你可能需要其他的技术；执行力；和市场这是本书的四大重点。我自己也曾经设想：一个好点子加上执行力把产品创造出来应该就
+    能成功，关于这方面有一个专门的公开课(后面会讲到)，但是怱略了市场，因为如果没人知道你的产品，那有好点子也很难成功。当然这里概括
+    的四个重点，很难说明什么，具体的详细实施方法在重点下的章节有说明。例如第一章：领导还是血亏，根椐目前的市场，列举一份表单，
+    分别是适合在早期，中期，晚期使用的技术，从左到右，左边是最新的技术，右边是公布的技术；然后标注出哪些是你熟练的技术哪些是你不熟练的，
+    以此定位出自己的位置。
 
 
-<a id="orgdc4e54a"></a>
+<a id="org9117ee1"></a>
 
-## Remote: Office Not Required<sup><a id="fnr.9" class="footref" href="#fn.9">9</a></sup>
+## Remote: Office Not Required<sup><a id="fnr.10" class="footref" href="#fn.10">10</a></sup>
 
 远程工作
 
@@ -151,9 +184,9 @@ PostgreSQL的艺术
     他让你对工作有重新的认识。
 
 
-<a id="org9dbdc1e"></a>
+<a id="orgaa085f6"></a>
 
-## The Clean Coder：A Code of Conduct for Professional Programmers<sup><a id="fnr.10" class="footref" href="#fn.10">10</a></sup>
+## The Clean Coder：A Code of Conduct for Professional Programmers<sup><a id="fnr.11" class="footref" href="#fn.11">11</a></sup>
 
 代码整洁之道: 程序员的职业素养
 
@@ -163,11 +196,19 @@ PostgreSQL的艺术
 > &#x2013;霍华德,《马德雷山脉的宝藏7》
 
 -   我的结论
+    
+    你是否想成为专业的软件开发人员，就像我一样，在没有进入这个行业之前，对程序员充满敬意和想象，想象自己通过技术改变世界；
+    可在进入这个行业之后各种的挫折和打击，经历过狼性文化，经历过加班，经历过被辞退被降薪被算计，经历过破产&#x2026;。到最后都没办法
+    好好坐下来写自己的代码，结果是现在对这个行业非常失望已经对所谓的公司失去了信心。我在想当时如果有个人能指导下或许会不一
+    样，但是这个社会功利性太强，身边碰不到这样的人，不寄希望于人性，于是寻找经典的书籍和有用的知识指导自己的方向。本书作
+    者也做过软件开发，也经历过职场，做过CEO，他来告诉你如何成为专业的开发人员，如何提升自己的职业素养。他讲了很多故事，都是
+    程序员会碰到的情况，例如第一章敬业精神：如何让自己更专业首先就是要负起责任，讲了一个自己在Teradyne公司的经历；
+    然后后面章节是要会说不，要会说是，编码中的事项等。都是一些中肯且有意义的建议，能让你迈向专业的路平坦些。
 
 
-<a id="org3602866"></a>
+<a id="org7f871f5"></a>
 
-## Learn C++<sup><a id="fnr.11" class="footref" href="#fn.11">11</a></sup>
+## Learn C++<sup><a id="fnr.12" class="footref" href="#fn.12">12</a></sup>
 
 C++学习
 
@@ -188,7 +229,7 @@ C++学习
     都能找到最好的资源来指导自已前进的方向，这也是这个行业的优势，我们总是乐于毫无保留的分享自己的知识和成果。
 
 
-<a id="org2107adb"></a>
+<a id="orge721ab0"></a>
 
 # 写在后面
 
@@ -196,9 +237,10 @@ C++学习
 2.  [分享最近阅读的书籍清单(二)](https://tiglapiles.github.io/article/src/recent_reading2.zh.html)
 3.  [本文地址](https://tiglapiles.github.io/article/src/recent_reading3.zh.html)
 4.  更多文章欢迎访问我的[github仓库](https://github.com/tiglapiles/article)
-5.  捐助我的[游戏](https://itch.io/profile/tiglapiles)(定期上新)，支持我的创作
+5.  捐助我的[游戏](https://itch.io/profile/tiglapiles)，支持我的创作
 6.  转载请注明出处
 7.  [社区更新地址](https://www.v2ex.com/t/805027)
+8.  邮箱: tiglapiles@gmail.com
 
 
 # Footnotes
@@ -207,20 +249,22 @@ C++学习
 
 <sup><a id="fn.2" href="#fnr.2">2</a></sup> <http://brendanfong.com/programmingcats.html>
 
-<sup><a id="fn.3" href="#fnr.3">3</a></sup> <http://brendanfong.com/programmingcats.html>
+<sup><a id="fn.3" href="#fnr.3">3</a></sup> <https://zh.wikipedia.org/zh-hans/%E8%8C%83%E7%95%B4%E8%AE%BA>
 
-<sup><a id="fn.4" href="#fnr.4">4</a></sup> <http://www.cs.mun.ca/~dchurchill/teaching.shtml>
+<sup><a id="fn.4" href="#fnr.4">4</a></sup> <http://brendanfong.com/programmingcats.html>
 
-<sup><a id="fn.5" href="#fnr.5">5</a></sup> <https://exploringjs.com/impatient-js/toc.html>
+<sup><a id="fn.5" href="#fnr.5">5</a></sup> <http://www.cs.mun.ca/~dchurchill/teaching.shtml>
 
-<sup><a id="fn.6" href="#fnr.6">6</a></sup> <https://exploringjs.com/deep-js/toc.html>
+<sup><a id="fn.6" href="#fnr.6">6</a></sup> <https://exploringjs.com/impatient-js/toc.html>
 
-<sup><a id="fn.7" href="#fnr.7">7</a></sup> <https://theartofpostgresql.com/>
+<sup><a id="fn.7" href="#fnr.7">7</a></sup> <https://exploringjs.com/deep-js/toc.html>
 
-<sup><a id="fn.8" href="#fnr.8">8</a></sup> <https://book.douban.com/subject/4923179/>
+<sup><a id="fn.8" href="#fnr.8">8</a></sup> <https://theartofpostgresql.com/>
 
-<sup><a id="fn.9" href="#fnr.9">9</a></sup> <https://book.douban.com/subject/21362627/>
+<sup><a id="fn.9" href="#fnr.9">9</a></sup> <https://book.douban.com/subject/4923179/>
 
-<sup><a id="fn.10" href="#fnr.10">10</a></sup> <https://book.douban.com/subject/11614538/>
+<sup><a id="fn.10" href="#fnr.10">10</a></sup> <https://book.douban.com/subject/21362627/>
 
-<sup><a id="fn.11" href="#fnr.11">11</a></sup> <https://www.learncpp.com/>
+<sup><a id="fn.11" href="#fnr.11">11</a></sup> <https://book.douban.com/subject/11614538/>
+
+<sup><a id="fn.12" href="#fnr.12">12</a></sup> <https://www.learncpp.com/>
