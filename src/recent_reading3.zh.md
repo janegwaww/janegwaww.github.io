@@ -1,22 +1,22 @@
 
 # Table of Contents
 
-1.  [分享最近阅读的书藉清单(三)](#org7d7e47e)
-    1.  [Category Theory for Programmers](#org59ff9a0)
-    2.  [The Practice of Programming](#org1de11a3)
-    3.  [Introduction to Game Programming (C++)](#orgb027986)
-    4.  [Javascript For Impatient Programmers](#org98f9e46)
-    5.  [Deep JavaScript](#orgce0a1d7)
-    6.  [The Art of PostgreSQL](#orgcf1fa86)
-    7.  [The Passionate Programmer: Creating a Remarkable Career in Software Development](#orgb329b3b)
-    8.  [Remote: Office Not Required](#org9117ee1)
-    9.  [The Clean Coder：A Code of Conduct for Professional Programmers](#orgaa085f6)
-    10. [Learn C++](#org7f871f5)
-2.  [写在后面](#orge721ab0)
+1.  [分享最近阅读的书藉清单(三)](#org3143d85)
+    1.  [Category Theory for Programmers](#orgcc6369c)
+    2.  [The Practice of Programming](#orgf0059ff)
+    3.  [Introduction to Game Programming (C++)](#orgb43b31f)
+    4.  [Javascript For Impatient Programmers](#org1d606cc)
+    5.  [Deep JavaScript](#org148b42f)
+    6.  [The Art of PostgreSQL](#orgb18464f)
+    7.  [The Passionate Programmer: Creating a Remarkable Career in Software Development](#org2422206)
+    8.  [Remote: Office Not Required](#org4129124)
+    9.  [The Clean Coder：A Code of Conduct for Professional Programmers](#org582cd3e)
+    10. [Learn C++](#orgdb9f250)
+2.  [写在后面](#orgb3b94e5)
 
 
 
-<a id="org7d7e47e"></a>
+<a id="org3143d85"></a>
 
 # 分享最近阅读的书藉清单(三)
 
@@ -32,7 +32,7 @@
 能让更多人知道并从中受益。这里只是做一个引荐，精彩需要你自己亲自拜读从中感受。
 
 
-<a id="org59ff9a0"></a>
+<a id="orgcc6369c"></a>
 
 ## Category Theory for Programmers<sup><a id="fnr.1" class="footref" href="#fn.1">1</a></sup>
 
@@ -47,11 +47,11 @@
     这本书有一个配套课程<sup><a id="fnr.2" class="footref" href="#fn.2">2</a></sup>。范畴论（英语：Category theory）是[数学](https://zh.wikipedia.org/wiki/%E6%95%B0%E5%AD%A6)的一门学科，以抽象的方法处理数学概念，将这些概念形式化成一组组的“物件”及[“态射”](https://zh.wikipedia.org/wiki/%E6%80%81%E5%B0%84)。<sup><a id="fnr.3" class="footref" href="#fn.3">3</a></sup>
     范畴论运用最广是在Haskell这个语言中，而Bartosz Milewski写了这本书把它推广开来。计算机行业每过几年会出现一些新的概念，例如面向对象编程，函数式编程到
     范畴论，总能给自己一些新鲜感，他能如何影响到我，如何影响行业，以至于是否会影响到世界，可能很难得知；我自己之前很看好前端，但当我有一定积累之后，前端的人才
-    也越来越多了，失去了一定的议价能力。我不清楚范畴论这个概念是否会影响编程界，因为每年都有好多新的概念冒出来，例如这几年的WebAssamble，Container，No-Code
+    也越来越多了，失去了一定的议价能力。我不清楚范畴论这个概念是否会影响编程界，因为每年都有好多新的概念冒出来，例如这几年的WebAssamble，Container，No-Code,
     语言更是数不胜数了，范畴论是否值得去学习认识下，但是不管怎样，接受新事物，认识新事特，学习新事物也是这个行业的一部份。
 
 
-<a id="org1de11a3"></a>
+<a id="orgf0059ff"></a>
 
 ## The Practice of Programming<sup><a id="fnr.4" class="footref" href="#fn.4">4</a></sup>
 
@@ -71,7 +71,7 @@
     算法数据结构，设计，API，Debug，测试，性能，移植等中实践，使你尽量能在脱离了特定语言，操作系统和编程范式上实现代码的最大优化。
 
 
-<a id="orgb027986"></a>
+<a id="orgb43b31f"></a>
 
 ## Introduction to Game Programming (C++)<sup><a id="fnr.5" class="footref" href="#fn.5">5</a></sup>
 
@@ -90,7 +90,7 @@
     只是介绍了个基础内容，更加具体的学习可以到[Learn C++](https://www.learncpp.com/)和[cpp refernce](https://en.cppreference.com/w/)，[cplusplus](http://cplusplus.com)等。
 
 
-<a id="org98f9e46"></a>
+<a id="org1d606cc"></a>
 
 ## Javascript For Impatient Programmers<sup><a id="fnr.6" class="footref" href="#fn.6">6</a></sup>
 
@@ -109,7 +109,7 @@
 -   我的结论
 
 
-<a id="orgce0a1d7"></a>
+<a id="org148b42f"></a>
 
 ## Deep JavaScript<sup><a id="fnr.7" class="footref" href="#fn.7">7</a></sup>
 
@@ -122,7 +122,7 @@
 -   我的结论
 
 
-<a id="orgcf1fa86"></a>
+<a id="orgb18464f"></a>
 
 ## The Art of PostgreSQL<sup><a id="fnr.8" class="footref" href="#fn.8">8</a></sup>
 
@@ -140,7 +140,7 @@ PostgreSQL的艺术
     更好的设计你的数据库。
 
 
-<a id="orgb329b3b"></a>
+<a id="org2422206"></a>
 
 ## The Passionate Programmer: Creating a Remarkable Career in Software Development<sup><a id="fnr.9" class="footref" href="#fn.9">9</a></sup>
 
@@ -163,7 +163,7 @@ PostgreSQL的艺术
     以此定位出自己的位置。
 
 
-<a id="org9117ee1"></a>
+<a id="org4129124"></a>
 
 ## Remote: Office Not Required<sup><a id="fnr.10" class="footref" href="#fn.10">10</a></sup>
 
@@ -184,7 +184,7 @@ PostgreSQL的艺术
     他让你对工作有重新的认识。
 
 
-<a id="orgaa085f6"></a>
+<a id="org582cd3e"></a>
 
 ## The Clean Coder：A Code of Conduct for Professional Programmers<sup><a id="fnr.11" class="footref" href="#fn.11">11</a></sup>
 
@@ -206,7 +206,7 @@ PostgreSQL的艺术
     然后后面章节是要会说不，要会说是，编码中的事项等。都是一些中肯且有意义的建议，能让你迈向专业的路平坦些。
 
 
-<a id="org7f871f5"></a>
+<a id="orgdb9f250"></a>
 
 ## Learn C++<sup><a id="fnr.12" class="footref" href="#fn.12">12</a></sup>
 
@@ -229,7 +229,7 @@ C++学习
     都能找到最好的资源来指导自已前进的方向，这也是这个行业的优势，我们总是乐于毫无保留的分享自己的知识和成果。
 
 
-<a id="orge721ab0"></a>
+<a id="orgb3b94e5"></a>
 
 # 写在后面
 
