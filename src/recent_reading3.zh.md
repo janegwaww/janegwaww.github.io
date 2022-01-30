@@ -1,22 +1,22 @@
 
 # Table of Contents
 
-1.  [分享最近阅读的书藉清单(三)](#org3143d85)
-    1.  [Category Theory for Programmers](#orgcc6369c)
-    2.  [The Practice of Programming](#orgf0059ff)
-    3.  [Introduction to Game Programming (C++)](#orgb43b31f)
-    4.  [Javascript For Impatient Programmers](#org1d606cc)
-    5.  [Deep JavaScript](#org148b42f)
-    6.  [The Art of PostgreSQL](#orgb18464f)
-    7.  [The Passionate Programmer: Creating a Remarkable Career in Software Development](#org2422206)
-    8.  [Remote: Office Not Required](#org4129124)
-    9.  [The Clean Coder：A Code of Conduct for Professional Programmers](#org582cd3e)
-    10. [Learn C++](#orgdb9f250)
-2.  [写在后面](#orgb3b94e5)
+1.  [分享最近阅读的书藉清单(三)](#org0665215)
+    1.  [Category Theory for Programmers](#org6a1398f)
+    2.  [The Practice of Programming](#org8d2a0b0)
+    3.  [Introduction to Game Programming (C++)](#orga6eaa61)
+    4.  [Javascript For Impatient Programmers](#orgf5e24df)
+    5.  [Deep JavaScript](#org4c6700f)
+    6.  [The Art of PostgreSQL](#org8fdff70)
+    7.  [The Passionate Programmer: Creating a Remarkable Career in Software Development](#org70d5ae6)
+    8.  [Remote: Office Not Required](#org9a86943)
+    9.  [The Clean Coder：A Code of Conduct for Professional Programmers](#orgf02beeb)
+    10. [Learn C++](#orgce6c14c)
+2.  [写在后面](#org60a8c98)
 
 
 
-<a id="org3143d85"></a>
+<a id="org0665215"></a>
 
 # 分享最近阅读的书藉清单(三)
 
@@ -32,7 +32,7 @@
 能让更多人知道并从中受益。这里只是做一个引荐，精彩需要你自己亲自拜读从中感受。
 
 
-<a id="orgcc6369c"></a>
+<a id="org6a1398f"></a>
 
 ## Category Theory for Programmers<sup><a id="fnr.1" class="footref" href="#fn.1">1</a></sup>
 
@@ -51,7 +51,7 @@
     语言更是数不胜数了，范畴论是否值得去学习认识下，但是不管怎样，接受新事物，认识新事特，学习新事物也是这个行业的一部份。
 
 
-<a id="orgf0059ff"></a>
+<a id="org8d2a0b0"></a>
 
 ## The Practice of Programming<sup><a id="fnr.4" class="footref" href="#fn.4">4</a></sup>
 
@@ -71,7 +71,7 @@
     算法数据结构，设计，API，Debug，测试，性能，移植等中实践，使你尽量能在脱离了特定语言，操作系统和编程范式上实现代码的最大优化。
 
 
-<a id="orgb43b31f"></a>
+<a id="orga6eaa61"></a>
 
 ## Introduction to Game Programming (C++)<sup><a id="fnr.5" class="footref" href="#fn.5">5</a></sup>
 
@@ -90,7 +90,7 @@
     只是介绍了个基础内容，更加具体的学习可以到[Learn C++](https://www.learncpp.com/)和[cpp refernce](https://en.cppreference.com/w/)，[cplusplus](http://cplusplus.com)等。
 
 
-<a id="org1d606cc"></a>
+<a id="orgf5e24df"></a>
 
 ## Javascript For Impatient Programmers<sup><a id="fnr.6" class="footref" href="#fn.6">6</a></sup>
 
@@ -107,9 +107,14 @@
 > &#x2013;威廉·莎士比亚，仲夏夜之梦
 
 -   我的结论
+    
+    不知道是因为JavaScript过于流行还是因为我自己本身就是从JavaScript入行的，目前我的榜单上单是JavaScript入门书籍就已经有三本了，
+    一本是[《权威指南》](https://book.douban.com/subject/10549733/)，另一本是[《雄辩的JavaScript》](https://tiglapiles.github.io/article/src/recent_reading.html#org5a9d340)，还有就是现在这一本；要我说这三本有什么需别，可能就是权威指南偏向于纯前端的技术，
+    有涉及前端的方方面面；雄辩的JS偏向于基于JS的软件设计，而这本聚焦于语言本身，以及之后便于对语言的深挖，选择哪本根据个人需求。至于
+    为什么是叫写给不耐烦程序员那是因为本书可以让你快速开始JavaScript其他更深的章节可以有空再看。
 
 
-<a id="org148b42f"></a>
+<a id="org4c6700f"></a>
 
 ## Deep JavaScript<sup><a id="fnr.7" class="footref" href="#fn.7">7</a></sup>
 
@@ -120,9 +125,11 @@
 > &#x2013;文斯·隆巴迪
 
 -   我的结论
+    
+    本书适合有一定JavaScript基础或经验的人，希望更加了解这本语言；例如对象的完全克隆，对象属性保护，元编程等，以及最新的ECMAScript标准。
 
 
-<a id="orgb18464f"></a>
+<a id="org8fdff70"></a>
 
 ## The Art of PostgreSQL<sup><a id="fnr.8" class="footref" href="#fn.8">8</a></sup>
 
@@ -140,7 +147,7 @@ PostgreSQL的艺术
     更好的设计你的数据库。
 
 
-<a id="org2422206"></a>
+<a id="org70d5ae6"></a>
 
 ## The Passionate Programmer: Creating a Remarkable Career in Software Development<sup><a id="fnr.9" class="footref" href="#fn.9">9</a></sup>
 
@@ -154,16 +161,15 @@ PostgreSQL的艺术
 -   我的结论
     
     这本书的灵感来源于[《程序员修炼之道-从小工到专家》](https://tiglapiles.github.io/article/src/recent_reading.html#orgc607b75)。如果修炼之道是对这个职业的一个总览，那规划之道是对这个职业的具体实施规划。
-    就像修炼之道提到的：我们构建自己的生活，当你规划好自己的路线之后，后面不管是公司还是职位都应该为自己的路线让道。不管你是在公司
-    中开发还是自己独立开发，都需要一条正确道路和建议，少一点挫败多一些成功。选择你的技术和商业领域；投资你的产品，仅仅会Java已经
-    是不够了，你可能需要其他的技术；执行力；和市场这是本书的四大重点。我自己也曾经设想：一个好点子加上执行力把产品创造出来应该就
-    能成功，关于这方面有一个专门的公开课(后面会讲到)，但是怱略了市场，因为如果没人知道你的产品，那有好点子也很难成功。当然这里概括
-    的四个重点，很难说明什么，具体的详细实施方法在重点下的章节有说明。例如第一章：领导还是血亏，根椐目前的市场，列举一份表单，
-    分别是适合在早期，中期，晚期使用的技术，从左到右，左边是最新的技术，右边是公布的技术；然后标注出哪些是你熟练的技术哪些是你不熟练的，
-    以此定位出自己的位置。
+    就像修炼之道提到的：我们构建自己的生活，当你规划好自己的路线之后，后面不管是公司还是职位都应该为自己的路线让道。不管你是打工还是独立开发，
+    都需要一条正确道路和建议，少一点挫败多一些成功。选择你的技术和商业领域；投资你的产品，仅仅会Java已经是不够了，你可能需要其他的技术；
+    执行力；和市场这是本书的四大重点。我自己也曾经设想：一个好点子加上执行力把产品创造出来应该就能成功，关于这方面有一个专门的公开课(后面会讲到)，
+    但是怱略了市场，因为如果没人知道你的产品，那有好点子也很难成功。当然这里概括的四个重点，很难说明什么，具体的详细实施方法在重点下的章节有说明。
+    例如第一章：领导还是血亏，根椐目前的市场，列举一份表单，分别是适合在早期，中期，晚期使用的技术，从左到右，左边是最新的技术，
+    右边是公布的技术；然后标注出哪些是你熟练的技术哪些是你不熟练的，以此定位出自己的位置。
 
 
-<a id="org4129124"></a>
+<a id="org9a86943"></a>
 
 ## Remote: Office Not Required<sup><a id="fnr.10" class="footref" href="#fn.10">10</a></sup>
 
@@ -184,7 +190,7 @@ PostgreSQL的艺术
     他让你对工作有重新的认识。
 
 
-<a id="org582cd3e"></a>
+<a id="orgf02beeb"></a>
 
 ## The Clean Coder：A Code of Conduct for Professional Programmers<sup><a id="fnr.11" class="footref" href="#fn.11">11</a></sup>
 
@@ -206,7 +212,7 @@ PostgreSQL的艺术
     然后后面章节是要会说不，要会说是，编码中的事项等。都是一些中肯且有意义的建议，能让你迈向专业的路平坦些。
 
 
-<a id="orgdb9f250"></a>
+<a id="orgce6c14c"></a>
 
 ## Learn C++<sup><a id="fnr.12" class="footref" href="#fn.12">12</a></sup>
 
@@ -229,7 +235,7 @@ C++学习
     都能找到最好的资源来指导自已前进的方向，这也是这个行业的优势，我们总是乐于毫无保留的分享自己的知识和成果。
 
 
-<a id="orgb3b94e5"></a>
+<a id="org60a8c98"></a>
 
 # 写在后面
 
