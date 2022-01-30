@@ -1,22 +1,22 @@
 
 # Table of Contents
 
-1.  [分享最近阅读的书藉清单(三)](#org0665215)
-    1.  [Category Theory for Programmers](#org6a1398f)
-    2.  [The Practice of Programming](#org8d2a0b0)
-    3.  [Introduction to Game Programming (C++)](#orga6eaa61)
-    4.  [Javascript For Impatient Programmers](#orgf5e24df)
-    5.  [Deep JavaScript](#org4c6700f)
-    6.  [The Art of PostgreSQL](#org8fdff70)
-    7.  [The Passionate Programmer: Creating a Remarkable Career in Software Development](#org70d5ae6)
-    8.  [Remote: Office Not Required](#org9a86943)
-    9.  [The Clean Coder：A Code of Conduct for Professional Programmers](#orgf02beeb)
-    10. [Learn C++](#orgce6c14c)
-2.  [写在后面](#org60a8c98)
+1.  [分享最近阅读的书藉清单(三)](#org35c5689)
+    1.  [Category Theory for Programmers](#org871da17)
+    2.  [The Practice of Programming](#orgca75979)
+    3.  [Introduction to Game Programming (C++)](#org733cafe)
+    4.  [Javascript For Impatient Programmers](#org515b9fc)
+    5.  [Deep JavaScript](#org9fd200f)
+    6.  [The Art of PostgreSQL](#org45d4a41)
+    7.  [The Passionate Programmer: Creating a Remarkable Career in Software Development](#org9705293)
+    8.  [Remote: Office Not Required](#orgae3528f)
+    9.  [The Clean Coder：A Code of Conduct for Professional Programmers](#org059bf89)
+    10. [Learn C++](#org3d26c49)
+2.  [写在后面](#org06de4ff)
 
 
 
-<a id="org0665215"></a>
+<a id="org35c5689"></a>
 
 # 分享最近阅读的书藉清单(三)
 
@@ -32,7 +32,7 @@
 能让更多人知道并从中受益。这里只是做一个引荐，精彩需要你自己亲自拜读从中感受。
 
 
-<a id="org6a1398f"></a>
+<a id="org871da17"></a>
 
 ## Category Theory for Programmers<sup><a id="fnr.1" class="footref" href="#fn.1">1</a></sup>
 
@@ -51,7 +51,7 @@
     语言更是数不胜数了，范畴论是否值得去学习认识下，但是不管怎样，接受新事物，认识新事特，学习新事物也是这个行业的一部份。
 
 
-<a id="org8d2a0b0"></a>
+<a id="orgca75979"></a>
 
 ## The Practice of Programming<sup><a id="fnr.4" class="footref" href="#fn.4">4</a></sup>
 
@@ -71,7 +71,7 @@
     算法数据结构，设计，API，Debug，测试，性能，移植等中实践，使你尽量能在脱离了特定语言，操作系统和编程范式上实现代码的最大优化。
 
 
-<a id="orga6eaa61"></a>
+<a id="org733cafe"></a>
 
 ## Introduction to Game Programming (C++)<sup><a id="fnr.5" class="footref" href="#fn.5">5</a></sup>
 
@@ -90,7 +90,7 @@
     只是介绍了个基础内容，更加具体的学习可以到[Learn C++](https://www.learncpp.com/)和[cpp refernce](https://en.cppreference.com/w/)，[cplusplus](http://cplusplus.com)等。
 
 
-<a id="orgf5e24df"></a>
+<a id="org515b9fc"></a>
 
 ## Javascript For Impatient Programmers<sup><a id="fnr.6" class="footref" href="#fn.6">6</a></sup>
 
@@ -114,7 +114,7 @@
     为什么是叫写给不耐烦程序员那是因为本书可以让你快速开始JavaScript其他更深的章节可以有空再看。
 
 
-<a id="org4c6700f"></a>
+<a id="org9fd200f"></a>
 
 ## Deep JavaScript<sup><a id="fnr.7" class="footref" href="#fn.7">7</a></sup>
 
@@ -126,10 +126,10 @@
 
 -   我的结论
     
-    本书适合有一定JavaScript基础或经验的人，希望更加了解这本语言；例如对象的完全克隆，对象属性保护，元编程等，以及最新的ECMAScript标准。
+    本书适合有一定JavaScript基础或经验的人，希望更加了解这门语言；例如对象的完全克隆，对象属性保护，元编程等，以及最新的ECMAScript标准。
 
 
-<a id="org8fdff70"></a>
+<a id="org45d4a41"></a>
 
 ## The Art of PostgreSQL<sup><a id="fnr.8" class="footref" href="#fn.8">8</a></sup>
 
@@ -147,7 +147,7 @@ PostgreSQL的艺术
     更好的设计你的数据库。
 
 
-<a id="org70d5ae6"></a>
+<a id="org9705293"></a>
 
 ## The Passionate Programmer: Creating a Remarkable Career in Software Development<sup><a id="fnr.9" class="footref" href="#fn.9">9</a></sup>
 
@@ -169,7 +169,7 @@ PostgreSQL的艺术
     右边是公布的技术；然后标注出哪些是你熟练的技术哪些是你不熟练的，以此定位出自己的位置。
 
 
-<a id="org9a86943"></a>
+<a id="orgae3528f"></a>
 
 ## Remote: Office Not Required<sup><a id="fnr.10" class="footref" href="#fn.10">10</a></sup>
 
@@ -190,7 +190,7 @@ PostgreSQL的艺术
     他让你对工作有重新的认识。
 
 
-<a id="orgf02beeb"></a>
+<a id="org059bf89"></a>
 
 ## The Clean Coder：A Code of Conduct for Professional Programmers<sup><a id="fnr.11" class="footref" href="#fn.11">11</a></sup>
 
@@ -212,7 +212,7 @@ PostgreSQL的艺术
     然后后面章节是要会说不，要会说是，编码中的事项等。都是一些中肯且有意义的建议，能让你迈向专业的路平坦些。
 
 
-<a id="orgce6c14c"></a>
+<a id="org3d26c49"></a>
 
 ## Learn C++<sup><a id="fnr.12" class="footref" href="#fn.12">12</a></sup>
 
@@ -235,7 +235,7 @@ C++学习
     都能找到最好的资源来指导自已前进的方向，这也是这个行业的优势，我们总是乐于毫无保留的分享自己的知识和成果。
 
 
-<a id="org60a8c98"></a>
+<a id="org06de4ff"></a>
 
 # 写在后面
 
