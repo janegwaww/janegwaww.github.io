@@ -2,4 +2,25 @@
 
 * 分享最近阅读的书藉清单(三)
 
-** 绝版李鸿章
+** 绝版李鸿章[fn:1]
+
+** How to Start a Startup[fn:2]
+
+* 写在后面
+
+  1. [[https://tiglapiles.github.io/article/src/recent_reading.html][分享最近阅读的书籍清单(一)]]
+  2. [[https://tiglapiles.github.io/article/src/recent_reading2.zh.html][分享最近阅读的书籍清单(二)]]
+  3. [[https://tiglapiles.github.io/article/src/recent_reading3.zh.html][分享最近阅读的书藉清单(三)]]
+  4. [[https://tiglapiles.github.io/article/src/recent_reading3.zh.html][本文地址]]
+  5. 更多文章欢迎访问我的[[https://github.com/tiglapiles/article][github仓库]]
+  6. 捐助我的[[https://itch.io/profile/tiglapiles][游戏]]，支持我的创作
+  7. 转载请注明出处
+  8. [[https://v2ex.com/t/831405][社区更新地址]]
+  9. 邮箱: tiglapiles@gmail.com
+
+
+* Footnotes
+
+[fn:2] https://genius.com/Sam-altman-lecture-1-how-to-start-a-startup-annotated
+
+[fn:1] https://book.douban.com/subject/3294272/
