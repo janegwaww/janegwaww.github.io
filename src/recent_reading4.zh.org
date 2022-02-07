@@ -6,6 +6,8 @@
 
 ** How to Start a Startup[fn:2]
 
+** Feeling Is the Secret[fn:3]
+
 * 写在后面
 
   1. [[https://tiglapiles.github.io/article/src/recent_reading.html][分享最近阅读的书籍清单(一)]]
@@ -20,6 +22,8 @@
 
 
 * Footnotes
+
+[fn:3] http://www.feelingisthesecret.org/
 
 [fn:2] https://genius.com/Sam-altman-lecture-1-how-to-start-a-startup-annotated
 
