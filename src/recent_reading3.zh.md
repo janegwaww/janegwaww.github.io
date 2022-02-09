@@ -1,22 +1,22 @@
 
 # Table of Contents
 
-1.  [分享最近阅读的书藉清单(三)](#org35c5689)
-    1.  [Category Theory for Programmers](#org871da17)
-    2.  [The Practice of Programming](#orgca75979)
-    3.  [Introduction to Game Programming (C++)](#org733cafe)
-    4.  [Javascript For Impatient Programmers](#org515b9fc)
-    5.  [Deep JavaScript](#org9fd200f)
-    6.  [The Art of PostgreSQL](#org45d4a41)
-    7.  [The Passionate Programmer: Creating a Remarkable Career in Software Development](#org9705293)
-    8.  [Remote: Office Not Required](#orgae3528f)
-    9.  [The Clean Coder：A Code of Conduct for Professional Programmers](#org059bf89)
-    10. [Learn C++](#org3d26c49)
-2.  [写在后面](#org06de4ff)
+1.  [分享最近阅读的书藉清单(三)](#org1305fa8)
+    1.  [Category Theory for Programmers](#org1064308)
+    2.  [The Practice of Programming](#org1b807b8)
+    3.  [Introduction to Game Programming (C++)](#org493a500)
+    4.  [Javascript For Impatient Programmers](#org4c93e84)
+    5.  [Deep JavaScript](#org045bfb0)
+    6.  [The Art of PostgreSQL](#org0a49c9c)
+    7.  [The Passionate Programmer: Creating a Remarkable Career in Software Development](#org5a16c72)
+    8.  [Remote: Office Not Required](#org590807e)
+    9.  [The Clean Coder：A Code of Conduct for Professional Programmers](#org205d37f)
+    10. [Learn C++](#org863ef9a)
+2.  [写在后面](#org2cda476)
 
 
 
-<a id="org35c5689"></a>
+<a id="org1305fa8"></a>
 
 # 分享最近阅读的书藉清单(三)
 
@@ -32,7 +32,7 @@
 能让更多人知道并从中受益。这里只是做一个引荐，精彩需要你自己亲自拜读从中感受。
 
 
-<a id="org871da17"></a>
+<a id="org1064308"></a>
 
 ## Category Theory for Programmers<sup><a id="fnr.1" class="footref" href="#fn.1">1</a></sup>
 
@@ -51,7 +51,7 @@
     语言更是数不胜数了，范畴论是否值得去学习认识下，但是不管怎样，接受新事物，认识新事特，学习新事物也是这个行业的一部份。
 
 
-<a id="orgca75979"></a>
+<a id="org1b807b8"></a>
 
 ## The Practice of Programming<sup><a id="fnr.4" class="footref" href="#fn.4">4</a></sup>
 
@@ -71,7 +71,7 @@
     算法数据结构，设计，API，Debug，测试，性能，移植等中实践，使你尽量能在脱离了特定语言，操作系统和编程范式上实现代码的最大优化。
 
 
-<a id="org733cafe"></a>
+<a id="org493a500"></a>
 
 ## Introduction to Game Programming (C++)<sup><a id="fnr.5" class="footref" href="#fn.5">5</a></sup>
 
@@ -83,14 +83,14 @@
 
 -   我的结论
     
-    这是免费的游戏编程公开课。游戏被称为第九艺术，他能让你体验在现实中不可能的完成的事，更是让你沉浸在其中，大有取代其他所有娱乐方式之势。他有美妙的音乐、
-    有引人入胜的剧情，有切身体验的交互，有志同道合的朋友&#x2026;。但是如果你想创造自己的乐园，想让更多人体验你创造的世界，那游戏将是你最好的选择；而本公开课就是
+    这是免费的游戏编程公开课。游戏被称为第九艺术，他能让你体验在现实中不可能完成的事，更是让你沉浸在其中，大有取代其他所有娱乐方式之势。他有美妙的音乐、
+    有精美的画面，有引人入胜的剧情，有切身体验的交互，有志同道合的朋友&#x2026;。但是如果你想创造自己的乐园，想让更多人体验你创造的世界，那游戏将是你最好的选择；而本公开课就是
     游戏编程入门，他主要是实现你的创意，至于是什么创意不是本课的内容。而这门课给我最大的感受是老师的讲课非常标准，让我这个英语初学者都能听的懂，即便内容不
     是非常深入，但是听的懂，听的舒服有时候比什么都重要，因为听课原本就是枯燥无味的。本门课用到的编程语言是C++，而游戏编程运用最普遍的语言也是C++，但是也
     只是介绍了个基础内容，更加具体的学习可以到[Learn C++](https://www.learncpp.com/)和[cpp refernce](https://en.cppreference.com/w/)，[cplusplus](http://cplusplus.com)等。
 
 
-<a id="org515b9fc"></a>
+<a id="org4c93e84"></a>
 
 ## Javascript For Impatient Programmers<sup><a id="fnr.6" class="footref" href="#fn.6">6</a></sup>
 
@@ -114,7 +114,7 @@
     为什么是叫写给不耐烦程序员那是因为本书可以让你快速开始JavaScript其他更深的章节可以有空再看。
 
 
-<a id="org9fd200f"></a>
+<a id="org045bfb0"></a>
 
 ## Deep JavaScript<sup><a id="fnr.7" class="footref" href="#fn.7">7</a></sup>
 
@@ -129,7 +129,7 @@
     本书适合有一定JavaScript基础或经验的人，希望更加了解这门语言；例如对象的完全克隆，对象属性保护，元编程等，以及最新的ECMAScript标准。
 
 
-<a id="org45d4a41"></a>
+<a id="org0a49c9c"></a>
 
 ## The Art of PostgreSQL<sup><a id="fnr.8" class="footref" href="#fn.8">8</a></sup>
 
@@ -147,7 +147,7 @@ PostgreSQL的艺术
     更好的设计你的数据库。
 
 
-<a id="org9705293"></a>
+<a id="org5a16c72"></a>
 
 ## The Passionate Programmer: Creating a Remarkable Career in Software Development<sup><a id="fnr.9" class="footref" href="#fn.9">9</a></sup>
 
@@ -169,7 +169,7 @@ PostgreSQL的艺术
     右边是公布的技术；然后标注出哪些是你熟练的技术哪些是你不熟练的，以此定位出自己的位置。
 
 
-<a id="orgae3528f"></a>
+<a id="org590807e"></a>
 
 ## Remote: Office Not Required<sup><a id="fnr.10" class="footref" href="#fn.10">10</a></sup>
 
@@ -190,7 +190,7 @@ PostgreSQL的艺术
     他让你对工作有重新的认识。
 
 
-<a id="org059bf89"></a>
+<a id="org205d37f"></a>
 
 ## The Clean Coder：A Code of Conduct for Professional Programmers<sup><a id="fnr.11" class="footref" href="#fn.11">11</a></sup>
 
@@ -212,7 +212,7 @@ PostgreSQL的艺术
     然后后面章节是要会说不，要会说是，编码中的事项等。都是一些中肯且有意义的建议，能让你迈向专业的路平坦些。
 
 
-<a id="org3d26c49"></a>
+<a id="org863ef9a"></a>
 
 ## Learn C++<sup><a id="fnr.12" class="footref" href="#fn.12">12</a></sup>
 
@@ -235,7 +235,7 @@ C++学习
     都能找到最好的资源来指导自已前进的方向，这也是这个行业的优势，我们总是乐于毫无保留的分享自己的知识和成果。
 
 
-<a id="org06de4ff"></a>
+<a id="org2cda476"></a>
 
 # 写在后面
 
@@ -245,7 +245,7 @@ C++学习
 4.  更多文章欢迎访问我的[github仓库](https://github.com/tiglapiles/article)
 5.  捐助我的[游戏](https://itch.io/profile/tiglapiles)，支持我的创作
 6.  转载请注明出处
-7.  [社区更新地址](https://www.v2ex.com/t/805027)
+7.  [社区更新地址](https://v2ex.com/t/831405)
 8.  邮箱: tiglapiles@gmail.com
 
 
