@@ -1,5 +1,7 @@
 * 更多文章后续推出
 
+  [[https://tiglapiles.github.io/article/][更好的观看体验]]
+
 ** [[./src/recent_reading.md][分享最近阅读的书籍清单（一）]]
 
 ** [[./src/recent_reading2.zh.md][分享最近阅读的书籍清单（二）]]
