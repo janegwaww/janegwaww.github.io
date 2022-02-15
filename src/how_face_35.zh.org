@@ -3,9 +3,9 @@
 
 * 如何面对35岁
 
-  #+BEGIN_CENTER
+  #+BEGIN_QUOTE
   愿与有此困扰之人共勉。
-  #+END_CENTER
+  #+END_QUOTE
 
 ** 现状
 
@@ -40,8 +40,6 @@
 *** 健康
 
 *** 兴趣
-
-***
 
 ** 心境
 
