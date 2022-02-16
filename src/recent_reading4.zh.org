@@ -4,9 +4,31 @@
 
 ** 绝版李鸿章[fn:1]
 
+   * 我的结论
+
 ** How to Start a Startup[fn:2]
 
+   #+BEGIN_CENTER
+   如何开始创业
+   #+END_CENTER
+
+   * 我的结论
+
 ** Feeling Is the Secret[fn:3]
+
+   #+BEGIN_CENTER
+   感觉对了，就对了
+   #+END_CENTER
+
+   * 我的结论
+
+** The Game of Life and How to Play it[fn:4]
+
+   #+BEGIN_CENTER
+   如何玩转人生这场游戏
+   #+END_CENTER
+
+   * 我的结论
 
 * 写在后面
 
@@ -22,6 +44,8 @@
 
 
 * Footnotes
+
+[fn:4] https://book.douban.com/subject/2512721/
 
 [fn:3] http://www.feelingisthesecret.org/
 
