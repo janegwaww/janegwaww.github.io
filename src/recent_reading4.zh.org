@@ -32,6 +32,14 @@
 
    * 我的结论
 
+** Man's Search for Meaning[fn:5]
+
+   #+BEGIN_CENTER
+   活出意义来[fn:6]
+   #+END_CENTER
+
+   * 我的结论
+
 * 写在后面
 
   1. [[https://tiglapiles.github.io/article/src/recent_reading.html][分享最近阅读的书籍清单(一)]]
@@ -46,6 +54,10 @@
 
 
 * Footnotes
+
+[fn:6] https://book.douban.com/subject/1359005/
+
+[fn:5] https://archive.org/details/isbn_067182161x
 
 [fn:4] https://archive.org/details/gameoflifehowtop00shin/page/n5/mode/2up
 
