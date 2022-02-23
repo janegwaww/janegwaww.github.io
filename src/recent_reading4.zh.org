@@ -60,6 +60,14 @@
 
    * 我的结论
 
+** Eight mindful steps to happiness : walking the path of the Buddha
+
+   #+BEGIN_CENTER
+   八正道--佛陀的安乐之道
+   #+END_CENTER
+
+   * 我的结论
+
 * 写在后面
 
   1. [[https://tiglapiles.github.io/article/src/recent_reading.html][分享最近阅读的书籍清单(一)]]
