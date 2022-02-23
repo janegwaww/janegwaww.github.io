@@ -60,10 +60,10 @@
 
    * 我的结论
 
-** Eight mindful steps to happiness : walking the path of the Buddha
+** Eight mindful steps to happiness : walking the path of the Buddha[fn:8]
 
    #+BEGIN_CENTER
-   八正道--佛陀的安乐之道
+   八正道--佛陀的安乐之道[fn:7]
    #+END_CENTER
 
    * 我的结论
@@ -81,6 +81,10 @@
   9. 邮箱: tiglapiles@gmail.com
 
 * Footnotes
+
+[fn:8] https://archive.org/details/eightmindfulstep0000guna
+
+[fn:7] https://book.douban.com/subject/4126251/
 
 [fn:6] https://book.douban.com/subject/1359005/
 
