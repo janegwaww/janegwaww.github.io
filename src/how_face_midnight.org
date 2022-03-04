@@ -43,7 +43,7 @@
 
 *** 投资
 
-    相信我，即使你是经验丰富的工程师，总有你不了解的东西冒出来，你知道的越多，你不知道的也将越多，你只有不停的学习，虚心的尝试你感兴趣的东西，例如：[[https://kubernetes.io/][Kubernetes]]，[[https://kafka.apache.org/][Kafka]]，[[https://spark.apache.org/][Spark]]，[[https://www.docker.com/][Docker]]，[[https://www.ibm.com/cloud/learn/cloud-computing][Cloud]]，[[https://en.wikipedia.org/wiki/Big_data][Big Data]]，[[https://cloud.google.com/learn/what-is-a-data-lake][Data Lake]]...。做有些东西是不确定的，例如生意，股票，创业...。但是学习什么就获取什么知识，知识越多，机会也就越多。犹如我们处在一个游戏规则之下，对这个规则了解越深，才更有可能打破规则。35岁之后的时间都是弥足珍贵的，选择的正确与错误，或者选择了不同的方向，到后面就很难重新来过了，很难弥补了，或者说剩不了多少时间让你重新来一次，但是学习总是正确的选择，犹如骑自行车，一次学会终生受益，选择正确的学习路线与训练方式，然后分享你的过程，庆祝你获得的成就。
+    相信我，即使你是经验丰富的工程师，总有你不了解的东西冒出来，你知道的越多，你不知道的也将越多，你只有不停的学习，虚心的尝试你感兴趣的东西，例如：[[https://kubernetes.io/][Kubernetes]]，[[https://kafka.apache.org/][Kafka]]，[[https://spark.apache.org/][Spark]]，[[https://www.docker.com/][Docker]]，[[https://www.ibm.com/cloud/learn/cloud-computing][Cloud]]，[[https://en.wikipedia.org/wiki/Big_data][Big Data]]，[[https://cloud.google.com/learn/what-is-a-data-lake][Data Lake]]...。做有些东西是不确定的，例如生意，股票，创业...。但是学习什么就获取什么知识，知识越多，机会也就越多。犹如我们处在一个游戏规则之下，对这个规则了解越深，才更有可能打破规则。35岁之后的时间都是弥足珍贵的，而我们会面临很多选择，选择的正确与错误，或者选择了不同的方向，到后面就很难重新来过，很难弥补了，或者说剩不了多少时间让你重新来一次，但是学习总是正确的选择，犹如骑自行车，一次学会终生受益，选择正确的学习路线与训练方式，然后分享你的过程，庆祝你获得的成就。
 
 *** 旅行
 
