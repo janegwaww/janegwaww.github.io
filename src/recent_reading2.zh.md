@@ -1,22 +1,22 @@
 
 # Table of Contents
 
-1.  [分享最近阅读的书籍清单(二)](#org0a65460)
-    1.  [Calculus Made Easy](#org10000c5)
-    2.  [How to Design Programs](#org1918fbf)
-    3.  [Teach Yourself Computer Science](#orgd2a7a8e)
-    4.  [Cambridge English](#org857bca5)
-    5.  [史记的读法－司马迀的历史世界](#orga37aa3f)
-    6.  [Calculus[Gilbert Strang]](#orga6ab0ae)
-    7.  [The Science of Functional Programming: A Tutorial, with Examples in Scala](#org3f5dede)
-    8.  [Introduction to Linear Algebra](#orga1bf93f)
-    9.  [吕氏春秋](#org50f57d0)
-    10. [How to Speak](#orge8368f0)
-2.  [写在后面](#orge62639d)
+1.  [分享最近阅读的书籍清单(二)](#org7910a57)
+    1.  [Calculus Made Easy](#org60ebfe7)
+    2.  [How to Design Programs](#orgafdb2f0)
+    3.  [Teach Yourself Computer Science](#orgd66c206)
+    4.  [Cambridge English](#orgd3ef629)
+    5.  [史记的读法－司马迀的历史世界](#org3d840d4)
+    6.  [Calculus[Gilbert Strang]](#org3e55b7d)
+    7.  [The Science of Functional Programming: A Tutorial, with Examples in Scala](#org2c7f194)
+    8.  [Introduction to Linear Algebra](#org2eda343)
+    9.  [吕氏春秋](#orgb153067)
+    10. [How to Speak](#org4c05f15)
+2.  [写在后面](#orgd64a14b)
 
 
 
-<a id="org0a65460"></a>
+<a id="org7910a57"></a>
 
 # 分享最近阅读的书籍清单(二)
 
@@ -27,7 +27,7 @@
 这些都是在行业中,历史中或学科中的经典好书或者好内容，我想把这些优秀的东西分享出来，并赋上自己的一些主观想法，能让更多人知道并从中受益。这里只是做一个引荐，精彩需要你自己亲自拜读从中感受。
 
 
-<a id="org10000c5"></a>
+<a id="org60ebfe7"></a>
 
 ## Calculus Made Easy<sup><a id="fnr.1" class="footref" href="#fn.1">1</a></sup>
 
@@ -42,7 +42,7 @@
     因为数学的严谨性，可靠性，近现代科学似乎都是建立在其之上; 1＋1就是等于2不会等于3,也不会等于1; 1＋1>2那是社会学，1+1=1那是人类学;当你理解了这些之后，你就明白了上面那句引用的意思了。不管是数学公式的推导，还是数学的计算过程，都是逻辑推理出来的不是凭空生成的，都是有据可寻的。这也就奠定了数学作为科学王冠的地位。而这本《微积分简单入门》用最简单的词汇和最通俗易懂的方法解释微积分。如果你只是小商小贩，数学的基础运算加减乘除就能满足你了，如果你是工程人员，你可能要学习三角函数线代，如果你是经济相关的，你就需要概率论与数理统计，如果你是科研，你就要更深的微积分，混沌学。当然这本书只是入门，微积分各个方面他都介绍到了，虽然你可能用不到，很难应用到实践中，但是如果你有志于更大的理想，数学，微积公都将是你坚不可摧的地基。如果没有，他也可以帮助我们认识这个世界。如果你志力于学习微积分，下面介绍的Gilbert Strang的微积分是一本不错的全面学习微积分的好书。
 
 
-<a id="org1918fbf"></a>
+<a id="orgafdb2f0"></a>
 
 ## How to Design Programs<sup><a id="fnr.2" class="footref" href="#fn.2">2</a></sup>
 
@@ -57,7 +57,7 @@
     现在我们的每个角落都充斥着程序，各个行业都需要一些编程的技能。而这本书让你系统的了解程序设计，如果你是从业人员，他让你系统的认识程序设计，少走一些弯路。他认为系统的程序设计就指向两个方面：设计配方和迭代细化。然后在这个基础上细化出5个步聚，遇到问题都可以按照这5个步聚去走，有些问题可能会出现在一个步聚上或几个步聚上，他也给你了解决方法。或许你刚入这个行业，很多方面不懂，这本书给你一个全局的概念，然后各个细化的内容你都可以进行简单的衍生，至少不会像无头苍蝇到处碰壁。
 
 
-<a id="orgd2a7a8e"></a>
+<a id="orgd66c206"></a>
 
 ## Teach Yourself Computer Science<sup><a id="fnr.3" class="footref" href="#fn.3">3</a></sup>
 
@@ -72,7 +72,7 @@
     如果你想自学计算机科学，这个是不可多得的好资源。他或许给你的不是最好的方案，但对于没有老师的人他是一个好的路线。也不是绝对的，你可以根据自己的情况进行增减。现在网络信息如此丰富，以至于你都可以不用去上学了，有人说上学是为了学习社交，可是网络也让社交更简单了，更容易找到志同道合的伙伴了。如果现代教育系统无法教授更好的知识，那我们又何必浪费时间进入呢。
 
 
-<a id="org857bca5"></a>
+<a id="orgd3ef629"></a>
 
 ## Cambridge English<sup><a id="fnr.4" class="footref" href="#fn.4">4</a></sup>
 
@@ -87,7 +87,7 @@
     这是剑桥系列英语，包括语法，词汇，专业词汇，读音系列，每个系列有初级，中级，高级三个级别，他很有实践性，可以用碎片化的时间学习，他又非常接地气，每个知识点是经常要用到的，每个知识点清晰明了，给你最直接的英语学习。
 
 
-<a id="orga37aa3f"></a>
+<a id="org3d840d4"></a>
 
 ## 史记的读法－司马迀的历史世界<sup><a id="fnr.5" class="footref" href="#fn.5">5</a></sup>
 
@@ -100,7 +100,7 @@
     从字里行间你能读出什么？尤其是这本集百家之所长的史记。史记中的每篇文章，每个句子，每个字的使用都是有其用意的，而汉语也经过了几千年的变化，其中的词汇现在你很难知道在当时是什么意思。例如史记上关于楚汉之争有两篇本纪，分别是项羽本纪和高组本纪，高组就是刘邦，那为什么他不直接写刘邦本纪，其中应是有褒贬的，而项羽直呼其名应是有贬义的。此书建议要读懂史记你要谦虚面对他，不断追问为什么，为什么这里如此写，为什么如此编排，为什么如此难懂，为什么如此简练..。
 
 
-<a id="orga6ab0ae"></a>
+<a id="org3e55b7d"></a>
 
 ## Calculus[Gilbert Strang]<sup><a id="fnr.6" class="footref" href="#fn.6">6</a></sup>
 
@@ -115,7 +115,7 @@
     一本全面学习微积分的好书。
 
 
-<a id="org3f5dede"></a>
+<a id="org2c7f194"></a>
 
 ## The Science of Functional Programming: A Tutorial, with Examples in Scala<sup><a id="fnr.7" class="footref" href="#fn.7">7</a></sup>
 
@@ -130,7 +130,7 @@
     面向对象编程(OOP)似乎更适用于UI方面，函数编程(FP)适用于大型软件，因为你的代码都是一个个函数，而函数又是数学，所以几乎没有BUG的生存空间。要深入了解FP编程还是要一定的学习成本的，里面也有一些复杂的技术。这本书直接以大量的练习方式学习FP，他要求要有一定的数学代数知识和努力。
 
 
-<a id="orga1bf93f"></a>
+<a id="org2eda343"></a>
 
 ## Introduction to Linear Algebra<sup><a id="fnr.8" class="footref" href="#fn.8">8</a></sup>
 
@@ -145,7 +145,7 @@
     这是MIT基础线性代数公开课，还有配套的教材<sup><a id="fnr.9" class="footref" href="#fn.9">9</a></sup>; 线性代数是关于线性方程，空间向量的一个数学分支，例如 x + y = z等是一个线性方程;这门公开课可以说是目前为止线上最好的线性代数公开课之一，不管你是学生，老师，上班族还是无业人士，你都可以学习这门课程，让自己的学识上升一个层次。线性代数也是高级别工作，研究，科研的敲门砖，想做高级工作就要学好线代，要不然你只能在浅滩上拍水，无法深入大海中遨游。
 
 
-<a id="org50f57d0"></a>
+<a id="orgb153067"></a>
 
 ## 吕氏春秋<sup><a id="fnr.10" class="footref" href="#fn.10">10</a></sup>
 
@@ -158,7 +158,7 @@
     一字千金的典故出自这本书。中国自古贬低商人，士农工商，商人排最后，有商人重利轻别离; 而大商人往往都要依附于权力，吕不韦将经商与权力都做到的极致;经商投资了秦国，权力位至相国，更是编撰了吕氏春秋成一家之言。中国过去五千年富贾巨商千万，而吕不韦因为这本书被流传至今，就像孔子说的：后世知丘者以春秋，而罪丘者亦以春秋。
 
 
-<a id="orge8368f0"></a>
+<a id="org4c05f15"></a>
 
 ## How to Speak<sup><a id="fnr.11" class="footref" href="#fn.11">11</a></sup>
 
@@ -173,16 +173,16 @@
     这是MIT一节非常著名的公开课，如何在约会，演说，饭局，聚会中给人留下深刻印象？ 首先一开始你就要做一个保证，保证自己接下来的说话能带来有意义的内容，例如这次谈话我将让你认识到说话顺序的重要性，一次好的说话能让你与重不同，说话的顺序也很重要，你不能以开玩笑开场，因为刚开始是大家注意力最集中的时候，你不能错过这么好的时机，讲一些跟内容没有关系的东西，当然你可以以一个笑话结束，暗示大家快结束了可以放松了;重要的内容要在说话中重复三次左右，因为这样才能让人记住重要的内容。演说的最后也不要说什么谢谢之类的感谢话，以一个深意的话做结尾给人留下意犹未尽和遐想。例如美国总统就职演说中，不是以谢谢结束，他们不会说Thank You, 而是God bless you, God bless America.
 
 
-<a id="orge62639d"></a>
+<a id="orgd64a14b"></a>
 
 # 写在后面
 
 1.  [分享最近阅读的书籍清单（一）](https://tiglapiles.github.io/article/src/recent_reading.html)
 2.  [本文地址](https://tiglapiles.github.io/article/src/recent_reading2.zh.html)
 3.  更多文章欢迎访问我的[github仓库](https://github.com/tiglapiles/article)
-4.  捐助我的[游戏](https://itch.io/profile/tiglapiles)(定期上新)，支持我的创作
-5.  转载请注明出处
-6.  [社区更新地址](https://www.v2ex.com/t/805027)
+4.  捐助我的[游戏](https://itch.io/profile/tiglapiles)，支持我的创作
+5.  [社区更新地址](https://www.v2ex.com/t/805027)
+6.  邮箱: tiglapiles@gmail.com
 
 
 # Footnotes
