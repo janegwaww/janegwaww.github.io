@@ -90,6 +90,20 @@
 
    * 我的结论
 
+** Inner Engineering[fn:11]
+
+   #+BEGIN_CENTER
+   内在工程[fn:12]
+   #+END_CENTER
+
+   #+BEGIN_QUOTE
+   正如有一门科学和技术用于创造外在幸福，也有一门完整的科学和技术用于内在幸福。”
+
+   —萨古鲁
+   #+END_QUOTE
+
+   * 我的结论
+
 * 写在后面
 
   1. [[https://tiglapiles.github.io/article/src/recent_reading.html][分享最近阅读的书籍清单(一)]]
@@ -102,6 +116,10 @@
   8. 邮箱: tiglapiles@gmail.com
 
 * Footnotes
+
+[fn:12] https://www.innerengineering.com/zh-cn
+
+[fn:11] https://www.innerengineering.com/
 
 [fn:10] https://book.douban.com/subject/24834335/
 
