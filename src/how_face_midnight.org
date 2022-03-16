@@ -79,7 +79,7 @@
   4. [[https://tiglapiles.github.io/article/src/how_face_midnight.md][本文地址]]
   5. 更多文章欢迎访问我的[[https://github.com/tiglapiles/article][github仓库]]
   6. 捐助我的[[https://itch.io/profile/tiglapiles][游戏]]，支持我的创作
-  7. [[https://www.v2ex.com/t/805027][社区更新地址]]
+  7. [[https://v2ex.com/t/840855#reply0][社区更新地址]]
   8. 邮箱: tiglapiles@gmail.com
 
 * Footnotes
