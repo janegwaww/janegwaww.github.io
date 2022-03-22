@@ -1,6 +1,6 @@
 * There is more articles coming up...
 
-  Better Reading Experience([[https://tiglapiles.github.io/article/][EN]]/[[./src/README.zh.md][ZH]])
+  Better Reading Experience([[https://tiglapiles.github.io/article/][EN]]/[[https://tiglapiles.github.io/article/src/README.zh.html][ZH]])
 
 ** Share
 
