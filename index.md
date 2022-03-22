@@ -1,48 +1,48 @@
 
 # Table of Contents
 
-1.  [更多文章后续推出](#orgd4d59a0)
-    1.  [分享](#orge0b6f78)
-        1.  [分享最近阅读的书籍清单（一）](#org229f36f)
-        2.  [分享最近阅读的书籍清单（二）](#org81a2860)
-        3.  [分享最近阅读的书籍清单（三）](#orgd74968a)
-    2.  [构建](#org5028875)
-        1.  [如何面对35岁](#org5d7758f)
+1.  [There is more articles coming up&#x2026;](#org8f6c08b)
+    1.  [Share](#orge1b5c61)
+        1.  [Share a List of Recently Reading Books(Senson 1)](#orgfe67980)
+        2.  [Share a List of Recently Reading Books(Season 2)](#orgf3cb445)
+        3.  [Share a List of Recently Reading Books(Season 3)](#orgef9718b)
+    2.  [Build](#org63fe380)
+        1.  [How to deal with getting old](#org3f11056)
 
 
-<a id="orgd4d59a0"></a>
+<a id="org8f6c08b"></a>
 
-# 更多文章后续推出
+# There is more articles coming up&#x2026;
 
-[更好的阅读体验](https://tiglapiles.github.io/article/)
-
-
-<a id="orge0b6f78"></a>
-
-## 分享
+Better Reading Experience([EN](https://tiglapiles.github.io/article/)/[ZH](https://tiglapiles.github.io/article/src/README.zh.md))
 
 
-<a id="org229f36f"></a>
+<a id="orge1b5c61"></a>
 
-### [分享最近阅读的书籍清单（一）](./src/recent_reading.md)
-
-
-<a id="org81a2860"></a>
-
-### [分享最近阅读的书籍清单（二）](./src/recent_reading2.zh.md)
+## Share
 
 
-<a id="orgd74968a"></a>
+<a id="orgfe67980"></a>
 
-### [分享最近阅读的书籍清单（三）](./src/recent_reading3.zh.md)
-
-
-<a id="org5028875"></a>
-
-## 构建
+### [Share a List of Recently Reading Books(Senson 1)](./src/recent_reading.md)
 
 
-<a id="org5d7758f"></a>
+<a id="orgf3cb445"></a>
 
-### [如何面对35岁](./src/how_face_midnight.md)
+### [Share a List of Recently Reading Books(Season 2)](./src/recent_reading2.zh.md)
+
+
+<a id="orgef9718b"></a>
+
+### [Share a List of Recently Reading Books(Season 3)](./src/recent_reading3.zh.md)
+
+
+<a id="org63fe380"></a>
+
+## Build
+
+
+<a id="org3f11056"></a>
+
+### [How to deal with getting old](./src/how_face_midnight.md)
 
