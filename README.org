@@ -1,15 +1,15 @@
-* 更多文章后续推出
+* There is more articles coming up...
 
-  [[https://tiglapiles.github.io/article/][更好的阅读体验]]
+  Better Reading Experience([[https://tiglapiles.github.io/article/][EN]]/[[https://tiglapiles.github.io/article/src/README.zh.md][ZH]])
 
-** 分享
+** Share
 
-*** [[./src/recent_reading.md][分享最近阅读的书籍清单（一）]]
+*** [[./src/recent_reading.md][Share a List of Recently Reading Books(Senson 1)]]
 
-*** [[./src/recent_reading2.zh.md][分享最近阅读的书籍清单（二）]]
+*** [[./src/recent_reading2.zh.md][Share a List of Recently Reading Books(Season 2)]]
 
-*** [[./src/recent_reading3.zh.md][分享最近阅读的书籍清单（三）]]
+*** [[./src/recent_reading3.zh.md][Share a List of Recently Reading Books(Season 3)]]
 
-** 构建
+** Build
 
-*** [[./src/how_face_midnight.md][如何面对35岁]]
+*** [[./src/how_face_midnight.md][How to deal with getting old]]
