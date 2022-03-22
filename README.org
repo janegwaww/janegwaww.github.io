@@ -1,10 +1,10 @@
 * There is more articles coming up...
 
-  Better Reading Experience([[https://tiglapiles.github.io/article/][EN]]/[[https://tiglapiles.github.io/article/src/README.zh.html][ZH]])
+  Better Reading Experience([[https://tiglapiles.github.io/article/][EN]]/[[https://tiglapiles.github.io/article/src/README.zh.html][中文]])
 
 ** Share
 
-*** [[./src/recent_reading.md][Share a List of Recently Reading Books(Senson 1)]]
+*** [[./src/recent_reading.md][Share a List of Recently Reading Books(Season 1)]]
 
 *** [[./src/recent_reading2.zh.md][Share a List of Recently Reading Books(Season 2)]]
 

@@ -1,6 +1,6 @@
 * 更多文章后续推出
 
-  更好的阅读体验([[https://tiglapiles.github.io/article/][EN]]/[[https://tiglapiles.github.io/article/src/README.zh.html][ZH]])
+  更好的阅读体验([[https://tiglapiles.github.io/article/][EN]]/[[https://tiglapiles.github.io/article/src/README.zh.html][中文]])
 
 ** 分享
 
