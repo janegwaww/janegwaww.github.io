@@ -1,0 +1,3 @@
+#+ STARTUP: showall
+
+* Share a List of Recently Reading Books(Seanson 2)
