@@ -1,48 +1,48 @@
 
 # Table of Contents
 
-1.  [There is more articles coming up&#x2026;](#org2e33999)
-    1.  [Share It](#orgbc98804)
-        1.  [Share a List of Recently Reading Books(Season 1)](#orgc6c022b)
-        2.  [Share a List of Recently Reading Books(Season 2)](#orgf55c2e1)
-        3.  [Share a List of Recently Reading Books(Season 3)](#orga13b7de)
-    2.  [Build It](#orgba34e74)
-        1.  [How To Deal With Getting Old](#org777e726)
+1.  [There is more articles coming up&#x2026;](#org2df193f)
+    1.  [Share It](#org4909884)
+        1.  [Share a List of Recently Reading Books(Season 1)](#org322976c)
+        2.  [Share a List of Recently Reading Books(Season 2)](#orgab159dc)
+        3.  [Share a List of Recently Reading Books(Season 3)](#org36e8fe2)
+    2.  [Build It](#orgd51586e)
+        1.  [How To Deal With Getting Old](#orgf2316c6)
 
 
-<a id="org2e33999"></a>
+<a id="org2df193f"></a>
 
 # There is more articles coming up&#x2026;
 
 Better Reading Experience([EN](https://tiglapiles.github.io/article/)/[中文](https://tiglapiles.github.io/article/src/README.zh.html))
 
 
-<a id="orgbc98804"></a>
+<a id="org4909884"></a>
 
 ## Share It
 
 
-<a id="orgc6c022b"></a>
+<a id="org322976c"></a>
 
 ### [Share a List of Recently Reading Books(Season 1)](./src/share_it/recent_reading.en.md)
 
 
-<a id="orgf55c2e1"></a>
+<a id="orgab159dc"></a>
 
 ### [Share a List of Recently Reading Books(Season 2)](./src/share_it/recent_reading2.en.md)
 
 
-<a id="orga13b7de"></a>
+<a id="org36e8fe2"></a>
 
 ### [Share a List of Recently Reading Books(Season 3)](./src/share_it/recent_reading3.en.md)
 
 
-<a id="orgba34e74"></a>
+<a id="orgd51586e"></a>
 
 ## Build It
 
 
-<a id="org777e726"></a>
+<a id="orgf2316c6"></a>
 
-### [How To Deal With Getting Old](./src/how_face_midnight.md)
+### [How To Deal With Getting Old](./src/build_it/how_face_midnight.md)
 
