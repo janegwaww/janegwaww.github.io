@@ -12,4 +12,4 @@
 
 ** Build It
 
-*** [[./src/how_face_midnight.md][How To Deal With Getting Old]]
+*** [[./src/build_it/how_face_midnight.md][How To Deal With Getting Old]]
