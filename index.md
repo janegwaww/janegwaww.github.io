@@ -1,48 +1,48 @@
 
 # Table of Contents
 
-1.  [There is more articles coming up&#x2026;](#org4514381)
-    1.  [Share](#orgb6eb994)
-        1.  [Share a List of Recently Reading Books(Season 1)](#orgc256edf)
-        2.  [Share a List of Recently Reading Books(Season 2)](#org9551975)
-        3.  [Share a List of Recently Reading Books(Season 3)](#orgaa4ac5a)
-    2.  [Build](#org607f586)
-        1.  [How To Deal With Getting Old](#org5cb4da1)
+1.  [There is more articles coming up&#x2026;](#org2e33999)
+    1.  [Share It](#orgbc98804)
+        1.  [Share a List of Recently Reading Books(Season 1)](#orgc6c022b)
+        2.  [Share a List of Recently Reading Books(Season 2)](#orgf55c2e1)
+        3.  [Share a List of Recently Reading Books(Season 3)](#orga13b7de)
+    2.  [Build It](#orgba34e74)
+        1.  [How To Deal With Getting Old](#org777e726)
 
 
-<a id="org4514381"></a>
+<a id="org2e33999"></a>
 
 # There is more articles coming up&#x2026;
 
 Better Reading Experience([EN](https://tiglapiles.github.io/article/)/[中文](https://tiglapiles.github.io/article/src/README.zh.html))
 
 
-<a id="orgb6eb994"></a>
+<a id="orgbc98804"></a>
 
-## Share
-
-
-<a id="orgc256edf"></a>
-
-### [Share a List of Recently Reading Books(Season 1)](./src/recent_reading.md)
+## Share It
 
 
-<a id="org9551975"></a>
+<a id="orgc6c022b"></a>
 
-### [Share a List of Recently Reading Books(Season 2)](./src/recent_reading2.zh.md)
-
-
-<a id="orgaa4ac5a"></a>
-
-### [Share a List of Recently Reading Books(Season 3)](./src/recent_reading3.zh.md)
+### [Share a List of Recently Reading Books(Season 1)](./src/share_it/recent_reading.en.md)
 
 
-<a id="org607f586"></a>
+<a id="orgf55c2e1"></a>
 
-## Build
+### [Share a List of Recently Reading Books(Season 2)](./src/share_it/recent_reading2.en.md)
 
 
-<a id="org5cb4da1"></a>
+<a id="orga13b7de"></a>
+
+### [Share a List of Recently Reading Books(Season 3)](./src/share_it/recent_reading3.en.md)
+
+
+<a id="orgba34e74"></a>
+
+## Build It
+
+
+<a id="org777e726"></a>
 
 ### [How To Deal With Getting Old](./src/how_face_midnight.md)
 
