@@ -1,77 +1,77 @@
 
 # Table of Contents
 
-1.  [Share a List of Recently Reading Books(Seanson 3)](#org6b36443)
-    1.  [Category Theory for Programmers](#org9e11e81)
-    2.  [The Practice of Programming](#orgfa01ffa)
-    3.  [Introduction to Game Programming (C++)](#org3071f8e)
-    4.  [Javascript For Impatient Programmers](#orge35b6da)
-    5.  [Deep JavaScript](#orged49c81)
-    6.  [The Art of PostgreSQL](#orgba2da3b)
-    7.  [The Passionate Programmer: Creating a Remarkable Career in Software Development](#org4ee1b87)
-    8.  [Remote: Office Not Required](#org5c731b2)
-    9.  [The Clean Coder：A Code of Conduct for Professional Programmers](#orgebaf232)
-    10. [Learn C++](#org9f56a2e)
-2.  [Related Contents](#org42c3158)
+1.  [Share a List of Recently Reading Books(Season 3)](#org029089e)
+    1.  [Category Theory for Programmers](#org9937328)
+    2.  [The Practice of Programming](#org4357a99)
+    3.  [Introduction to Game Programming (C++)](#orgc1846c1)
+    4.  [Javascript For Impatient Programmers](#orga469c80)
+    5.  [Deep JavaScript](#orgd73c4ce)
+    6.  [The Art of PostgreSQL](#org02c9837)
+    7.  [The Passionate Programmer: Creating a Remarkable Career in Software Development](#orgf958198)
+    8.  [Remote: Office Not Required](#org72e769d)
+    9.  [The Clean Coder：A Code of Conduct for Professional Programmers](#orgb38e3a0)
+    10. [Learn C++](#org6e3e5e7)
+2.  [Related Contents](#org81da539)
 
 
 
-<a id="org6b36443"></a>
+<a id="org029089e"></a>
 
-# Share a List of Recently Reading Books(Seanson 3)
+# Share a List of Recently Reading Books(Season 3)
 
 
-<a id="org9e11e81"></a>
+<a id="org9937328"></a>
 
 ## Category Theory for Programmers<sup><a id="fnr.1" class="footref" href="#fn.1">1</a></sup>
 
 
-<a id="orgfa01ffa"></a>
+<a id="org4357a99"></a>
 
 ## The Practice of Programming<sup><a id="fnr.2" class="footref" href="#fn.2">2</a></sup>
 
 
-<a id="org3071f8e"></a>
+<a id="orgc1846c1"></a>
 
 ## Introduction to Game Programming (C++)<sup><a id="fnr.3" class="footref" href="#fn.3">3</a></sup>
 
 
-<a id="orge35b6da"></a>
+<a id="orga469c80"></a>
 
 ## Javascript For Impatient Programmers<sup><a id="fnr.4" class="footref" href="#fn.4">4</a></sup>
 
 
-<a id="orged49c81"></a>
+<a id="orgd73c4ce"></a>
 
 ## Deep JavaScript<sup><a id="fnr.5" class="footref" href="#fn.5">5</a></sup>
 
 
-<a id="orgba2da3b"></a>
+<a id="org02c9837"></a>
 
 ## The Art of PostgreSQL<sup><a id="fnr.6" class="footref" href="#fn.6">6</a></sup>
 
 
-<a id="org4ee1b87"></a>
+<a id="orgf958198"></a>
 
 ## The Passionate Programmer: Creating a Remarkable Career in Software Development<sup><a id="fnr.7" class="footref" href="#fn.7">7</a></sup>
 
 
-<a id="org5c731b2"></a>
+<a id="org72e769d"></a>
 
 ## Remote: Office Not Required<sup><a id="fnr.8" class="footref" href="#fn.8">8</a></sup>
 
 
-<a id="orgebaf232"></a>
+<a id="orgb38e3a0"></a>
 
 ## The Clean Coder：A Code of Conduct for Professional Programmers<sup><a id="fnr.9" class="footref" href="#fn.9">9</a></sup>
 
 
-<a id="org9f56a2e"></a>
+<a id="org6e3e5e7"></a>
 
 ## Learn C++<sup><a id="fnr.10" class="footref" href="#fn.10">10</a></sup>
 
 
-<a id="org42c3158"></a>
+<a id="org81da539"></a>
 
 # Related Contents
 

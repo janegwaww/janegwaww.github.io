@@ -1,122 +1,122 @@
 
 # Table of Contents
 
-1.  [Share a List of Recently Reading Books(Seanson 3)](#org15fdd97)
-    1.  [Code Complete](#orgc4b1946)
-    2.  [Structure and Interpretation of Computer Programs](#orgaec7287)
-    3.  [The Pragmatic Programmer: Your Journey to Mastery](#orga431d91)
-    4.  [Design Patterns: Elements of Reusable Object-Oriented Software](#org0152e54)
-    5.  [Refactoring: Improving the Design of Existing Code,Second Edition](#org1f8a797)
-    6.  [TypeScript Documentation](#orgb0f79c1)
-    7.  [Fullstack Vue - The Complete Guide to Vue.js](#orgdfa4857)
-    8.  [An Introduction to Programming in Emacs Lisp](#orgb11a3eb)
-    9.  [Composing Software](#org181cd33)
-    10. [Eloquent JavaScript](#orga8716d4)
-    11. [Simplifying JavaScript](#orgffd3d4e)
-    12. [A Philosophy of Software Design](#orgcf664c8)
-    13. [Learning GNU Emacs](#orgdf953fb)
-    14. [Rediscovering JavaScript](#org039a8b2)
-    15. [Harley Hahn's Emacs Field Guide](#orge3d72ef)
-    16. [fullstack react](#orgbaad5f5)
-    17. [Land of Lisp](#orge2ae770)
-    18. [曾国潘家书](#org01c0dc9)
-    19. [Designing Data-Intensive Applications](#orgb956c0a)
-    20. [史记](#org1acfbe6)
-2.  [Related Contents](#org4e4dc92)
+1.  [Share a List of Recently Reading Books(Season 3)](#org3459111)
+    1.  [Code Complete](#orgaa71f1b)
+    2.  [Structure and Interpretation of Computer Programs](#org6e65d86)
+    3.  [The Pragmatic Programmer: Your Journey to Mastery](#orgf025f64)
+    4.  [Design Patterns: Elements of Reusable Object-Oriented Software](#orgd85999b)
+    5.  [Refactoring: Improving the Design of Existing Code,Second Edition](#orgba1c11a)
+    6.  [TypeScript Documentation](#orgb0f21fb)
+    7.  [Fullstack Vue - The Complete Guide to Vue.js](#org3009b1c)
+    8.  [An Introduction to Programming in Emacs Lisp](#org97298f6)
+    9.  [Composing Software](#org042e101)
+    10. [Eloquent JavaScript](#org061f12e)
+    11. [Simplifying JavaScript](#org2b8a7f0)
+    12. [A Philosophy of Software Design](#orgf902738)
+    13. [Learning GNU Emacs](#orgc7c9258)
+    14. [Rediscovering JavaScript](#org37d368b)
+    15. [Harley Hahn's Emacs Field Guide](#orge1b53e0)
+    16. [fullstack react](#org3322da4)
+    17. [Land of Lisp](#org6b80140)
+    18. [曾国潘家书](#org377cc22)
+    19. [Designing Data-Intensive Applications](#org952a8ba)
+    20. [史记](#org5584327)
+2.  [Related Contents](#orgedef412)
 
 
 
-<a id="org15fdd97"></a>
+<a id="org3459111"></a>
 
-# Share a List of Recently Reading Books(Seanson 3)
+# Share a List of Recently Reading Books(Season 3)
 
 
-<a id="orgc4b1946"></a>
+<a id="orgaa71f1b"></a>
 
 ## Code Complete<sup><a id="fnr.1" class="footref" href="#fn.1">1</a></sup>
 
 
-<a id="orgaec7287"></a>
+<a id="org6e65d86"></a>
 
 ## Structure and Interpretation of Computer Programs<sup><a id="fnr.2" class="footref" href="#fn.2">2</a></sup>
 
 
-<a id="orga431d91"></a>
+<a id="orgf025f64"></a>
 
 ## The Pragmatic Programmer: Your Journey to Mastery<sup><a id="fnr.3" class="footref" href="#fn.3">3</a></sup>
 
 
-<a id="org0152e54"></a>
+<a id="orgd85999b"></a>
 
 ## Design Patterns: Elements of Reusable Object-Oriented Software<sup><a id="fnr.4" class="footref" href="#fn.4">4</a></sup>
 
 
-<a id="org1f8a797"></a>
+<a id="orgba1c11a"></a>
 
 ## Refactoring: Improving the Design of Existing Code,Second Edition<sup><a id="fnr.5" class="footref" href="#fn.5">5</a></sup>
 
 
-<a id="orgb0f79c1"></a>
+<a id="orgb0f21fb"></a>
 
 ## TypeScript Documentation<sup><a id="fnr.6" class="footref" href="#fn.6">6</a></sup>
 
 
-<a id="orgdfa4857"></a>
+<a id="org3009b1c"></a>
 
 ## Fullstack Vue - The Complete Guide to Vue.js<sup><a id="fnr.7" class="footref" href="#fn.7">7</a></sup>
 
 
-<a id="orgb11a3eb"></a>
+<a id="org97298f6"></a>
 
 ## An Introduction to Programming in Emacs Lisp<sup><a id="fnr.8" class="footref" href="#fn.8">8</a></sup>
 
 
-<a id="org181cd33"></a>
+<a id="org042e101"></a>
 
 ## Composing Software<sup><a id="fnr.9" class="footref" href="#fn.9">9</a></sup>
 
 
-<a id="orga8716d4"></a>
+<a id="org061f12e"></a>
 
 ## Eloquent JavaScript<sup><a id="fnr.10" class="footref" href="#fn.10">10</a></sup>
 
 
-<a id="orgffd3d4e"></a>
+<a id="org2b8a7f0"></a>
 
 ## Simplifying JavaScript<sup><a id="fnr.11" class="footref" href="#fn.11">11</a></sup>
 
 
-<a id="orgcf664c8"></a>
+<a id="orgf902738"></a>
 
 ## A Philosophy of Software Design<sup><a id="fnr.12" class="footref" href="#fn.12">12</a></sup>
 
 
-<a id="orgdf953fb"></a>
+<a id="orgc7c9258"></a>
 
 ## Learning GNU Emacs<sup><a id="fnr.13" class="footref" href="#fn.13">13</a></sup>
 
 
-<a id="org039a8b2"></a>
+<a id="org37d368b"></a>
 
 ## Rediscovering JavaScript<sup><a id="fnr.14" class="footref" href="#fn.14">14</a></sup>
 
 
-<a id="orge3d72ef"></a>
+<a id="orge1b53e0"></a>
 
 ## Harley Hahn's Emacs Field Guide<sup><a id="fnr.15" class="footref" href="#fn.15">15</a></sup>
 
 
-<a id="orgbaad5f5"></a>
+<a id="org3322da4"></a>
 
 ## fullstack react<sup><a id="fnr.16" class="footref" href="#fn.16">16</a></sup>
 
 
-<a id="orge2ae770"></a>
+<a id="org6b80140"></a>
 
 ## Land of Lisp<sup><a id="fnr.17" class="footref" href="#fn.17">17</a></sup>
 
 
-<a id="org01c0dc9"></a>
+<a id="org377cc22"></a>
 
 ## 曾国潘家书<sup><a id="fnr.18" class="footref" href="#fn.18">18</a></sup>
 
@@ -127,12 +127,12 @@ Home Letters from Zeng Guofan
 </div>
 
 
-<a id="orgb956c0a"></a>
+<a id="org952a8ba"></a>
 
 ## Designing Data-Intensive Applications<sup><a id="fnr.19" class="footref" href="#fn.19">19</a></sup>
 
 
-<a id="org1acfbe6"></a>
+<a id="org5584327"></a>
 
 ## 史记<sup><a id="fnr.20" class="footref" href="#fn.20">20</a></sup>
 
@@ -143,7 +143,7 @@ Records of the Grand Historian
 </div>
 
 
-<a id="org4e4dc92"></a>
+<a id="orgedef412"></a>
 
 # Related Contents
 

@@ -1,6 +1,6 @@
 #+STARTUP: showall
 
-* Share a List of Recently Reading Books(Seanson 3)
+* Share a List of Recently Reading Books(Season 3)
 
 ** Category Theory for Programmers[fn:1]
 

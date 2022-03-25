@@ -1,6 +1,6 @@
 #+STARTUP: showall
 
-* Share a List of Recently Reading Books(Seanson 2)
+* Share a List of Recently Reading Books(Season 2)
 
 ** Calculus Made Easy[fn:1]
 
