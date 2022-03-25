@@ -6,6 +6,12 @@
 
 ** How to Design Programs[fn:2]
 
+   #+BEGIN_QUOTE
+   everyone can design programs; everyone can experience the satisfaction that comes with creative design.
+
+   --quote
+   #+END_QUOTE
+
 ** Teach Yourself Computer Science[fn:3]
 
 ** Cambridge English[fn:11]
@@ -21,6 +27,15 @@
 ** Liu's Commentaries of History[fn:8]
 
 ** How to Speak[fn:9]
+
+* Related Contents
+
+  1. [[https://tiglapiles.github.io/article/src/recent_reading.html][Share a List of Recently Reading Books(Seanson 1)]]
+  2. [[https://tiglapiles.github.io/article/src/recent_reading2.zh.html][The Article Address]]
+  3. View My [[https://github.com/tiglapiles/article][github]] For More
+  4. Sponsor My [[https://itch.io/profile/tiglapiles][Games]]
+  5. [[https://www.v2ex.com/t/805027][Community Address]]
+  6. Email: tiglapiles@gmail.com
 
 * Footnotes
 
