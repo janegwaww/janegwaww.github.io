@@ -1,0 +1,101 @@
+#+STARTUP: showall
+
+* Share a List of Recently Reading Books(Season 1)
+
+** Code Complete[fn:1]
+
+** Structure and Interpretation of Computer Programs[fn:2]
+
+** The Pragmatic Programmer: Your Journey to Mastery[fn:3]
+
+** Design Patterns: Elements of Reusable Object-Oriented Software[fn:4]
+
+** Refactoring: Improving the Design of Existing Code,Second Edition[fn:5]
+
+** TypeScript Documentation[fn:6]
+
+** Fullstack Vue - The Complete Guide to Vue.js[fn:7]
+
+** An Introduction to Programming in Emacs Lisp[fn:8]
+
+** Composing Software[fn:9]
+
+** Eloquent JavaScript[fn:10]
+
+** Simplifying JavaScript[fn:11]
+
+** A Philosophy of Software Design[fn:12]
+
+** Learning GNU Emacs[fn:13]
+
+** Rediscovering JavaScript[fn:14]
+
+** Harley Hahn's Emacs Field Guide[fn:15]
+
+** fullstack react[fn:16]
+
+** Land of Lisp[fn:17]
+
+** 曾国潘家书[fn:18]
+
+   #+BEGIN_CENTER
+   Home Letters from Zeng Guofan
+   #+END_CENTER
+
+** Designing Data-Intensive Applications[fn:19]
+
+** 史记[fn:20]
+
+   #+BEGIN_CENTER
+   Records of the Grand Historian
+   #+END_CENTER
+
+* Related Contents
+
+  1. [[https://tiglapiles.github.io/article/src/recent_reading.html][The Article Address]]
+  2. View My [[https://github.com/tiglapiles/article][github]] For More
+  3. Sponsor My [[https://itch.io/profile/tiglapiles][Games]]
+  4. [[https://www.v2ex.com/t/805027][Community Address]]
+  5. Email: tiglapiles@gmail.com
+
+* Footnotes
+
+[fn:20] https://book.douban.com/subject/1077847/
+
+[fn:19] https://book.douban.com/subject/30329536/
+
+[fn:18] https://book.douban.com/subject/1491153/
+
+[fn:17] https://book.douban.com/subject/3704991/
+
+[fn:16] https://book.douban.com/subject/30346678/
+
+[fn:15] https://book.douban.com/subject/26913125/
+
+[fn:14] https://book.douban.com/subject/30322511/
+
+[fn:13] https://book.douban.com/subject/1236987/
+
+[fn:12] https://book.douban.com/subject/30218046/
+
+[fn:11] https://book.douban.com/subject/30251546/
+
+[fn:10] https://book.douban.com/subject/5402021/
+
+[fn:9] https://book.douban.com/subject/35002566/
+
+[fn:8] https://book.douban.com/subject/1432501/
+
+[fn:7] https://book.douban.com/subject/30327032/
+
+[fn:6] https://www.typescriptlang.org/docs/home.html
+
+[fn:5] https://book.douban.com/subject/30468597/
+
+[fn:4] https://book.douban.com/subject/1052241/
+
+[fn:3] https://book.douban.com/subject/1152111/
+
+[fn:2] https://book.douban.com/subject/34464721/
+
+[fn:1] https://book.douban.com/subject/1477390/

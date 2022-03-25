@@ -2,14 +2,14 @@
 
   Better Reading Experience([[https://tiglapiles.github.io/article/][EN]]/[[https://tiglapiles.github.io/article/src/README.zh.html][中文]])
 
-** Share
+** Share It
 
-*** [[./src/recent_reading.md][Share a List of Recently Reading Books(Season 1)]]
+*** [[./src/share_it/recent_reading.en.md][Share a List of Recently Reading Books(Season 1)]]
 
-*** [[./src/recent_reading2.zh.md][Share a List of Recently Reading Books(Season 2)]]
+*** [[./src/share_it/recent_reading2.en.md][Share a List of Recently Reading Books(Season 2)]]
 
-*** [[./src/recent_reading3.zh.md][Share a List of Recently Reading Books(Season 3)]]
+*** [[./src/share_it/recent_reading3.en.md][Share a List of Recently Reading Books(Season 3)]]
 
-** Build
+** Build It
 
 *** [[./src/how_face_midnight.md][How To Deal With Getting Old]]
