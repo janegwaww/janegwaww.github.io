@@ -12,4 +12,4 @@
 
 ** 构建
 
-*** [[./how_face_midnight.md][如何面对35岁]]
+*** [[./build_it/how_face_midnight.md][如何面对35岁]]
