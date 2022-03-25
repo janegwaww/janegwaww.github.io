@@ -16,7 +16,11 @@
 
 ** Cambridge English[fn:11]
 
-** How to Read Records of the Grand Historian - The History World of Sima Qian[fn:4]
+** 史记的读法－司马迀的历史世界[fn:4]
+
+   #+BEGIN_CENTER
+   How to Read Records of the Grand Historian - The History World of Sima Qian
+   #+END_CENTER
 
 ** Calculus[Gilbert Strang][fn:5]
 
