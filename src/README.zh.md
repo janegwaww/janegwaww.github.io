@@ -1,48 +1,48 @@
 
 # Table of Contents
 
-1.  [更多文章后续推出](#org9e7702b)
-    1.  [分享](#org0fc353f)
-        1.  [分享最近阅读的书籍清单（一）](#org5bb6e45)
-        2.  [分享最近阅读的书籍清单（二）](#org06e5be8)
-        3.  [分享最近阅读的书籍清单（三）](#org88e19f6)
-    2.  [构建](#org942ac2e)
-        1.  [如何面对35岁](#org34d1126)
+1.  [更多文章后续推出](#orgbd134be)
+    1.  [分享](#org8bf73f3)
+        1.  [分享最近阅读的书籍清单（一）](#org084bcf9)
+        2.  [分享最近阅读的书籍清单（二）](#org365b76b)
+        3.  [分享最近阅读的书籍清单（三）](#orgc42eed8)
+    2.  [构建](#orgb48f5cf)
+        1.  [如何面对35岁](#org3ace6f5)
 
 
-<a id="org9e7702b"></a>
+<a id="orgbd134be"></a>
 
 # 更多文章后续推出
 
 更好的阅读体验([EN](https://tiglapiles.github.io/article/)/[中文](https://tiglapiles.github.io/article/src/README.zh.html))
 
 
-<a id="org0fc353f"></a>
+<a id="org8bf73f3"></a>
 
 ## 分享
 
 
-<a id="org5bb6e45"></a>
+<a id="org084bcf9"></a>
 
-### [分享最近阅读的书籍清单（一）](./src/share_it/recent_reading.md)
-
-
-<a id="org06e5be8"></a>
-
-### [分享最近阅读的书籍清单（二）](./src/share_it/recent_reading2.zh.md)
+### [分享最近阅读的书籍清单（一）](./share_it/recent_reading.md)
 
 
-<a id="org88e19f6"></a>
+<a id="org365b76b"></a>
 
-### [分享最近阅读的书籍清单（三）](./src/share_it/recent_reading3.zh.md)
+### [分享最近阅读的书籍清单（二）](./share_it/recent_reading2.zh.md)
 
 
-<a id="org942ac2e"></a>
+<a id="orgc42eed8"></a>
+
+### [分享最近阅读的书籍清单（三）](./share_it/recent_reading3.zh.md)
+
+
+<a id="orgb48f5cf"></a>
 
 ## 构建
 
 
-<a id="org34d1126"></a>
+<a id="org3ace6f5"></a>
 
-### [如何面对35岁](./src/how_face_midnight.md)
+### [如何面对35岁](./how_face_midnight.md)
 

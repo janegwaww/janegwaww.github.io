@@ -4,12 +4,12 @@
 
 ** 分享
 
-*** [[./src/share_it/recent_reading.md][分享最近阅读的书籍清单（一）]]
+*** [[./share_it/recent_reading.md][分享最近阅读的书籍清单（一）]]
 
-*** [[./src/share_it/recent_reading2.zh.md][分享最近阅读的书籍清单（二）]]
+*** [[./share_it/recent_reading2.zh.md][分享最近阅读的书籍清单（二）]]
 
-*** [[./src/share_it/recent_reading3.zh.md][分享最近阅读的书籍清单（三）]]
+*** [[./share_it/recent_reading3.zh.md][分享最近阅读的书籍清单（三）]]
 
 ** 构建
 
-*** [[./src/how_face_midnight.md][如何面对35岁]]
+*** [[./how_face_midnight.md][如何面对35岁]]
