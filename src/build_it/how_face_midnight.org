@@ -1,11 +1,11 @@
-#+STARTUP: showall
+#+startup: showall
 
 
 * 如何面对35岁
 
-  #+BEGIN_QUOTE
+  #+begin_quote
   愿与有此困扰之人共勉。
-  #+END_QUOTE
+  #+end_quote
 
 ** 现状
 
@@ -43,7 +43,7 @@
 
 *** 投资
 
-    相信我，即使你是经验丰富的工程师，总有你不了解的东西冒出来，你知道的越多，你不知道的也将越多，你只有不停的学习，虚心的尝试你感兴趣的东西，例如：[[https://kubernetes.io/][Kubernetes]]，[[https://kafka.apache.org/][Kafka]]，[[https://spark.apache.org/][Spark]]，[[https://www.docker.com/][Docker]]，[[https://www.ibm.com/cloud/learn/cloud-computing][Cloud]]，[[https://en.wikipedia.org/wiki/Big_data][Big Data]]，[[https://cloud.google.com/learn/what-is-a-data-lake][Data Lake]]...。做有些东西是不确定的，例如生意，股票，创业...。但是学习什么就获取什么知识，知识越多，机会也就越多。犹如我们处在一个游戏规则之下，对这个规则了解越深，才更有可能打破规则。35岁之后的时间都是弥足珍贵的，而我们会面临很多选择，选择的正确与错误，或者选择了不同的方向，到后面就很难重新来过，很难弥补了，或者说剩不了多少时间让你重新来一次，但是学习总是正确的选择，犹如骑自行车，一次学会终生受益，选择正确的学习路线与训练方式，然后分享你的过程，庆祝你获得的成就。
+    相信我，即使你是经验丰富的工程师，总有你不了解的东西冒出来，你知道的越多，你不知道的也将越多，你只有不停的学习，虚心的尝试你感兴趣的东西，例如：[[https://kubernetes.io/][kubernetes]]，[[https://kafka.apache.org/][kafka]]，[[https://spark.apache.org/][spark]]，[[https://www.docker.com/][docker]]，[[https://www.ibm.com/cloud/learn/cloud-computing][cloud]]，[[https://en.wikipedia.org/wiki/big_data][big data]]，[[https://cloud.google.com/learn/what-is-a-data-lake][data lake]]...。做有些东西是不确定的，例如生意，股票，创业...。但是学习什么就获取什么知识，知识越多，机会也就越多。犹如我们处在一个游戏规则之下，对这个规则了解越深，才更有可能打破规则。35岁之后的时间都是弥足珍贵的，而我们会面临很多选择，选择的正确与错误，或者选择了不同的方向，到后面就很难重新来过，很难弥补了，或者说剩不了多少时间让你重新来一次，但是学习总是正确的选择，犹如骑自行车，一次学会终生受益，选择正确的学习路线与训练方式，然后分享你的过程，庆祝你获得的成就。
 
 *** 旅行
 
@@ -69,14 +69,14 @@
 
    不管你选择什么样的生活，生活都是自己的，享受你自己的生活。保持积极的态度，继续锻炼，不要让你的穿着方式等落俗，在工作中做一个“兄弟”而不是“油条”，出去做有趣的事情，并在周末继续狂欢，不要把谈话引向工作和你的孩子，对事情感到兴奋，不要抱怨，保持个人项目和爱好，不断学习新技能并挑战自己，以同龄人的身份与工作中的新人/年轻人交谈，而不是以居高临下/无所不知的方式。如果你对自己的生活不满意，相信你自己可以解决它比什么都重要。[fn:5]
 
-   最后：RIP
+   最后：rip
 
 * 写在后面
 
   1. [[https://tiglapiles.github.io/article/src/share_it/recent_reading.html][分享最近阅读的书籍清单(一)]]
   2. [[https://tiglapiles.github.io/article/src/share_it/recent_reading2.zh.html][分享最近阅读的书籍清单(二)]]
   3. [[https://tiglapiles.github.io/article/src/share_it/recent_reading3.zh.html][分享最近阅读的书籍清单(三)]]
-  4. [[https://tiglapiles.github.io/article/src/build_it/how_face_midnight.md][本文地址]]
+  4. [[https://tiglapiles.github.io/article/src/build_it/how_face_midnight.html][本文地址]]
   5. 更多文章欢迎访问我的[[https://github.com/tiglapiles/article][github仓库]]
   6. 捐助我的[[https://itch.io/profile/tiglapiles][游戏]]，支持我的创作
   7. [[https://v2ex.com/t/840855#reply0][社区更新地址]]
