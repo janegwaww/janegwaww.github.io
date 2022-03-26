@@ -24,9 +24,9 @@
 
 * Related Contents
 
-  1. [[https://tiglapiles.github.io/article/src/recent_reading.html][Share a List of Recently Reading Books(Season 1)]]
-  2. [[https://tiglapiles.github.io/article/src/recent_reading2.zh.html][Share a List of Recently Reading Books(Season 2)]]
-  3. [[https://tiglapiles.github.io/article/src/recent_reading3.zh.html][The Article Address]]
+  1. [[https://tiglapiles.github.io/article/src/share_it/recent_reading.html][Share a List of Recently Reading Books(Season 1)]]
+  2. [[https://tiglapiles.github.io/article/src/share_it/recent_reading2.zh.html][Share a List of Recently Reading Books(Season 2)]]
+  3. [[https://tiglapiles.github.io/article/src/share_it/recent_reading3.zh.html][The Article Address]]
   4. View My [[https://github.com/tiglapiles/article][github]] For More
   5. Sponsor My [[https://itch.io/profile/tiglapiles][Games]]
   6. [[https://www.v2ex.com/t/805027][Community Address]]

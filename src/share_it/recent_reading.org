@@ -330,7 +330,7 @@
 
 * 写在后面
 
-  1. [[https://tiglapiles.github.io/article/src/recent_reading.html][本文地址]]
+  1. [[https://tiglapiles.github.io/article/src/share_it/recent_reading.html][本文地址]]
   2. [[https://v2ex.com/t/731734#reply20][社区更新地址]]
   3. 更多文章欢迎访问我的[[https://github.com/tiglapiles/article][github仓库]]
   4. 捐助我的[[https://itch.io/profile/tiglapiles][游戏]]，支持我的创作
