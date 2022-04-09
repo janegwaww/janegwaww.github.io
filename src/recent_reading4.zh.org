@@ -56,6 +56,12 @@
    如何玩转人生这场游戏
    #+END_CENTER
 
+   #+BEGIN_QUOTE
+   无知更容易产生信心
+
+   --查尔斯·达尔文
+   #+END_QUOTE
+
    * 我的结论
 
 ** Man's Search for Meaning[fn:5]
