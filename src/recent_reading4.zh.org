@@ -110,6 +110,20 @@
 
    * 我的结论
 
+** Software Engineering at Google[fn:13]
+
+   #+BEGIN_CENTER
+   谷歌软件工程
+   #+END_CENTER
+
+   #+BEGIN_QUOTE
+   没有什么是建立在石头上的； 一切都建立在沙子上，但我们必须把沙子当作石头来建造。
+
+   ——豪尔赫·路易斯·博尔赫斯
+   #+END_QUOTE
+
+   * 我的结论
+
 * 写在后面
 
   1. [[https://tiglapiles.github.io/article/src/recent_reading.html][分享最近阅读的书籍清单(一)]]
@@ -124,6 +138,7 @@
   10. 邮箱: tiglapiles@gmail.com
 
 * Footnotes
+[fn:13] https://abseil.io/resources/swe-book
 
 [fn:12] https://www.innerengineering.com/zh-cn
 
