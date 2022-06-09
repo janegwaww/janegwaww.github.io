@@ -42,11 +42,19 @@
 
    * 我的结论
 
+     首先你需要明确一点，在现在信息都可以很容易获取的时代，创业已经不在是一个天方夜谭的产物，你只需要创意的点子，正确的方向，和付诸行动的执行力。
+
 ** Feeling Is the Secret[fn:3]
 
    #+BEGIN_CENTER
    感觉对了，就对了
    #+END_CENTER
+
+   #+BEGIN_QUOTE
+   他无论如何都会在任何艺术中完善自己，让他自己去阅读一些确定的和确定的工作多次重复他的艺术； 为了阅读许多关于你的艺术作品的书困惑而不是学习
+
+   --俗语
+   #+END_QUOTE
 
    * 我的结论
 
@@ -70,6 +78,12 @@
    活出意义来[fn:6]
    #+END_CENTER
 
+   #+BEGIN_QUOTE
+   我们住在集中营里的人记得那些穿过小屋安慰别人的人，把他们最后一块面包送出去。 它们的数量可能很少，但它们提供了充分的证据，证明一切都可以从一个人身上得到，但只有一件事：人类最后的自由——在任何给定的情况下选择自己的态度——选择自己的方式。
+
+   --弗兰克尔（作者）
+   #+END_QUOTE
+
    * 我的结论
 
 ** Eight mindful steps to happiness : walking the path of the Buddha[fn:8]
@@ -77,6 +91,11 @@
    #+BEGIN_CENTER
    八正道--佛陀的安乐之道[fn:7]
    #+END_CENTER
+
+   #+BEGIN_QUOTE
+
+
+   #+END_QUOTE
 
    * 我的结论
 
@@ -86,6 +105,10 @@
    如何避免孤独终老
    #+END_CENTER
 
+   #+BEGIN_QUOTE
+
+   #+END_QUOTE
+
    * 我的结论
 
 ** The Art of Communicationg[fn:10]
@@ -93,6 +116,10 @@
    #+BEGIN_CENTER
    沟通的艺术
    #+END_CENTER
+
+   #+BEGIN_QUOTE
+
+   #+END_QUOTE
 
    * 我的结论
 
