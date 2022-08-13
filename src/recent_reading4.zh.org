@@ -1,4 +1,8 @@
 #+STARTUP: showall
+:PROPERTIES:
+:ID: recent_reading4
+:END:
+#+TITLE: 分享最近阅读的书藉清单(四)
 
 * 分享最近阅读的书藉清单(四)
 
