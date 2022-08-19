@@ -194,7 +194,7 @@
   5. [[https://tiglapiles.github.io/article/src/share_it/recent_reading4.zh.html][本文地址]]
   6. 更多文章欢迎访问我的[[https://github.com/tiglapiles/article][github仓库]]
   7. 捐助我的[[https://itch.io/profile/tiglapiles][游戏]]，支持我的创作
-  8. [[https://v2ex.com/t/831405][社区更新地址]]
+  8. [[https://www.v2ex.com/t/874109][社区更新地址]]
   9. 邮箱: tiglapiles@gmail.com
 
 * Footnotes
