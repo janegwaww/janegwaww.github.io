@@ -187,11 +187,11 @@
 
 * 写在后面
 
-  1. [[https://tiglapiles.github.io/article/src/recent_reading.html][分享最近阅读的书籍清单(一)]]
-  2. [[https://tiglapiles.github.io/article/src/recent_reading2.zh.html][分享最近阅读的书籍清单(二)]]
-  3. [[https://tiglapiles.github.io/article/src/recent_reading3.zh.html][分享最近阅读的书藉清单(三)]]
+  1. [[https://tiglapiles.github.io/article/src/share_it/recent_reading.html][分享最近阅读的书籍清单(一)]]
+  2. [[https://tiglapiles.github.io/article/src/share_it/recent_reading2.zh.html][分享最近阅读的书籍清单(二)]]
+  3. [[https://tiglapiles.github.io/article/src/share_it/recent_reading3.zh.html][分享最近阅读的书藉清单(三)]]
   4. [[https://tiglapiles.github.io/article/src/build_it/how_face_midnight.html][如何面对35岁]]
-  5. [[https://tiglapiles.github.io/article/src/recent_reading4.zh.html][本文地址]]
+  5. [[https://tiglapiles.github.io/article/src/share_it/recent_reading4.zh.html][本文地址]]
   6. 更多文章欢迎访问我的[[https://github.com/tiglapiles/article][github仓库]]
   7. 捐助我的[[https://itch.io/profile/tiglapiles][游戏]]，支持我的创作
   8. [[https://v2ex.com/t/831405][社区更新地址]]
