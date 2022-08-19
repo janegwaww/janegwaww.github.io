@@ -1,0 +1,57 @@
+#+STARTUP: showall
+
+* Share a List of Recently Reading Books(Season 3)
+
+** Category Theory for Programmers[fn:1]
+
+** The Practice of Programming[fn:3]
+
+** Introduction to Game Programming (C++)[fn:4]
+
+** Javascript For Impatient Programmers[fn:5]
+
+** Deep JavaScript[fn:6]
+
+** The Art of PostgreSQL[fn:7]
+
+** The Passionate Programmer: Creating a Remarkable Career in Software Development[fn:8]
+
+** Remote: Office Not Required[fn:9]
+
+** The Clean Coder：A Code of Conduct for Professional Programmers[fn:10]
+
+** Learn C++[fn:11]
+
+* Related Contents
+
+  1. [[https://tiglapiles.github.io/article/src/share_it/recent_reading.html][Share a List of Recently Reading Books(Season 1)]]
+  2. [[https://tiglapiles.github.io/article/src/share_it/recent_reading2.zh.html][Share a List of Recently Reading Books(Season 2)]]
+  3. [[https://tiglapiles.github.io/article/src/share_it/recent_reading3.zh.html][The Article Address]]
+  4. View My [[https://github.com/tiglapiles/article][github]] For More
+  5. Sponsor My [[https://itch.io/profile/tiglapiles][Games]]
+  6. [[https://www.v2ex.com/t/805027][Community Address]]
+  7. Email: tiglapiles@gmail.com
+
+* Footnotes
+
+[fn:11] https://book.douban.com/subject/1232201/
+
+[fn:10] https://book.douban.com/subject/3582335/
+
+[fn:9] https://ocw.mit.edu/resources/res-tll-005-how-to-speak-january-iap-2018/how-to-speak/index.htm
+
+[fn:8] https://book.douban.com/subject/2053608/
+
+[fn:7] https://ocw.mit.edu/courses/mathematics/18-06-linear-algebra-spring-2010/video-lectures/
+
+[fn:6] https://github.com/winitzki/sofp
+
+[fn:5] https://book.douban.com/subject/30459914/
+
+[fn:4] https://book.douban.com/subject/34781358/
+
+[fn:3] https://teachyourselfcs.com/
+
+[fn:2] https://htdp.org/
+
+[fn:1] https://calculusmadeeasy.org/
