@@ -14,6 +14,8 @@
 
 *** [[./share_it/recent_reading4.zh.md][分享最近阅读的书籍清单（四）]]
 
+*** [[./share_it/recent_reading5.zh.md][分享最近阅读的书籍清单（五）]]
+
 ** 构建
 
 *** [[./build_it/how_face_midnight.md][如何面对35岁]]
