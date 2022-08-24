@@ -1,6 +1,6 @@
 #+STARTUP: showall
 :PROPERTIES:
-:ID: recent_reading4
+:ID: recent-reading4
 :END:
 
 #+TITLE: 分享最近阅读的书籍清单(四)
