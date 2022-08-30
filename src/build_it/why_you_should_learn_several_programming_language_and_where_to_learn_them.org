@@ -6,7 +6,9 @@
   #+NAME: cookie
   [[https://hackernoon.com/drafts/8cnv3597.png]]
 
-  我们生活在一个科技更新快速的时代，全球有超过500种语言在使用，这是一个开发者的动态工作市场。There are pros and cons of all the languages and their adoption is becoming more and more application-specific.
+  我们生活在一个科技更新快速的时代，全球有超过500种语言在使用，这是一个开发者的动态工作市场。
+
+  各个语言有他们的优点和缺点，也有他们自己的适用环境。
 
   如果你是一个开发者，通过一个开发者社区学透了一门语言，我强烈建议添加一个吃饭的本事和扩展自己的知识广度。
 
