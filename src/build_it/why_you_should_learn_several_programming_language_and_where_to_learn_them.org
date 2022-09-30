@@ -3,7 +3,7 @@
 * 为什么你应该学习多种语言和哪里可以学到他们
 
 #+begin_quote
-语言塑造我们的思维方式
+语言塑造我们的思维方式[fn:1]
 
 --TED
 #+end_quote
@@ -68,55 +68,61 @@
 
 随着学习不同编码语言的众多好处显而易见，选择下一门语言就在眼前。 以下是当今流行的一些最受欢迎和最有价值的语言的列表：
 
-
+| language   | github projects |
+|------------+-----------------|
+| JavaScript | 7,488,087       |
+| Java       | 6,570,575       |
+| Python     | 4,017,958       |
+| PHP        | 2,123,489       |
+| Ruby       | 1,699,590       |
 
 对于大型组织和企业级应用程序，它是最受欢迎的语言之一。 它使您可以构建各种复杂程度不同的应用程序。 您可以专注于应用程序的设计和结构方面，而不必担心诸如内存管理之类的外部因素。
 
 如果您已经了解了面向对象编程（OOP）的概念，尽管学习其不同的约定，框架和库将非常有必要，但是您将获得某种程度的舒适感。
 
+[[https://sacreddealsonline.com/wp-content/uploads/2021/01/codegym-1-2048x1057.jpg]]
 
+[[https://codegym.cc/][codegym.cc]]为那些寻求应用学习的人提供了独特的结构化在线Java课程。 它具有以下优点：
 
-CodeGym.cc为那些寻求应用学习的人提供了独特的结构化在线Java课程。 它具有以下优点：
+完全在线的课程，提供80％游戏化的练习学习环境，500多个小时的练习和1200项需要完成的任务,虚拟导师进行评估以及定制您的解决方案并提出改进建议，独特的交互式学习方法，用于构建课程使用最受欢迎的IDE之一IntelliJ IDEA，强大Java社区可通过讨论解决查询工作面试准备问题。
 
-完全在线的课程，提供游戏化的学习环境80％的练习，500多个小时的练习和1200项需要完成的任务虚拟导师进行评估以及您的解决方案并提出改进建议独特的交互式学习方法用于构建课程使用最受欢迎的IDE之一IntelliJ IDEA 用于教学的强大Java社区可通过讨论解决查询工作面试准备
+[[https://res.cloudinary.com/teepublic/image/private/s--f7VJgWRw--/t_Preview/b_rgb:191919,c_lpad,f_jpg,h_630,q_90,w_1200/v1520050660/production/designs/2416585_0.jpg]]
 
+Python已经存在了一段时间。它是一种解释性语言，可让您构建各种应用程序。像Reddit这样的网站都是基于流行的Python框架Django构建的。它已成为诸如机器学习，人工智能和数据科学等新时代技术的首选语言。
 
+[[https://www.drupal.org/files/edx_logo.png]]
 
-Python已经存在了一段时间，但是没有更好的时间来学习它。 它是一种解释性语言，可让您构建各种应用程序。 像Reddit这样的网站都是基于流行的Python框架Django构建的。 它已成为诸如机器学习，人工智能和数据科学等新时代技术的首选语言。
-
-
-
-edX是用于学习Python的很好的在线学习资源，您可以在其中免费学习并为获得经过验证的证书付费：
+[[https://www.edx.org/][edX]]是用于学习Python的很好的在线学习资源，您可以在其中免费学习并付费获得经过验证的证书：
 
 5个自定进度的数据科学认证课程由IBM专家教授的课程edX平台由麻省理工学院和哈佛大学创立该平台现在有120多家机构合作伙伴
 
+[[https://constructs.stampede-design.com/wp-content/uploads/2017/01/javascriptlogo-2.jpg]]
 
+传统上，它被视为客户端脚本语言，具有很多的应用程序，框架和库，例如Angular，Node.js，React和jQuery，确实改变了JavaScript。程序员现在也将其用于服务器端脚本编写。
 
-传统上，它被视为客户端脚本语言，具有有限的应用程序，框架和库，例如Angular，Node.js，React和jQuery，确实改变了JavaScript。 程序员现在也将其用于服务器端脚本编写。
+[[https://i1.wp.com/testprepnerds.com/wp-content/uploads/2019/03/khan-academy-logo.png?fit=2400%2C1260&ssl=1]]
 
-
-
-前往可汗学院进一步探索并在线学习：
+前往[[https://www.khanacademy.org/][可汗学院]]进一步探索并在线学习：
 
 大量JavaScript和相关课程所有课程都是免费的且自定进度平台提供多种实践和理论单元游戏化的学习环境
 
+[[http://www.programmerspoint.in/images/c-programming-course.png]]
 
+C语言已经成为一种可靠的编程语言，已有近50年的历史了，并且仍在需求中。 像C++这样的语言已经从它派生而来，并具有扩展的应用程序，这要归功于它们的OOP概念（例如封装和继承）。您在此处学习的概念将使您对一般的编程有深入的了解。
 
-C语言已经成为一种可靠的编程语言，已有近50年的历史了，并且仍在需求中。 像C ++这样的语言已经从它派生而来，并具有扩展的应用程序，这要归功于它们的OOP概念（例如封装和继承）。 您在此处学习的概念将使您对一般的编程有深入的了解。
+[[https://s3.amazonaws.com/edabit-images/logo_wide_large.png]]
 
+[[https://edabit.com/][Edabit]]是使用C和其他语言入门的绝佳资源：
 
+提供游戏化的学习环境,通过4,000多个挑战帮助练习编码技能提供小测验以巩固理论知识
 
-Edabit是使用C和其他语言入门的绝佳资源：
+[[https://i.pinimg.com/originals/eb/9e/3b/eb9e3b7dab09358e7cf13f188f64f9f4.png]]
 
-提供游戏化的学习环境通过4,000多个挑战帮助练习编码技能提供小测验以巩固理论知识
+Ruby是一种具有自然语法的开放源代码语言，旨在使编程变得动态而又易于开发人员使用。Ruby_on_Rails的基础就此奠定了基础，该基础在全球拥有超过120万个网站。
 
+[[https://coderbytestaticimages.s3.amazonaws.com/coderbyte_logo_digital_navy.png]]
 
-
-Ruby是一种具有自然语法的开放源代码语言，旨在使编程变得动态而又易于开发人员使用。 Ruby on Rails的基础就此奠定了基础，该基础在全球拥有超过120万个网站。
-
-
-
-Coderbyte包含许多挑战，以测试您的技能。 此外，您还可以访问教程和面试问题以增强技能：
+[[https://www.coderbyte.com/][CoderByte]]包含许多挑战，以测试您的技能。 此外，您还可以访问教程和面试问题以增强技能：
 
 帮助您掌握编码技能，通过挑战提高编码能力，根据Google和Microsoft提出的问题帮助准备面试
 
@@ -136,3 +142,7 @@ Coderbyte包含许多挑战，以测试您的技能。 此外，您还可以访�
   8. 捐助我的[[https://itch.io/profile/tiglapiles][游戏]]，支持我的创作
   9. [[https://www.v2ex.com/t/874109][社区更新地址]]
   10. 邮箱: tiglapiles@gmail.com
+
+* Footnotes
+
+[fn:1] http://open.163.com/newview/movie/free?pid=ME2CEELRM&mid=ME2CLHSTI
