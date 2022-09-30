@@ -140,7 +140,7 @@ Ruby是一种具有自然语法的开放源代码语言，旨在使编程变得�
   6. [[https://tiglapiles.github.io/article/src/build_it/why_you_should_learn_several_programming_language_and_where_to_learn_them.html][本文地址]]
   7. 更多文章欢迎访问我的[[https://github.com/tiglapiles/article][github仓库]]
   8. 捐助我的[[https://itch.io/profile/tiglapiles][游戏]]，支持我的创作
-  9. [[https://www.v2ex.com/t/874109][社区更新地址]]
+  9. [[https://www.v2ex.com/t/876542][社区更新地址]]
   10. 邮箱: tiglapiles@gmail.com
 
 * Footnotes
