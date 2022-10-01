@@ -9,9 +9,9 @@
 #+end_quote
 
 #+begin_quote
-学一门语言实际上就像学下棋一样简单，你可以在很短的时间内把象棋的所有规则教给别人，但是你要驾驭这些规则，并且通过熟练的运用规则成为象棋大师是很难的。[fn:1]
+学一门语言实际上就像学下棋一样简单，你可以在很短的时间内把象棋的所有规则教给别人，但是你要驾驭这些规则，并且通过熟练的运用规则成为象棋大师是很难的。
 
---Harold Abelson(SICP)
+--Harold Abelson(SICP)[fn:1]
 #+end_quote
 
 #+begin_center
@@ -35,11 +35,20 @@
 
 开发可以像音乐家、艺术家、医生一样成为一个长久的职业，你可以做10年20年或者一辈子，一份有挑战性的工作需要一位经验丰富的工程师，而你的经验越多就越能胜任这份工作。而一位后辈的成长也需要一位前辈的开点和指导，软件是主要依靠自身探索和自学的行业，大家也非常乐意去分享经验解决问题，所以一份具体的有建设性的建议也将是让人受益匪浅的，可以说是“听君一席话胜读十年书”。所以你要清楚这并不是什么青春饭行业，我们应对自己的前景有明确的认知，而技术从来都是与大众审美格格不入的，他只有使用的多寡之分没有好坏之分。
 
-不要再去争论语言的使用，每个语言都有他自身的使用环境，只要你自身技术基础好学什么语言对你来说都不是什么难事。也不要固执于某个技术，技术都是会更新换代的或者被其他技术取代的，而我们自身的成长不能绑定在某个技术上。而我们需要的是靠自己的努力多去学习，以及在这条漫长道路上不让我们迷路的指路灯，例如[[https://tiglapiles.github.io/article/src/share_it/recent_reading.html#org4f26191][<程序员修炼之道-从小工到专家>]]，顺应技术的进步与时代的变迁，养成良好的习惯减少不必要的失误。
+不要再去争论语言的使用，每个语言都有他自身的使用环境，只要你自身技术基础好学什么语言对你来说都不是什么难事。也不要固执于某个技术，技术都是会更新换代的或者被其他技术取代的，而我们自身的成长不能绑定在某个技术上而做为长期的依靠。我们需要的是靠自己的努力多去学习，以及在这条漫长道路上不让我们迷路的指路灯，例如[[https://tiglapiles.github.io/article/src/share_it/recent_reading.html#org4f26191][<程序员修炼之道-从小工到专家>]]，并顺应技术的进步与时代的变迁，养成良好的习惯减少不必要的失误。
 
 ** 我们还很年轻
 
+软件行业是一个如此年轻的行业，以至于发展到现在还不到100年的时间，在这段时间里诞生了许多无可比拟的大公司，虽然他的起源要追溯到几百年前，但是现代软件行业的兴起应该是从第一个高阶语言FORTRAN开始的，至今也就65年，已经接近现代语言甚至更抽象一点的语言LISP、Algol、COBOL至今也就63年左右。也就是在60年代出生的人他们就见证了整个技术行业发展的历程，从第一台电脑到便携手机，从第一封邮件到联通世界的互联网，从实验室到科技公司占领世界等等，他们都亲自见证了这一切。
+
+艾伦.凯[fn:5]面向对象编程语言的发明者，应该是目前能找到的这个行业资历最老的人了吧，59岁，他在35年前的用户图形界面展示[fn:6]让人印象深刻。作为对比的是音乐界最老的大提琴大师马友友[fn:7]，1955出生4岁开始练琴，如今已经66岁了，另一个是吉尼斯最老职业音乐人保持者卡斯帕.马龙[fn:8]至今已有80高龄了。也就是说这些音乐大师比真正的软件行业历史还长。
+
+当你想去学习一门技术的时候，不要有是否会过时这种想法，技术总是变化的但是你得到的经验和从中学到的思想是可以伴随着你的。我记得自己看SICP这门课程时，他带给我的振撼前所未有像是发现了新大陆，我没想到一门语言还能这样神奇，后面我再看其他语言时基本没带给我任何新意都是新瓶装旧酒。所以关键并不在于你选择了什么技术，很多技术都是有一定共性的，而是你用这个技术做了多少事。在实际工作运用
+中学习技术，更多的去动手操作他。一味的追随潮流什么火就学什么的结果就是你很难形成自己的技术优势，被潮流托着走。
+
 ** 从来都不要按套路出牌
+
+
 
 ** 写代码是一种生活方式
 
@@ -51,7 +60,7 @@
 
   1. [[https://tiglapiles.github.io/article/src/share_it/recent_reading.html][分享最近阅读的书籍清单(一)]]
   2. [[https://tiglapiles.github.io/article/src/share_it/recent_reading2.zh.html][分享最近阅读的书籍清单(二)]]
-  3. [[https://tiglapiles.github.io/article/src/share_it/recent_reading3.zh.html][分享最近阅读的书藉清单(三)]]
+  3. [[https://tiglapiles.github.io/article/src/share_it/recent_reading3.zh.html][分享最近阅读的书籍清单(三)]]
   4. [[https://tiglapiles.github.io/article/src/build_it/how_face_midnight.html][如何面对35岁]]
   5. [[https://tiglapiles.github.io/article/src/share_it/recent_reading4.zh.html][分享最近阅读的书籍清单(四)]]
   6. [[https://tiglapiles.github.io/article/src/build_it/why_you_should_learn_several_programming_language_and_where_to_learn_them.html][为什么你应该学习多种语言及哪里可以学到他们]]
@@ -59,7 +68,7 @@
   8. 更多文章欢迎访问我的[[https://github.com/tiglapiles/article][github仓库]]
   9. 捐助我的[[https://itch.io/profile/tiglapiles][游戏]]，支持我的创作
   10. [[https://www.v2ex.com/t/874109][社区更新地址]]
-  11. 邮箱: tiglapiles@gmail.com
+  11. 邮箱: [[mailto:tiglapiles@gmail.com][tiglapiles@gmail.com]]
 
 * Footnotes
 
@@ -70,3 +79,11 @@
 [fn:3] 某音在英国推行996结果招集体抵抗
 
 [fn:4] Kenneth Lane Thompson（生于1943年2月4日）是美国计算机科学的先驱。Thompson的大部分职业生涯都在贝尔实验室工作，在那里他设计并实现了最初的Unix操作系统。
+
+[fn:5] Alan Curtis Kay（生于 1940 年 5 月 17 日）是美国计算机科学家。 他被选为美国艺术与科学院院士、美国国家工程院院士和皇家艺术学会院士。 他最出名的是他在面向对象编程和窗口图形用户界面 (GUI) 设计方面的开创性工作。 2003年获得图灵奖。
+
+[fn:6] https://www.youtube.com/watch?v=p2LZLYcu_JY
+
+[fn:7] https://en.wikipedia.org/wiki/Yo-Yo_Ma
+
+[fn:8] https://en.wikipedia.org/wiki/Kasper_%22Stranger%22_Malone
