@@ -97,7 +97,7 @@
   7. [[https://tiglapiles.github.io/article/src/build_it/older_developer.html][本文地址]]
   8. 如果喜欢该文章欢迎Star我的[[https://github.com/tiglapiles/article][github]]
   9. 捐助我的[[https://itch.io/profile/tiglapiles][游戏]]，支持我的创作
-  10. [[https://www.v2ex.com/t/874109][社区更新地址]]
+  10. [[https://v2ex.com/t/884436][社区更新地址]]
   11. 邮箱: [[mailto:tiglapiles@gmail.com][tiglapiles@gmail.com]]
 
 * Footnotes
