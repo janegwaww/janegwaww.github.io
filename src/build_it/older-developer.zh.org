@@ -102,7 +102,7 @@
 
 * Footnotes
 
-[fn:1] [[https://zh.wikipedia.org/wiki/%E5%BC%80%E6%BA%90%E8%BD%AF%E4%BB%B6]]
+[fn:1] [[https://zh.wikipedia.org/wiki/%E5%BC%80%E6%BA%90%E8%BD%AF%E4%BB%B6][开源软件维基百科]]
 
 [fn:2] 某音在英国推行996结果招集体抵抗
 
@@ -110,14 +110,14 @@
 
 [fn:4] Alan Curtis Kay（生于1940年5月17日是美国计算机科学家。他被选为美国艺术与科学院院士、美国国家工程院院士和皇家艺术学会院士。他最出名的是他在面向对象编程和窗口图形用户界面(GUI)设计方面的开创性工作。2003年获得图灵奖。
 
-[fn:5] [[https://www.youtube.com/watch?v=p2LZLYcu_JY]]
+[fn:5] [[https://www.youtube.com/watch?v=p2LZLYcu_JY][Alan Kay: Doing with Images Makes Symbols (Full Version)]]
 
-[fn:6] [[https://en.wikipedia.org/wiki/Yo-Yo_Ma]]
+[fn:6] [[https://en.wikipedia.org/wiki/Yo-Yo_Ma][馬友友维基百科]]
 
-[fn:7] [[https://en.wikipedia.org/wiki/Kasper_%22Stranger%22_Malone]]
+[fn:7] [[https://en.wikipedia.org/wiki/Kasper_%22Stranger%22_Malone][Kasper "Stranger" Malone wiki]]
 
 [fn:8] 9点上班9点下班一周工作6天
 
 [fn:9] 只要你练习超过1千小时你就可以成为这方面的专家
 
-[fn:10] [[https://ocw.mit.edu/courses/6-001-structure-and-interpretation-of-computer-programs-spring-2005/]]
+[fn:10] [[https://ocw.mit.edu/courses/6-001-structure-and-interpretation-of-computer-programs-spring-2005/][MIT CS6.001]]
