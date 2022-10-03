@@ -4,18 +4,18 @@
 
 ** 分享
 
-*** [[./share_it/recent_reading.md][分享最近阅读的书籍清单（一）]]
+*** [[./src/share_it/recent_reading.md][分享最近阅读的书籍清单（一）]]
 
-*** [[./share_it/recent_reading2.zh.md][分享最近阅读的书籍清单（二）]]
+*** [[./src/share_it/recent_reading2.zh.md][分享最近阅读的书籍清单（二）]]
 
-*** [[./share_it/recent_reading3.zh.md][分享最近阅读的书籍清单（三）]]
+*** [[./src/share_it/recent_reading3.zh.md][分享最近阅读的书籍清单（三）]]
 
-*** [[./share_it/recent_reading4.zh.md][分享最近阅读的书籍清单（四）]]
+*** [[./src/share_it/recent_reading4.zh.md][分享最近阅读的书籍清单（四）]]
 
 ** 构建
 
-*** [[./build_it/how_face_midnight.md][如何面对35岁]]
+*** [[./src/build_it/how_face_midnight.md][如何面对35岁]]
 
-*** [[./build_it/why_you_should_learn_several_programming_language_and_where_to_learn_them.md][为什么你应该学习多种语言和哪里可以学到他们]]
+*** [[./src/build_it/why_you_should_learn_several_programming_language_and_where_to_learn_them.md][为什么你应该学习多种语言和哪里可以学到他们]]
 
-*** [[./build_it/older-developer.zh.md][作为大龄程序员，你如何持续的保持自己的竞争优势]]
+*** [[./src/build_it/older-developer.zh.md][作为大龄程序员，你如何持续的保持自己的竞争优势]]
