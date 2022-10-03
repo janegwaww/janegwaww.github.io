@@ -1,48 +1,66 @@
 
 # Table of Contents
 
-1.  [There is more articles coming up&#x2026;](#org2df193f)
-    1.  [Share It](#org4909884)
-        1.  [Share a List of Recently Reading Books(Season 1)](#org322976c)
-        2.  [Share a List of Recently Reading Books(Season 2)](#orgab159dc)
-        3.  [Share a List of Recently Reading Books(Season 3)](#org36e8fe2)
-    2.  [Build It](#orgd51586e)
-        1.  [How To Deal With Getting Old](#orgf2316c6)
+1.  [更多文章后续推出](#org5de9b51)
+    1.  [分享](#org7987c5a)
+        1.  [分享最近阅读的书籍清单（一）](#org9b5a9af)
+        2.  [分享最近阅读的书籍清单（二）](#org17cc67e)
+        3.  [分享最近阅读的书籍清单（三）](#orgb4b58e7)
+        4.  [分享最近阅读的书籍清单（四）](#org0a1e6a1)
+    2.  [构建](#orge3ce7bc)
+        1.  [如何面对35岁](#org4c28b68)
+        2.  [为什么你应该学习多种语言和哪里可以学到他们](#orgb6087c4)
+        3.  [作为大龄程序员，你如何持续的保持自己的竞争优势](#orgca86b98)
 
 
-<a id="org2df193f"></a>
+<a id="org5de9b51"></a>
 
-# There is more articles coming up&#x2026;
+# 更多文章后续推出
 
-Better Reading Experience([EN](https://tiglapiles.github.io/article/)/[中文](https://tiglapiles.github.io/article/src/README.zh.html))
-
-
-<a id="org4909884"></a>
-
-## Share It
+更好的阅读体验([EN](https://tiglapiles.github.io/article/README.en.html)/[中文](https://tiglapiles.github.io/article/))
 
 
-<a id="org322976c"></a>
+<a id="org7987c5a"></a>
 
-### [Share a List of Recently Reading Books(Season 1)](./src/share_it/recent_reading.en.md)
-
-
-<a id="orgab159dc"></a>
-
-### [Share a List of Recently Reading Books(Season 2)](./src/share_it/recent_reading2.en.md)
+## 分享
 
 
-<a id="org36e8fe2"></a>
+<a id="org9b5a9af"></a>
 
-### [Share a List of Recently Reading Books(Season 3)](./src/share_it/recent_reading3.en.md)
-
-
-<a id="orgd51586e"></a>
-
-## Build It
+### [分享最近阅读的书籍清单（一）](./share_it/recent_reading.md)
 
 
-<a id="orgf2316c6"></a>
+<a id="org17cc67e"></a>
 
-### [How To Deal With Getting Old](./src/build_it/how_face_midnight.md)
+### [分享最近阅读的书籍清单（二）](./share_it/recent_reading2.zh.md)
+
+
+<a id="orgb4b58e7"></a>
+
+### [分享最近阅读的书籍清单（三）](./share_it/recent_reading3.zh.md)
+
+
+<a id="org0a1e6a1"></a>
+
+### [分享最近阅读的书籍清单（四）](./share_it/recent_reading4.zh.md)
+
+
+<a id="orge3ce7bc"></a>
+
+## 构建
+
+
+<a id="org4c28b68"></a>
+
+### [如何面对35岁](./build_it/how_face_midnight.md)
+
+
+<a id="orgb6087c4"></a>
+
+### [为什么你应该学习多种语言和哪里可以学到他们](./build_it/why_you_should_learn_several_programming_language_and_where_to_learn_them.md)
+
+
+<a id="orgca86b98"></a>
+
+### [作为大龄程序员，你如何持续的保持自己的竞争优势](./build_it/older-developer.zh.md)
 
