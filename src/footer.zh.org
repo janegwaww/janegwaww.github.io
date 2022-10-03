@@ -1,0 +1,19 @@
+#+startup: showall
+#+startup: align
+
+
+#+name: backend
+| NO. | Content                                        |
+|-----+------------------------------------------------|
+|   1 | [[./share_it/recent_reading.md][分享最近阅读的书籍清单(一)]]                     |
+|   2 | [[./share_it/recent_reading2.zh.md][分享最近阅读的书籍清单(二)]]                     |
+|   3 | [[./share_it/recent_reading3.zh.md][分享最近阅读的书籍清单(三)]]                     |
+|   4 | [[./build_it/how_face_midnight.md][如何面对35岁]]                                   |
+|   5 | [[./share_it/recent_reading4.zh.md][分享最近阅读的书籍清单(四)]]                     |
+|   6 | [[./build_it/why_you_should_learn_several_programming_language_and_where_to_learn_them.md][为什么你应该学习多种语言及哪里可以学到他们]]     |
+|   7 | [[./build_it/older_developer.zh.md][作为大龄程序员，你如何持续的保持自己的竞争优势]] |
+|   8 | 如果喜欢该文章欢迎Star我的[[https://github.com/tiglapiles/article][github]]               |
+|   9 | 捐助我的[[https://itch.io/profile/tiglapiles][游戏]]，支持我的创作                     |
+|  10 | [[https://v2ex.com/member/mascteen/topics][我的社区更新地址]]                                   |
+|  11 | email: [[mailto:tiglapiles@gmail.com][tiglapiles@gmail.com]]                    |
+|-----+------------------------------------------------|

@@ -147,13 +147,7 @@
      这是MIT一节非常著名的公开课，如何在约会，演说，饭局，聚会中给人留下深刻印象？ 首先一开始你就要做一个保证，保证自己接下来的说话能带来有意义的内容，例如这次谈话我将让你认识到说话顺序的重要性，一次好的说话能让你与重不同，说话的顺序也很重要，你不能以开玩笑开场，因为刚开始是大家注意力最集中的时候，你不能错过这么好的时机，讲一些跟内容没有关系的东西，当然你可以以一个笑话结束，暗示大家快结束了可以放松了;重要的内容要在说话中重复三次左右，因为这样才能让人记住重要的内容。演说的最后也不要说什么谢谢之类的感谢话，以一个深意的话做结尾给人留下意犹未尽和遐想。例如美国总统就职演说中，不是以谢谢结束，他们不会说Thank You, 而是God bless you, God bless America.
 
 * 写在后面
-
-  1. [[https://tiglapiles.github.io/article/src/share_it/recent_reading.html][分享最近阅读的书籍清单（一）]]
-  2. [[https://tiglapiles.github.io/article/src/share_it/recent_reading2.zh.html][本文地址]]
-  3. 更多文章欢迎访问我的[[https://github.com/tiglapiles/article][github仓库]]
-  4. 捐助我的[[https://itch.io/profile/tiglapiles][游戏]]，支持我的创作
-  5. [[https://www.v2ex.com/t/805027][社区更新地址]]
-  6. 邮箱: tiglapiles@gmail.com
+#+include: "../footer.zh.org"
 
 * Footnotes
 

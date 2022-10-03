@@ -131,17 +131,7 @@ Ruby是一种具有自然语法的开放源代码语言，旨在使编程变得�
 虽然学习不同的编程语言有明显的好处，但重要的是要知道在哪里以及如何划清界限。 不要着手成为每种语言的专家，这是人类不可能做到的！ 成为一种语言的专家，并与另一种语言建立良好的熟悉度是一个很好的起点。 这将大大简化后续的学习路径。
 
 * 写在后面
-
-  1. [[https://tiglapiles.github.io/article/src/share_it/recent_reading.html][分享最近阅读的书籍清单(一)]]
-  2. [[https://tiglapiles.github.io/article/src/share_it/recent_reading2.zh.html][分享最近阅读的书籍清单(二)]]
-  3. [[https://tiglapiles.github.io/article/src/share_it/recent_reading3.zh.html][分享最近阅读的书藉清单(三)]]
-  4. [[https://tiglapiles.github.io/article/src/build_it/how_face_midnight.html][如何面对35岁]]
-  5. [[https://tiglapiles.github.io/article/src/share_it/recent_reading4.zh.html][分享最近阅读的书籍清单(四)]]
-  6. [[https://tiglapiles.github.io/article/src/build_it/why_you_should_learn_several_programming_language_and_where_to_learn_them.html][本文地址]]
-  7. 更多文章欢迎访问我的[[https://github.com/tiglapiles/article][github仓库]]
-  8. 捐助我的[[https://itch.io/profile/tiglapiles][游戏]]，支持我的创作
-  9. [[https://www.v2ex.com/t/876542][社区更新地址]]
-  10. 邮箱: tiglapiles@gmail.com
+#+include: "../footer.zh.org"
 
 * Footnotes
 
