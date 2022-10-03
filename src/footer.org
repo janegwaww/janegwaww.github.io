@@ -1,7 +1,6 @@
 #+startup: showall
 #+startup: align
 
-* 写在后面
 
 #+name: backend
 | NO. | Content                                        |
