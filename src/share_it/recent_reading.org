@@ -1,6 +1,9 @@
 #+STARTUP: showeverything
+#+options: toc:nil
 
 * 分享最近阅读的书籍清单（一）
+
+#+toc: headlines local
 
   #+BEGIN_QUOTE
   从长远来看，我们塑造我们的生活，我们塑造我们自己。这个过程永远不会结束, 直到我们死去。而我们做出的选择最终是我们自己的责任。

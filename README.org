@@ -1,4 +1,6 @@
-* 更多文章后续推出
+#+options: toc:nil
+
+* JaneGwaww's Blog
 
   更好的阅读体验([[https://tiglapiles.github.io/article/README.en.html][EN]]/[[https://tiglapiles.github.io/article/][中文]])
 

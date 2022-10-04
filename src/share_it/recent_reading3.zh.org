@@ -1,6 +1,9 @@
 #+STARTUP: showall
+#+options: toc:nil
 
 * 分享最近阅读的书藉清单(三)
+
+#+toc: headlines local
 
   #+BEGIN_QUOTE
   一个经常阅读的人在他死之前已经活了上千次了……一个从不阅读的人只活了一次。

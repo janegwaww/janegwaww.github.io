@@ -1,6 +1,9 @@
 #+STARTUP: showall
+#+options: toc:nil
 
 * 为什么你应该学习多种语言和哪里可以学到他们
+
+#+toc: headlines local
 
 #+begin_quote
 语言塑造我们的思维方式[fn:1]

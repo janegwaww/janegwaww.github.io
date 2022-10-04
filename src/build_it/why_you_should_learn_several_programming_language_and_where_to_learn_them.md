@@ -1,24 +1,17 @@
 
-# Table of Contents
-
-1.  [为什么你应该学习多种语言和哪里可以学到他们](#org35b9880)
-    1.  [为什么要用多种语言写代码](#orgb970b2f)
-        1.  [拥有更多工具来完成工作](#org780d704)
-        2.  [可以选择你的雇主](#org0e98eb4)
-        3.  [提升工资的潜力](#orge5b1ee7)
-        4.  [成为多用途开发者](#orgb5cb775)
-        5.  [兴趣和广知](#orgfd0b072)
-        6.  [学起来更轻松](#org801b691)
-    2.  [那些有经验的开发者对学多种编程语言有什么看法](#org41e03fa)
-    3.  [学哪些编程语言](#org33659bc)
-    4.  [总结](#org1e76afd)
-2.  [写在后面](#orgfedf205)
-
-
-
-<a id="org35b9880"></a>
 
 # 为什么你应该学习多种语言和哪里可以学到他们
+
+1.  [为什么要用多种语言写代码](#org7ab1317)
+    1.  [拥有更多工具来完成工作](#org37a28db)
+    2.  [可以选择你的雇主](#org288277a)
+    3.  [提升工资的潜力](#org862e947)
+    4.  [成为多用途开发者](#org6814a11)
+    5.  [兴趣和广知](#orgd1b6a69)
+    6.  [学起来更轻松](#orgee8bacd)
+2.  [那些有经验的开发者对学多种编程语言有什么看法](#org1adfbf5)
+3.  [学哪些编程语言](#orga3754a1)
+4.  [总结](#org86683c9)
 
 > 语言塑造我们的思维方式<sup><a id="fnr.1" class="footref" href="#fn.1" role="doc-backlink">1</a></sup>
 > 
@@ -33,7 +26,7 @@
 在这篇文章中我首先重点介绍多学习一门语言的好处，世界上有经验的程序员怎么说，最后推荐学习的语言和学习资源。
 
 
-<a id="orgb970b2f"></a>
+<a id="org7ab1317"></a>
 
 ## 为什么要用多种语言写代码
 
@@ -42,7 +35,7 @@
 以下是介绍学习多门的语言的好处有哪些。
 
 
-<a id="org780d704"></a>
+<a id="org37a28db"></a>
 
 ### 拥有更多工具来完成工作
 
@@ -51,14 +44,14 @@
 通过扩展你的知识广度，添加更多工具语言到你的工具箱，你将有更多选择去解决问题，并选择一个最优解。
 
 
-<a id="org0e98eb4"></a>
+<a id="org288277a"></a>
 
 ### 可以选择你的雇主
 
 你一旦学会了多门语言，将有更多职业大门为你敞开。你将不在受限于职业的选择，更大的市场为你打开，你则可以选你喜欢的雇主。
 
 
-<a id="orge5b1ee7"></a>
+<a id="org862e947"></a>
 
 ### 提升工资的潜力
 
@@ -67,7 +60,7 @@
 你可以驾驭不同语言的团队，并在与单语言竞争时有更多优势。
 
 
-<a id="orgb5cb775"></a>
+<a id="org6814a11"></a>
 
 ### 成为多用途开发者
 
@@ -76,7 +69,7 @@
 知道更多语言可以让你在这种风头中有更多机会。再者，每一种语言都有他独特的设计模式。懂得多种语言可以扩展你的思维让你成为知识丰富的开发者。
 
 
-<a id="orgfd0b072"></a>
+<a id="orgd1b6a69"></a>
 
 ### 兴趣和广知
 
@@ -85,7 +78,7 @@
 多种偿试能让你获得更好的满足感，可以让你在不同的团队中胜任多个项目。
 
 
-<a id="org801b691"></a>
+<a id="orgee8bacd"></a>
 
 ### 学起来更轻松
 
@@ -94,7 +87,7 @@
 不管您从事哪个专业，终身学习者都是与众不同的人，对于软件开发而言尤其如此。
 
 
-<a id="org41e03fa"></a>
+<a id="org1adfbf5"></a>
 
 ## 那些有经验的开发者对学多种编程语言有什么看法
 
@@ -105,7 +98,7 @@
 它也使您摆脱日常工作的可喜休息，做新事情的可能性会激发您第二天早上去工作。
 
 
-<a id="org33659bc"></a>
+<a id="orga3754a1"></a>
 
 ## 学哪些编程语言
 
@@ -209,18 +202,16 @@ Ruby是一种具有自然语法的开放源代码语言，旨在使编程变得�
 帮助您掌握编码技能，通过挑战提高编码能力，根据Google和Microsoft提出的问题帮助准备面试
 
 
-<a id="org1e76afd"></a>
+<a id="org86683c9"></a>
 
 ## 总结
 
 虽然学习不同的编程语言有明显的好处，但重要的是要知道在哪里以及如何划清界限。 不要着手成为每种语言的专家，这是人类不可能做到的！ 成为一种语言的专家，并与另一种语言建立良好的熟悉度是一个很好的起点。 这将大大简化后续的学习路径。
 
 
-<a id="orgfedf205"></a>
-
 # 写在后面
 
-<table id="orgb53d473" border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+<table id="org50c81ff" border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
 
 
 <colgroup>
@@ -238,43 +229,43 @@ Ruby是一种具有自然语法的开放源代码语言，旨在使编程变得�
 <tbody>
 <tr>
 <td class="org-right">1</td>
-<td class="org-left"><a href="../share_it/recent_reading.md">分享最近阅读的书籍清单(一)</a></td>
+<td class="org-left"><a href="../share_it/recent_reading.html">分享最近阅读的书籍清单(一)</a></td>
 </tr>
 
 
 <tr>
 <td class="org-right">2</td>
-<td class="org-left"><a href="../share_it/recent_reading2.zh.md">分享最近阅读的书籍清单(二)</a></td>
+<td class="org-left"><a href="../share_it/recent_reading2.zh.html">分享最近阅读的书籍清单(二)</a></td>
 </tr>
 
 
 <tr>
 <td class="org-right">3</td>
-<td class="org-left"><a href="../share_it/recent_reading3.zh.md">分享最近阅读的书籍清单(三)</a></td>
+<td class="org-left"><a href="../share_it/recent_reading3.zh.html">分享最近阅读的书籍清单(三)</a></td>
 </tr>
 
 
 <tr>
 <td class="org-right">4</td>
-<td class="org-left"><a href="how_face_midnight.md">如何面对35岁</a></td>
+<td class="org-left"><a href="how_face_midnight.html">如何面对35岁</a></td>
 </tr>
 
 
 <tr>
 <td class="org-right">5</td>
-<td class="org-left"><a href="../share_it/recent_reading4.zh.md">分享最近阅读的书籍清单(四)</a></td>
+<td class="org-left"><a href="../share_it/recent_reading4.zh.html">分享最近阅读的书籍清单(四)</a></td>
 </tr>
 
 
 <tr>
 <td class="org-right">6</td>
-<td class="org-left"><a href="why_you_should_learn_several_programming_language_and_where_to_learn_them.md">为什么你应该学习多种语言及哪里可以学到他们</a></td>
+<td class="org-left"><a href="why_you_should_learn_several_programming_language_and_where_to_learn_them.html">为什么你应该学习多种语言及哪里可以学到他们</a></td>
 </tr>
 
 
 <tr>
 <td class="org-right">7</td>
-<td class="org-left"><a href="older_developer.zh.md">作为大龄程序员，你如何持续的保持自己的竞争优势</a></td>
+<td class="org-left"><a href="older_developer.zh.html">作为大龄程序员，你如何持续的保持自己的竞争优势</a></td>
 </tr>
 
 
@@ -299,6 +290,12 @@ Ruby是一种具有自然语法的开放源代码语言，旨在使编程变得�
 <tr>
 <td class="org-right">11</td>
 <td class="org-left">email: <a href="mailto:tiglapiles@gmail.com">tiglapiles@gmail.com</a></td>
+</tr>
+
+
+<tr>
+<td class="org-right">12</td>
+<td class="org-left"><a href="../../">Home Page</a></td>
 </tr>
 </tbody>
 </table>

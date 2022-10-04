@@ -1,4 +1,5 @@
 #+STARTUP: showall
+#+options: toc:nil
 :PROPERTIES:
 :ID: recent-reading4
 :END:
@@ -7,6 +8,8 @@
 #+AUTHOR: Tiglath Pileser
 
 * 分享最近阅读的书籍清单(四)
+
+#+toc: headlines local
 
   #+BEGIN_QUOTE
   如果您希望自己周遭的一切都是熟悉的，那么您也将永远失去学到任何新东西的机会。

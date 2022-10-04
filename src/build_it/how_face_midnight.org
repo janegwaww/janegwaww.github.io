@@ -1,7 +1,10 @@
 #+startup: showall
+#+options: toc:nil
 
 
 * 如何面对35岁
+
+#+toc: headlines local
 
   #+begin_quote
   愿与有此困扰之人共勉。
