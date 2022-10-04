@@ -1,6 +1,10 @@
 #+STARTUP: showall
+#+OPTIONS: toc:nil
+#+title: 作为大龄程序员，你如何持续的保持自己的竞争优势
 
 * 作为大龄程序员，你如何持续的保持自己的竞争优势
+
+#+TOC: headlines
 
 #+begin_quote
 老兵永远不死，他们只会调零。
