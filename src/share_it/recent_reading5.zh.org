@@ -1,4 +1,5 @@
 #+STARTUP: showall
+#+options: toc:nil
 :PROPERTIES:
 :ID: recent_reading_5
 :END:
@@ -7,6 +8,8 @@
 #+AUTHOR: Tiglath Pileser
 
 * 分享最近阅读的书籍清单(五)
+
+#+toc: headlines local
 
 这些都是在人生中的好书藉或好内容，我想把这些优秀的东西分享出来，并赋上自己的一些主观想法，能让更多人知道并从中受益。这里只是做一个引荐，精彩需要你自己亲自拜读从中感受。
 
@@ -24,11 +27,27 @@
 
  * 我的结论
 
-* 写在后面
+** The Craft of Text Editing[fn:3]
 
- 1. [[./recent_reading5.zh.md][分享最近阅读的书籍清单(五)]]
+#+begin_center
+文本编辑的技巧
+#+end_center
+
+ * 我的结论
+
+** Crafting Interpreters[fn:4]
+
+ *我的结论
+
+* 写在后面
+#+include: "../footer.zh.org"
 
 * Footnotes
-[fn:2]https://book.douban.com/subject/35503571/
 
-[fn:1]https://www.amazon.com/How-Take-Smart-Notes-Nonfiction/dp/1542866502
+[fn:1] https://www.amazon.com/How-Take-Smart-Notes-Nonfiction/dp/1542866502
+
+[fn:2] https://book.douban.com/subject/35503571/
+
+[fn:3] http://www.finseth.com/craft/
+
+[fn:4] https://craftinginterpreters.com/
