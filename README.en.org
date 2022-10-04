@@ -2,7 +2,13 @@
 
 * JaneGwaww's Blog
 
-  Better Reading Experience([[https://tiglapiles.github.io/article/README.en.html][EN]]/[[https://tiglapiles.github.io/article/][中文]])
+#+begin_quote
+It’s Your Life.
+Share it. Celebrate it. Build it.
+AND HAVE FUN!
+#+end_quote
+
+Better Reading Experience([[https://tiglapiles.github.io/article/README.en.html][EN]]/[[https://tiglapiles.github.io/article/][中文]])
 
 ** Share It
 
