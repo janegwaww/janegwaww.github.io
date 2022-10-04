@@ -10,7 +10,7 @@ Share it. Celebrate it. Build it.
 AND HAVE FUN!
 #+end_quote
 
-Better Reading Experience([[https://tiglapiles.github.io/article/README.en.html][EN]]/[[https://tiglapiles.github.io/article/][中文]])
+Better Reading Experience([[https://www.janegwaww.com/README.en.html][EN]]/[[https://tiglapiles.github.io/article/][中文]])
 
 ** Share It
 
