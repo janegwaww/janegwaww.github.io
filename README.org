@@ -8,7 +8,7 @@ Share it. Celebrate it. Build it.
 AND HAVE FUN!
 #+end_quote
 
-  更好的阅读体验([[https://tiglapiles.github.io/article/README.en.html][EN]]/[[https://tiglapiles.github.io/article/][中文]])
+更好的阅读体验([[https://tiglapiles.github.io/article/README.en.html][EN]]/[[https://tiglapiles.github.io/article/][中文]])
 
 ** 分享
 
