@@ -1,6 +1,9 @@
 #+STARTUP: showall
+#+options: toc:nil
 
 * Share a List of Recently Reading Books(Season 1)
+
+#+toc: headlines local
 
 ** Code Complete[fn:1]
 
@@ -51,12 +54,7 @@
    #+END_CENTER
 
 * Related Contents
-
-  1. [[https://tiglapiles.github.io/article/src/share_it/recent_reading.html][The Article Address]]
-  2. View My [[https://github.com/tiglapiles/article][github]] For More
-  3. Sponsor My [[https://itch.io/profile/tiglapiles][Games]]
-  4. [[https://www.v2ex.com/t/805027][Community Address]]
-  5. Email: tiglapiles@gmail.com
+#+include: "../footer.en.org"
 
 * Footnotes
 
