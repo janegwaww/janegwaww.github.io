@@ -96,12 +96,12 @@
 
    * 我的结论
 
-     这本书是来自《死亡集中营到存在主义》[fn:14]修定放大版，很显然是要讲一些集中营的故事，作者本人也是其中的受害者，但他并没有拘束于故事而是上升到一定的理论，创建现代精神学的意义疗法。读者能从这本书中意识到：当自己突然一无所有，再也没有什么可以失去的时候，自己应该怎么做。首先铺面而来的是冷颤，和奇怪于会有如此的命运; 其次会想尽办法保护生命中的剩余部份，尽管机会很渺茫; 最后是忍受，或是对脑海中爱人的严护、或是自己坚持的信仰、或是一个冷酷的幽默、或是瞥见了大自然的美丽一角－－一颗树一个落日、...，让我们忍受下饥饿、屈辱，恐惧和对不公深深的愤怒。但是这些短暂的安慰并不能让这些人建立起长久活下去的意愿，除非能从这个过程中获得更大的意义，这就是意义疗法的中心主题：生命就是磨难，生存就是从磨难中找寻意义。这本书由两个部份组成，第一部份讲述了他在集中营的经历与他自己的观察，这部份读起来会让人很纠心; 第二部份解释了意义疗法作为一个治疗工具的作用。总之这是一本非常推荐的好书，不管在什么情况下，在你痛苦的时候，在你恐惧的时候，在你迷失的时候，在你开心的时候，在你有空的时候...，都应该读读这本书。
+     这本书是来自《死亡集中营到存在主义》[fn:7]修定放大版，很显然是要讲一些集中营的故事，作者本人也是其中的受害者，但他并没有拘束于故事而是上升到一定的理论，创建现代精神学的意义疗法。读者能从这本书中意识到：当自己突然一无所有，再也没有什么可以失去的时候，自己应该怎么做。首先铺面而来的是冷颤，和奇怪于会有如此的命运; 其次会想尽办法保护生命中的剩余部份，尽管机会很渺茫; 最后是忍受，或是对脑海中爱人的严护、或是自己坚持的信仰、或是一个冷酷的幽默、或是瞥见了大自然的美丽一角－－一颗树一个落日、...，让我们忍受下饥饿、屈辱，恐惧和对不公深深的愤怒。但是这些短暂的安慰并不能让这些人建立起长久活下去的意愿，除非能从这个过程中获得更大的意义，这就是意义疗法的中心主题：生命就是磨难，生存就是从磨难中找寻意义。这本书由两个部份组成，第一部份讲述了他在集中营的经历与他自己的观察，这部份读起来会让人很纠心; 第二部份解释了意义疗法作为一个治疗工具的作用。总之这是一本非常推荐的好书，不管在什么情况下，在你痛苦的时候，在你恐惧的时候，在你迷失的时候，在你开心的时候，在你有空的时候...，都应该读读这本书。
 
 ** Eight mindful steps to happiness : walking the path of the Buddha[fn:8]
 
    #+BEGIN_CENTER
-   八正道--佛陀的安乐之道[fn:7]
+   八正道--佛陀的安乐之道[fn:9]
    #+END_CENTER
 
    #+BEGIN_QUOTE
@@ -114,10 +114,10 @@
 
      这是一本能给你带来快乐的书，他运用佛教思想归纳了八个步骤指导你获得快乐。第一正见：了解因果; 第二正思想：放下妄想放下执着；第三正语：即是不妄语，诚实和善的说话; 第四正业：告戒自己避免憎恨与暴力; 第五正命：取有道之财保持平静；第六正精进：训练自己防范于未然; 第七正念：保持警醒洞见事物; 第八正定：安定内心心一境性。这八个步骤相互作用，互相促进，彼此增进。现代的人在精神物质方面都有了更多的选择，但是却更难获得快乐了，更不用说长久持续的快乐，而你要做的就是主动走向他，对自己的快乐负起责任。这本书将深遂的佛教思想用通俗易懂的语言和可操作性教导人们如何获得真正的快乐。而有信仰的人更易于满足和获得慰藉。
 
-** How to Not Die Alone[fn:9]
+** How to Not Die Alone[fn:10]
 
    #+BEGIN_CENTER
-   如何避免孤独终老[fn:15]
+   如何避免孤独终老[fn:11]
    #+END_CENTER
 
    #+BEGIN_QUOTE
@@ -130,10 +130,10 @@
 
      本书从行为经济学、行为心理学的角度出发，解答了单身人士要如何寻找恋人、情侣如何维系亲密关系、如何评估是否应该分手、如何决定是否应该和伴侣结婚、失恋人士如何告别过去并开启新生活等一系列非常实际的情感问题。为什么现在找对象比以前更难了，因为有了社交网络可以接触到更多的人造成了攀比和绝望。运用科学方法帮助你约会，选择伴侣及分手，具有很强的实操性。这本书可能更适合一些年轻人，他们喜欢在社交网络上展示自己，喜欢从网络上获取信息包括自己的恋爱与生活，可是如今的社交网络总是浮燥的，他们耳濡目染也形成了不正确的恋爱观。而这本书让你形成正确的恋爱观，让你从无到有确定自己的对象。
 
-** The Art of Communicating[fn:10]
+** The Art of Communicating[fn:12]
 
    #+BEGIN_CENTER
-   諦聽與愛語 : 一行禪師談正念溝通的藝術[fn:16]
+   諦聽與愛語 : 一行禪師談正念溝通的藝術[fn:13]
    #+END_CENTER
 
    #+BEGIN_QUOTE
@@ -153,10 +153,10 @@
      6.你也许是对的;
      这几个是在不同语境下的一些真言，它们间接的表达的你的爱意与真心，在实际生活中去套用它们，相信你也能收获真心。
 
-** Inner Engineering[fn:11]
+** Inner Engineering[fn:14]
 
    #+BEGIN_CENTER
-   内在工程[fn:12]
+   内在工程[fn:15]
    #+END_CENTER
 
    #+BEGIN_QUOTE
@@ -169,7 +169,7 @@
 
      内在工程是一门源自瑜伽科学，创造内在幸福的技术。它是一门个人成长的综合课程，会改变你对生活、工作、以及所生活的世界的认知与感受。之所以会推荐他是因为看了他的一些讲学觉得很有道理让人印象深刻，继而让我对他的其他课程产生兴趣。而这样的课程之所以重要有如此众多的追随者我想正是他能真正安抚人的内心。
 
-** Software Engineering at Google[fn:13]
+** Software Engineering at Google[fn:16]
 
    #+BEGIN_CENTER
    谷歌软件工程[fn:17]
@@ -189,36 +189,37 @@
 #+include: "../footer.zh.org"
 
 * Footnotes
-[fn:17] https://book.douban.com/subject/35838155/
 
-[fn:16] https://book.douban.com/subject/26884896/
-
-[fn:15] https://book.douban.com/subject/35496103/
-
-[fn:14] https://archive.org/details/fromdeathcamptoe0000fran/page/n141/mode/2up
-
-[fn:13] https://abseil.io/resources/swe-book
-
-[fn:12] https://www.innerengineering.com/zh-cn
-
-[fn:11] https://www.innerengineering.com/
-
-[fn:10] https://book.douban.com/subject/24834335/
-
-[fn:9] https://book.douban.com/subject/35496103/
-
-[fn:8] https://archive.org/details/eightmindfulstep0000guna
-
-[fn:7] https://book.douban.com/subject/4126251/
-
-[fn:6] https://book.douban.com/subject/1359005/
-
-[fn:5] https://archive.org/details/isbn_067182161x
-
-[fn:4] https://archive.org/details/gameoflifehowtop00shin/page/n5/mode/2up
-
-[fn:3] http://www.feelingisthesecret.org/
+[fn:1] https://book.douban.com/subject/3294272/
 
 [fn:2] https://genius.com/Sam-altman-lecture-1-how-to-start-a-startup-annotated
 
-[fn:1] https://book.douban.com/subject/3294272/
+[fn:3] http://www.feelingisthesecret.org/
+
+[fn:4] [[https://archive.org/details/gameoflifehowtop00shin/page/n5/mode/2up][The Game of Life and How to Play it]]
+
+[fn:5] https://archive.org/details/isbn_067182161x
+
+[fn:6] https://book.douban.com/subject/1359005/
+
+[fn:7] [[https://archive.org/details/fromdeathcamptoe0000fran/page/n141/mode/2up][死亡集中营到存在主义]]
+
+[fn:8] [[https://archive.org/details/eightmindfulstep0000guna][Eight mindful steps to happiness]]
+
+[fn:9] https://book.douban.com/subject/4126251/
+
+[fn:10] https://book.douban.com/subject/35496103/
+
+[fn:11] https://book.douban.com/subject/35496103/
+
+[fn:12] https://book.douban.com/subject/24834335/
+
+[fn:13] https://book.douban.com/subject/26884896/
+
+[fn:14] https://www.innerengineering.com/
+
+[fn:15] https://www.innerengineering.com/zh-cn
+
+[fn:16] https://abseil.io/resources/swe-book
+
+[fn:17] https://book.douban.com/subject/35838155/
