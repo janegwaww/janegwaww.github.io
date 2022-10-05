@@ -1,11 +1,8 @@
 #+STARTUP: showall
 #+options: toc:nil
-:PROPERTIES:
-:ID: recent_reading_5
-:END:
 
 #+TITLE: 分享最近阅读的书籍清单(五)
-#+AUTHOR: Tiglath Pileser
+#+AUTHOR: JaneGwaww
 
 * 分享最近阅读的书籍清单(五)
 
@@ -25,7 +22,9 @@
 --Luhmann
 #+end_quote
 
- * 我的结论
+*我的结论*
+
+好书
 
 ** The Craft of Text Editing[fn:3]
 
@@ -33,21 +32,78 @@
 文本编辑的技巧
 #+end_center
 
- * 我的结论
+#+begin_quote
+没有人能在不作记录下思考。
 
-** Crafting Interpreters[fn:4]
+--Luhmann
+#+end_quote
 
- *我的结论
+*我的结论*
+
+好书
+
+** Beautiful Racket[fn:4]
+/an introduction to language-oriented programming using Racket/
+
+#+begin_center
+优雅的Racket
+#+end_center
+
+#+begin_quote
+没有人能在不作记录下思考。
+
+--Luhmann
+#+end_quote
+
+*我的结论*
+
+好书
+
+** Technical Blogging, Second Edition[fn:6]
+/Amplify Your Influence/
+
+#+begin_center
+技术博客
+#+end_center
+
+#+begin_quote
+没有人能在不作记录下思考。
+
+--Luhmann
+#+end_quote
+
+*我的结论*
+
+好书
+
+** Crafting Interpreters[fn:5]
+
+#+begin_center
+制作
+#+end_center
+
+#+begin_quote
+没有人能在不作记录下思考。
+
+--Luhmann
+#+end_quote
+
+*我的结论*
+
+好书
 
 * 写在后面
-#+include: "../footer.zh.org"
+# #+include: "../footer.zh.org"
 
 * Footnotes
+[fn:6] [[https://medium.com/pragmatic-programmers/table-of-contents-10982edb748f]]
 
-[fn:1] https://www.amazon.com/How-Take-Smart-Notes-Nonfiction/dp/1542866502
+[fn:1] [[https://www.amazon.com/How-Take-Smart-Notes-Nonfiction/dp/1542866502]]
 
-[fn:2] https://book.douban.com/subject/35503571/
+[fn:2] [[https://book.douban.com/subject/35503571/]]
 
-[fn:3] http://www.finseth.com/craft/
+[fn:3] [[http://www.finseth.com/craft/]]
 
-[fn:4] https://craftinginterpreters.com/
+[fn:4] [[https://beautifulracket.com/]]
+
+[fn:5] [[https://craftinginterpreters.com/]]
