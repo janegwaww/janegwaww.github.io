@@ -59,7 +59,7 @@
 
 好书
 
-** Technical Blogging, Second Edition[fn:6]
+** Technical Blogging, Second Edition[fn:5]
 /Amplify Your Influence/
 
 #+begin_center
@@ -76,7 +76,7 @@
 
 好书
 
-** Crafting Interpreters[fn:5]
+** Crafting Interpreters[fn:6]
 
 #+begin_center
 制作
@@ -92,11 +92,26 @@
 
 好书
 
+** Master Emacs[fn:7]
+
+#+begin_center
+Emacs高级指南
+#+end_center
+
+#+begin_quote
+没有人能在不作记录下思考。
+
+--Luhmann
+#+end_quote
+
+*我的结论*
+
+好看
+
 * 写在后面
 # #+include: "../footer.zh.org"
 
 * Footnotes
-[fn:6] [[https://medium.com/pragmatic-programmers/table-of-contents-10982edb748f]]
 
 [fn:1] [[https://www.amazon.com/How-Take-Smart-Notes-Nonfiction/dp/1542866502]]
 
@@ -106,4 +121,8 @@
 
 [fn:4] [[https://beautifulracket.com/]]
 
-[fn:5] [[https://craftinginterpreters.com/]]
+[fn:5] [[https://medium.com/pragmatic-programmers/table-of-contents-10982edb748f]]
+
+[fn:6] [[https://craftinginterpreters.com/]]
+
+[fn:7] [[https://www.masteringemacs.org/]]
