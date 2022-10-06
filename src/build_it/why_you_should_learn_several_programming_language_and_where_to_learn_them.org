@@ -1,7 +1,7 @@
 #+STARTUP: showall
 #+options: toc:nil
 
-* 为什么你应该学习多种语言和哪里可以学到他们
+* 为什么你应该学习多种语言和哪里可以学到他们[fn:2]
 
 #+toc: headlines local
 
@@ -136,5 +136,6 @@
 #+include: "../footer.zh.org"
 
 * Footnotes
+[fn:2] [[https://hackernoon.com/the-more-the-better-why-you-should-learn-several-programming-languages-id1935wa][Why you should learn several programming languages]]
 
 [fn:1] http://open.163.com/newview/movie/free?pid=ME2CEELRM&mid=ME2CLHSTI

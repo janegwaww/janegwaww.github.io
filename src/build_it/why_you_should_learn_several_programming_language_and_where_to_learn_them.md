@@ -1,19 +1,19 @@
 
 
-# 为什么你应该学习多种语言和哪里可以学到他们
+# 为什么你应该学习多种语言和哪里可以学到他们<sup><a id="fnr.1" class="footref" href="#fn.1" role="doc-backlink">1</a></sup>
 
-1.  [为什么要用多种语言写代码](#org2a3cdf6)
-    1.  [拥有更多工具来完成工作](#org43039d9)
-    2.  [可以选择你的雇主](#org2ab8dbc)
-    3.  [提升工资的潜力](#org343d448)
-    4.  [成为多用途开发者](#orgc4fb1a2)
-    5.  [兴趣和广知](#org1ab7bfe)
-    6.  [学起来更轻松](#org8aa9a16)
-2.  [那些有经验的开发者对学多种编程语言有什么看法](#org272e54f)
-3.  [学哪些编程语言](#orga390933)
-4.  [总结](#org020504b)
+1.  [为什么要用多种语言写代码](#org6190f53)
+    1.  [拥有更多工具来完成工作](#org54d7293)
+    2.  [可以选择你的雇主](#orga03a618)
+    3.  [提升工资的潜力](#org5386dc0)
+    4.  [成为多用途开发者](#org1b62827)
+    5.  [兴趣和广知](#org8c69985)
+    6.  [学起来更轻松](#orgaf0f7d1)
+2.  [那些有经验的开发者对学多种编程语言有什么看法](#org5e0e0d0)
+3.  [学哪些编程语言](#org81141f2)
+4.  [总结](#org62979fb)
 
-> 语言塑造我们的思维方式<sup><a id="fnr.1" class="footref" href="#fn.1" role="doc-backlink">1</a></sup>
+> 语言塑造我们的思维方式<sup><a id="fnr.2" class="footref" href="#fn.2" role="doc-backlink">2</a></sup>
 > 
 > &#x2013;TED
 
@@ -26,7 +26,7 @@
 在这篇文章中我首先重点介绍多学习一门语言的好处，以及世界上有经验的程序员怎么说，最后推荐学习的语言和学习资源。
 
 
-<a id="org2a3cdf6"></a>
+<a id="org6190f53"></a>
 
 ## 为什么要用多种语言写代码
 
@@ -35,7 +35,7 @@
 以下是介绍学习多门的语言的好处有哪些。
 
 
-<a id="org43039d9"></a>
+<a id="org54d7293"></a>
 
 ### 拥有更多工具来完成工作
 
@@ -44,14 +44,14 @@
 通过扩展你的知识广度，添加更多工具语言到你的工具箱，你将有更多的选择去解决问题，并从中选择一个最优解。
 
 
-<a id="org2ab8dbc"></a>
+<a id="orga03a618"></a>
 
 ### 可以选择你的雇主
 
 你一旦学会了多门语言，将有更多职业大门为你敞开。你将不在受限于职业的选择，更大的市场为你打开，你还可能按喜好选你喜欢的雇主。
 
 
-<a id="org343d448"></a>
+<a id="org5386dc0"></a>
 
 ### 提升工资的潜力
 
@@ -60,7 +60,7 @@
 你可以驾驭不同语言的团队，并在与单语言团队或个人竞争时有更多优势。
 
 
-<a id="orgc4fb1a2"></a>
+<a id="org1b62827"></a>
 
 ### 成为多用途开发者
 
@@ -69,7 +69,7 @@
 知道更多语言可以让你在这种风头中有更多机会，再者，每一种语言都有他独特的设计模式，懂得多种语言可以扩展你的思维让你成为知识丰富的开发者。
 
 
-<a id="org1ab7bfe"></a>
+<a id="org8c69985"></a>
 
 ### 兴趣和广知
 
@@ -78,7 +78,7 @@
 多种偿试能让你获得更好的满足感，可以让你在不同的团队中胜任各个项目。
 
 
-<a id="org8aa9a16"></a>
+<a id="orgaf0f7d1"></a>
 
 ### 学起来更轻松
 
@@ -87,7 +87,7 @@
 不管你从事哪个行业，终身学习者都是与众不同的人，对于软件开发而言尤其如此。
 
 
-<a id="org272e54f"></a>
+<a id="org5e0e0d0"></a>
 
 ## 那些有经验的开发者对学多种编程语言有什么看法
 
@@ -98,7 +98,7 @@
 它也可能使你摆脱日常工作中的无聊，而使用这个新语言做全新的事情的可能会激发你第二天早上早早的去工作。
 
 
-<a id="orga390933"></a>
+<a id="org81141f2"></a>
 
 ## 学哪些编程语言
 
@@ -201,7 +201,7 @@
     帮助你掌握编码技能，通过挑战提高编码能力，根据Google和Microsoft面试问题帮助准备面试等。
 
 
-<a id="org020504b"></a>
+<a id="org62979fb"></a>
 
 ## 总结
 
@@ -210,7 +210,7 @@
 
 # 写在后面
 
-<table id="org98a267d" border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+<table id="orgcdd4eea" border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
 
 
 <colgroup>
@@ -302,4 +302,6 @@
 
 # Footnotes
 
-<sup><a id="fn.1" href="#fnr.1">1</a></sup> <http://open.163.com/newview/movie/free?pid=ME2CEELRM&mid=ME2CLHSTI>
+<sup><a id="fn.1" href="#fnr.1">1</a></sup> [Why you should learn several programming languages](https://hackernoon.com/the-more-the-better-why-you-should-learn-several-programming-languages-id1935wa)
+
+<sup><a id="fn.2" href="#fnr.2">2</a></sup> <http://open.163.com/newview/movie/free?pid=ME2CEELRM&mid=ME2CLHSTI>
