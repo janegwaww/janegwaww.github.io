@@ -14,10 +14,10 @@
 |   7 | [[./build_it/older_developer.zh.html][作为大龄程序员，你如何持续的保持自己的竞争优势]] |
 |   8 | [[./build_it/how_to_stop_caring.zh.html][程序员在职场中如何缓解过度焦虑]]                 |
 |-----+------------------------------------------------|
-|     | 如果喜欢该文章欢迎Star我的[[https://github.com/tiglapiles/article][github]]               |
+|     | 如果喜欢该文章欢迎Star我的[[https://github.com/janegwaww/article][github]]               |
 |     | 捐助我的[[https://itch.io/profile/tiglapiles][游戏]]，支持我的创作                     |
 |     | [[https://v2ex.com/member/mascteen/topics][我的社区更新地址]]                               |
-|     | email: [[mailto:tiglapiles@gmail.com][tiglapiles@gmail.com]]                    |
+|     | email: [[mailto:tiglapiles@gmail.com][janegwaww]]                    |
 |-----+------------------------------------------------|
 |     | [[../][Home Page]]                                      |
 |-----+------------------------------------------------|
