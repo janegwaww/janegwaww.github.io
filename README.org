@@ -1,5 +1,5 @@
 #+options: toc:nil
-#+title: JaneGwaww's Blog
+# #+title: JaneGwaww's Blog
 
 * JaneGwaww's Blog
 
