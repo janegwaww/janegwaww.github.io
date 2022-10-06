@@ -1,6 +1,9 @@
-#+options: toc:nil
+---
+layout: default
+---
 
-* JaneGwaww's Blog
+#+options: toc:nil
+#+title: JaneGwaww's Blog
 
 #+begin_quote
 It’s Your Life.
