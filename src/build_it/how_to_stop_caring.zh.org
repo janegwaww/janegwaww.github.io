@@ -1,8 +1,3 @@
----
-layout: default
-title: 程序员在职场中如何缓解过度焦虑
----
-
 #+startup: showall
 #+options: toc:nil
 

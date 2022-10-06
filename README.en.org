@@ -1,7 +1,3 @@
----
-layout: default
----
-
 #+options: toc:nil
 #+title: JaneGwaww's Blog
 
