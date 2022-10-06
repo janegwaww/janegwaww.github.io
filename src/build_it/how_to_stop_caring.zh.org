@@ -1,0 +1,29 @@
+---
+layout: default
+title: 程序员在职场中如何缓解过度焦虑
+---
+
+#+startup: showall
+#+options: toc:nil
+
+#+title: 程序员在职场中如何缓解过度焦虑
+
+#+toc: headlines local
+
+#+begin_quote
+quote
+#+end_quote
+
+* 引出
+
+* 现状
+
+* 表现
+
+* 为什么
+
+* 解决方法
+
+* 思考
+
+* 写在后面
