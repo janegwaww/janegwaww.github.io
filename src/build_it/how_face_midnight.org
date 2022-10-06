@@ -79,12 +79,12 @@
 
 * Footnotes
 
-[fn:5] https://twitter.com/theshawwn/status/1392213804684038150
+[fn:1] [[https://zh.wikisource.org/wiki/%E7%A6%AE%E8%A8%98/%E5%A4%A7%E5%AD%B8_(%E8%AD%89%E9%87%8B%E6%9C%AC)][大学维基百科]]
 
-[fn:4] https://alantabor.medium.com/reverse-engineering-my-life-e06b59ba3efc
+[fn:2] [[https://zh.wikisource.org/wiki/%E7%A6%AE%E8%A8%98/%E6%9B%B2%E7%A6%AE%E4%B8%8A][礼记维基百科]]
 
 [fn:3] https://en.wikipedia.org/wiki/Daniel_Levinson
 
-[fn:2] https://zh.wikisource.org/wiki/%E7%A6%AE%E8%A8%98/%E6%9B%B2%E7%A6%AE%E4%B8%8A
+[fn:4] https://alantabor.medium.com/reverse-engineering-my-life-e06b59ba3efc
 
-[fn:1] https://zh.wikisource.org/wiki/%E7%A6%AE%E8%A8%98/%E5%A4%A7%E5%AD%B8_(%E8%AD%89%E9%87%8B%E6%9C%AC)
+[fn:5] https://twitter.com/theshawwn/status/1392213804684038150

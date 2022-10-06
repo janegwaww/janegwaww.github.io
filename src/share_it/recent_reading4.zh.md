@@ -1,18 +1,17 @@
-:ID: recent-reading4
 
 
 # 分享最近阅读的书籍清单(四)
 
-1.  [绝版李鸿章](#orgbc5897f)
-2.  [How to Start a Startup](#org04e2e0a)
-3.  [Feeling Is the Secret](#org232ab45)
-4.  [The Game of Life and How to Play it](#orgd426d3f)
-5.  [Man's Search for Meaning](#org8d5d307)
-6.  [Eight mindful steps to happiness : walking the path of the Buddha](#org34bde0f)
-7.  [How to Not Die Alone](#org45377fe)
-8.  [The Art of Communicating](#org09b8a66)
-9.  [Inner Engineering](#org8759c58)
-10. [Software Engineering at Google](#orgb33ca11)
+1.  [绝版李鸿章](#orgb0eb173)
+2.  [How to Start a Startup](#org55034a4)
+3.  [Feeling Is the Secret](#org3fc16fb)
+4.  [The Game of Life and How to Play it](#org612d0aa)
+5.  [Man's Search for Meaning](#org01ba6b0)
+6.  [Eight mindful steps to happiness : walking the path of the Buddha](#org496fd46)
+7.  [How to Not Die Alone](#orgd521cf4)
+8.  [The Art of Communicating](#orgddadbed)
+9.  [Inner Engineering](#org6b1fb32)
+10. [Software Engineering at Google](#org1967af1)
 
 > 如果您希望自己周遭的一切都是熟悉的，那么您也将永远失去学到任何新东西的机会。
 > 
@@ -21,7 +20,7 @@
 这些都是在人生中的好书藉或好内容，我想把这些优秀的东西分享出来，并赋上自己的一些主观想法，能让更多人知道并从中受益。这里只是做一个引荐，精彩需要你自己亲自拜读从中感受。
 
 
-<a id="orgbc5897f"></a>
+<a id="orgb0eb173"></a>
 
 ## 绝版李鸿章<sup><a id="fnr.1" class="footref" href="#fn.1" role="doc-backlink">1</a></sup>
 
@@ -40,7 +39,7 @@
     当局者迷旁观者清，有些历史人物的做法，很难被当时的人们所认同，时隔久远之后现在的我们看，在当时历史条件下很难做的比他好了。武则天为自己立了一块无字碑，想由后人评说自己的功绩，重用来俊臣是非常时期的非常手段，用完就扔了没有变成赵高的指鹿为马，有贞观遗风和开元盛世，不输在众历史皇帝。而[李鸿章](https://zh.wikipedia.org/wiki/%E6%9D%8E%E9%B4%BB%E7%AB%A0)处在一个传统与现在交替的历史特殊时期，往后退一点基本是在中原这个地盘上内斗，往前推一点就有各国势力和国际规则参与其中了，而李鸿章师从曾国潘，在这种复杂的格局下，也做到了他能做的最好的了，在当时的那个中原大陆上没有几个人的眼光，谋略和地位能超过他的了，他说一代人只能完成一代人的事，不激进也不保守，塑造了一代典范。回顾这本书的照片和介绍，管中窥豹一点这个人的瞬间，想想如果你处在他的位置，在当时内忧外患的清朝你会怎么做？
 
 
-<a id="org04e2e0a"></a>
+<a id="org55034a4"></a>
 
 ## How to Start a Startup<sup><a id="fnr.2" class="footref" href="#fn.2" role="doc-backlink">2</a></sup>
 
@@ -59,7 +58,7 @@
     首先你需要明确一点，在现在信息都可以很容易获取的时代，创业已经不在是一个天方夜谭的产物，你只需要创意的点子，正确的方向，和付诸行动的执行力。
 
 
-<a id="org232ab45"></a>
+<a id="org3fc16fb"></a>
 
 ## Feeling Is the Secret<sup><a id="fnr.3" class="footref" href="#fn.3" role="doc-backlink">3</a></sup>
 
@@ -78,7 +77,7 @@
     这是一本45页的精致小书，讲述如何实现你的梦想。总共就四章，第一章规则和操作，第二章睡眠，第三章祈祷，最后一章精神－感知。这是一本关于实现你野心的艺术书，他给你提供了一系列切实有用的机制用于玩转这个世界。为什么说感觉是秘密，因为选择如何去感知这个的世界比起思考更加重要，所以请更多的去感知这个世界，这也可将改变你的人生。或许比起思考如何成功，如何挣钱，如何成为人生羸家，带给我们的压力与抑陏，让我们更多的使用感觉，他是一种顺风而听，顺水推舟，给你更真切的爱情，与更高效的工作。他不是一本成功学书，阅读他需要一定的信仰，书里有很多处引用了圣经，如果你是无神论者，或者没有任何信仰可能本书并不适合你，对于有信仰的人他们心中都有一个神圣的东西指引着自己，所以这本书也就像圣经指引着自己，解开心中诸多的疑惑。
 
 
-<a id="orgd426d3f"></a>
+<a id="org612d0aa"></a>
 
 ## The Game of Life and How to Play it<sup><a id="fnr.4" class="footref" href="#fn.4" role="doc-backlink">4</a></sup>
 
@@ -94,10 +93,10 @@
 
 -   我的结论
     
-    这本书类似于[《感觉对了，就对了》](#org232ab45)，有宗教元素，也有意识，潜意识方面的理论，也是人生导师的书籍。市面上有很多类似的关于成功学的书，但这本出版于1925年的书可以说是这类书的早期始祖，他讲述了细节如何决定成败，以及我们犯下的错误是如何导致我们的失败。他给的答案也很简单：我们很容易从挫折中丧失信心，忘记了谁才是人生的主宰，只有我们自己和上帝，不是这个让我们沉沦的世界。而这类书的精髓在于，如果你有相同的困惑，有类似的信仰，阅读此书并结合书中总结的理论应用于现实生活，你会发现世界更加美好了。
+    这本书类似于[《感觉对了，就对了》](#org3fc16fb)，有宗教元素，也有意识，潜意识方面的理论，也是人生导师的书籍。市面上有很多类似的关于成功学的书，但这本出版于1925年的书可以说是这类书的早期始祖，他讲述了细节如何决定成败，以及我们犯下的错误是如何导致我们的失败。他给的答案也很简单：我们很容易从挫折中丧失信心，忘记了谁才是人生的主宰，只有我们自己和上帝，不是这个让我们沉沦的世界。而这类书的精髓在于，如果你有相同的困惑，有类似的信仰，阅读此书并结合书中总结的理论应用于现实生活，你会发现世界更加美好了。
 
 
-<a id="org8d5d307"></a>
+<a id="org01ba6b0"></a>
 
 ## Man's Search for Meaning<sup><a id="fnr.5" class="footref" href="#fn.5" role="doc-backlink">5</a></sup>
 
@@ -116,7 +115,7 @@
     这本书是来自《死亡集中营到存在主义》<sup><a id="fnr.7" class="footref" href="#fn.7" role="doc-backlink">7</a></sup>修定放大版，很显然是要讲一些集中营的故事，作者本人也是其中的受害者，但他并没有拘束于故事而是上升到一定的理论，创建现代精神学的意义疗法。读者能从这本书中意识到：当自己突然一无所有，再也没有什么可以失去的时候，自己应该怎么做。首先铺面而来的是冷颤，和奇怪于会有如此的命运; 其次会想尽办法保护生命中的剩余部份，尽管机会很渺茫; 最后是忍受，或是对脑海中爱人的严护、或是自己坚持的信仰、或是一个冷酷的幽默、或是瞥见了大自然的美丽一角－－一颗树一个落日、&#x2026;，让我们忍受下饥饿、屈辱，恐惧和对不公深深的愤怒。但是这些短暂的安慰并不能让这些人建立起长久活下去的意愿，除非能从这个过程中获得更大的意义，这就是意义疗法的中心主题：生命就是磨难，生存就是从磨难中找寻意义。这本书由两个部份组成，第一部份讲述了他在集中营的经历与他自己的观察，这部份读起来会让人很纠心; 第二部份解释了意义疗法作为一个治疗工具的作用。总之这是一本非常推荐的好书，不管在什么情况下，在你痛苦的时候，在你恐惧的时候，在你迷失的时候，在你开心的时候，在你有空的时候&#x2026;，都应该读读这本书。
 
 
-<a id="org34bde0f"></a>
+<a id="org496fd46"></a>
 
 ## Eight mindful steps to happiness : walking the path of the Buddha<sup><a id="fnr.8" class="footref" href="#fn.8" role="doc-backlink">8</a></sup>
 
@@ -135,7 +134,7 @@
     这是一本能给你带来快乐的书，他运用佛教思想归纳了八个步骤指导你获得快乐。第一正见：了解因果; 第二正思想：放下妄想放下执着；第三正语：即是不妄语，诚实和善的说话; 第四正业：告戒自己避免憎恨与暴力; 第五正命：取有道之财保持平静；第六正精进：训练自己防范于未然; 第七正念：保持警醒洞见事物; 第八正定：安定内心心一境性。这八个步骤相互作用，互相促进，彼此增进。现代的人在精神物质方面都有了更多的选择，但是却更难获得快乐了，更不用说长久持续的快乐，而你要做的就是主动走向他，对自己的快乐负起责任。这本书将深遂的佛教思想用通俗易懂的语言和可操作性教导人们如何获得真正的快乐。而有信仰的人更易于满足和获得慰藉。
 
 
-<a id="org45377fe"></a>
+<a id="orgd521cf4"></a>
 
 ## How to Not Die Alone<sup><a id="fnr.10" class="footref" href="#fn.10" role="doc-backlink">10</a></sup>
 
@@ -154,7 +153,7 @@
     本书从行为经济学、行为心理学的角度出发，解答了单身人士要如何寻找恋人、情侣如何维系亲密关系、如何评估是否应该分手、如何决定是否应该和伴侣结婚、失恋人士如何告别过去并开启新生活等一系列非常实际的情感问题。为什么现在找对象比以前更难了，因为有了社交网络可以接触到更多的人造成了攀比和绝望。运用科学方法帮助你约会，选择伴侣及分手，具有很强的实操性。这本书可能更适合一些年轻人，他们喜欢在社交网络上展示自己，喜欢从网络上获取信息包括自己的恋爱与生活，可是如今的社交网络总是浮燥的，他们耳濡目染也形成了不正确的恋爱观。而这本书让你形成正确的恋爱观，让你从无到有确定自己的对象。
 
 
-<a id="org09b8a66"></a>
+<a id="orgddadbed"></a>
 
 ## The Art of Communicating<sup><a id="fnr.12" class="footref" href="#fn.12" role="doc-backlink">12</a></sup>
 
@@ -180,7 +179,7 @@
     这几个是在不同语境下的一些真言，它们间接的表达的你的爱意与真心，在实际生活中去套用它们，相信你也能收获真心。
 
 
-<a id="org8759c58"></a>
+<a id="org6b1fb32"></a>
 
 ## Inner Engineering<sup><a id="fnr.14" class="footref" href="#fn.14" role="doc-backlink">14</a></sup>
 
@@ -199,7 +198,7 @@
     内在工程是一门源自瑜伽科学，创造内在幸福的技术。它是一门个人成长的综合课程，会改变你对生活、工作、以及所生活的世界的认知与感受。之所以会推荐他是因为看了他的一些讲学觉得很有道理让人印象深刻，继而让我对他的其他课程产生兴趣。而这样的课程之所以重要有如此众多的追随者我想正是他能真正安抚人的内心。
 
 
-<a id="orgb33ca11"></a>
+<a id="org1967af1"></a>
 
 ## Software Engineering at Google<sup><a id="fnr.16" class="footref" href="#fn.16" role="doc-backlink">16</a></sup>
 
@@ -220,7 +219,7 @@
 
 # 写在后面
 
-<table id="orge131e8b" border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+<table id="org3d6a293" border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
 
 
 <colgroup>
@@ -318,15 +317,15 @@
 
 <sup><a id="fn.3" href="#fnr.3">3</a></sup> <http://www.feelingisthesecret.org/>
 
-<sup><a id="fn.4" href="#fnr.4">4</a></sup> <https://archive.org/details/gameoflifehowtop00shin/page/n5/mode/2up>
+<sup><a id="fn.4" href="#fnr.4">4</a></sup> [The Game of Life and How to Play it](https://archive.org/details/gameoflifehowtop00shin/page/n5/mode/2up)
 
 <sup><a id="fn.5" href="#fnr.5">5</a></sup> <https://archive.org/details/isbn_067182161x>
 
 <sup><a id="fn.6" href="#fnr.6">6</a></sup> <https://book.douban.com/subject/1359005/>
 
-<sup><a id="fn.7" href="#fnr.7">7</a></sup> <https://archive.org/details/fromdeathcamptoe0000fran/page/n141/mode/2up>
+<sup><a id="fn.7" href="#fnr.7">7</a></sup> [死亡集中营到存在主义](https://archive.org/details/fromdeathcamptoe0000fran/page/n141/mode/2up)
 
-<sup><a id="fn.8" href="#fnr.8">8</a></sup> <https://archive.org/details/eightmindfulstep0000guna>
+<sup><a id="fn.8" href="#fnr.8">8</a></sup> [Eight mindful steps to happiness](https://archive.org/details/eightmindfulstep0000guna)
 
 <sup><a id="fn.9" href="#fnr.9">9</a></sup> <https://book.douban.com/subject/4126251/>
 
