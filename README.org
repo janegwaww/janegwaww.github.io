@@ -1,3 +1,4 @@
+#+startup: showall
 #+options: toc:nil
 # #+title: JaneGwaww's Blog
 
