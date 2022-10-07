@@ -13,4 +13,4 @@ group :jekyll_plugins do
   gem 'jekyll-remote-theme'
 end
 
-gem "jekyll-org", "~> 1.1"
+# gem "jekyll-org", "~> 1.1"

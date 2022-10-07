@@ -9,5 +9,5 @@ plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
   - jekyll-remote-theme
-  - jekyll-org
+  # - jekyll-org
 google_analytics: UA-150406661-2
