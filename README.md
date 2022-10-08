@@ -37,3 +37,12 @@
 
 ### [作为大龄程序员，你如何持续的保持自己的竞争优势](./src/build_it/older_developer.zh.md)
 
+
+# License
+
+[\![CC BY-NC-SA 4.0][cc-by-nc-sa-image]][cc-by-nc-sa]
+
+[cc-by-nc-sa]: <http://creativecommons.org/licenses/by-nc-sa/4.0/>
+[cc-by-nc-sa-image]: ![img](https://licensebuttons.net/l/by-nc-sa/4.0/88x31.png)
+[cc-by-nc-sa-shield]: ![img](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg)
+
