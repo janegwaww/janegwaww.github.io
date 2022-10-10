@@ -1,12 +1,8 @@
----
-layout: default
-title: 程序员在职场中如何缓解过度焦虑
----
-
 #+startup: showall
 #+options: toc:nil
+#+tags: developer officespace stopcaring anxious
 
-#+title: 程序员在职场中如何缓解过度焦虑
+* 程序员在职场中如何缓解过度焦虑[fn:1]
 
 #+toc: headlines local
 
@@ -14,16 +10,21 @@ title: 程序员在职场中如何缓解过度焦虑
 quote
 #+end_quote
 
-* 引出
+** 引出
 
-* 现状
+** 现状
 
-* 表现
+** 表现
 
-* 为什么
+** 为什么
 
-* 解决方法
+** 解决方法
 
-* 思考
+** 思考
 
 * 写在后面
+#+include: "../footer.zh.org"
+
+* Footnotes
+
+[fn:1] [[https://news.ycombinator.com/item?id=33054652]]
