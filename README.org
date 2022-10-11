@@ -32,4 +32,4 @@ AND HAVE FUN!
 
 *** [[./src/build_it/older_developer.zh.md][作为大龄程序员，你如何持续的保持自己的竞争优势]]
 
-*** [[file:src/build_it/how_to_stop_caring.zh.org::*程序员在职场中如何缓解过度焦虑\[fn:1\]][程序员在职场中如何缓解过度焦虑]]
+*** [[file:src/build_it/how_to_stop_caring.zh.org::*程序员在职场中如何缓解过度焦虑][程序员在职场中如何缓解过度焦虑]]
