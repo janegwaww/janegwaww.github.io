@@ -1,0 +1,23 @@
+#+startup: showall
+#+options: toc:nil
+
+* 如何阅读一本书[fn:1]
+
+#+toc: headlines local
+
+** abstract
+
+** introduction
+
+** the three-pass approach
+
+** DOING A LITERATURE SURVEY
+
+** conclusion
+
+* 写在后面
+#+include: "../footer.zh.org"
+
+* Footnotes
+
+[fn:1] [[https://web.stanford.edu/class/cs245/readings/how-to-read-a-paper.pdf][How to Read a Paper]]
