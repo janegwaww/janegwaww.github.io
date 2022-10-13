@@ -1,6 +1,7 @@
 #+options: toc:nil
 
-* JaneGwaww's Blog
+#+options: toc:nil
+#+title: JaneGwaww's Blog
 
 #+begin_quote
 It’s Your Life.
@@ -29,6 +30,8 @@ AND HAVE FUN!
 *** [[./src/build_it/why_you_should_learn_several_programming_language_and_where_to_learn_them.md][为什么你应该学习多种语言和哪里可以学到他们]]
 
 *** [[./src/build_it/older_developer.zh.md][作为大龄程序员，你如何持续的保持自己的竞争优势]]
+
+*** [[file:src/build_it/how_to_stop_caring.zh.org::*程序员在职场中如何缓解过度焦虑][程序员在职场中如何缓解过度焦虑]]
 
 * License
 

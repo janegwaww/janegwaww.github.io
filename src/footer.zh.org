@@ -17,7 +17,7 @@
 |     | 如果喜欢该文章欢迎Star我的[[https://github.com/janegwaww/article][github]]               |
 |     | 捐助我的[[https://itch.io/profile/tiglapiles][游戏]]，支持我的创作                     |
 |     | [[https://v2ex.com/member/mascteen/topics][我的社区更新地址]]                               |
-|     | email: [[mailto:tiglapiles@gmail.com][janegwaww]]                    |
+|     | Email: [[mailto:tiglapiles@gmail.com][tiglapiles@gmail.com]]                    |
 |-----+------------------------------------------------|
 |     | [[../][Home Page]]                                      |
 |-----+------------------------------------------------|
