@@ -1,5 +1,4 @@
 #+options: toc:nil
-
 #+options: toc:nil
 
 * JaneGwaww's Blog
