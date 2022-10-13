@@ -38,6 +38,9 @@
 ### [作为大龄程序员，你如何持续的保持自己的竞争优势](./src/build_it/older_developer.zh.md)
 
 
+### [程序员在职场中如何缓解过度焦虑](src/build_it/how_to_stop_caring.zh.md)
+
+
 # License
 
 This work is licensed under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-nc-sa/4.0/).
