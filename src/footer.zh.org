@@ -1,8 +1,6 @@
 #+startup: showall
 #+startup: align
 
-
-#+name: backend
 | NO. | Content                                        |
 |-----+------------------------------------------------|
 |   1 | [[./share_it/recent_reading.html][分享最近阅读的书籍清单(一)]]                     |
