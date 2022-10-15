@@ -1,0 +1,143 @@
+#+startup: showall
+#+options: toc:nil
+
+* 分享最近使用过的记笔记软件
+
+#+toc: headlines local
+
+** 记笔记软件
+
+*** Org-roam[fn:1]
+
+#+begin_quote
+A plain-text personal knowledge management system.
+#+end_quote
+
+网址: [[https://www.orgroam.com/]]
+
+*** RoamSearch
+
+#+begin_quote
+A note-taking tool for networked thought.
+#+end_quote
+
+网址: [[https://roamresearch.com/]]
+
+*** Zettlr
+
+p#+begin_quote
+Zettlr: A Markdown editor for the 21st century
+#+end_quote
+
+网址: [[https://zettlr.com/]]
+
+*** The Archive
+
+#+begin_quote
+Note Taking: Nimble, Calm, Plain.txt
+#+end_quote
+
+网址: [[https://zettelkasten.de/the-archive/]]
+
+*** Obsidian
+
+#+begin_quote
+A second brain,for you, forever.
+#+end_quote
+
+网址: [[https://obsidian.md/]]
+
+*** Notion
+
+#+begin_quote
+One workspace. Every team.
+#+end_quote
+
+网址: [[https://www.notion.so/]]
+
+*** OneNote
+
+#+begin_quote
+你的数字笔记本
+
+功能齐全的笔记本，可满足你的所有记笔记需求。
+#+end_quote
+
+网址: [[https://www.microsoft.com/zh-cn/microsoft-365/onenote/digital-note-taking-app?ms.url=onenotecom&rtc=1][OneNote]]
+
+*** TiddlyWiki
+
+#+begin_quote
+a non-linear personal web notebook
+#+end_quote
+
+网址: [[https://tiddlywiki.com/]]
+
+*** Google-Doc
+
+#+begin_quote
+Build your best ideas together, in Google Docs
+#+end_quote
+
+网址: [[https://www.google.com/docs/about/]]
+
+*** LogSeq
+
+#+begin_quote
+Connected thoughts to increase understanding
+#+end_quote
+
+网址: https://logseq.com/
+
+*** 语雀, showdoc, 石墨
+
+1. 语雀:
+   #+begin_quote
+   用语雀，构建你的数字花园
+   #+end_quote
+   网址: [[https://www.yuque.com/]]
+2. showdoc:
+   #+begin_quote
+   一个非常适合IT团队的API文档、技术文档工具
+   #+end_quote
+   网址: [[https://www.showdoc.com.cn/]]
+3. 石墨
+   #+begin_quote
+   全新一代云端 Office，面向未来的办公软件
+   #+end_quote
+   网址: https://shimo.im/
+
+*** Joplin
+
+#+begin_quote
+Free your notes
+
+Joplin is an open source note-taking app. Capture your thoughts and securely access them from any device.
+#+end_quote
+
+网址: [[https://joplinapp.org/]]
+
+*** 有道
+
+#+begin_quote
+记录，成为更好的自己
+#+end_quote
+
+网址: https://note.youdao.com/
+
+*** EverNote
+
+#+begin_quote
+让工作更有序，让生活更简约。
+
+记录点点滴滴，完成所有项目，将你的笔记、任务和日程表全部保存在一处。
+#+end_quote
+
+网址: [[https://evernote.com/intl/zh-cn]]
+
+* 写在最后
+#+include: "../footer.zh.org"
+
+* Footnotes
+
+[fn:1] with Emacs [[https://orgmode.org/][org-mode]]
