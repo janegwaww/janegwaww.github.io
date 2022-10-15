@@ -1,7 +1,5 @@
 #+STARTUP: showall
 #+options: toc:nil
-
-#+TITLE: 分享最近阅读的书籍清单(五)
 #+AUTHOR: JaneGwaww
 
 * 分享最近阅读的书籍清单(五)
