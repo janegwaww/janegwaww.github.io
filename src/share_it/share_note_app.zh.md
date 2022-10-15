@@ -2,29 +2,29 @@
 
 # 分享最近使用过的记笔记软件
 
-1.  [记笔记软件](#org274bfb3)
-    1.  [Org-roam](#org4e72fb3)
-    2.  [RoamSearch](#org854d3e7)
-    3.  [Zettlr](#org7c452bd)
-    4.  [The Archive](#org23f2535)
-    5.  [Obsidian](#org39c1728)
-    6.  [Notion](#org9234630)
-    7.  [OneNote](#org4480a36)
-    8.  [TiddlyWiki](#org9b3143b)
-    9.  [Google-Doc](#org2e2542b)
-    10. [LogSeq](#orge284f0f)
-    11. [语雀, showdoc, 石墨](#org27d78a9)
-    12. [Joplin](#org27c42fb)
-    13. [有道](#org22c455d)
-    14. [EverNote](#org7f11628)
+1.  [记笔记软件](#orgdc66352)
+    1.  [Org-roam](#orgeb5f470)
+    2.  [RoamSearch](#orgdc3fee9)
+    3.  [Zettlr](#org7f39edc)
+    4.  [The Archive](#org6136919)
+    5.  [Obsidian](#org4415106)
+    6.  [Notion](#org5d8298e)
+    7.  [OneNote](#org7f6337e)
+    8.  [TiddlyWiki](#org110125f)
+    9.  [Google-Doc](#org356e3c6)
+    10. [LogSeq](#org52d05cf)
+    11. [语雀, showdoc, 石墨](#orga3fdf35)
+    12. [Joplin](#org30450a1)
+    13. [有道](#org8d99b27)
+    14. [EverNote](#org2efc37f)
 
 
-<a id="org274bfb3"></a>
+<a id="orgdc66352"></a>
 
 ## 记笔记软件
 
 
-<a id="org4e72fb3"></a>
+<a id="orgeb5f470"></a>
 
 ### Org-roam<sup><a id="fnr.1" class="footref" href="#fn.1" role="doc-backlink">1</a></sup>
 
@@ -33,7 +33,7 @@
 网址: <https://www.orgroam.com/>
 
 
-<a id="org854d3e7"></a>
+<a id="orgdc3fee9"></a>
 
 ### RoamSearch
 
@@ -42,18 +42,16 @@
 网址: <https://roamresearch.com/>
 
 
-<a id="org7c452bd"></a>
+<a id="org7f39edc"></a>
 
 ### Zettlr
 
-p#+begin<sub>quote</sub>
-Zettlr: A Markdown editor for the 21st century
-\#+end<sub>quote</sub>
+> Zettlr: A Markdown editor for the 21st century
 
 网址: <https://zettlr.com/>
 
 
-<a id="org23f2535"></a>
+<a id="org6136919"></a>
 
 ### The Archive
 
@@ -62,7 +60,7 @@ Zettlr: A Markdown editor for the 21st century
 网址: <https://zettelkasten.de/the-archive/>
 
 
-<a id="org39c1728"></a>
+<a id="org4415106"></a>
 
 ### Obsidian
 
@@ -71,7 +69,7 @@ Zettlr: A Markdown editor for the 21st century
 网址: <https://obsidian.md/>
 
 
-<a id="org9234630"></a>
+<a id="org5d8298e"></a>
 
 ### Notion
 
@@ -80,7 +78,7 @@ Zettlr: A Markdown editor for the 21st century
 网址: <https://www.notion.so/>
 
 
-<a id="org4480a36"></a>
+<a id="org7f6337e"></a>
 
 ### OneNote
 
@@ -91,7 +89,7 @@ Zettlr: A Markdown editor for the 21st century
 网址: [OneNote](https://www.microsoft.com/zh-cn/microsoft-365/onenote/digital-note-taking-app?ms.url=onenotecom&rtc=1)
 
 
-<a id="org9b3143b"></a>
+<a id="org110125f"></a>
 
 ### TiddlyWiki
 
@@ -100,7 +98,7 @@ Zettlr: A Markdown editor for the 21st century
 网址: <https://tiddlywiki.com/>
 
 
-<a id="org2e2542b"></a>
+<a id="org356e3c6"></a>
 
 ### Google-Doc
 
@@ -109,7 +107,7 @@ Zettlr: A Markdown editor for the 21st century
 网址: <https://www.google.com/docs/about/>
 
 
-<a id="orge284f0f"></a>
+<a id="org52d05cf"></a>
 
 ### LogSeq
 
@@ -118,7 +116,7 @@ Zettlr: A Markdown editor for the 21st century
 网址: <https://logseq.com/>
 
 
-<a id="org27d78a9"></a>
+<a id="orga3fdf35"></a>
 
 ### 语雀, showdoc, 石墨
 
@@ -139,7 +137,7 @@ Zettlr: A Markdown editor for the 21st century
     网址: <https://shimo.im/>
 
 
-<a id="org27c42fb"></a>
+<a id="org30450a1"></a>
 
 ### Joplin
 
@@ -150,7 +148,7 @@ Zettlr: A Markdown editor for the 21st century
 网址: <https://joplinapp.org/>
 
 
-<a id="org22c455d"></a>
+<a id="org8d99b27"></a>
 
 ### 有道
 
@@ -159,7 +157,7 @@ Zettlr: A Markdown editor for the 21st century
 网址: <https://note.youdao.com/>
 
 
-<a id="org7f11628"></a>
+<a id="org2efc37f"></a>
 
 ### EverNote
 
@@ -172,7 +170,7 @@ Zettlr: A Markdown editor for the 21st century
 
 # 写在最后
 
-<table id="org71625d8" border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+<table id="org0fd8e49" border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
 
 
 <colgroup>

@@ -25,7 +25,7 @@ A note-taking tool for networked thought.
 
 *** Zettlr
 
-p#+begin_quote
+#+begin_quote
 Zettlr: A Markdown editor for the 21st century
 #+end_quote
 
