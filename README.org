@@ -1,5 +1,4 @@
-#+options: toc:nil
-
+#+startup: showall
 #+options: toc:nil
 
 * JaneGwaww's Blog
