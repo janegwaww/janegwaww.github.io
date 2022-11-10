@@ -212,11 +212,49 @@ Emacs高级指南
 
 good
 
+** Practical Common Lisp[fn:9]
+
+#+begin_center
+实用的Common Lisp
+#+end_center
+
+#+begin_quote
+没有人能在不作记录下思考。
+
+--Luhmann
+#+end_quote
+
+*我的结论*
+
+good
+
+** Paradigms of Artificial Intelligence Programming: Case Studies in Common Lisp[fn:10]
+
+#+begin_center
+Common Lisp
+#+end_center
+
+#+begin_quote
+没有人能在不作记录下思考。
+
+--Luhmann
+#+end_quote
+
+*我的结论*
+
+good
+
+** 相关阅读
+
+- [[file:recent_reading.org::*分享最近阅读的书籍清单（一）][分享最近阅读的书籍清单(一)]]
+- [[file:recent_reading2.zh.org::*分享最近阅读的书籍清单(二)][分享最近阅读的书籍清单(二)]]
+- [[file:recent_reading3.zh.org::*分享最近阅读的书藉清单(三)][分享最近阅读的书藉清单(三)]]
+- [[file:recent_reading4.zh.org::*分享最近阅读的书籍清单(四)][分享最近阅读的书籍清单(四)]]
+
 * 写在后面
 # #+include: "../footer.zh.org"
 
 * Footnotes
-[fn:8] https://book.douban.com/subject/26371154/
 
 [fn:1] [[https://www.amazon.com/How-Take-Smart-Notes-Nonfiction/dp/1542866502]]
 
