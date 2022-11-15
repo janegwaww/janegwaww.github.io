@@ -44,6 +44,23 @@
 ### [程序员在职场中如何缓解过度焦虑](src/build_it/how_to_stop_caring.zh.md)
 
 
+# 相关链接
+
+-   Web: [www.janegwaww.com](https://www.janegwaww.com/)
+-   Email: [tiglapiles@gmail.com](mailto:tiglapiles@gmail.com)
+-   GitHub: [@JaneGwaww](https://github.com/janegwaww)
+-   Twitter: [@JGwaww](https://twitter.com/JGwaww)
+-   Podcast: [English Learning Mine](https://podcast.janegwaww.com/)
+
+
+# Donate
+
+If you think it's helpful for you, please consider paying a cup of coffee for me. Thank you!
+
+-   [Patreon](https://www.patreon.com/janegwaww)
+-   [Buy me a coffee](https://www.buymeacoffee.com/JaneGwaww)
+
+
 # License
 
 This work is licensed under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-nc-sa/4.0/).
