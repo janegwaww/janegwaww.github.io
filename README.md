@@ -59,6 +59,7 @@ If you think it's helpful for you, please consider paying a cup of coffee for me
 
 -   [Patreon](https://www.patreon.com/janegwaww)
 -   [Buy me a coffee](https://www.buymeacoffee.com/JaneGwaww)
+-   [PayPal](https://paypal.me/janegwaww)
 
 
 # License
