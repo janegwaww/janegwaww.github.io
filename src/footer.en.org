@@ -4,6 +4,6 @@
   2. [[./share_it/recent_reading2.zh.html][Share a List of Recently Reading Books(Season 2)]]
   3. [[./share_it/recent_reading3.zh.html][Share a List of Recently Reading Books(Season 3)]]
   4. View My [[https://github.com/janegwaww/article][github]] For More
-  5. Sponsor My [[https://www.buymeacoffee.com/JaneGwaww][Works]]
+  5. Sponsor My [[https://paypal.me/janegwaww][Works]]
   6. [[https://www.v2ex.com/t/805027][Community Address]]
   7. Email: [[mailto:tiglapiles@gmail.com][tiglapiles@gmail.com]]
