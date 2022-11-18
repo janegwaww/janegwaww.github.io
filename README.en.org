@@ -25,6 +25,22 @@ Better Reading Experience([[https://www.janegwaww.com/README.en.html][EN]]/[[htt
 
 *** [[./src/build_it/how_face_midnight.md][How To Deal With Getting Old]]
 
+* Channels
+
+- Web: [[https://www.janegwaww.com/][www.janegwaww.com]]
+- Email: [[mailto:tiglapiles@gmail.com][tiglapiles@gmail.com]]
+- GitHub: [[https://github.com/janegwaww][@JaneGwaww]]
+- Twitter: [[https://twitter.com/JGwaww][@JGwaww]]
+- Podcast: [[https://podcast.janegwaww.com/][English Learning Mine]]
+
+* Donate
+
+If you think it's helpful for you, please consider paying a cup of coffee for me. Thank you!
+
+- [[https://www.patreon.com/janegwaww][Patreon]]
+- [[https://www.buymeacoffee.com/JaneGwaww][Buy me a coffee]]
+- [[https://paypal.me/janegwaww][PayPal]]
+
 * License
 
 This work is licensed under a [[https://creativecommons.org/licenses/by-nc-sa/4.0/][Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.]]
