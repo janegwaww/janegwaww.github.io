@@ -47,6 +47,14 @@ Note Taking: Nimble, Calm, Plain.txt
 
 网址: [[https://zettelkasten.de/the-archive/]]
 
+*** DokuWiki
+
+#+begin_quote
+It's better when it's simple
+#+end_quote
+
+网址：https://www.dokuwiki.org/dokuwiki
+
 *** Obsidian
 
 #+begin_quote
