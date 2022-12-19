@@ -41,7 +41,6 @@ AND HAVE FUN!
 - Web: [[https://www.janegwaww.com/][www.janegwaww.com]]
 - Email: [[mailto:tiglapiles@gmail.com][tiglapiles@gmail.com]]
 - GitHub: [[https://github.com/janegwaww][@JaneGwaww]]
-- Twitter: [[https://twitter.com/JGwaww][@JGwaww]]
 - Podcast: [[https://podcast.janegwaww.com/][English Learning Mine]]
 
 * Donate
@@ -49,8 +48,9 @@ AND HAVE FUN!
 If you think it's helpful for you, please consider paying a cup of coffee for me. Thank you!
 
 - [[https://www.patreon.com/janegwaww][Patreon]]
-- [[https://www.buymeacoffee.com/JaneGwaww][Buy me a coffee]]
-- [[https://paypal.me/janegwaww][PayPal]]
+
+#+html: <a href="https://paypal.me/janegwaww"><img src="https://www.paypalobjects.com/paypal-ui/logos/svg/paypal-color.svg" alt="PayPal" style="height: 60px !important;" ></a>
+#+html: <a href="https://www.buymeacoffee.com/JaneGwaww" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a>
 
 * License
 

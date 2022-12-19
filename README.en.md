@@ -34,7 +34,6 @@ Better Reading Experience([EN](https://www.janegwaww.com/README.en.html)/[中文
 -   Web: [www.janegwaww.com](https://www.janegwaww.com/)
 -   Email: [tiglapiles@gmail.com](mailto:tiglapiles@gmail.com)
 -   GitHub: [@JaneGwaww](https://github.com/janegwaww)
--   Twitter: [@JGwaww](https://twitter.com/JGwaww)
 -   Podcast: [English Learning Mine](https://podcast.janegwaww.com/)
 
 
@@ -43,8 +42,10 @@ Better Reading Experience([EN](https://www.janegwaww.com/README.en.html)/[中文
 If you think it's helpful for you, please consider paying a cup of coffee for me. Thank you!
 
 -   [Patreon](https://www.patreon.com/janegwaww)
--   [Buy me a coffee](https://www.buymeacoffee.com/JaneGwaww)
--   [PayPal](https://paypal.me/janegwaww)
+
+<a href="https://paypal.me/janegwaww"><img src="https://www.paypalobjects.com/paypal-ui/logos/svg/paypal-color.svg" alt="PayPal" style="height: 60px !important;" ></a>
+
+<a href="https://www.buymeacoffee.com/JaneGwaww" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a>
 
 
 # License
