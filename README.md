@@ -56,11 +56,7 @@
 
 If you think it's helpful for you, please consider paying a cup of coffee for me. Thank you!
 
-<a href="https://www.patreon.com/janegwaww"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Patreon_logomark.svg/512px-Patreon_logomark.svg.png?20170614162828" alt="Patreon" style="height: 60px !important;" ></a>
-
-<a href="https://paypal.me/janegwaww"><img src="https://www.paypalobjects.com/paypal-ui/logos/svg/paypal-color.svg" alt="PayPal" style="height: 60px !important;" ></a>
-
-<a href="https://www.buymeacoffee.com/JaneGwaww" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a>
+<a href="https://www.patreon.com/janegwaww"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Patreon_logomark.svg/512px-Patreon_logomark.svg.png?20170614162828" alt="Patreon" style="height: 60px !important;" ></a> <a href="https://paypal.me/janegwaww"><img src="https://www.paypalobjects.com/paypal-ui/logos/svg/paypal-color.svg" alt="PayPal" style="height: 60px !important;" ></a> <a href="https://www.buymeacoffee.com/JaneGwaww" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a>
 
 
 # License
