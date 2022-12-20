@@ -36,20 +36,20 @@ AND HAVE FUN!
 
 *** [[file:src/build_it/how_to_stop_caring.zh.org::*程序员在职场中如何缓解过度焦虑][程序员在职场中如何缓解过度焦虑]]
 
-* 相关链接
+** 相关链接
 
 - Web: [[https://www.janegwaww.com/][www.janegwaww.com]]
 - Email: [[mailto:tiglapiles@gmail.com][tiglapiles@gmail.com]]
 - GitHub: [[https://github.com/janegwaww][@JaneGwaww]]
 - Podcast: [[https://podcast.janegwaww.com/][English Learning Mine]]
 
-* Donate
+** Donate
 
 If you think it's helpful for you, please consider paying a cup of coffee for me. Thank you!
 
 #+html: <a href="https://www.patreon.com/janegwaww"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Patreon_logomark.svg/512px-Patreon_logomark.svg.png?20170614162828" alt="Patreon" style="height: 60px !important;" ></a> <a href="https://paypal.me/janegwaww"><img src="https://www.paypalobjects.com/paypal-ui/logos/svg/paypal-color.svg" alt="PayPal" style="height: 60px !important;" ></a> <a href="https://www.buymeacoffee.com/JaneGwaww" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a>
 
-* License
+** License
 
 #+html: <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a>
 
