@@ -1,0 +1,20 @@
+#+STARTUP: showeverything
+#+options: toc:nil
+
+* 分享最近阅读的书籍清单（六）
+
+#+toc: headlines local
+
+** ANSI Common Lisp[fn:1]
+
+** Building Browser Extensions[fn:2]
+/Create Modern Extensionsfor Chrome, Safari, Firefox,and Edge/
+
+* 写在后面
+#+include: "../footer.zh.org"
+
+* Footnotes
+
+[fn:1] http://www.paulgraham.com/acl.html
+
+[fn:2] https://www.amazon.com/Building-Browser-Extensions-Create-Firefox/dp/148428724X
