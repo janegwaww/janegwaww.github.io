@@ -10,6 +10,9 @@
 ** Building Browser Extensions[fn:2]
 /Create Modern Extensionsfor Chrome, Safari, Firefox,and Edge/
 
+** The Art of Functional Programming[fn:3]
+/with examples in OCaml, Haskell, and Java/
+
 * 写在后面
 #+include: "../footer.zh.org"
 
@@ -18,3 +21,5 @@
 [fn:1] http://www.paulgraham.com/acl.html
 
 [fn:2] https://www.amazon.com/Building-Browser-Extensions-Create-Firefox/dp/148428724X
+
+[fn:3] https://www.amazon.com/Functional-Programming-Minh-Quang-Tran/dp/3000735348
