@@ -15,6 +15,8 @@
 
 ** Interactive Data Visualization for the Web[fn:4]
 
+** Data Visualization with D3 Cookbook[fn:5]
+
 * 写在后面
 #+include: "../footer.zh.org"
 
@@ -27,3 +29,5 @@
 [fn:3] https://www.amazon.com/Functional-Programming-Minh-Quang-Tran/dp/3000735348
 
 [fn:4] https://www.amazon.com/Interactive-Data-Visualization-Web-Introduction/dp/1491921285
+
+[fn:5] https://www.oreilly.com/library/view/data-visualization-with/9781786468253/
