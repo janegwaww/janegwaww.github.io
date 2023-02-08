@@ -2,7 +2,7 @@
 #+options: toc:nil
 #+AUTHOR: JaneGwaww
 
-* 分享最近阅读的书籍清单(五)
+* TODO 分享最近阅读的书籍清单(五)
 
 #+toc: headlines local
 
@@ -23,9 +23,9 @@
 
 *我的结论*
 
-我想我们的任何努力都不会白费，只要你肯将他们记录下来并永久保留。大脑是用来思考的，而生活中我们所做的点滴努力让笔记替我们记住, 让人有限的精力尽量去做思考而不是去记忆。但是如何高效的做笔记呢，不至于写过一遍就再也找不到了，或者并不能成为大脑的延展为我们分忧解难，而且让我们的努力白白浪费？而这就是读这本书的好处了。借助此书中的方法[[https://en.wikipedia.org/wiki/Niklas_Luhmann][卢曼]]产出了58本书和数百篇论文，[[https://en.wikipedia.org/wiki/Anthony_Trollope][特罗洛普]]产出了47本小说和16本其他书籍，你要是知道现在的大学毕业生产出一篇论文都要饺尽脑汁你就知道本书方法的强大之处了。而他的本质就是合理组织你所学到的所有知识，当在你要做任何事情时，从过去的所学中提取出你所需要的知识，进行合理的组合来完成你想要做的事，也就是你积累的越多你所能做的就越多，并且在你没有灵感时，能通过不同的组合给予你新的灵感。而要完成这些的关键之处是，要组织起我们所学到的任何知识并为我们所用，就像我们大脑的延伸，想要时随时能联系起来，存在时能充分给予我们源源不断的灵感。
+我想我们的任何努力都不会白费，只要你肯将他们记录下来并永久保留。大脑是用来思考的，而生活中我们所做的点滴努力让笔记替我们记住, 让人有限的精力尽量去做思考而不是去记忆。但是如何高效的做笔记呢，不至于写过一遍就再也找不到了，或者并不能成为大脑的延展为我们分忧解难，而且让我们的努力白白浪费？而这就是读这本书的好处了。借助此书中的方法[[https://en.wikipedia.org/wiki/Niklas_Luhmann][卢曼]]产出了58本书和数百篇论文，[[https://en.wikipedia.org/wiki/Anthony_Trollope][特罗洛普]]产出了47本小说和16本其他书籍，你要是知道现在的大学毕业生产出一篇论文都要饺尽脑汁你就知道本书方法的强大之处了。而他的本质就是合理组织你所学到的所有知识，当在你要做任何事情时，从过去的所学中提取出你所需要的知识，进行合理的组合来完成你想要做的事，也就是你积累的越多你所能做的就越多，并且在你没有灵感时，能通过不同的组合给予你新的灵感。而要完成这些的关键之处是，要组织起我们所学到的任何知识并为我们所用，就像我们大脑的延伸，想要时随时能联系起来，存在时能充分给予我们源源不断的灵感。 =#todo= 笔记方法。 而要做到这些简单的不能再简单了，你只要几个纸片和一支笔，或者信息时代你只需一个记笔记软件就能做到，可以看看我分享的[[file:recent_reading5.zh.org][这些]]。 当知道方法之后你剩下要做的就是去积累知识吧，没有天生的天才，只要肯努力人人都是天才，毕竟天才也才只有一个脑子。
 
-** The Craft of Text Editing[fn:3]
+** TODO The Craft of Text Editing[fn:3]
 
 #+begin_center
 文本编辑的技巧
@@ -37,15 +37,11 @@
 --Luhmann
 #+end_quote
 
-*阅读门坎*
-
-无门坎，任何人都可以阅读。
-
 *我的结论*
 
 好书
 
-** Beautiful Racket[fn:4]
+** TODO Beautiful Racket[fn:4]
 /an introduction to language-oriented programming using Racket/
 
 #+begin_center
@@ -66,7 +62,7 @@
 
 好书
 
-** Technical Blogging, Second Edition[fn:5]
+** TODO Technical Blogging, Second Edition[fn:5]
 /Amplify Your Influence/
 
 #+begin_center
@@ -87,7 +83,7 @@
 
 好书
 
-** Crafting Interpreters[fn:6]
+** TODO Crafting Interpreters[fn:6]
 
 #+begin_center
 制作
@@ -107,7 +103,7 @@
 
 好书
 
-** Master Emacs[fn:7]
+** TODO Master Emacs[fn:7]
 
 #+begin_center
 Emacs高级指南
@@ -127,7 +123,7 @@ Emacs高级指南
 
 好看
 
-** Benjamin Franklin: An American Life[fn:8]
+** TODO Benjamin Franklin: An American Life[fn:8]
 
 #+begin_center
 富兰克林传
@@ -147,7 +143,7 @@ Emacs高级指南
 
 good
 
-** Practical Common Lisp[fn:9]
+** TODO Practical Common Lisp[fn:9]
 
 #+begin_center
 实用的Common Lisp
@@ -167,7 +163,7 @@ good
 
 good
 
-** Paradigms of Artificial Intelligence Programming: Case Studies in Common Lisp[fn:10]
+** TODO Paradigms of Artificial Intelligence Programming: Case Studies in Common Lisp[fn:10]
 
 #+begin_center
 Common Lisp
