@@ -232,25 +232,21 @@ Emacs高级指南
 
 good
 
-** TODO Practical Common Lisp[fn:9]
+** Practical Common Lisp[fn:9]
 
 #+begin_center
-实用的Common Lisp
+Common Lisp实践
 #+end_center
 
 #+begin_quote
-没有人能在不作记录下思考。
+如果你热衷于用尽量简单易懂的代码解决问题，那CommonLisp是目前电脑上最好的语言了。
 
---Luhmann
+--摘要
 #+end_quote
-
-*阅读门坎*
-
-要有一定的编程经验，曾经用过任何其他编程语言写过程序。
 
 *我的结论*
 
-good
+如果你是一位经验丰验的工程师，那么用这本书过度到Common Lisp是一个不错的选择，我们基于已有的智慧与学识可以让我们更轻松面对挑战。而这本书就是在Lisp领域最好的选择，他让你基于已有的经验轻松过度到Lisp并快速应用到工作当中。我听说如何快速上手一本语言就是用新的语言重新写你曾经做过的项目，例如你比较善长python，并且用他做过机器学习相关的项目，但是python用起来虽然很接近英语，但是他的运行速度也让你一言难尽，于是你听说了Rust这个语言性能接近C语法接近Python，于是你决定用这个语言，这个时候快速入门这个语言最好的方法就是用这个新语言重写一遍你曾经做过的机器学习项目，几周就可以熟练该语言了。这个学习方法很注重实践，而且算法，设计模式，编程方法各个语言大同小异，所以在已有的经验上这个学习方法不失为一个好方法，但是如果一个语言无法让你的思维发生转变，无法让你固有的经验有重新的认识，那么学习他的意义又在哪里呢？可能只剩工作了吧。所以Practical Common Lisp他让你清楚知道你已有的经验如何运用到Lisp这个语言中，并且也让你清楚了解CommonLisp的独到之处，并且有大幅篇章用实际项目实践其中的知识点。不建议新手用这本书入门，新手更推荐[[https://www.cs.cmu.edu/%7Edst/LispBook/][COMMON LISP: A Gentle Introduction to Symbolic Computation]]和[[http://www.paulgraham.com/acl.html][ANSI Common Lisp]]以及后继的[[https://ocw.mit.edu/courses/6-001-structure-and-interpretation-of-computer-programs-spring-2005/][SICP]]。
 
 ** TODO Paradigms of Artificial Intelligence Programming: Case Studies in Common Lisp[fn:10]
 
