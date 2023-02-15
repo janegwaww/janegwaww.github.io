@@ -32,16 +32,16 @@
 #+end_center
 
 #+begin_quote
-没有人能在不作记录下思考。
+好的编程不是从泛泛而谈中学来的，而是通过应用常识和良好的编程实践，了解如何使重要的程序变得干净、易于阅读、易于维护和修改、人为设计、高效和可靠。仔细研究和模仿好的程序可以使写作更好。
 
---Luhmann
+--Kernighan and Plauger
 #+end_quote
 
 *我的结论*
 
 好书
 
-** TODO Beautiful Racket[fn:4]
+** Beautiful Racket[fn:4]
 /an introduction to language-oriented programming using Racket/
 
 #+begin_center
@@ -49,35 +49,35 @@
 #+end_center
 
 #+begin_quote
-没有人能在不作记录下思考。
+你认为你已经懂了，并写下来确定了自己的想法，通过教授加深了自己的认知，但是当你实际做出来之后才算你真的理解了。
 
---Luhmann
+--Alan Perlis at Yale University computer scientist
 #+end_quote
-
-*阅读门坎*
-
-无门坎，任何人都可以阅读。
 
 *我的结论*
 
-好书
+如何创造一门语言？RacketLisp让这个过程变得简单而有趣。
 
 ** TODO Technical Blogging, Second Edition[fn:5]
 /Amplify Your Influence/
 
 #+begin_center
-技术博客
+技术博客第二版
 #+end_center
 
 #+begin_quote
-没有人能在不作记录下思考。
+我知道你对工作，对任何事都很失望，也...
 
---Luhmann
+我只是想让你自己我理想你的感受。
+
+我曾经也是这样过来的。
+
+而且我敢打赌我比你更痛恨自己的工作，但是30年了我也还是过来了。
+
+只需记住，只要坚持的够久就会有好事发生。
+
+-- Office Space
 #+end_quote
-
-*阅读门坎*
-
-无门坎，任何人都可以阅读。
 
 *我的结论*
 
@@ -86,18 +86,14 @@
 ** TODO Crafting Interpreters[fn:6]
 
 #+begin_center
-制作
+打造语言
 #+end_center
 
 #+begin_quote
-没有人能在不作记录下思考。
+童话的真实不是因为告诉了我们龙的存在，而是恶龙终将被打败。
 
---Luhmann
+--G.K. Chesterton by way of Neil Gaiman, Coraline
 #+end_quote
-
-*阅读门坎*
-
-无门坎，任何人都可以阅读。
 
 *我的结论*
 
@@ -110,14 +106,14 @@ Emacs高级指南
 #+end_center
 
 #+begin_quote
-没有人能在不作记录下思考。
+人类是工具型动物...
 
---Luhmann
+没了工具他什么都不是，
+
+有了工具他就是全能。
+
+--Thomas Carlyle(1795-1881)
 #+end_quote
-
-*阅读门坎*
-
-无门坎，任何人都可以阅读。
 
 *我的结论*
 
@@ -126,13 +122,16 @@ Emacs高级指南
 ** Benjamin Franklin: An American Life[fn:8]
 
 #+begin_center
-本杰明.富兰克林传
+本杰明.富兰克林传：美国人的一生
 #+end_center
 
 #+begin_quote
 1. 在一段时间内我要极其节俭，直到偿清所有欠款。
+
 2. 努力在一切场合说真话，不向任何人许下不可能履行的诺官，言一行均以真诚为本，这是一个有理智的人最动人的优点。
+
 3. 要求自己奋致力于正在从事的行业，不因任何一夜暴富的愚计划而动摇，因为勤劳和坚韧是最可靠的致富途径。
+
 4. 不议论他人的短处。
 
 --未来行为准则
@@ -140,7 +139,7 @@ Emacs高级指南
 
 *我的结论*
 
-本杰明.富兰克林集各个头衔于一身，最著明的就是美国开国国父，起草和签定了独立宣言主和美国宪法。美国，可以说是现代文明的开创者和国际规则制定者，是什么造就了如此强大的一个国家，如此强大的一个文明，或许通过了解他的缔造者富兰克林能探窥一二。他最为我们所熟知可能来自于他的风争实验，来对电进行探索，100美元印着他的头像。这本书的作者也写了《史蒂夫·乔布斯传》，至少他写的传记得到了乔布斯肯定。
+本杰明.富兰克林集各个头衔于一身，最著明的就是美国开国国父，起草和签定了独立宣言主和美国宪法。美国，可以说是现代文明的开创者和国际规则制定者，是什么造就了如此强大的一个国家，如此强大的一个文明，或许通过了解他的缔造者富兰克林能探窥一二。他最为我们所熟知可能来自于他的风争实验，来对电进行探索，100美元印着他的头像。这本书的作者也写了《史蒂夫·乔布斯传》，至少他写的传记得到了乔布斯肯定。我们可以通过了解这个人，来了解如何通过个人修养也建造自己的强大“王国”。
 
 ** Practical Common Lisp[fn:9]
 
@@ -158,25 +157,21 @@ Common Lisp实践
 
 如果你是一位经验丰验的工程师，那么用这本书过度到Common Lisp是一个不错的选择，基于已有的智慧与学识可以让我们更轻松面对挑战。而这本书就是在Lisp领域最好的选择，他让你基于已有的经验轻松过度到Lisp并快速应用到工作当中。我听说如何快速上手一门语言：就是用新的语言重新写你曾经做过的项目，例如你比较善长python，并且用他做过机器学习相关的项目，但是python用起来虽然很接近英语，但是他的运行速度也让你一言难尽，于是你听说了Rust这个语言性能接近C语法接近Python，于是你决定用这个语言，这个时候快速入门这个语言最好的方法就是用这个新语言重写一遍你曾经做过的机器学习项目，几周就可以熟练该语言了。这个学习方法很注重实践，而且算法，设计模式，编程方法各个语言大同小异，所以在已有的经验上这个学习方法不失为一个好方法，但是如果一个语言无法让你的思维发生转变，无法让你固有的经验有重新的认识，那么学习他的意义又在哪里呢？可能只剩工作了吧。所以Practical Common Lisp他让你清楚知道你已有的经验如何运用到Lisp这个语言中，并且也让你清楚了解CommonLisp的独到之处，并且有大幅篇章用实际项目实践其中的知识点。不建议新手用这本书入门，新手更推荐[[https://www.cs.cmu.edu/%7Edst/LispBook/][COMMON LISP: A Gentle Introduction to Symbolic Computation]]和[[http://www.paulgraham.com/acl.html][ANSI Common Lisp]]以及后继的[[https://ocw.mit.edu/courses/6-001-structure-and-interpretation-of-computer-programs-spring-2005/][SICP]]。
 
-** TODO Paradigms of Artificial Intelligence Programming: Case Studies in Common Lisp[fn:10]
+** Paradigms of Artificial Intelligence Programming: Case Studies in Common Lisp[fn:10]
 
 #+begin_center
-Common Lisp
+人工智能编程范式：用CommonLisp作案例讲解
 #+end_center
 
 #+begin_quote
-没有人能在不作记录下思考。
+现在开始机器在世界上将占有一席之地。
 
---Luhmann
+--Herbert Simon
 #+end_quote
-
-*阅读门坎*
-
-无门坎，任何人都可以阅读。
 
 *我的结论*
 
-good
+人工智能从来不是新鲜玩意，最原始的人工智能语言Lisp距今也已经60多年，而基于此已有成套的理论基础和经典案例了。而最近的风口似乎又回到的人工智能，像是历史的重演，而风浪之后又能留下什么呢！
 
 ** 相关阅读
 
