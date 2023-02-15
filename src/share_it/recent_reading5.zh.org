@@ -45,7 +45,7 @@
 /an introduction to language-oriented programming using Racket/
 
 #+begin_center
-优雅的Racket
+优雅的Racket：用Racket介绍面向语言编程
 #+end_center
 
 #+begin_quote
@@ -62,7 +62,7 @@
 /Amplify Your Influence/
 
 #+begin_center
-技术博客第二版
+技术博客第二版：扩大你的影响力
 #+end_center
 
 #+begin_quote
@@ -72,7 +72,7 @@
 
 我曾经也是这样过来的。
 
-而且我敢打赌我比你更痛恨自己的工作，但是30年了我也还是过来了。
+而且我敢打赌我比你更痛恨现在的工作，但是30年了我也还是过来了。
 
 只需记住，只要坚持的够久就会有好事发生。
 
@@ -81,7 +81,7 @@
 
 *我的结论*
 
-好书
+如何打理你的博客？
 
 ** TODO Crafting Interpreters[fn:6]
 
@@ -171,7 +171,7 @@ Common Lisp实践
 
 *我的结论*
 
-人工智能从来不是新鲜玩意，最原始的人工智能语言Lisp距今也已经60多年，而基于此已有成套的理论基础和经典案例了。而最近的风口似乎又回到的人工智能，像是历史的重演，而风浪之后又能留下什么呢！
+人工智能从来不是新鲜玩意，最原始的人工智能语言Lisp距今也已经60多年，而基于此已有成套的理论基础和经典案例了。而最近的风口似乎又回到的人工智能，像是历史的重演，而风浪之后又能留下什么呢！阅读此书最好懂一点CommonLisp，
 
 ** 相关阅读
 
