@@ -83,7 +83,7 @@
 
 如何打理你的博客？
 
-** TODO Crafting Interpreters[fn:6]
+** Crafting Interpreters[fn:6]
 
 #+begin_center
 打造编译器
