@@ -58,7 +58,7 @@
 
 如何创造一门语言？RacketLisp让这个过程变得简单而有趣。
 
-** TODO Technical Blogging, Second Edition[fn:5]
+** Technical Blogging, Second Edition[fn:5]
 /Amplify Your Influence/
 
 #+begin_center
@@ -90,7 +90,7 @@
 #+end_center
 
 #+begin_quote
-童话的真实不是因为告诉了我们龙的存在，而是恶龙终将被打败。
+童话的真实不是因为告诉了我们恶龙的存在，而是恶龙终将被打败。
 
 --G.K. Chesterton by way of Neil Gaiman, Coraline
 #+end_quote
