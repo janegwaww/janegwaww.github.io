@@ -221,7 +221,7 @@ Common Lisp实践
 -   [分享最近阅读的书籍清单(四)](recent_reading4.zh.md)
 
 
-<a id="orgc95b45c"></a>
+<a id="orgb3b3238"></a>
 
 ## Master Emacs<sup><a id="fnr.7" class="footref" href="#fn.7" role="doc-backlink">7</a></sup>
 
@@ -231,13 +231,90 @@ Emacs高级指南
 </p>
 </div>
 
-> 没有人能在不作记录下思考。
+> 人类是工具型动物&#x2026;
 > 
-> &#x2013;Luhmann
+> 没了工具他什么都不是，
+> 
+> 有了工具他就是全能。
+> 
+> &#x2013;Thomas Carlyle(1795-1881)
 
 **我的结论**
 
-好看
+一本非常好的教授emacs使用的书藉，他非常好的一点是，虽然emacs是一个非常复杂的仪器，但是他很精准的把重要内容讲清楚，不会让你在这个精密仪器的各种功能中眼花缭乱不知如何下手。然后对于重要的功能他不但说明了如何正确使用，并且可能的利弊以及将来可能会碰到的问题等都详细说明。用这本书入门emacs没错的，emacs这个编辑神器以及海量的神奇插件也值得花这些时间学习。
+
+
+<a id="orga87636b"></a>
+
+## Benjamin Franklin: An American Life<sup><a id="fnr.8" class="footref" href="#fn.8" role="doc-backlink">8</a></sup>
+
+<div class="org-center">
+<p>
+本杰明.富兰克林传：美国人的一生
+</p>
+</div>
+
+> 1.  在一段时间内我要极其节俭，直到偿清所有欠款。
+> 
+> 2.  努力在一切场合说真话，不向任何人许下不可能履行的诺官，言一行均以真诚为本，这是一个有理智的人最动人的优点。
+> 
+> 3.  要求自己奋致力于正在从事的行业，不因任何一夜暴富的愚计划而动摇，因为勤劳和坚韧是最可靠的致富途径。
+> 
+> 4.  不议论他人的短处。
+> 
+> &#x2013;未来行为准则
+
+**我的结论**
+
+本杰明.富兰克林集各个头衔于一身，最著明的就是美国开国国父，起草和签定了独立宣言主和美国宪法。美国，可以说是现代文明的开创者和国际规则制定者，是什么造就了如此强大的一个国家，如此强大的一个文明，或许通过了解他的缔造者富兰克林能探窥一二。他最为我们所熟知可能来自于他的风争实验，来对电进行探索，100美元印着他的头像。这本书的作者也写了《史蒂夫·乔布斯传》，至少他写的传记得到了乔布斯肯定。我们可以通过了解这个人，来了解如何通过个人修养也建造自己的强大“王国”。
+
+
+<a id="org4c070d9"></a>
+
+## Practical Common Lisp<sup><a id="fnr.9" class="footref" href="#fn.9" role="doc-backlink">9</a></sup>
+
+<div class="org-center">
+<p>
+Common Lisp实践
+</p>
+</div>
+
+> 如果你热衷于用尽量简单易懂的代码解决问题，那CommonLisp是目前电脑上最好的语言了。
+> 
+> &#x2013;摘要
+
+**我的结论**
+
+如果你是一位经验丰验的工程师，那么用这本书过度到Common Lisp是一个不错的选择，基于已有的智慧与学识可以让我们更轻松面对挑战。而这本书就是在Lisp领域最好的选择，他让你基于已有的经验轻松过度到Lisp并快速应用到工作当中。我听说如何快速上手一门语言：就是用新的语言重新写你曾经做过的项目，例如你比较善长python，并且用他做过机器学习相关的项目，但是python用起来虽然很接近英语，但是他的运行速度也让你一言难尽，于是你听说了Rust这个语言性能接近C语法接近Python，于是你决定用这个语言，这个时候快速入门这个语言最好的方法就是用这个新语言重写一遍你曾经做过的机器学习项目，几周就可以熟练该语言了。这个学习方法很注重实践，而且算法，设计模式，编程方法各个语言大同小异，所以在已有的经验上这个学习方法不失为一个好方法，但是如果一个语言无法让你的思维发生转变，无法让你固有的经验有重新的认识，那么学习他的意义又在哪里呢？可能只剩工作了吧。所以Practical Common Lisp他让你清楚知道你已有的经验如何运用到Lisp这个语言中，并且也让你清楚了解CommonLisp的独到之处，并且有大幅篇章用实际项目实践其中的知识点。不建议新手用这本书入门，新手更推荐[COMMON LISP: A Gentle Introduction to Symbolic Computation](https://www.cs.cmu.edu/%7Edst/LispBook/)和[ANSI Common Lisp](http://www.paulgraham.com/acl.html)以及后继的[SICP](https://ocw.mit.edu/courses/6-001-structure-and-interpretation-of-computer-programs-spring-2005/)。
+
+
+<a id="orgd1f79d3"></a>
+
+## Paradigms of Artificial Intelligence Programming: Case Studies in Common Lisp<sup><a id="fnr.10" class="footref" href="#fn.10" role="doc-backlink">10</a></sup>
+
+<div class="org-center">
+<p>
+人工智能编程范式：用CommonLisp作案例讲解
+</p>
+</div>
+
+> 现在开始机器在世界上将占有一席之地。
+> 
+> &#x2013;Herbert Simon
+
+**我的结论**
+
+人工智能从来不是新鲜玩意，最原始的人工智能语言Lisp距今也已经60多年，而基于此已有成套的理论基础和经典案例了。而最近的风口似乎又回到的人工智能，像是历史的重演，而风浪之后又能留下什么呢！阅读此书最好懂一点CommonLisp，如果对人工各智能感兴趣的这是一本不错的入门书藉，不能最好有编程基础，或者学习过[SICP](https://ocw.mit.edu/courses/6-001-structure-and-interpretation-of-computer-programs-spring-2005/)课程。
+
+
+<a id="org5e33228"></a>
+
+## 相关阅读
+
+-   [分享最近阅读的书籍清单(一)](recent_reading.md)
+-   [分享最近阅读的书籍清单(二)](recent_reading2.zh.md)
+-   [分享最近阅读的书藉清单(三)](recent_reading3.zh.md)
+-   [分享最近阅读的书籍清单(四)](recent_reading4.zh.md)
 
 
 # 写在后面
