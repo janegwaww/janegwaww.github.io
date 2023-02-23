@@ -189,6 +189,33 @@
 #+include: "../footer.zh.org"
 
 * Footnotes
+[fn:17] https://book.douban.com/subject/35838155/
+
+[fn:16] https://book.douban.com/subject/26884896/
+
+[fn:15] https://book.douban.com/subject/35496103/
+
+[fn:14] https://archive.org/details/fromdeathcamptoe0000fran/page/n141/mode/2up
+
+[fn:13] https://abseil.io/resources/swe-book
+
+[fn:12] https://www.innerengineering.com/zh-cn
+
+[fn:11] https://www.innerengineering.com/
+
+[fn:10] https://book.douban.com/subject/24834335/
+
+[fn:9] https://book.douban.com/subject/35496103/
+
+[fn:8] https://archive.org/details/eightmindfulstep0000guna
+
+[fn:7] https://book.douban.com/subject/4126251/
+
+[fn:6] https://book.douban.com/subject/1359005/
+
+[fn:5] https://archive.org/details/isbn_067182161x
+
+[fn:4] https://archive.org/details/gameoflifehowtop00shin/page/n5/mode/2up
 
 [fn:1] https://book.douban.com/subject/3294272/
 
