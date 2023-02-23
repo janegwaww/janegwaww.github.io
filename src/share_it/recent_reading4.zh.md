@@ -13,6 +13,11 @@
 9.  [Inner Engineering](#org6b1fb32)
 10. [Software Engineering at Google](#org1967af1)
 
+
+<a id="org0d00101"></a>
+
+# 分享最近阅读的书藉清单(四)
+
 > 如果您希望自己周遭的一切都是熟悉的，那么您也将永远失去学到任何新东西的机会。
 > 
 > &#x2013;克里奇·希基
