@@ -2,7 +2,7 @@
 #+options: toc:nil
 #+AUTHOR: JaneGwaww
 
-* TODO 分享最近阅读的书籍清单(五)
+* 分享最近阅读的书籍清单(五)
 
 #+toc: headlines local
 
