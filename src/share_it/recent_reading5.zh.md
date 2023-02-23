@@ -221,6 +221,25 @@ Common Lisp实践
 -   [分享最近阅读的书籍清单(四)](recent_reading4.zh.md)
 
 
+<a id="orgc95b45c"></a>
+
+## Master Emacs<sup><a id="fnr.7" class="footref" href="#fn.7" role="doc-backlink">7</a></sup>
+
+<div class="org-center">
+<p>
+Emacs高级指南
+</p>
+</div>
+
+> 没有人能在不作记录下思考。
+> 
+> &#x2013;Luhmann
+
+**我的结论**
+
+好看
+
+
 # 写在后面
 
 <table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">

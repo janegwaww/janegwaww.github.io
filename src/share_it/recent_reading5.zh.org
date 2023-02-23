@@ -180,11 +180,26 @@ Common Lisp实践
 - [[file:recent_reading3.zh.org::*分享最近阅读的书藉清单(三)][分享最近阅读的书藉清单(三)]]
 - [[file:recent_reading4.zh.org::*分享最近阅读的书籍清单(四)][分享最近阅读的书籍清单(四)]]
 
+** Master Emacs[fn:7]
+
+#+begin_center
+Emacs高级指南
+#+end_center
+
+#+begin_quote
+没有人能在不作记录下思考。
+
+--Luhmann
+#+end_quote
+
+*我的结论*
+
+好看
+
 * 写在后面
 # #+include: "../footer.zh.org"
 
 * Footnotes
-[fn:6] [[https://medium.com/pragmatic-programmers/table-of-contents-10982edb748f]]
 
 [fn:1] [[https://www.amazon.com/How-Take-Smart-Notes-Nonfiction/dp/1542866502]]
 
