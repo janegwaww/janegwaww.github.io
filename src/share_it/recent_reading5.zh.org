@@ -181,7 +181,7 @@ Common Lisp实践
 - [[file:recent_reading4.zh.org::*分享最近阅读的书籍清单(四)][分享最近阅读的书籍清单(四)]]
 
 * 写在后面
-# #+include: "../footer.zh.org"
+#+include: "../footer.zh.org"
 
 * Footnotes
 
