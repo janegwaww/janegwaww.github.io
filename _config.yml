@@ -1,1 +1,13 @@
-theme: jekyll-theme-modernist
+title: JaneGwaww
+description: Share it. Celebrate it. Build it.
+
+remote_theme: pages-themes/modernist@v0.2.0
+markdown: kramdown
+show_downloads: false
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-remote-theme
+  # - jekyll-org
+google_analytics: UA-150406661-2

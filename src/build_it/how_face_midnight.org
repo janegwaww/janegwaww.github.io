@@ -1,7 +1,10 @@
 #+startup: showall
+#+options: toc:nil
 
 
 * 如何面对35岁
+
+#+toc: headlines local
 
   #+begin_quote
   愿与有此困扰之人共勉。
@@ -72,24 +75,16 @@
    最后：rip
 
 * 写在后面
-
-  1. [[https://tiglapiles.github.io/article/src/share_it/recent_reading.html][分享最近阅读的书籍清单(一)]]
-  2. [[https://tiglapiles.github.io/article/src/share_it/recent_reading2.zh.html][分享最近阅读的书籍清单(二)]]
-  3. [[https://tiglapiles.github.io/article/src/share_it/recent_reading3.zh.html][分享最近阅读的书籍清单(三)]]
-  4. [[https://tiglapiles.github.io/article/src/build_it/how_face_midnight.html][本文地址]]
-  5. 更多文章欢迎访问我的[[https://github.com/tiglapiles/article][github仓库]]
-  6. 捐助我的[[https://itch.io/profile/tiglapiles][游戏]]，支持我的创作
-  7. [[https://v2ex.com/t/840855#reply0][社区更新地址]]
-  8. 邮箱: tiglapiles@gmail.com
+#+include: "../footer.zh.org"
 
 * Footnotes
 
-[fn:5] https://twitter.com/theshawwn/status/1392213804684038150
+[fn:1] [[https://zh.wikisource.org/wiki/%E7%A6%AE%E8%A8%98/%E5%A4%A7%E5%AD%B8_(%E8%AD%89%E9%87%8B%E6%9C%AC)][大学维基百科]]
 
-[fn:4] https://alantabor.medium.com/reverse-engineering-my-life-e06b59ba3efc
+[fn:2] [[https://zh.wikisource.org/wiki/%E7%A6%AE%E8%A8%98/%E6%9B%B2%E7%A6%AE%E4%B8%8A][礼记维基百科]]
 
 [fn:3] https://en.wikipedia.org/wiki/Daniel_Levinson
 
-[fn:2] https://zh.wikisource.org/wiki/%E7%A6%AE%E8%A8%98/%E6%9B%B2%E7%A6%AE%E4%B8%8A
+[fn:4] https://alantabor.medium.com/reverse-engineering-my-life-e06b59ba3efc
 
-[fn:1] https://zh.wikisource.org/wiki/%E7%A6%AE%E8%A8%98/%E5%A4%A7%E5%AD%B8_(%E8%AD%89%E9%87%8B%E6%9C%AC)
+[fn:5] https://twitter.com/theshawwn/status/1392213804684038150

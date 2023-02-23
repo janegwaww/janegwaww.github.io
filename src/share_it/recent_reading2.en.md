@@ -1,53 +1,46 @@
 
-# Table of Contents
-
-1.  [Share a List of Recently Reading Books(Season 2)](#org9f7859b)
-    1.  [Calculus Made Easy](#org83148b8)
-    2.  [How to Design Programs](#orgd48746d)
-    3.  [Teach Yourself Computer Science](#orge09acbc)
-    4.  [Cambridge English](#orga93a701)
-    5.  [史记的读法－司马迀的历史世界](#org6e97dbd)
-    6.  [Calculus[Gilbert Strang]](#org8f086d0)
-    7.  [The Science of Functional Programming: A Tutorial, with Examples in Scala](#org0ccbc9c)
-    8.  [Introduction to Linear Algebra](#orgb2a8f14)
-    9.  [Liu's Commentaries of History](#org9b5a0f2)
-    10. [How to Speak](#org77de7bf)
-2.  [Related Contents](#org4df99a7)
-
-
-
-<a id="org9f7859b"></a>
 
 # Share a List of Recently Reading Books(Season 2)
 
+1.  [Calculus Made Easy](#orgc985bd8)
+2.  [How to Design Programs](#orgab37bd0)
+3.  [Teach Yourself Computer Science](#org1500326)
+4.  [Cambridge English](#org38ece91)
+5.  [史记的读法－司马迀的历史世界](#org10cdbe1)
+6.  [Calculus[Gilbert Strang]](#orgc6b4abb)
+7.  [The Science of Functional Programming: A Tutorial, with Examples in Scala](#org16fcd1a)
+8.  [Introduction to Linear Algebra](#org3cd9c26)
+9.  [Liu's Commentaries of History](#orge6a2775)
+10. [How to Speak](#org8807cdb)
 
-<a id="org83148b8"></a>
 
-## Calculus Made Easy<sup><a id="fnr.1" class="footref" href="#fn.1">1</a></sup>
+<a id="orgc985bd8"></a>
+
+## Calculus Made Easy<sup><a id="fnr.1" class="footref" href="#fn.1" role="doc-backlink">1</a></sup>
 
 
-<a id="orgd48746d"></a>
+<a id="orgab37bd0"></a>
 
-## How to Design Programs<sup><a id="fnr.2" class="footref" href="#fn.2">2</a></sup>
+## How to Design Programs<sup><a id="fnr.2" class="footref" href="#fn.2" role="doc-backlink">2</a></sup>
 
 > everyone can design programs; everyone can experience the satisfaction that comes with creative design.
 > 
 > &#x2013;quote
 
 
-<a id="orge09acbc"></a>
+<a id="org1500326"></a>
 
-## Teach Yourself Computer Science<sup><a id="fnr.3" class="footref" href="#fn.3">3</a></sup>
-
-
-<a id="orga93a701"></a>
-
-## Cambridge English<sup><a id="fnr.4" class="footref" href="#fn.4">4</a></sup>
+## Teach Yourself Computer Science<sup><a id="fnr.3" class="footref" href="#fn.3" role="doc-backlink">3</a></sup>
 
 
-<a id="org6e97dbd"></a>
+<a id="org38ece91"></a>
 
-## 史记的读法－司马迀的历史世界<sup><a id="fnr.5" class="footref" href="#fn.5">5</a></sup>
+## Cambridge English<sup><a id="fnr.4" class="footref" href="#fn.4" role="doc-backlink">4</a></sup>
+
+
+<a id="org10cdbe1"></a>
+
+## 史记的读法－司马迀的历史世界<sup><a id="fnr.5" class="footref" href="#fn.5" role="doc-backlink">5</a></sup>
 
 <div class="org-center">
 <p>
@@ -56,41 +49,40 @@ How to Read Records of the Grand Historian - The History World of Sima Qian
 </div>
 
 
-<a id="org8f086d0"></a>
+<a id="orgc6b4abb"></a>
 
-## Calculus[Gilbert Strang]<sup><a id="fnr.6" class="footref" href="#fn.6">6</a></sup>
-
-
-<a id="org0ccbc9c"></a>
-
-## The Science of Functional Programming: A Tutorial, with Examples in Scala<sup><a id="fnr.7" class="footref" href="#fn.7">7</a></sup>
+## Calculus[Gilbert Strang]<sup><a id="fnr.6" class="footref" href="#fn.6" role="doc-backlink">6</a></sup>
 
 
-<a id="orgb2a8f14"></a>
+<a id="org16fcd1a"></a>
 
-## Introduction to Linear Algebra<sup><a id="fnr.8" class="footref" href="#fn.8">8</a></sup>
-
-
-<a id="org9b5a0f2"></a>
-
-## Liu's Commentaries of History<sup><a id="fnr.9" class="footref" href="#fn.9">9</a></sup>
+## The Science of Functional Programming: A Tutorial, with Examples in Scala<sup><a id="fnr.7" class="footref" href="#fn.7" role="doc-backlink">7</a></sup>
 
 
-<a id="org77de7bf"></a>
+<a id="org3cd9c26"></a>
 
-## How to Speak<sup><a id="fnr.10" class="footref" href="#fn.10">10</a></sup>
+## Introduction to Linear Algebra<sup><a id="fnr.8" class="footref" href="#fn.8" role="doc-backlink">8</a></sup>
 
 
-<a id="org4df99a7"></a>
+<a id="orge6a2775"></a>
+
+## Liu's Commentaries of History<sup><a id="fnr.9" class="footref" href="#fn.9" role="doc-backlink">9</a></sup>
+
+
+<a id="org8807cdb"></a>
+
+## How to Speak<sup><a id="fnr.10" class="footref" href="#fn.10" role="doc-backlink">10</a></sup>
+
 
 # Related Contents
 
-1.  [Share a List of Recently Reading Books(Seanson 1)](https://tiglapiles.github.io/article/src/share_it/recent_reading.html)
-2.  [The Article Address](https://tiglapiles.github.io/article/src/share_it/recent_reading2.zh.html)
-3.  View My [github](https://github.com/tiglapiles/article) For More
-4.  Sponsor My [Games](https://itch.io/profile/tiglapiles)
-5.  [Community Address](https://www.v2ex.com/t/805027)
-6.  Email: tiglapiles@gmail.com
+1.  [Share a List of Recently Reading Books(Season 1)](https://tiglapiles.github.io/article/src/share_it/recent_reading.html)
+2.  [Share a List of Recently Reading Books(Season 2)](https://tiglapiles.github.io/article/src/share_it/recent_reading2.zh.html)
+3.  [The Article Address](https://tiglapiles.github.io/article/src/share_it/recent_reading3.zh.html)
+4.  View My [github](https://github.com/tiglapiles/article) For More
+5.  Sponsor My [Games](https://itch.io/profile/tiglapiles)
+6.  [Community Address](https://www.v2ex.com/t/805027)
+7.  Email: tiglapiles@gmail.com
 
 
 # Footnotes
