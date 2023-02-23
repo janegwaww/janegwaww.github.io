@@ -171,7 +171,7 @@ Common Lisp实践
 
 *我的结论*
 
-人工智能从来不是新鲜玩意，最原始的人工智能语言Lisp距今也已经60多年，而基于此已有成套的理论基础和经典案例了。而最近的风口似乎又回到的人工智能，像是历史的重演，而风浪之后又能留下什么呢！阅读此书最好懂一点CommonLisp，如果对人工各智能感兴趣的这是一本不错的入门书藉，不能最好有编程基础，或者学习过[[https://ocw.mit.edu/courses/6-001-structure-and-interpretation-of-computer-programs-spring-2005/][SICP]]课程。
+人工智能从来不是新鲜玩意，最原始的人工智能语言Lisp距今也已经60多年，而基于此已有成套的理论基础和经典案例了。而最近的风口似乎又回到的人工智能，像是历史的重演，而风浪之后又能留下什么呢！阅读此书最好懂一点CommonLisp，如果对人工各智能感兴趣的这是一本不错的入门书藉，不过最好有编程基础，或者学习过[[https://ocw.mit.edu/courses/6-001-structure-and-interpretation-of-computer-programs-spring-2005/][SICP]]课程。
 
 ** 相关阅读
 
