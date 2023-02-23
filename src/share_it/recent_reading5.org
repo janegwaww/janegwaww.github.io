@@ -1,0 +1,29 @@
+#+STARTUP: showall
+:PROPERTIES:
+:ID: recent_reading_5
+:END:
+
+#+TITLE: 分享最近阅读的书藉清单(五)
+#+AUTHOR: Tiglath Pileser
+
+这些都是在人生中的好书藉或好内容，我想把这些优秀的东西分享出来，并赋上自己的一些主观想法，能让更多人知道并从中受益。这里只是做一个引荐，精彩需要你自己亲自拜读从中感受。
+
+** How to Take Smart Notes[fn:1]
+
+#+BEGIN_CENTER
+卡片笔记写作法[fn:2]
+#+END_CENTER
+
+#+begin_quote
+没有人能在不作记录下思考。
+
+--Luhmann
+#+end_quote
+
+ * 我的结论
+
+
+* Footnotes
+[fn:2]https://book.douban.com/subject/35503571/
+
+[fn:1]https://www.amazon.com/How-Take-Smart-Notes-Nonfiction/dp/1542866502
