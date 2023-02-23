@@ -198,7 +198,7 @@ Emacs高级指南
 
 *我的结论*
 
-好看
+
 
 ** Benjamin Franklin: An American Life[fn:8]
 
