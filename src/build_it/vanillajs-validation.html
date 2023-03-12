@@ -3,7 +3,7 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
-<!-- 2023-03-12 Sun 11:05 -->
+<!-- 2023-03-12 Sun 11:17 -->
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>用简单的方式实现前验校验根本不需要任何插件</title>
@@ -201,31 +201,31 @@
 <h2>Table of Contents</h2>
 <div id="text-table-of-contents" role="doc-toc">
 <ul>
-<li><a href="#org722c54e">1. what is validation</a></li>
-<li><a href="#orga92a730">2. simple start file</a></li>
-<li><a href="#org15117cf">3. html + css</a></li>
-<li><a href="#org214e959">4. with buid-in api</a></li>
-<li><a href="#org5b85950">5. html + css + javascript</a></li>
-<li><a href="#org98409ab">6. add more validation with functional programming</a></li>
-<li><a href="#org949d593">7. react + ramda</a></li>
-<li><a href="#org4b47196">8. with promise</a></li>
-<li><a href="#org47c3806">9. summary</a></li>
+<li><a href="#org2a97d38">1. what is validation</a></li>
+<li><a href="#org927f4ad">2. simple start file</a></li>
+<li><a href="#orgfa79144">3. html + css</a></li>
+<li><a href="#orgd2a00aa">4. with buid-in api</a></li>
+<li><a href="#org629b00c">5. html + css + javascript</a></li>
+<li><a href="#org794e32f">6. add more validation with functional programming</a></li>
+<li><a href="#org037b941">7. react + ramda</a></li>
+<li><a href="#orgdff9ede">8. with promise</a></li>
+<li><a href="#org388b7c4">9. summary</a></li>
 </ul>
 </div>
 </div>
 
-<div id="outline-container-org722c54e" class="outline-2">
-<h2 id="org722c54e"><span class="section-number-2">1.</span> what is validation</h2>
+<div id="outline-container-org2a97d38" class="outline-2">
+<h2 id="org2a97d38"><span class="section-number-2">1.</span> what is validation</h2>
 </div>
 
-<div id="outline-container-orga92a730" class="outline-2">
-<h2 id="orga92a730"><span class="section-number-2">2.</span> simple start file</h2>
+<div id="outline-container-org927f4ad" class="outline-2">
+<h2 id="org927f4ad"><span class="section-number-2">2.</span> simple start file</h2>
 <div class="outline-text-2" id="text-2">
 <p>
 html file
 </p>
 <div class="org-src-container">
-<pre class="src src-html" id="org80f6dce">&lt;<span style="color: #c678dd;">form</span>&gt;
+<pre class="src src-html" id="org83a40f8">&lt;<span style="color: #c678dd;">form</span>&gt;
   &lt;<span style="color: #c678dd;">label</span> <span style="color: #dcaeea;">for</span>=<span style="color: #98be65;">"choose"</span>&gt;Would you prefer a banana or cherry?&lt;/<span style="color: #c678dd;">label</span>&gt;
   &lt;<span style="color: #c678dd;">input</span> <span style="color: #dcaeea;">id</span>=<span style="color: #98be65;">"choose"</span> <span style="color: #dcaeea;">name</span>=<span style="color: #98be65;">"i-like"</span> /&gt;
   &lt;<span style="color: #c678dd;">button</span>&gt;Submit&lt;/<span style="color: #c678dd;">button</span>&gt;
@@ -237,7 +237,7 @@ html file
 css file
 </p>
 <div class="org-src-container">
-<pre class="src src-css" id="orgd3453cb"><span style="color: #51afef;">input:invalid </span><span style="color: #51afef;">{</span>
+<pre class="src src-css" id="orgb3456a6"><span style="color: #51afef;">input:invalid </span><span style="color: #51afef;">{</span>
   <span style="color: #98be65;">border</span>: 2px dashed <span style="color: #ffffff; background-color: #ff0000;">red</span>;
 <span style="color: #51afef;">}</span>
 
@@ -247,41 +247,41 @@ css file
 </pre>
 </div>
 
-<form><label for="choose">Would you prefer a banana or cherry?</label><input id="choose" name="i-like" /><button>Submit</button></form>
+<form><style>input:invalid{border: 2px dashed red;}input:valid{border: 2px solid black;}form{border:1px solid gray;border-radius:4px;padding:16px;}</style><label for="choose">Would you prefer a banana or cherry?</label><input id="choose" name="i-like" /><button>Submit</button></form>
 </div>
 </div>
 
-<div id="outline-container-org15117cf" class="outline-2">
-<h2 id="org15117cf"><span class="section-number-2">3.</span> html + css</h2>
+<div id="outline-container-orgfa79144" class="outline-2">
+<h2 id="orgfa79144"><span class="section-number-2">3.</span> html + css</h2>
 </div>
 
-<div id="outline-container-org214e959" class="outline-2">
-<h2 id="org214e959"><span class="section-number-2">4.</span> with buid-in api</h2>
+<div id="outline-container-orgd2a00aa" class="outline-2">
+<h2 id="orgd2a00aa"><span class="section-number-2">4.</span> with buid-in api</h2>
 </div>
 
-<div id="outline-container-org5b85950" class="outline-2">
-<h2 id="org5b85950"><span class="section-number-2">5.</span> html + css + javascript</h2>
+<div id="outline-container-org629b00c" class="outline-2">
+<h2 id="org629b00c"><span class="section-number-2">5.</span> html + css + javascript</h2>
 </div>
 
-<div id="outline-container-org98409ab" class="outline-2">
-<h2 id="org98409ab"><span class="section-number-2">6.</span> add more validation with functional programming</h2>
+<div id="outline-container-org794e32f" class="outline-2">
+<h2 id="org794e32f"><span class="section-number-2">6.</span> add more validation with functional programming</h2>
 </div>
 
-<div id="outline-container-org949d593" class="outline-2">
-<h2 id="org949d593"><span class="section-number-2">7.</span> react + ramda</h2>
+<div id="outline-container-org037b941" class="outline-2">
+<h2 id="org037b941"><span class="section-number-2">7.</span> react + ramda</h2>
 </div>
 
-<div id="outline-container-org4b47196" class="outline-2">
-<h2 id="org4b47196"><span class="section-number-2">8.</span> with promise</h2>
+<div id="outline-container-orgdff9ede" class="outline-2">
+<h2 id="orgdff9ede"><span class="section-number-2">8.</span> with promise</h2>
 </div>
 
-<div id="outline-container-org47c3806" class="outline-2">
-<h2 id="org47c3806"><span class="section-number-2">9.</span> summary</h2>
+<div id="outline-container-org388b7c4" class="outline-2">
+<h2 id="org388b7c4"><span class="section-number-2">9.</span> summary</h2>
 </div>
 </div>
 <div id="postamble" class="status">
 <p class="author">Author: dipper</p>
-<p class="date">Created: 2023-03-12 Sun 11:05</p>
+<p class="date">Created: 2023-03-12 Sun 11:17</p>
 </div>
 </body>
 </html>
