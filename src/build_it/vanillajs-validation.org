@@ -26,7 +26,7 @@ input:valid {
 }
 #+end_src
 
-#+html: <html><head><style>input:invalid {border: 2px dashed red;} input:valid {border: 2px solid black;}</style></head><form><label for="choose">Would you prefer a banana or cherry?</label><input id="choose" name="i-like" /><button>Submit</button></form></html>
+#+html: <form><label for="choose">Would you prefer a banana or cherry?</label><input id="choose" name="i-like" /><button>Submit</button></form>
 
 * html + css
 

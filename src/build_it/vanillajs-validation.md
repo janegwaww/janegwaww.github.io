@@ -1,24 +1,24 @@
 
 # Table of Contents
 
-1.  [what is validation](#orgcc7ed07)
-2.  [simple start file](#org29d54b3)
-3.  [html + css](#org3475488)
-4.  [with buid-in api](#org69af4c4)
-5.  [html + css + javascript](#orgba95b42)
-6.  [add more validation with functional programming](#orgf4d03ae)
-7.  [react + ramda](#org6a5f094)
-8.  [with promise](#orge0c54d4)
-9.  [summary](#org5ac78f3)
+1.  [what is validation](#org948b56d)
+2.  [simple start file](#org25bcb80)
+3.  [html + css](#orgd9292e2)
+4.  [with buid-in api](#org3d761a9)
+5.  [html + css + javascript](#orgf1f0465)
+6.  [add more validation with functional programming](#orgfdd87c7)
+7.  [react + ramda](#org999de18)
+8.  [with promise](#orgf43be6a)
+9.  [summary](#org89ffe21)
 
 
 
-<a id="orgcc7ed07"></a>
+<a id="org948b56d"></a>
 
 # what is validation
 
 
-<a id="org29d54b3"></a>
+<a id="org25bcb80"></a>
 
 # simple start file
 
@@ -40,40 +40,40 @@ css file
       border: 2px solid black;
     }
 
-<html><head><style>input:invalid {border: 2px dashed red;} input:valid {border: 2px solid black;}</style></head><form><label for="choose">Would you prefer a banana or cherry?</label><input id="choose" name="i-like" /><button>Submit</button></form></html>
+<form><label for="choose">Would you prefer a banana or cherry?</label><input id="choose" name="i-like" /><button>Submit</button></form>
 
 
-<a id="org3475488"></a>
+<a id="orgd9292e2"></a>
 
 # html + css
 
 
-<a id="org69af4c4"></a>
+<a id="org3d761a9"></a>
 
 # with buid-in api
 
 
-<a id="orgba95b42"></a>
+<a id="orgf1f0465"></a>
 
 # html + css + javascript
 
 
-<a id="orgf4d03ae"></a>
+<a id="orgfdd87c7"></a>
 
 # add more validation with functional programming
 
 
-<a id="org6a5f094"></a>
+<a id="org999de18"></a>
 
 # react + ramda
 
 
-<a id="orge0c54d4"></a>
+<a id="orgf43be6a"></a>
 
 # with promise
 
 
-<a id="org5ac78f3"></a>
+<a id="org89ffe21"></a>
 
 # summary
 
