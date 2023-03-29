@@ -17,6 +17,10 @@
 
 ** Data Visualization with D3 Cookbook[fn:5]
 
+** Programming in Haskell[fn:6]
+
+编程的尽头是数学，
+
 * 写在后面
 #+include: "../footer.zh.org"
 
@@ -31,3 +35,5 @@
 [fn:4] https://www.amazon.com/Interactive-Data-Visualization-Web-Introduction/dp/1491921285
 
 [fn:5] https://www.oreilly.com/library/view/data-visualization-with/9781786468253/
+
+[fn:6] https://www.cs.nott.ac.uk/~pszgmh/pih.html
