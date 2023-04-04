@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       ad06b293-1e84-4b05-ba9b-c55f44145604
+:END:
 #+STARTUP: showeverything
 #+options: toc:nil
 
@@ -19,7 +22,9 @@
 
 ** Programming in Haskell[fn:6]
 
-编程的尽头是数学，
+编程的尽头是数学，[[https://www.youtube.com/watch?v=4Z6BlLqAqt8&t=656s][Functional Programming Fundamentals]]
+
+** 呂世浩講史記[fn:7], 吕世浩讲秦始皇[fn:8]
 
 * 写在后面
 #+include: "../footer.zh.org"
@@ -37,3 +42,7 @@
 [fn:5] https://www.oreilly.com/library/view/data-visualization-with/9781786468253/
 
 [fn:6] https://www.cs.nott.ac.uk/~pszgmh/pih.html
+
+[fn:7] [[https://www.bilibili.com/video/BV1ii4y157Xo/?spm_id_from=333.788.recommend_more_video.0&vd_source=35ad3ca8835c204ff8357c31e80ea7e6][呂世浩講史記]]
+
+[fn:8] [[https://www.bilibili.com/video/BV1C54y1C7dV/?spm_id_from=333.1007.top_right_bar_window_default_collection.content.click&vd_source=35ad3ca8835c204ff8357c31e80ea7e6][吕世浩讲秦始皇]]
