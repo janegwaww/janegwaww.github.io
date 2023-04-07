@@ -1,4 +1,7 @@
+#+options: toc:nil
 #+title: 用简单的方式实现前验校验根本不需要任何插件
+
+#+toc: headlines
 
 * what is validation
 

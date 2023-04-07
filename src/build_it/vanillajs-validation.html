@@ -3,7 +3,7 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
-<!-- 2023-03-12 Sun 11:17 -->
+<!-- 2023-04-07 Fri 16:40 -->
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>用简单的方式实现前验校验根本不需要任何插件</title>
@@ -201,31 +201,44 @@
 <h2>Table of Contents</h2>
 <div id="text-table-of-contents" role="doc-toc">
 <ul>
-<li><a href="#org2a97d38">1. what is validation</a></li>
-<li><a href="#org927f4ad">2. simple start file</a></li>
-<li><a href="#orgfa79144">3. html + css</a></li>
-<li><a href="#orgd2a00aa">4. with buid-in api</a></li>
-<li><a href="#org629b00c">5. html + css + javascript</a></li>
-<li><a href="#org794e32f">6. add more validation with functional programming</a></li>
-<li><a href="#org037b941">7. react + ramda</a></li>
-<li><a href="#orgdff9ede">8. with promise</a></li>
-<li><a href="#org388b7c4">9. summary</a></li>
+<li><a href="#org8677190">1. what is validation</a></li>
+<li><a href="#org966af80">2. simple start file</a></li>
+<li><a href="#org4976b2d">3. html + css</a>
+<ul>
+<li><a href="#org5d95eac">3.1. require attribute</a></li>
+<li><a href="#org60436c4">3.2. regular expression validating</a></li>
+<li><a href="#orgc1e0513">3.3. length of value</a></li>
+<li><a href="#org69d6fb8">3.4. type of input</a></li>
+</ul>
+</li>
+<li><a href="#orga1f3c58">4. with buid-in api</a>
+<ul>
+<li><a href="#orgec9e264">4.1. element validation api</a></li>
+<li><a href="#org538290d">4.2. customized</a></li>
+<li><a href="#org7090b42">4.3. example</a></li>
+</ul>
+</li>
+<li><a href="#org09a6cc4">5. html + css + javascript</a></li>
+<li><a href="#org59f35dc">6. add more validation with functional programming</a></li>
+<li><a href="#org29c4498">7. react + ramda</a></li>
+<li><a href="#org5b1afbb">8. with promise</a></li>
+<li><a href="#org356e846">9. summary</a></li>
 </ul>
 </div>
 </div>
 
-<div id="outline-container-org2a97d38" class="outline-2">
-<h2 id="org2a97d38"><span class="section-number-2">1.</span> what is validation</h2>
+<div id="outline-container-org8677190" class="outline-2">
+<h2 id="org8677190"><span class="section-number-2">1.</span> what is validation</h2>
 </div>
 
-<div id="outline-container-org927f4ad" class="outline-2">
-<h2 id="org927f4ad"><span class="section-number-2">2.</span> simple start file</h2>
+<div id="outline-container-org966af80" class="outline-2">
+<h2 id="org966af80"><span class="section-number-2">2.</span> simple start file</h2>
 <div class="outline-text-2" id="text-2">
 <p>
 html file
 </p>
 <div class="org-src-container">
-<pre class="src src-html" id="org83a40f8">&lt;<span style="color: #c678dd;">form</span>&gt;
+<pre class="src src-html" id="orgb8abb00">&lt;<span style="color: #c678dd;">form</span>&gt;
   &lt;<span style="color: #c678dd;">label</span> <span style="color: #dcaeea;">for</span>=<span style="color: #98be65;">"choose"</span>&gt;Would you prefer a banana or cherry?&lt;/<span style="color: #c678dd;">label</span>&gt;
   &lt;<span style="color: #c678dd;">input</span> <span style="color: #dcaeea;">id</span>=<span style="color: #98be65;">"choose"</span> <span style="color: #dcaeea;">name</span>=<span style="color: #98be65;">"i-like"</span> /&gt;
   &lt;<span style="color: #c678dd;">button</span>&gt;Submit&lt;/<span style="color: #c678dd;">button</span>&gt;
@@ -237,7 +250,7 @@ html file
 css file
 </p>
 <div class="org-src-container">
-<pre class="src src-css" id="orgb3456a6"><span style="color: #51afef;">input:invalid </span><span style="color: #51afef;">{</span>
+<pre class="src src-css" id="orgf116ac8"><span style="color: #51afef;">input:invalid </span><span style="color: #51afef;">{</span>
   <span style="color: #98be65;">border</span>: 2px dashed <span style="color: #ffffff; background-color: #ff0000;">red</span>;
 <span style="color: #51afef;">}</span>
 
@@ -251,37 +264,67 @@ css file
 </div>
 </div>
 
-<div id="outline-container-orgfa79144" class="outline-2">
-<h2 id="orgfa79144"><span class="section-number-2">3.</span> html + css</h2>
+<div id="outline-container-org4976b2d" class="outline-2">
+<h2 id="org4976b2d"><span class="section-number-2">3.</span> html + css</h2>
+<div class="outline-text-2" id="text-3">
+</div>
+<div id="outline-container-org5d95eac" class="outline-3">
+<h3 id="org5d95eac"><span class="section-number-3">3.1.</span> require attribute</h3>
 </div>
 
-<div id="outline-container-orgd2a00aa" class="outline-2">
-<h2 id="orgd2a00aa"><span class="section-number-2">4.</span> with buid-in api</h2>
+<div id="outline-container-org60436c4" class="outline-3">
+<h3 id="org60436c4"><span class="section-number-3">3.2.</span> regular expression validating</h3>
 </div>
 
-<div id="outline-container-org629b00c" class="outline-2">
-<h2 id="org629b00c"><span class="section-number-2">5.</span> html + css + javascript</h2>
+<div id="outline-container-orgc1e0513" class="outline-3">
+<h3 id="orgc1e0513"><span class="section-number-3">3.3.</span> length of value</h3>
 </div>
 
-<div id="outline-container-org794e32f" class="outline-2">
-<h2 id="org794e32f"><span class="section-number-2">6.</span> add more validation with functional programming</h2>
+<div id="outline-container-org69d6fb8" class="outline-3">
+<h3 id="org69d6fb8"><span class="section-number-3">3.4.</span> type of input</h3>
+</div>
 </div>
 
-<div id="outline-container-org037b941" class="outline-2">
-<h2 id="org037b941"><span class="section-number-2">7.</span> react + ramda</h2>
+<div id="outline-container-orga1f3c58" class="outline-2">
+<h2 id="orga1f3c58"><span class="section-number-2">4.</span> with buid-in api</h2>
+<div class="outline-text-2" id="text-4">
+</div>
+<div id="outline-container-orgec9e264" class="outline-3">
+<h3 id="orgec9e264"><span class="section-number-3">4.1.</span> element validation api</h3>
 </div>
 
-<div id="outline-container-orgdff9ede" class="outline-2">
-<h2 id="orgdff9ede"><span class="section-number-2">8.</span> with promise</h2>
+<div id="outline-container-org538290d" class="outline-3">
+<h3 id="org538290d"><span class="section-number-3">4.2.</span> customized</h3>
 </div>
 
-<div id="outline-container-org388b7c4" class="outline-2">
-<h2 id="org388b7c4"><span class="section-number-2">9.</span> summary</h2>
+<div id="outline-container-org7090b42" class="outline-3">
+<h3 id="org7090b42"><span class="section-number-3">4.3.</span> example</h3>
+</div>
+</div>
+
+<div id="outline-container-org09a6cc4" class="outline-2">
+<h2 id="org09a6cc4"><span class="section-number-2">5.</span> html + css + javascript</h2>
+</div>
+
+<div id="outline-container-org59f35dc" class="outline-2">
+<h2 id="org59f35dc"><span class="section-number-2">6.</span> add more validation with functional programming</h2>
+</div>
+
+<div id="outline-container-org29c4498" class="outline-2">
+<h2 id="org29c4498"><span class="section-number-2">7.</span> react + ramda</h2>
+</div>
+
+<div id="outline-container-org5b1afbb" class="outline-2">
+<h2 id="org5b1afbb"><span class="section-number-2">8.</span> with promise</h2>
+</div>
+
+<div id="outline-container-org356e846" class="outline-2">
+<h2 id="org356e846"><span class="section-number-2">9.</span> summary</h2>
 </div>
 </div>
 <div id="postamble" class="status">
 <p class="author">Author: dipper</p>
-<p class="date">Created: 2023-03-12 Sun 11:17</p>
+<p class="date">Created: 2023-04-07 Fri 16:40</p>
 </div>
 </body>
 </html>
