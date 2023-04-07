@@ -3,7 +3,7 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
-<!-- 2023-04-07 Fri 19:27 -->
+<!-- 2023-04-07 Fri 19:32 -->
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>用简单的方式实现前验校验也许并不需要任何插件</title>
@@ -205,38 +205,38 @@
 <h2>Table of Contents</h2>
 <div id="text-table-of-contents" role="doc-toc">
 <ul>
-<li><a href="#org7f0bc6d">1. 什么是前端校验？</a>
+<li><a href="#orgdee26d9">1. 什么是前端校验？</a>
 <ul>
-<li><a href="#org0357b42">1.1. 如何实现前端校验</a></li>
+<li><a href="#org7a2e893">1.1. 如何实现前端校验</a></li>
 </ul>
 </li>
-<li><a href="#org221bf06">2. 一个简单的用做开始的范例</a></li>
-<li><a href="#org2cdf910">3. 只用HTML和CSS实现前端校验</a>
+<li><a href="#orgde8ca52">2. 一个简单的用做开始的范例</a></li>
+<li><a href="#org85824ae">3. 只用HTML和CSS实现前端校验</a>
 <ul>
-<li><a href="#org3fd0544">3.1. require attribute</a></li>
-<li><a href="#orgf22732b">3.2. regular expression validating</a></li>
-<li><a href="#orgdeeb8c2">3.3. length of value</a></li>
-<li><a href="#org741ba67">3.4. type of input</a></li>
+<li><a href="#org539116a">3.1. require attribute</a></li>
+<li><a href="#org8f3af42">3.2. regular expression validating</a></li>
+<li><a href="#org2ebfeae">3.3. length of value</a></li>
+<li><a href="#org4540e40">3.4. type of input</a></li>
 </ul>
 </li>
-<li><a href="#org7b9fcb0">4. with buid-in api</a>
+<li><a href="#orgd841812">4. with buid-in api</a>
 <ul>
-<li><a href="#orgafeccfe">4.1. element validation api</a></li>
-<li><a href="#org2cdfd1b">4.2. customized</a></li>
-<li><a href="#orgaf0129d">4.3. example</a></li>
+<li><a href="#orgc792993">4.1. element validation api</a></li>
+<li><a href="#org87278fa">4.2. customized</a></li>
+<li><a href="#orga3a686a">4.3. example</a></li>
 </ul>
 </li>
-<li><a href="#org8cf52d0">5. html + css + javascript</a></li>
-<li><a href="#org8e4729f">6. add more validation with functional programming</a></li>
-<li><a href="#orga4ac03e">7. react + ramda</a></li>
-<li><a href="#org2c66392">8. with promise</a></li>
-<li><a href="#org3514d77">9. summary</a></li>
+<li><a href="#orge5df5c2">5. html + css + javascript</a></li>
+<li><a href="#org61ff4b0">6. add more validation with functional programming</a></li>
+<li><a href="#orgf527b60">7. react + ramda</a></li>
+<li><a href="#orgc40effa">8. with promise</a></li>
+<li><a href="#orgd616b1a">9. summary</a></li>
 </ul>
 </div>
 </div>
 
-<div id="outline-container-org7f0bc6d" class="outline-2">
-<h2 id="org7f0bc6d"><span class="section-number-2">1.</span> 什么是前端校验？</h2>
+<div id="outline-container-orgdee26d9" class="outline-2">
+<h2 id="orgdee26d9"><span class="section-number-2">1.</span> 什么是前端校验？</h2>
 <div class="outline-text-2" id="text-1">
 <p>
 你去任何一个需要注册的网站，当你进入登录注册页面时，网站要求你输入一些信息进行登录或注册，当你输入正确时就是登录或注册成功然后跳到个人页面，当你输入不正确时，例如输入格式不对或者密码输入错误时，网页就会弹出红色提示框说你的输入不正确给予你提示，你可以根据提示，重新输入正确的信息，直到成功为止，然后用户的信息会被保存到数据库上。
@@ -260,21 +260,32 @@
 </ul>
 </div>
 
-<div id="outline-container-org0357b42" class="outline-3">
-<h3 id="org0357b42"><span class="section-number-3">1.1.</span> 如何实现前端校验</h3>
+<div id="outline-container-org7a2e893" class="outline-3">
+<h3 id="org7a2e893"><span class="section-number-3">1.1.</span> 如何实现前端校验</h3>
 <div class="outline-text-3" id="text-1-1">
 <ul class="org-ul">
-<li>简单的用HTML内置方法
-如果简单直接的用HTML标签中的属性就能满足你的需求，那就JavaScript都不需要了，直接HTML，CSS就能实现了。只能缺少了一定的定制性了。</li>
-<li>用JavaScript
-用JavaScript实现就可以完全定制你的需求了，还有JavaScript的海量框架。</li>
+<li><p>
+简单的用HTML内置方法
+</p>
+
+<p>
+如果简单直接的用HTML标签中的属性就能满足你的需求，那就JavaScript都不需要了，直接HTML，CSS就能实现了。只能缺少了一定的定制性了。
+</p></li>
+
+<li><p>
+用JavaScript
+</p>
+
+<p>
+用JavaScript实现就可以完全定制你的需求了，还有JavaScript的海量框架。
+</p></li>
 </ul>
 </div>
 </div>
 </div>
 
-<div id="outline-container-org221bf06" class="outline-2">
-<h2 id="org221bf06"><span class="section-number-2">2.</span> 一个简单的用做开始的范例</h2>
+<div id="outline-container-orgde8ca52" class="outline-2">
+<h2 id="orgde8ca52"><span class="section-number-2">2.</span> 一个简单的用做开始的范例</h2>
 <div class="outline-text-2" id="text-2">
 <p>
 前端开发最原生的就是三个文件类型：HTML，CSS和JavaScript。只是发展到后面为了提升开发效率，获得更好的开发体验，衍生出了很多框架。例如：React, VUE, TypeScript, jQuery, SASS等。而我们想要最简单的实现前端校验，就用最原生的前端。
@@ -283,10 +294,13 @@
 <ul class="org-ul">
 <li><p>
 我们的html文件:
+</p>
+
+<p>
 在 <code>form</code> 标签中加入一个输入框和一个按钮，这时候还没有加入任何校验。
 </p>
 <div class="org-src-container">
-<pre class="src src-html" id="org45fbc80">&lt;<span style="color: #c678dd;">form</span>&gt;
+<pre class="src src-html" id="orgaf87871">&lt;<span style="color: #c678dd;">form</span>&gt;
   &lt;<span style="color: #c678dd;">label</span> <span style="color: #dcaeea;">for</span>=<span style="color: #98be65;">"choose"</span>&gt;Would you prefer a banana or cherry?&lt;/<span style="color: #c678dd;">label</span>&gt;
   &lt;<span style="color: #c678dd;">input</span> <span style="color: #dcaeea;">id</span>=<span style="color: #98be65;">"choose"</span> <span style="color: #dcaeea;">name</span>=<span style="color: #98be65;">"i-like"</span> /&gt;
   &lt;<span style="color: #c678dd;">button</span>&gt;Submit&lt;/<span style="color: #c678dd;">button</span>&gt;
@@ -296,10 +310,13 @@
 
 <li><p>
 我们的css文件:
+</p>
+
+<p>
 我们添加了无效的和有效的输入框样式。
 </p>
 <div class="org-src-container">
-<pre class="src src-css" id="org1adea8c"><span style="color: #51afef;">input:invalid </span><span style="color: #51afef;">{</span>
+<pre class="src src-css" id="orgb18fdb8"><span style="color: #51afef;">input:invalid </span><span style="color: #51afef;">{</span>
   <span style="color: #98be65;">border</span>: 2px dashed <span style="color: #ffffff; background-color: #ff0000;">red</span>;
 <span style="color: #51afef;">}</span>
 <span style="color: #51afef;">input:valid </span><span style="color: #51afef;">{</span>
@@ -313,67 +330,67 @@
 </div>
 </div>
 
-<div id="outline-container-org2cdf910" class="outline-2">
-<h2 id="org2cdf910"><span class="section-number-2">3.</span> 只用HTML和CSS实现前端校验</h2>
+<div id="outline-container-org85824ae" class="outline-2">
+<h2 id="org85824ae"><span class="section-number-2">3.</span> 只用HTML和CSS实现前端校验</h2>
 <div class="outline-text-2" id="text-3">
 </div>
-<div id="outline-container-org3fd0544" class="outline-3">
-<h3 id="org3fd0544"><span class="section-number-3">3.1.</span> require attribute</h3>
+<div id="outline-container-org539116a" class="outline-3">
+<h3 id="org539116a"><span class="section-number-3">3.1.</span> require attribute</h3>
 </div>
 
-<div id="outline-container-orgf22732b" class="outline-3">
-<h3 id="orgf22732b"><span class="section-number-3">3.2.</span> regular expression validating</h3>
+<div id="outline-container-org8f3af42" class="outline-3">
+<h3 id="org8f3af42"><span class="section-number-3">3.2.</span> regular expression validating</h3>
 </div>
 
-<div id="outline-container-orgdeeb8c2" class="outline-3">
-<h3 id="orgdeeb8c2"><span class="section-number-3">3.3.</span> length of value</h3>
+<div id="outline-container-org2ebfeae" class="outline-3">
+<h3 id="org2ebfeae"><span class="section-number-3">3.3.</span> length of value</h3>
 </div>
 
-<div id="outline-container-org741ba67" class="outline-3">
-<h3 id="org741ba67"><span class="section-number-3">3.4.</span> type of input</h3>
+<div id="outline-container-org4540e40" class="outline-3">
+<h3 id="org4540e40"><span class="section-number-3">3.4.</span> type of input</h3>
 </div>
 </div>
 
-<div id="outline-container-org7b9fcb0" class="outline-2">
-<h2 id="org7b9fcb0"><span class="section-number-2">4.</span> with buid-in api</h2>
+<div id="outline-container-orgd841812" class="outline-2">
+<h2 id="orgd841812"><span class="section-number-2">4.</span> with buid-in api</h2>
 <div class="outline-text-2" id="text-4">
 </div>
-<div id="outline-container-orgafeccfe" class="outline-3">
-<h3 id="orgafeccfe"><span class="section-number-3">4.1.</span> element validation api</h3>
+<div id="outline-container-orgc792993" class="outline-3">
+<h3 id="orgc792993"><span class="section-number-3">4.1.</span> element validation api</h3>
 </div>
 
-<div id="outline-container-org2cdfd1b" class="outline-3">
-<h3 id="org2cdfd1b"><span class="section-number-3">4.2.</span> customized</h3>
+<div id="outline-container-org87278fa" class="outline-3">
+<h3 id="org87278fa"><span class="section-number-3">4.2.</span> customized</h3>
 </div>
 
-<div id="outline-container-orgaf0129d" class="outline-3">
-<h3 id="orgaf0129d"><span class="section-number-3">4.3.</span> example</h3>
+<div id="outline-container-orga3a686a" class="outline-3">
+<h3 id="orga3a686a"><span class="section-number-3">4.3.</span> example</h3>
 </div>
 </div>
 
-<div id="outline-container-org8cf52d0" class="outline-2">
-<h2 id="org8cf52d0"><span class="section-number-2">5.</span> html + css + javascript</h2>
+<div id="outline-container-orge5df5c2" class="outline-2">
+<h2 id="orge5df5c2"><span class="section-number-2">5.</span> html + css + javascript</h2>
 </div>
 
-<div id="outline-container-org8e4729f" class="outline-2">
-<h2 id="org8e4729f"><span class="section-number-2">6.</span> add more validation with functional programming</h2>
+<div id="outline-container-org61ff4b0" class="outline-2">
+<h2 id="org61ff4b0"><span class="section-number-2">6.</span> add more validation with functional programming</h2>
 </div>
 
-<div id="outline-container-orga4ac03e" class="outline-2">
-<h2 id="orga4ac03e"><span class="section-number-2">7.</span> react + ramda</h2>
+<div id="outline-container-orgf527b60" class="outline-2">
+<h2 id="orgf527b60"><span class="section-number-2">7.</span> react + ramda</h2>
 </div>
 
-<div id="outline-container-org2c66392" class="outline-2">
-<h2 id="org2c66392"><span class="section-number-2">8.</span> with promise</h2>
+<div id="outline-container-orgc40effa" class="outline-2">
+<h2 id="orgc40effa"><span class="section-number-2">8.</span> with promise</h2>
 </div>
 
-<div id="outline-container-org3514d77" class="outline-2">
-<h2 id="org3514d77"><span class="section-number-2">9.</span> summary</h2>
+<div id="outline-container-orgd616b1a" class="outline-2">
+<h2 id="orgd616b1a"><span class="section-number-2">9.</span> summary</h2>
 </div>
 </div>
 <div id="postamble" class="status">
 <p class="author">Author: dipper</p>
-<p class="date">Created: 2023-04-07 Fri 19:27</p>
+<p class="date">Created: 2023-04-07 Fri 19:32</p>
 </div>
 </body>
 </html>

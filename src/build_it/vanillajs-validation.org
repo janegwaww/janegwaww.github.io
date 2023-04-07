@@ -25,8 +25,11 @@
 ** 如何实现前端校验
 
 - 简单的用HTML内置方法
+
   如果简单直接的用HTML标签中的属性就能满足你的需求，那就JavaScript都不需要了，直接HTML，CSS就能实现了。只能缺少了一定的定制性了。
+
 - 用JavaScript
+
   用JavaScript实现就可以完全定制你的需求了，还有JavaScript的海量框架。
 
 * 一个简单的用做开始的范例
@@ -34,6 +37,7 @@
 前端开发最原生的就是三个文件类型：HTML，CSS和JavaScript。只是发展到后面为了提升开发效率，获得更好的开发体验，衍生出了很多框架。例如：React, VUE, TypeScript, jQuery, SASS等。而我们想要最简单的实现前端校验，就用最原生的前端。
 
 - 我们的html文件:
+
   在 ~form~ 标签中加入一个输入框和一个按钮，这时候还没有加入任何校验。
   #+name: html
   #+begin_src html
@@ -45,7 +49,8 @@
   #+end_src
 
 - 我们的css文件:
-  我们添加了无效的和有效的输入框样式。
+
+  我们添加了无效的和有效的输入框样式，即加了不同的边框颜色用以区分它们。
   #+name: css
   #+begin_src css
     input:invalid {
