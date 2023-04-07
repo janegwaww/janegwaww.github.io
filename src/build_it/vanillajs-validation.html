@@ -3,10 +3,10 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
-<!-- 2023-04-07 Fri 16:40 -->
+<!-- 2023-04-07 Fri 17:38 -->
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>用简单的方式实现前验校验根本不需要任何插件</title>
+<title>用简单的方式实现前验校验也许并不需要任何插件</title>
 <meta name="author" content="dipper" />
 <meta name="generator" content="Org Mode" />
 <style>
@@ -196,49 +196,72 @@
 </head>
 <body>
 <div id="content" class="content">
-<h1 class="title">用简单的方式实现前验校验根本不需要任何插件</h1>
+<h1 class="title">用简单的方式实现前验校验也许并不需要任何插件</h1>
+<p>
+<b>前端校验只是对用户的输入做一个简单的检测和提示，它并不是必须的选项。因为前端传入后端的数据一般都是不可靠的，它可以很容易的用一些手段跳过，这是由前端的特性造成的。但是做为一个负责任的工程师，前端传入给你的任何数据都必须经过检验。而前端做到的只是一些基本的校验，而真正的校验需要后端更严格的检测。但是为了用户体验，前端校验又是不得不做的一个基础功能，他针对用户输入的数据做一个提示与反馈来告诉用户当前输入的数据是否有效。</b>
+</p>
+
 <div id="table-of-contents" role="doc-toc">
 <h2>Table of Contents</h2>
 <div id="text-table-of-contents" role="doc-toc">
 <ul>
-<li><a href="#org8677190">1. what is validation</a></li>
-<li><a href="#org966af80">2. simple start file</a></li>
-<li><a href="#org4976b2d">3. html + css</a>
+<li><a href="#org0796876">1. 什么是前端校验？</a>
 <ul>
-<li><a href="#org5d95eac">3.1. require attribute</a></li>
-<li><a href="#org60436c4">3.2. regular expression validating</a></li>
-<li><a href="#orgc1e0513">3.3. length of value</a></li>
-<li><a href="#org69d6fb8">3.4. type of input</a></li>
+<li><a href="#orge7cc6f9">1.1. 如何实现前端校验</a></li>
 </ul>
 </li>
-<li><a href="#orga1f3c58">4. with buid-in api</a>
+<li><a href="#org8855b7c">2. simple start file</a></li>
+<li><a href="#orgea5216a">3. html + css</a>
 <ul>
-<li><a href="#orgec9e264">4.1. element validation api</a></li>
-<li><a href="#org538290d">4.2. customized</a></li>
-<li><a href="#org7090b42">4.3. example</a></li>
+<li><a href="#org39ae21d">3.1. require attribute</a></li>
+<li><a href="#org45d1c48">3.2. regular expression validating</a></li>
+<li><a href="#orgc0d7ebd">3.3. length of value</a></li>
+<li><a href="#org56b586c">3.4. type of input</a></li>
 </ul>
 </li>
-<li><a href="#org09a6cc4">5. html + css + javascript</a></li>
-<li><a href="#org59f35dc">6. add more validation with functional programming</a></li>
-<li><a href="#org29c4498">7. react + ramda</a></li>
-<li><a href="#org5b1afbb">8. with promise</a></li>
-<li><a href="#org356e846">9. summary</a></li>
+<li><a href="#org73c8d68">4. with buid-in api</a>
+<ul>
+<li><a href="#org8271ee8">4.1. element validation api</a></li>
+<li><a href="#orgf0319c6">4.2. customized</a></li>
+<li><a href="#orgd4077bf">4.3. example</a></li>
+</ul>
+</li>
+<li><a href="#org644edbc">5. html + css + javascript</a></li>
+<li><a href="#org4d8a5d1">6. add more validation with functional programming</a></li>
+<li><a href="#orgf8caa7a">7. react + ramda</a></li>
+<li><a href="#orge48623a">8. with promise</a></li>
+<li><a href="#org6fcdb63">9. summary</a></li>
 </ul>
 </div>
 </div>
 
-<div id="outline-container-org8677190" class="outline-2">
-<h2 id="org8677190"><span class="section-number-2">1.</span> what is validation</h2>
+<div id="outline-container-org0796876" class="outline-2">
+<h2 id="org0796876"><span class="section-number-2">1.</span> 什么是前端校验？</h2>
+<div class="outline-text-2" id="text-1">
+<p>
+你去任何一个需要注册的网站，当你进入登录注册页面时，网站要求你输入一些信息进行登录或注册，当你输入正确时就是登录或注册成功然后跳到个人页面，当你输入不正确时，例如输入格式不对或者密码输入错误时，网页就会弹出红色提示框说你的输入不正确给予你提示，你可以根据提示，重新输入正确的信息，直到成功为止，然后用户的信息会被保存到数据库上。
+</p>
 </div>
 
-<div id="outline-container-org966af80" class="outline-2">
-<h2 id="org966af80"><span class="section-number-2">2.</span> simple start file</h2>
+<div id="outline-container-orge7cc6f9" class="outline-3">
+<h3 id="orge7cc6f9"><span class="section-number-3">1.1.</span> 如何实现前端校验</h3>
+<div class="outline-text-3" id="text-1-1">
+<ul class="org-ul">
+<li>内置方法</li>
+<li>JavaScript</li>
+</ul>
+</div>
+</div>
+</div>
+
+<div id="outline-container-org8855b7c" class="outline-2">
+<h2 id="org8855b7c"><span class="section-number-2">2.</span> simple start file</h2>
 <div class="outline-text-2" id="text-2">
 <p>
 html file
 </p>
 <div class="org-src-container">
-<pre class="src src-html" id="orgb8abb00">&lt;<span style="color: #c678dd;">form</span>&gt;
+<pre class="src src-html" id="org653d516">&lt;<span style="color: #c678dd;">form</span>&gt;
   &lt;<span style="color: #c678dd;">label</span> <span style="color: #dcaeea;">for</span>=<span style="color: #98be65;">"choose"</span>&gt;Would you prefer a banana or cherry?&lt;/<span style="color: #c678dd;">label</span>&gt;
   &lt;<span style="color: #c678dd;">input</span> <span style="color: #dcaeea;">id</span>=<span style="color: #98be65;">"choose"</span> <span style="color: #dcaeea;">name</span>=<span style="color: #98be65;">"i-like"</span> /&gt;
   &lt;<span style="color: #c678dd;">button</span>&gt;Submit&lt;/<span style="color: #c678dd;">button</span>&gt;
@@ -250,7 +273,7 @@ html file
 css file
 </p>
 <div class="org-src-container">
-<pre class="src src-css" id="orgf116ac8"><span style="color: #51afef;">input:invalid </span><span style="color: #51afef;">{</span>
+<pre class="src src-css" id="org857788c"><span style="color: #51afef;">input:invalid </span><span style="color: #51afef;">{</span>
   <span style="color: #98be65;">border</span>: 2px dashed <span style="color: #ffffff; background-color: #ff0000;">red</span>;
 <span style="color: #51afef;">}</span>
 
@@ -264,67 +287,67 @@ css file
 </div>
 </div>
 
-<div id="outline-container-org4976b2d" class="outline-2">
-<h2 id="org4976b2d"><span class="section-number-2">3.</span> html + css</h2>
+<div id="outline-container-orgea5216a" class="outline-2">
+<h2 id="orgea5216a"><span class="section-number-2">3.</span> html + css</h2>
 <div class="outline-text-2" id="text-3">
 </div>
-<div id="outline-container-org5d95eac" class="outline-3">
-<h3 id="org5d95eac"><span class="section-number-3">3.1.</span> require attribute</h3>
+<div id="outline-container-org39ae21d" class="outline-3">
+<h3 id="org39ae21d"><span class="section-number-3">3.1.</span> require attribute</h3>
 </div>
 
-<div id="outline-container-org60436c4" class="outline-3">
-<h3 id="org60436c4"><span class="section-number-3">3.2.</span> regular expression validating</h3>
+<div id="outline-container-org45d1c48" class="outline-3">
+<h3 id="org45d1c48"><span class="section-number-3">3.2.</span> regular expression validating</h3>
 </div>
 
-<div id="outline-container-orgc1e0513" class="outline-3">
-<h3 id="orgc1e0513"><span class="section-number-3">3.3.</span> length of value</h3>
+<div id="outline-container-orgc0d7ebd" class="outline-3">
+<h3 id="orgc0d7ebd"><span class="section-number-3">3.3.</span> length of value</h3>
 </div>
 
-<div id="outline-container-org69d6fb8" class="outline-3">
-<h3 id="org69d6fb8"><span class="section-number-3">3.4.</span> type of input</h3>
+<div id="outline-container-org56b586c" class="outline-3">
+<h3 id="org56b586c"><span class="section-number-3">3.4.</span> type of input</h3>
 </div>
 </div>
 
-<div id="outline-container-orga1f3c58" class="outline-2">
-<h2 id="orga1f3c58"><span class="section-number-2">4.</span> with buid-in api</h2>
+<div id="outline-container-org73c8d68" class="outline-2">
+<h2 id="org73c8d68"><span class="section-number-2">4.</span> with buid-in api</h2>
 <div class="outline-text-2" id="text-4">
 </div>
-<div id="outline-container-orgec9e264" class="outline-3">
-<h3 id="orgec9e264"><span class="section-number-3">4.1.</span> element validation api</h3>
+<div id="outline-container-org8271ee8" class="outline-3">
+<h3 id="org8271ee8"><span class="section-number-3">4.1.</span> element validation api</h3>
 </div>
 
-<div id="outline-container-org538290d" class="outline-3">
-<h3 id="org538290d"><span class="section-number-3">4.2.</span> customized</h3>
+<div id="outline-container-orgf0319c6" class="outline-3">
+<h3 id="orgf0319c6"><span class="section-number-3">4.2.</span> customized</h3>
 </div>
 
-<div id="outline-container-org7090b42" class="outline-3">
-<h3 id="org7090b42"><span class="section-number-3">4.3.</span> example</h3>
+<div id="outline-container-orgd4077bf" class="outline-3">
+<h3 id="orgd4077bf"><span class="section-number-3">4.3.</span> example</h3>
 </div>
 </div>
 
-<div id="outline-container-org09a6cc4" class="outline-2">
-<h2 id="org09a6cc4"><span class="section-number-2">5.</span> html + css + javascript</h2>
+<div id="outline-container-org644edbc" class="outline-2">
+<h2 id="org644edbc"><span class="section-number-2">5.</span> html + css + javascript</h2>
 </div>
 
-<div id="outline-container-org59f35dc" class="outline-2">
-<h2 id="org59f35dc"><span class="section-number-2">6.</span> add more validation with functional programming</h2>
+<div id="outline-container-org4d8a5d1" class="outline-2">
+<h2 id="org4d8a5d1"><span class="section-number-2">6.</span> add more validation with functional programming</h2>
 </div>
 
-<div id="outline-container-org29c4498" class="outline-2">
-<h2 id="org29c4498"><span class="section-number-2">7.</span> react + ramda</h2>
+<div id="outline-container-orgf8caa7a" class="outline-2">
+<h2 id="orgf8caa7a"><span class="section-number-2">7.</span> react + ramda</h2>
 </div>
 
-<div id="outline-container-org5b1afbb" class="outline-2">
-<h2 id="org5b1afbb"><span class="section-number-2">8.</span> with promise</h2>
+<div id="outline-container-orge48623a" class="outline-2">
+<h2 id="orge48623a"><span class="section-number-2">8.</span> with promise</h2>
 </div>
 
-<div id="outline-container-org356e846" class="outline-2">
-<h2 id="org356e846"><span class="section-number-2">9.</span> summary</h2>
+<div id="outline-container-org6fcdb63" class="outline-2">
+<h2 id="org6fcdb63"><span class="section-number-2">9.</span> summary</h2>
 </div>
 </div>
 <div id="postamble" class="status">
 <p class="author">Author: dipper</p>
-<p class="date">Created: 2023-04-07 Fri 16:40</p>
+<p class="date">Created: 2023-04-07 Fri 17:38</p>
 </div>
 </body>
 </html>

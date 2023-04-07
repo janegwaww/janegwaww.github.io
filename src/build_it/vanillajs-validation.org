@@ -1,37 +1,64 @@
+:PROPERTIES:
+:ID:       8c0a837b-c2b1-4a25-9752-8157e425d31e
+:END:
+#+startup: showeverything
 #+options: toc:nil
-#+title: 用简单的方式实现前验校验根本不需要任何插件
+#+title: 用简单的方式实现前验校验也许并不需要任何插件
+
+*前端校验只是对用户的输入做一个简单的检测和提示，它并不是必须的选项。因为前端传入后端的数据一般都是不可靠的，它可以很容易的用一些手段跳过，这是由前端的特性造成的。但是做为一个负责任的工程师，前端传入给你的任何数据都必须经过检验。而前端做到的只是一些基本的校验，而真正的校验需要后端更严格的检测。但是为了用户体验，前端校验又是不得不做的一个基础功能，他针对用户输入的数据做一个提示与反馈来告诉用户当前输入的数据是否有效。*
 
 #+toc: headlines
 
-* what is validation
+* 什么是前端校验？
 
-* simple start file
+你去任何一个需要注册的网站，当你进入登录注册页面时，网站要求你输入一些信息进行登录或注册，当你输入正确时就是登录或注册成功然后跳到个人页面，当你输入不正确时，例如输入格式不对或者密码输入错误时，网页就会弹出红色提示框说你的输入不正确给予你提示，你可以根据提示，重新输入正确的信息，直到成功为止，然后用户的信息会被保存到数据库上。
 
-html file
-#+name: html
-#+begin_src html
-  <form>
-    <label for="choose">Would you prefer a banana or cherry?</label>
-    <input id="choose" name="i-like" />
-    <button>Submit</button>
-  </form>
-#+end_src
+你可以不做前端校验，只放一个输入框在页面上，让用户输入你所需要的信息。但是这样做对用户，对后端都会有很大的困扰。
+- 在用户这边是：
+  1. 我已经输入确认完成了为什么还是停在这个页面，哪里出错了？
+  2. 用户无法得到及时的反馈很容易消耗耐心。
+- 在后端这边是：
+  1. 一个简单的前端校验可以大大提升用户的输入体验，何乐而不为呢。
+  2. 计算机做任何动作都需要消耗资源，而前端校验可以过滤掉一些不必要的动作，例如邮箱格式错误，手机号格式错误等。
+  3. 软件开发中外部输入的是一种非常不可靠的数据，它有可能传入任何数据，而我们想要保护我们的软件正确运行，就必须对外部传入的数据进行校验，而前端校验也是其中的一环。
 
-css file
-#+name: css
-#+begin_src css
-input:invalid {
-  border: 2px dashed red;
-}
+** 如何实现前端校验
 
-input:valid {
-  border: 2px solid black;
-}
-#+end_src
+- 简单的用HTML内置方法
+  如果简单直接的用HTML标签中的属性就能满足你的需求，那就JavaScript都不需要了，直接HTML，CSS就能实现了。只能缺少了一定的定制性了。
+- 用JavaScript
+  用JavaScript实现就可以完全定制你的需求了，还有JavaScript的海量框架。
+
+* 一个简单的用做开始的范例
+
+前端开发最原生的就是三个文件类型：HTML，CSS和JavaScript。只是发展到后面为了提升开发效率，获得更好的开发体验，衍生出了很多框架。例如：React, VUE, TypeScript, jQuery, SASS等。而我们想要最简单的实现前端校验，就用最原生的前端。
+
+- 我们的html文件:
+  在 ~form~ 标签中加入一个输入框和一个按钮，这时候还没有加入任何校验。
+  #+name: html
+  #+begin_src html
+    <form>
+      <label for="choose">Would you prefer a banana or cherry?</label>
+      <input id="choose" name="i-like" />
+      <button>Submit</button>
+    </form>
+  #+end_src
+
+- 我们的css文件:
+  我们添加了无效的和有效的输入框样式。
+  #+name: css
+  #+begin_src css
+    input:invalid {
+      border: 2px dashed red;
+    }
+    input:valid {
+      border: 2px solid black;
+    }
+  #+end_src
 
 #+html: <form><style>input:invalid{border: 2px dashed red;}input:valid{border: 2px solid black;}form{border:1px solid gray;border-radius:4px;padding:16px;}</style><label for="choose">Would you prefer a banana or cherry?</label><input id="choose" name="i-like" /><button>Submit</button></form>
 
-* html + css
+* 只用HTML和CSS实现前端校验
 
 ** require attribute
 
