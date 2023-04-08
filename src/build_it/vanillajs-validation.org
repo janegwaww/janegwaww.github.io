@@ -120,24 +120,45 @@ HTML代码是：
 
 #+html: <form><style>input:invalid{border: 2px dashed red;}input:valid {border: 2px solid black;}</style><label for="choose">Would you prefer a banana or cherry? (required)</label><input id="choose" name="i-like" required pattern="[Bb]anana|[Cc]herry" /><button>Submit</button></form>
 
-** length of value
+** 用 ~minlength~ 和 ~maxlength~ 规范字符串的长度
 
-** type of input
+在前端你可以用 ~minlength~ 和 ~maxlength~ 在输入框中直接限制用户可输入内容的长度，例如限制字符为20, 即 ~maxlength="20"~ ， 当用户输入20个字符之后，用户再输入则输入框不会有任何反应，然后会告知用户你输入内容已超出最大长度限制，一般很多网站的用户名都有这个限制，为了防止用户名占用太多空间，这些网站都会限制用户输入过长的用户名。
 
-* with buid-in api
+在HTML中的应用，CSS保持不变(在下面试试吧)，这里为了方便展示我们限制字符最短为6最长也为6：
+#+begin_src html
+  <form>
+    <label for="choose">Would you prefer a banana or a cherry?</label>
+    <input
+      type="text"
+      id="choose"
+      name="i-like"
+      required
+      minlength="6"
+      maxlength="6" />
+    <button>Submit</button>
+  </form>
+#+end_src
 
-** element validation api
+#+html: <form><style>input:invalid{border: 2px dashed red;}input:valid {border: 2px solid black;}</style><label for="choose">Would you prefer a banana or cherry? (required)</label><input type="text" id="choose" name="i-like" required minlength="6" maxlength="6" /><button>Submit</button></form>
 
-** customized
+** 确定输入框的类型
 
-** example
+* 用JavaScript实现前端校验
 
-* html + css + javascript
+** with buid-in api
 
-* add more validation with functional programming
+*** element validation api
 
-* react + ramda
+*** customized
 
-* with promise
+*** example
+
+** html + css + javascript
+
+** add more validation with functional programming
+
+** react + ramda
+
+** with promise
 
 * summary
