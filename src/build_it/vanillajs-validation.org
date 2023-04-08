@@ -143,6 +143,25 @@ HTML代码是：
 
 ** 确定输入框的类型
 
+输入框 ~<input>~ 提供了一个类型的选项 ~type~ , ~type~ 包括哪些在[[https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input#input_types][这里]]。这里我们展示 ~type="number"~ 即数字输入框，且再用 ~min~ 和 ~max~ 限定它的最小值和最大值，如果输入的数字超出范围则边框变红色。
+
+HTML代码如下，CSS不变：
+#+begin_src html
+  <form>
+    <label for="number">How many would you like?</label>
+    <input type="number" id="number" name="amount" value="1" min="1" max="10" />
+    <button>Submit</button>
+  </form>
+#+end_src
+
+#+html: <form><style>input:invalid{border: 2px dashed red;}input:valid {border: 2px solid black;}</style><label for="choose">Would you prefer a banana or cherry? (required)</label><input id="choose" name="i-like" type="number" value="1" min="1" max="10" /><button>Submit</button></form>
+
+当然这里展示的只是 ~<input>~ 标签的部份属性，关于更多<input>标签的属性，例如更多的类型 ~type~ ，可以到[[https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input][这里]]查看。
+
+** 总结下HTML+CSS
+
+对于代码我们秉承着能简单就不要复杂，原生能实现就不要用框架的原则。如果你不需要复杂的校验，上面的代码能満足你的需求就尽量用简单的方法实现它，毕竟大型软件的本质就是管理复杂，而其中能简单的地方就简单化。而如果你已经使用了一套框架的流程，或许你可以试试以下使用JavaScript的实现。
+
 * 用JavaScript实现前端校验
 
 ** with buid-in api
