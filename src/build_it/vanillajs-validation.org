@@ -26,7 +26,7 @@
 
 - 简单的用HTML内置方法
 
-  如果简单直接的用HTML标签中的属性就能满足你的需求，那就JavaScript都不需要了，直接HTML，CSS就能实现了。只能缺少了一定的定制性了。
+  如果简单直接的用HTML标签中的属性就能满足你的需求，那就JavaScript都不需要了，直接HTML，CSS就能实现了。只是缺少了一定的定制性了。
 
 - 用JavaScript
 
@@ -65,7 +65,41 @@
 
 * 只用HTML和CSS实现前端校验
 
-** require attribute
+HTML的标签本身包含了很多属性，而 ~<input>~ 标签也包含了一些校验输入的属性。其中包括：
+- ~required~ :即输入框不能为空，这个输入框是必须输入内容的，例如用户名、密码等是必须要输入的。
+- ~pattern~ :用正则进行校验，即你输入的内容要符合正则表达式。
+- ~minlength~ 和 ~maxlength~ :即你可输入的字符串最短长度和最长长度。
+- ~min~ 和 ~max~ : 你可输入的最小数字和最大数字。
+- ~type~ :输入框的类型，指定输入框的类型，即这个是数字输入框还是邮箱输入框还是只是做为一个按钮，数字输入框就只能输入数字，邮箱输入框就只能输入邮箱等。
+而在我们使用这些属性之后，输入框就具备了一定的校验功能了。当输入的信息満足这些要求，就会提交信息到后台处理，否则就无法提交信息。然后在[[*一个简单的用做开始的范例][一个简单的用做开始的范例]]的基础之上，我们就用这些属性编写我们的代码。
+
+** 当我们使用 ~require~ 属性
+
+这时我们是要求必须输入内容，只要有内容输入就算満足了我们的校验要求。当输入框为空时不満足要求，输入框边框为红色，当你输入任何内容，边框就变为了黑色(你可以在下面的输入框中试试)。当你不満足要求是直接按 ~Submit~ 按钮就会提示你必须输入内容。
+
+我们的HTML代码：
+#+name: required html
+#+begin_src html
+  <form>
+    <label for="choose">Would you prefer a banana or cherry? (required)</label>
+    <!-- 直接在input中加上required就行了 -->
+    <input id="choose" name="i-like" required />
+    <button>Submit</button>
+  </form>
+#+end_src
+
+我们的CSS的代码：
+#+name: required css
+#+begin_src css
+  input:invalid {
+    border: 2px dashed red;
+  }
+  input:valid {
+    border: 2px solid black;
+  }
+#+end_src
+
+#+html: <form><style>input:invalid{border: 2px dashed red;}input:valid {border: 2px solid black;}</style><label for="choose">Would you prefer a banana or cherry? (required)</label><input id="choose" name="i-like" required /><button>Submit</button></form>
 
 ** regular expression validating
 
