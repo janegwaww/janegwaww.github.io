@@ -101,7 +101,24 @@ HTML的标签本身包含了很多属性，而 ~<input>~ 标签也包含了一�
 
 #+html: <form><style>input:invalid{border: 2px dashed red;}input:valid {border: 2px solid black;}</style><label for="choose">Would you prefer a banana or cherry? (required)</label><input id="choose" name="i-like" required /><button>Submit</button></form>
 
-** regular expression validating
+** 用正则表过式规范输入
+
+现在我们要用 ~pattern~ 属性来校验输入，在 ~pattern~ 中用正则表达式作为它的值。前端正则包括[[https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions][这些]]。这里我们只会用一些简单的表达式介绍这个属性。
+
+HTML代码是：
+#+begin_src html
+  <form>
+    <label for="choose">Would you prefer a banana or a cherry?</label>
+    <input id="choose" name="i-like" required pattern="[Bb]anana|[Cc]herry" />
+    <button>Submit</button>
+  </form>
+#+end_src
+
+在这个代码里我们在 ~<input>~ 中加入了 ~pattern="[Bb]anana|[Cc]herry"~ ，这里就是你只能输入：banana或cherry，首字母大小写都可以。CSS代码跟上面一样不变。(在下面试试吧)
+
+可以使用正则大大扩展了 ~<input>~ 校验的可用性，因为你可以使用正则表达式的强大功能去实现一些复杂的校验，例如： ~/^([A-Za-z0-9]|[A-Za-z0-9][\w\-\/\\ ]*[A-Za-z0-9])$/~ 就是你只能输入英文字符，且字符串前后不能是空格。
+
+#+html: <form><style>input:invalid{border: 2px dashed red;}input:valid {border: 2px solid black;}</style><label for="choose">Would you prefer a banana or cherry? (required)</label><input id="choose" name="i-like" required pattern="[Bb]anana|[Cc]herry" /><button>Submit</button></form>
 
 ** length of value
 
