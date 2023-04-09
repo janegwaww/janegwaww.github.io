@@ -19,7 +19,7 @@ A plain-text personal knowledge management system.
 
 网址: [[https://www.orgroam.com/]]
 
-我的结论
+*我的结论*
 
 这个是[[https://www.gnu.org/software/emacs/][emacs]]的一个mode需要配合emacs的[[https://orgmode.org/][org-mode]]使用，因为我自己是以emacs作为主要工具，所以这个mode相对来说最符合我个人需求。如果你没有使用emacs我也强烈推荐你试试emacs，他是一个非常强大的系统，虽然需要学习一些快捷键操作，但是获得的体验和一些杀手级功能如：[[https://magit.vc/][magit]]，[[https://orgmode.org/][org-mode]]等会让你爱不释手的。而[[https://www.orgroam.com/][org-roam]]也正是参考Zettelkasten笔记法做出的软件，且配合强大的org-mode使用，对我个人来讲可以说是完美的做笔记工具了。当然如果你没有使用emacs那么这个笔记不适合你。
 
