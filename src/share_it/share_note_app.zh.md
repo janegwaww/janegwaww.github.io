@@ -2,29 +2,41 @@
 
 # 分享最近使用过的记笔记软件
 
-1.  [记笔记软件](#orgdc66352)
-    1.  [Org-roam](#orgeb5f470)
-    2.  [RoamSearch](#orgdc3fee9)
-    3.  [Zettlr](#org7f39edc)
-    4.  [The Archive](#org6136919)
-    5.  [Obsidian](#org4415106)
-    6.  [Notion](#org5d8298e)
-    7.  [OneNote](#org7f6337e)
-    8.  [TiddlyWiki](#org110125f)
-    9.  [Google-Doc](#org356e3c6)
-    10. [LogSeq](#org52d05cf)
-    11. [语雀, showdoc, 石墨](#orga3fdf35)
-    12. [Joplin](#org30450a1)
-    13. [有道](#org8d99b27)
-    14. [EverNote](#org2efc37f)
+1.  [笔记软件的评价标准](#org3d059e1)
+2.  [记笔记软件](#org50e9694)
+    1.  [Org-roam](#orgbafc062)
+    2.  [RoamSearch](#org79c152c)
+    3.  [Zettlr](#org81febab)
+    4.  [The Archive](#org1223aff)
+    5.  [DokuWiki](#org45d6558)
+    6.  [Obsidian](#orgc8059e6)
+    7.  [Notion](#org89977b3)
+    8.  [OneNote](#org5cbf163)
+    9.  [TiddlyWiki](#org00ba3c9)
+    10. [Google-Doc](#org5c6e97a)
+    11. [LogSeq](#org69340f2)
+    12. [语雀, showdoc, 石墨](#org17d6a9d)
+    13. [Joplin](#org1113c49)
+    14. [有道](#org0b3c9b2)
+    15. [EverNote](#org0732752)
+3.  [各笔记软件功能对比](#org93fbe49)
+4.  [各笔记软件使用的操作系统](#org5d52ca9)
+5.  [各笔记软件收费信息](#org5332121)
 
 
-<a id="orgdc66352"></a>
+<a id="org3d059e1"></a>
+
+## 笔记软件的评价标准
+
+评价标准会以[Zettelkasten](https://www.soenkeahrens.de/en/takesmartnotes)笔记法（即卡片笔记写作法）作为标准，越接近该方法的笔记会被认为越好，现在功能强大点的笔记软件也基本上支持该功能。
+
+
+<a id="org50e9694"></a>
 
 ## 记笔记软件
 
 
-<a id="orgeb5f470"></a>
+<a id="orgbafc062"></a>
 
 ### Org-roam<sup><a id="fnr.1" class="footref" href="#fn.1" role="doc-backlink">1</a></sup>
 
@@ -32,8 +44,12 @@
 
 网址: <https://www.orgroam.com/>
 
+**我的结论**
 
-<a id="orgdc3fee9"></a>
+这个是[emacs](https://www.gnu.org/software/emacs/)的一个mode需要配合emacs的[org-mode](https://orgmode.org/)使用，因为我自己是以emacs作为主要工具，所以这个mode相对来说最符合我个人需求。如果你没有使用emacs我也强烈推荐你试试emacs，他是一个非常强大的系统，虽然需要学习一些快捷键操作，但是获得的体验和一些杀手级功能如：[magit](https://magit.vc/)，[org-mode](https://orgmode.org/)等会让你爱不释手的。而[org-roam](https://www.orgroam.com/)也正是参考Zettelkasten笔记法做出的软件，且配合强大的org-mode使用，对我个人来讲可以说是完美的做笔记工具了。当然如果你没有使用emacs那么这个笔记不适合你。
+
+
+<a id="org79c152c"></a>
 
 ### RoamSearch
 
@@ -42,7 +58,7 @@
 网址: <https://roamresearch.com/>
 
 
-<a id="org7f39edc"></a>
+<a id="org81febab"></a>
 
 ### Zettlr
 
@@ -51,7 +67,7 @@
 网址: <https://zettlr.com/>
 
 
-<a id="org6136919"></a>
+<a id="org1223aff"></a>
 
 ### The Archive
 
@@ -60,7 +76,16 @@
 网址: <https://zettelkasten.de/the-archive/>
 
 
-<a id="org4415106"></a>
+<a id="org45d6558"></a>
+
+### DokuWiki
+
+> It's better when it's simple
+
+网址：<https://www.dokuwiki.org/dokuwiki>
+
+
+<a id="orgc8059e6"></a>
 
 ### Obsidian
 
@@ -69,7 +94,7 @@
 网址: <https://obsidian.md/>
 
 
-<a id="org5d8298e"></a>
+<a id="org89977b3"></a>
 
 ### Notion
 
@@ -78,7 +103,7 @@
 网址: <https://www.notion.so/>
 
 
-<a id="org7f6337e"></a>
+<a id="org5cbf163"></a>
 
 ### OneNote
 
@@ -89,7 +114,7 @@
 网址: [OneNote](https://www.microsoft.com/zh-cn/microsoft-365/onenote/digital-note-taking-app?ms.url=onenotecom&rtc=1)
 
 
-<a id="org110125f"></a>
+<a id="org00ba3c9"></a>
 
 ### TiddlyWiki
 
@@ -98,7 +123,7 @@
 网址: <https://tiddlywiki.com/>
 
 
-<a id="org356e3c6"></a>
+<a id="org5c6e97a"></a>
 
 ### Google-Doc
 
@@ -107,7 +132,7 @@
 网址: <https://www.google.com/docs/about/>
 
 
-<a id="org52d05cf"></a>
+<a id="org69340f2"></a>
 
 ### LogSeq
 
@@ -116,7 +141,7 @@
 网址: <https://logseq.com/>
 
 
-<a id="orga3fdf35"></a>
+<a id="org17d6a9d"></a>
 
 ### 语雀, showdoc, 石墨
 
@@ -137,7 +162,7 @@
     网址: <https://shimo.im/>
 
 
-<a id="org30450a1"></a>
+<a id="org1113c49"></a>
 
 ### Joplin
 
@@ -148,7 +173,7 @@
 网址: <https://joplinapp.org/>
 
 
-<a id="org8d99b27"></a>
+<a id="org0b3c9b2"></a>
 
 ### 有道
 
@@ -157,7 +182,7 @@
 网址: <https://note.youdao.com/>
 
 
-<a id="org2efc37f"></a>
+<a id="org0732752"></a>
 
 ### EverNote
 
@@ -168,9 +193,24 @@
 网址: <https://evernote.com/intl/zh-cn>
 
 
+<a id="org93fbe49"></a>
+
+## 各笔记软件功能对比
+
+
+<a id="org5d52ca9"></a>
+
+## 各笔记软件使用的操作系统
+
+
+<a id="org5332121"></a>
+
+## 各笔记软件收费信息
+
+
 # 写在最后
 
-<table id="org0fd8e49" border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
 
 
 <colgroup>
@@ -238,6 +278,12 @@
 <td class="org-right">9</td>
 <td class="org-left"><a href="share_note_app.zh.html">分享最近使用过的记笔记软件</a></td>
 </tr>
+
+
+<tr>
+<td class="org-right">10</td>
+<td class="org-left"><a href="recent_reading5.zh.html">分享最近阅读的书籍清单(五)</a></td>
+</tr>
 </tbody>
 
 <tbody>
@@ -249,7 +295,7 @@
 
 <tr>
 <td class="org-right">&#xa0;</td>
-<td class="org-left">捐助我的<a href="https://itch.io/profile/tiglapiles">游戏</a>，支持我的创作</td>
+<td class="org-left"><a href="https://paypal.me/janegwaww">捐助</a>我的创作</td>
 </tr>
 
 
@@ -268,7 +314,7 @@
 <tbody>
 <tr>
 <td class="org-right">&#xa0;</td>
-<td class="org-left"><a href="../../">Home Page</a></td>
+<td class="org-left"><a href="https://www.janegwaww.com">Home Page</a></td>
 </tr>
 </tbody>
 </table>
