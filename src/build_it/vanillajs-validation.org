@@ -173,7 +173,7 @@ HTML代码如下，CSS不变：
 
 *** 定制报错提示框中的内容
 
-就是当你的输入不符合规则时会提示哪里出错了。这里我们使用邮箱输入框，当你输入不是邮箱格式就会报错，并且提交后也会弹出错误提示，
+就是当你的输入不符合规则时会提示哪里出错了。这里我们使用邮箱输入框，当你输入不是邮箱格式就会报错，并且提交后也会弹出错误提示。
 
 HTML代码如下，我在 ~form~ 中添加了一个 ~id~ 属性方便我们在JS中的操作：
 #+begin_src html
@@ -216,7 +216,7 @@ JS代码如下，这里原本会显示的错误信息是 ~Please enter an email 
 
 #+html: <form id="input-api-mail-form"><style>input:invalid{border: 2px dashed red;}input:valid {border: 2px solid black;}</style><label for="input-api-mail">I would like you to provide me with an email address:</label><input id="input-api-mail" name="mail" type="email" /><button>Submit</button><script>const email = document.getElementById("input-api-mail-form");email.addEventListener("submit", function(event) {event.preventDefault();if (email.validity.typeMismatch) {email.setCustomValidity("I am expecting an email address!");} else {email.setCustomValidity("");}});</script></form>
 
-*** 更多输入限制和更多校验定制
+*** 更多的校验定制
 
 
 
