@@ -13,6 +13,7 @@
 |   8 | [[./build_it/how_to_stop_caring.zh.html][程序员在职场中如何缓解过度焦虑]]                 |
 |   9 | [[./share_it/share_note_app.zh.html][分享最近使用过的记笔记软件]]                     |
 |  10 | [[./share_it/recent_reading5.zh.html][分享最近阅读的书籍清单(五)]]                     |
+|  11 | [[./share_it/functional-programming.html][函数编程在JavaScript中的简单应用]]               |
 |-----+------------------------------------------------|
 |     | 如果喜欢该文章欢迎Star我的[[https://github.com/janegwaww/article][github]]               |
 |     | [[https://paypal.me/janegwaww][捐助]]我的创作                                   |
