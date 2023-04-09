@@ -1,5 +1,12 @@
+#+startup: showall
+#+options: toc:nil
+
 * 函数编程在JavaScript中的简单应用
+
+#+toc: headlines local
+
 ** 什么是函数编程
+
 *** 函数编程介绍
     函数式编程是一种编程范例，其中通过应用和组合函数来构造程序。 它是一个声明式编程范例，
     其中函数定义是每个返回一个值的表达式树，而不是一系列更改程序状态的命令性语句。[fn:1]
@@ -26,6 +33,7 @@
       * 声明式：怎么做，我们的代码描述几个具体的步聚来达成某个目地。
       * 命令式：做什么，我们代码描述数据流
 *** JavaScript简单介绍
+
     JavaScript（JS）是函数为第一类级的轻量级，解释性，即时编译的编程语言。[fn:2]
 
     学习一门语言从三个方面入手：
@@ -41,18 +49,22 @@
       const x = 3
       const y = 4
       #+END_SRC
+
     例如我们去声明一个函数：
       #+BEGIN_SRC javascript
       function add (x,y) {
         return x+y
       }
       #+END_SRC
+
     然后运行该函数：
     #+BEGIN_SRC javascript
     add (x,y) //=> 7
     #+END_SRC
+
 *** JavaScript中的函数编程
-    javascript中可以这样声明一个函数：
+
+javascript中可以这样声明一个函数：
     #+BEGIN_SRC javascript
     const double => (x) => x*2
     double (1) //=> 2
@@ -78,8 +90,11 @@
     add2(int) //=> 3
     #+END_SRC
 
+* 写在后面
+#+include: "../footer.zh.org"
+
 * Footnotes
 
-[fn:2] https://developer.mozilla.org/en-US/docs/Web/JavaScript
-
 [fn:1] https://en.wikipedia.org/wiki/Functional_programming
+
+[fn:2] https://developer.mozilla.org/en-US/docs/Web/JavaScript
