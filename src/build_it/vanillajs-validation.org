@@ -1,7 +1,7 @@
 :PROPERTIES:
 :ID:       8c0a837b-c2b1-4a25-9752-8157e425d31e
 :END:
-#+startup: showeverything
+#+startup: showall
 #+options: toc:nil
 #+title: 用简单的方式实现前验校验也许并不需要任何插件
 
@@ -36,7 +36,7 @@
 
 前端开发最原生的就是三个文件类型：HTML，CSS和JavaScript。只是发展到后面为了提升开发效率，获得更好的开发体验，衍生出了很多框架。例如：React, VUE, TypeScript, jQuery, SASS等。而我们想要最简单的实现前端校验，就用最原生的前端。
 
-- 我们的html文件:
+- 我们的HTML文件:
 
   在 ~form~ 标签中加入一个输入框和一个按钮，这时候还没有加入任何校验。
   #+name: html
@@ -158,21 +158,66 @@ HTML代码如下，CSS不变：
 
 当然这里展示的只是 ~<input>~ 标签的部份属性，关于更多<input>标签的属性，例如更多的类型 ~type~ ，可以到[[https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input][这里]]查看。
 
-** 总结下HTML+CSS
+** 总结下HTML+CSS的方法
 
-对于代码我们秉承着能简单就不要复杂，原生能实现就不要用框架的原则。如果你不需要复杂的校验，上面的代码能満足你的需求就尽量用简单的方法实现它，毕竟大型软件的本质就是管理复杂，而其中能简单的地方就简单化。而如果你已经使用了一套框架的流程，或许你可以试试以下使用JavaScript的实现。
+对于代码我们秉承着能简单就不要复杂，原生能实现就不要用框架的原则。如果你不需要复杂的校验，上面的代码能満足你的需求就尽量用简单的方法实现它，毕竟大型软件的本质就是管理复杂，而其中能简单的地方就简单化。而如果你已经使用了一套框架的流程，上面的方法无法満足，或许你可以试试以下使用JavaScript的实现。
 
 * 用JavaScript实现前端校验
 
-** with buid-in api
+作为前端语言，JavaScript给了我们更多的选择。不管是更深的定制化还是使用框架节省时间，都大大的提升了效率和可能性。首先在JavaScript中我们可以使HTML标签内置的[[https://developer.mozilla.org/en-US/docs/Web/API/HTMLInputElement][API]]了，所以在剩下章节中我会先使用该API在原有基础上进行一些定制。或者你并不喜欢使用这些内置的方法，那么我就会用JavaScript写出我们自己需要的校验代码。然后关于框架我会展示使用ReactJS框架如何进行校验并配合[[https://ramdajs.com/][RamdaJS]][fn:1]框架进行函数式编程。最后我会加入 ~Promise~ [fn:2]进行异步式校验，例如验证账号是否已被注册就需要异步验证需要后端处理后返回结果给我们，然后我们再提醒用户账号名已存在等。
 
-*** element validation api
+** 在JavaScript中调用 ~<input>~ 的API
 
-*** customized
+每个HTML标签都有自己的API，在JS(后面就用于指代JavaScript)中用DOM来指这些标签，例如我们使用的输入框 ~<input>~ 在JS中是HTMLInputElement(意思就是html中的input元素)。什么是DOM呢？简单的理解就是JS中的全局变量 ~document~ ，我们可以使用这个全局变量来操作HTML中的所有元素。这里只展示操用 ~<input>~ 元素，然后代码我们也要添加JS代码了。
 
-*** example
+*** 定制报错提示框中的内容
 
-** html + css + javascript
+就是当你的输入不符合规则时会提示哪里出错了。这里我们使用邮箱输入框，当你输入不是邮箱格式就会报错，并且提交后也会弹出错误提示，
+
+HTML代码如下，我在 ~form~ 中添加了一个 ~id~ 属性方便我们在JS中的操作：
+#+begin_src html
+  <form id="input-api-mail-form">
+    <label for="mail">
+      I would like you to provide me with an email address:
+    </label>
+    <input type="email" name="mail" />
+    <button>Submit</button>
+  </form>
+#+end_src
+
+CSS代码我们保持不变：
+#+begin_src css
+  input:invalid {
+    border: 2px dashed red;
+  }
+  input:valid {
+    border: 2px solid black;
+  }
+#+end_src
+
+JS代码如下，这里原本会显示的错误信息是 ~Please enter an email address.~ ，这里被我们改成了 ~I am expecting an email address!~ ，所以当你输入错误然后提交之后就会弹出这个信息：
+#+begin_src js
+  // 通过id获取我们的form元素
+  const email = document.getElementById("input-api-mail-form");
+
+    email.addEventListener("submit", (event) => {
+      // 通过validity.typeMismatch返回邮箱格式是否正确
+      if (email.validity.typeMismatch) {
+        // 返回true则说明格式不对，用setCustomValidity设定提示信息
+        email.setCustomValidity("I am expecting an email address!");
+      } else {
+        email.setCustomValidity("");
+      }
+    });
+#+end_src
+
+在下面试试吧:
+
+#+html: <form id="input-api-mail-form"><style>input:invalid{border: 2px dashed red;}input:valid {border: 2px solid black;}</style><label for="input-api-mail">I would like you to provide me with an email address:</label><input id="input-api-mail" name="mail" type="email" /><button>Submit</button><script>const email = document.getElementById("input-api-mail-form");email.addEventListener("submit", function(event) {event.preventDefault();if (email.validity.typeMismatch) {email.setCustomValidity("I am expecting an email address!");} else {email.setCustomValidity("");}});</script></form>
+
+*** 更多输入限制和更多校验定制
+
+** 不使用HTML的API，只使用JavaScript
 
 ** add more validation with functional programming
 
@@ -181,3 +226,9 @@ HTML代码如下，CSS不变：
 ** with promise
 
 * summary
+
+* Footnotes
+
+[fn:1] https://randycoulman.com/blog/categories/thinking-in-ramda/
+
+[fn:2] https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise
