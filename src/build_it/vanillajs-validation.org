@@ -3,6 +3,7 @@
 :END:
 #+startup: showall
 #+options: toc:nil
+#+author: JaneGwaww
 #+title: 用简单的方式实现前验校验也许并不需要任何插件
 
 *前端校验只是对用户的输入做一个简单的检测和提示，它并不是必须的选项。因为前端传入后端的数据一般都是不可靠的，它可以很容易的用一些手段跳过，这是由前端的特性造成的。但是做为一个负责任的工程师，前端传入给你的任何数据都必须经过检验。而前端做到的只是一些基本的校验，而真正的校验需要后端更严格的检测。但是为了用户体验，前端校验又是不得不做的一个基础功能，他针对用户输入的数据做一个提示与反馈来告诉用户当前输入的数据是否有效。*
@@ -200,15 +201,15 @@ JS代码如下，这里原本会显示的错误信息是 ~Please enter an email 
   // 通过id获取我们的form元素
   const email = document.getElementById("input-api-mail-form");
 
-    email.addEventListener("submit", (event) => {
-      // 通过validity.typeMismatch返回邮箱格式是否正确
-      if (email.validity.typeMismatch) {
-        // 返回true则说明格式不对，用setCustomValidity设定提示信息
-        email.setCustomValidity("I am expecting an email address!");
-      } else {
-        email.setCustomValidity("");
-      }
-    });
+  email.addEventListener("submit", (event) => {
+    // 通过validity.typeMismatch返回邮箱格式是否正确
+    if (email.validity.typeMismatch) {
+      // 返回true则说明格式不对，用setCustomValidity设定提示信息
+      email.setCustomValidity("I am expecting an email address!");
+    } else {
+      email.setCustomValidity("");
+    }
+  });
 #+end_src
 
 在下面试试吧:
@@ -216,6 +217,8 @@ JS代码如下，这里原本会显示的错误信息是 ~Please enter an email 
 #+html: <form id="input-api-mail-form"><style>input:invalid{border: 2px dashed red;}input:valid {border: 2px solid black;}</style><label for="input-api-mail">I would like you to provide me with an email address:</label><input id="input-api-mail" name="mail" type="email" /><button>Submit</button><script>const email = document.getElementById("input-api-mail-form");email.addEventListener("submit", function(event) {event.preventDefault();if (email.validity.typeMismatch) {email.setCustomValidity("I am expecting an email address!");} else {email.setCustomValidity("");}});</script></form>
 
 *** 更多输入限制和更多校验定制
+
+
 
 ** 不使用HTML的API，只使用JavaScript
 
@@ -225,7 +228,7 @@ JS代码如下，这里原本会显示的错误信息是 ~Please enter an email 
 
 ** with promise
 
-* summary
+* 总结
 
 * Footnotes
 
