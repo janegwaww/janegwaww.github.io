@@ -32,6 +32,9 @@
 ### [分享最近阅读的书籍清单（五）](./src/share_it/recent_reading5.zh.md)
 
 
+### [函数编程在JavaScript中的简单应用](./src/share_it/functional-programming.md)
+
+
 ## 构建
 
 
