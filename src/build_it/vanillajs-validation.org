@@ -465,6 +465,28 @@ JS代码，在这段代码中我们会加入高阶函数 ~pipe~ [fn:3]用于函�
 
 ** 用reactJS和RamdaJS实现前端校验
 
+后面因为要用到框架就没法展示，参考下代码就行。
+
+JS代码：
+#+begin_src js
+  import { useState } from "react"
+  import * as R from "ramda"
+
+  export default function Validation() {
+    const [value,setValue] = useState("")
+    const [err,setErr] = useState("")
+
+    const handleChange = (event) => setValue(event.target.value)
+
+    return (
+      <div>
+        <input type="text" name="mail" value={value} onChange={handleChange} />
+        <span>{err}</span>
+      </div>
+    )
+  }
+#+end_src
+
 ** 添加异步校验
 
 * 总结
