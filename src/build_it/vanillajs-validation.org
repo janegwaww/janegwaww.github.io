@@ -385,7 +385,7 @@ JS代码：
 
 ** 用函数式编程优化代码并扩展更多可能
 
-到这里基础功能讲完了，后面就要做一些优化和扩展了，方便我们对于更复杂需求和更多场景下的使用。首先我们对上面的代码做一些优化，使用函数式编程，好处就是对于复杂场景也能用简单易懂的代码表达清楚。只更改JS代码，其他代码保持不变。
+到这里基础功能讲完了，后面就要做一些优化和扩展了，方便我们对于更复杂需求和更多场景下的使用。首先我们对上面的代码做一些优化，使用函数式编程，好处就是对于复杂场景也能用简单易懂的代码表达清楚，关于函数式编程可以看下我的这篇文章[[file:~/WorkSpace/article/src/share_it/functional-programming.org][函数编程在JavaScript中的简单应用]]。只更改JS代码，其他代码保持不变。
 
 JS代码，在这段代码中我们会加入高阶函数 ~pipe~ [fn:3]用于函数组合，就像拼积木一样，把函数一块一块的拼在一起：
 #+begin_src js
@@ -465,7 +465,7 @@ JS代码，在这段代码中我们会加入高阶函数 ~pipe~ [fn:3]用于函�
 
 ** 用reactJS和RamdaJS实现前端校验
 
-后面因为要用到框架就没法展示，参考下代码就行。
+后面因为要用到框架就没法展示，参考下代码就行。我们选择ReactJS UI[fn:4]框架作展示算是当下最流行的UI框架吧。
 
 JS代码：
 #+begin_src js
@@ -498,3 +498,5 @@ JS代码：
 [fn:2] https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise
 
 [fn:3] https://medium.com/javascript-scene/curry-and-function-composition-2c208d774983
+
+[fn:4] https://www.react.dev/
