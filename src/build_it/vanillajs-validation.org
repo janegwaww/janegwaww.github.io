@@ -385,6 +385,84 @@ JS代码：
 
 ** 用函数式编程优化代码并扩展更多可能
 
+到这里基础功能讲完了，后面就要做一些优化和扩展了，方便我们对于更复杂需求和更多场景下的使用。首先我们对上面的代码做一些优化，使用函数式编程，好处就是对于复杂场景也能用简单易懂的代码表达清楚。只更改JS代码，其他代码保持不变。
+
+JS代码，在这段代码中我们会加入高阶函数 ~pipe~ [fn:3]用于函数组合，就像拼积木一样，把函数一块一块的拼在一起：
+#+begin_src js
+  // 获取form表单
+  const form = document.querySelector(".more-api-form");
+  // 获取邮箱输入框
+  const email = document.getElementById("more-api-mail");
+  // 获取错误提示框元素
+  const error = document.querySelector("#more-api-mail + span.error");
+  // 用于校验的正则表达式，跟上面一样这个表达式也是校验邮箱的
+  const emailRegExp =
+        /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/;
+  // 函数组合
+  const pipe = (...fns) => x => fns.reduce((y, f) => f(y), x);
+
+  // 把所有所需要的校验都放这个函数里
+  function isValid(value) {
+    const validObj = {v:value, valid:false, err:""};
+
+    const notEmpty = (obj) => {
+      // 不能为空
+      if(obj.v.length === 0) {
+        return {...obj, valid:false, err:"字符不能为空!"}
+      };
+      return {...obj, valid:true};
+    }
+    const tooShort = (obj) => {
+      // 不能太短
+      if(obj.v.length >= 8) return {...obj, valid:true};
+      return {...obj, valid:false, err:"字符长度不能太短!"};
+    }
+    const isFormat = () => {
+      // 邮箱格式要正确
+      if(emailRegExp.test(obj.v)) return {...obj, valid:true};
+      return {...obj, valid:false, err:"邮箱格式不符!"};
+    }
+
+    // 我们可以在这里添加更多校验条件，例如字符不能太长等
+
+    return  pipe(notEmpty, tooShort, isFormat)(validObj)
+  }
+
+  email.addEventListener("input", () => {
+    // 跟据用户输入自动校验
+    const obj = isValid(email.value)
+    if (obj.valid) {
+      // 符合规范，就添加class到元素中
+      email.className = "valid";
+      error.textContent = "";
+      error.className = "error";
+    } else {
+      // 不符合规范
+      email.className = "invalid";
+    }
+  });
+
+  // 这里我们要手动添加校验消息
+  form.addEventListener("submit", (event) => {
+    event.preventDefault();
+
+    const obj = isValid(email.value)
+    if (!obj.valid) {
+      // 不合规就显示错误信息且阻止提交
+      email.className = "invalid";
+      error.textContent = obj.err
+      error.className = "error active";
+    } else {
+      // 合规就提交
+      email.className = "valid";
+      error.textContent = "";
+      error.className = "error";
+    }
+  });
+#+end_src
+
+#+html: <form novalidate class="more-api-form3"><style>form.more-api-form3 p {width: 200px}input.invalid {border: 2px dashed red;}input.valid {border: 2px solid black;}.error {color: hsl(0, 0%, 100%); border-radius: 0 0 5px 5px; background-color: hsl(348, 100%, 61%); padding: 0;display:block;} .error.active {padding: 0.25em;}</style><label for="mail">Please enter an email address:</label><p><input type="text" id="more-api-mail5" name="mail" /><span class="error" aria-live="polite"></span></p><button>Submit</button><script> const form3 = document.querySelector(".more-api-form3"); const email5 = document.getElementById("more-api-mail5"); const error3 = email5.nextElementSibling; const emailRegExp2 = /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/; const pipe = (...fns) => x => fns.reduce((y, f) => f(y), x); function isValid(value) {const validObj = {v:value, valid:false, err:""}; const notEmpty = function(obj) {if(obj.v.length === 0) {return {...obj, valid:false, err:"字符不能为空!"};}; return {...obj, valid:true};}; const tooShort = function(obj) {if(obj.v.length >= 8) return {...obj, valid:true}; return {...obj, valid:false, err:"字符长度不能太短!"};}; const isFormat = function(obj) {if(emailRegExp2.test(obj.v)) return {...obj, valid:true}; return {...obj, valid:false, err:"邮箱格式不符!"};}; return  pipe(notEmpty, tooShort, isFormat)(validObj);} email5.addEventListener("input", function() {const obj = isValid(email5.value); if (obj.valid) {email5.className = "valid"; error3.textContent = ""; error3.className = "error";} else {email5.className = "invalid";}}); form3.addEventListener("submit", function(event) {event.preventDefault(); const obj = isValid(email5.value); if (!obj.valid) {email5.className = "invalid"; error3.textContent = obj.err; error3.className = "error active";} else {email5.className = "valid"; error3.textContent = ""; error3.className = "error";}}); </script></form>
+
 ** 用reactJS和RamdaJS实现前端校验
 
 ** 添加异步校验
@@ -396,3 +474,5 @@ JS代码：
 [fn:1] https://randycoulman.com/blog/categories/thinking-in-ramda/
 
 [fn:2] https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise
+
+[fn:3] https://medium.com/javascript-scene/curry-and-function-composition-2c208d774983
