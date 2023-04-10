@@ -228,7 +228,7 @@ HTML代码如下，在 ~form~ 加 ~novalidate~ 是取消默认提示框，我们
     </label>
     <p>
       <input type="email" id="more-api-mail" name="mail" required minlength="8" />
-      <span class="error" aria-live="polite"></span>
+      <span class="error"></span>
     </p>
     <button>Submit</button>
   </form>
@@ -310,9 +310,78 @@ JS代码：
 
 ** 不使用HTML的API，只使用JavaScript
 
-你不想用HTML的API，
+你不喜欢用HTML的API，那我们只用JS就可以了。前面的HTML，CSS代码保持不变，我们只要在JS代码中把涉及HTML API的部份更改为“手动”校验。
 
-#+html: <form novalidate class="more-api-form"><style>form.more-api-form p {width: 200px}input:invalid {border: 2px dashed red;}input:valid {border: 2px solid black;}.error {color: hsl(0, 0%, 100%); border-radius: 0 0 5px 5px; background-color: hsl(348, 100%, 61%); padding: 0;display:block;} .error.active {padding: 0.25em;}</style><label for="mail">Please enter an email address:</label><p><input type="email" id="more-api-mail" name="mail" required minlength="8" /><span class="error" aria-live="polite"></span></p><button>Submit</button><script>const form = document.querySelector(".more-api-form");const moreApiEmail = document.getElementById("more-api-mail"); const emailError = document.querySelector("#more-api-mail + span.error"); moreApiEmail.addEventListener("input", function(event) {if (moreApiEmail.validity.valid) {emailError.textContent = ""; emailError.className = "error";} else {showError();}}); form.addEventListener("submit", function(event) {if (!moreApiEmail.validity.valid) {showError(); event.preventDefault();}}); function showError() {if (moreApiEmail.validity.valueMissing) {emailError.textContent = "You need to enter an email address.";} else if (moreApiEmail.validity.typeMismatch) {emailError.textContent = "Entered value needs to be an email address.";} else if (moreApiEmail.validity.tooShort) {emailError.textContent = `Email should be at least ${moreApiEmail.minLength} characters; you entered ${email.value.length}.`;} emailError.className = "error active";}</script></form>
+HTML代码，把HTML校验的属性移除：
+#+begin_src html
+  <form novalidate class="more-api-form">
+    <label for="mail">
+      Please enter an email address:
+    </label>
+    <p>
+      <input type="text" id="more-api-mail" name="mail" />
+      <span class="error"></span>
+    </p>
+    <button>Submit</button>
+  </form>
+#+end_src
+
+CSS代码，因为不用API了所以我们css class类型选择器用于样式区分：
+#+begin_src css
+  input.invalid {
+    border: 2px dashed red;
+  }
+  input.valid {
+    border: 2px solid black;
+  }
+#+end_src
+
+JS代码：
+#+begin_src js
+  // 获取form表单
+  const form = document.querySelector(".more-api-form");
+  // 获取邮箱输入框
+  const email = document.getElementById("more-api-mail");
+  // 获取错误提示框元素
+  const error = document.querySelector("#more-api-mail + span.error");
+  // 用于校验的正则表达式，跟上面一样这个表达式也是校验邮箱的
+  const emailRegExp =
+        /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/;
+
+  email.addEventListener("input", () => {
+    // 跟据用户输入自动校验
+    const isValid = email.value.length === 0 || emailRegExp.test(email.value);
+    if (isValid) {
+      // 符合规范，就添加class到元素中
+      email.className = "valid";
+      error.textContent = "";
+      error.className = "error";
+    } else {
+      // 不符合规范
+      email.className = "invalid";
+    }
+  });
+
+  // 这里我们要手动添加校验消息
+  form.addEventListener("submit", (event) => {
+    event.preventDefault();
+
+    const isValid = email.value.length === 0 || emailRegExp.test(email.value);
+    if (!isValid) {
+      // 不合规就显示错误信息且阻止提交
+      email.className = "invalid";
+      error.textContent = "I expect an email, darling!";
+      error.className = "error active";
+    } else {
+      // 合规就提交
+      email.className = "valid";
+      error.textContent = "";
+      error.className = "error";
+    }
+  });
+#+end_src
+
+#+html: <form novalidate class="more-api-form2"><style>form.more-api-form2 p {width: 200px}input.invalid {border: 2px dashed red;}input.valid {border: 2px solid black;}.error {color: hsl(0, 0%, 100%); border-radius: 0 0 5px 5px; background-color: hsl(348, 100%, 61%); padding: 0;display:block;} .error.active {padding: 0.25em;}</style><label for="mail">Please enter an email address:</label><p><input type="text" id="more-api-mail2" name="mail" /><span class="error" aria-live="polite"></span></p><button>Submit</button><script> const form2 = document.querySelector(".more-api-form2"); const email3 = document.getElementById("more-api-mail2"); const error2 = email3.nextElementSibling; const emailRegExp = /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/; email3.addEventListener("input", function() {const isValid = email3.value.length === 0 || emailRegExp.test(email3.value); if (isValid) {email3.className = "valid"; error2.textContent = ""; error2.className = "error";} else {email3.className = "invalid";}}); form2.addEventListener("submit", function(event) {event.preventDefault(); const isValid = email3.value.length === 0 || emailRegExp.test(email3.value); if (!isValid) {email3.className = "invalid"; error2.textContent = "I expect an email, darling!"; error2.className = "error active";} else {email3.className = "valid"; error2.textContent = ""; error2.className = "error";}}); </script></form>
 
 ** 用函数式编程优化代码并扩展更多可能
 
