@@ -3,10 +3,10 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
-<!-- 2023-04-09 Sun 18:25 -->
+<!-- 2023-04-10 Mon 13:01 -->
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>用简单的方式实现前验校验也许并不需要任何插件</title>
+<title>用最简单的方式实现前验校验，也许你并不需要任何框架</title>
 <meta name="author" content="JaneGwaww" />
 <meta name="generator" content="Org Mode" />
 <style>
@@ -196,7 +196,7 @@
 </head>
 <body>
 <div id="content" class="content">
-<h1 class="title">用简单的方式实现前验校验也许并不需要任何插件</h1>
+<h1 class="title">用最简单的方式实现前验校验，也许你并不需要任何框架</h1>
 <p>
 <b>前端校验只是对用户的输入做一个简单的检测和提示，它并不是必须的选项。因为前端传入后端的数据一般都是不可靠的，它可以很容易的用一些手段跳过，这是由前端的特性造成的。但是做为一个负责任的工程师，前端传入给你的任何数据都必须经过检验。而前端做到的只是一些基本的校验，而真正的校验需要后端更严格的检测。但是为了用户体验，前端校验又是不得不做的一个基础功能，他针对用户输入的数据做一个提示与反馈来告诉用户当前输入的数据是否有效。</b>
 </p>
@@ -205,42 +205,42 @@
 <h2>Table of Contents</h2>
 <div id="text-table-of-contents" role="doc-toc">
 <ul>
-<li><a href="#org57ffba7">1. 什么是前端校验？</a>
+<li><a href="#org213b69b">1. 什么是前端校验？</a>
 <ul>
-<li><a href="#org5d812e3">1.1. 如何实现前端校验</a></li>
+<li><a href="#orgce3aed1">1.1. 如何实现前端校验</a></li>
 </ul>
 </li>
-<li><a href="#org438995a">2. 一个简单的用做开始的范例</a></li>
-<li><a href="#orga6cd251">3. 只用HTML和CSS实现前端校验</a>
+<li><a href="#orge950230">2. 一个简单的用做开始的范例</a></li>
+<li><a href="#org7aa2fb6">3. 只用HTML和CSS实现前端校验</a>
 <ul>
-<li><a href="#orgcc154a6">3.1. 当我们使用 <code>require</code> 属性</a></li>
-<li><a href="#org0a17823">3.2. 用正则表过式规范输入</a></li>
-<li><a href="#org3a1f65e">3.3. 用 <code>minlength</code> 和 <code>maxlength</code> 规范字符串的长度</a></li>
-<li><a href="#org789e828">3.4. 确定输入框的类型</a></li>
-<li><a href="#orgb2ab056">3.5. 总结下HTML+CSS的方法</a></li>
+<li><a href="#org0f99af5">3.1. 当我们使用 <code>require</code> 属性</a></li>
+<li><a href="#org0a2cc32">3.2. 用正则表过式规范输入</a></li>
+<li><a href="#org242ea64">3.3. 用 <code>minlength</code> 和 <code>maxlength</code> 规范字符串的长度</a></li>
+<li><a href="#orgaa93e81">3.4. 确定输入框的类型</a></li>
+<li><a href="#org96a3623">3.5. 总结下HTML+CSS的方法</a></li>
 </ul>
 </li>
-<li><a href="#org497843f">4. 用JavaScript实现前端校验</a>
+<li><a href="#org5c4bf7e">4. 用JavaScript实现前端校验</a>
 <ul>
-<li><a href="#orgf89f3e5">4.1. 在JavaScript中调用 <code>&lt;input&gt;</code> 的API</a>
+<li><a href="#org9f18959">4.1. 在JavaScript中调用 <code>&lt;input&gt;</code> 的API</a>
 <ul>
-<li><a href="#org18cf8de">4.1.1. 定制报错提示框中的内容</a></li>
-<li><a href="#orgc78c131">4.1.2. 更多输入限制和更多校验定制</a></li>
+<li><a href="#org0800eae">4.1.1. 定制报错提示框中的内容</a></li>
+<li><a href="#org39a49a5">4.1.2. 更多的校验定制</a></li>
 </ul>
 </li>
-<li><a href="#orgc17315e">4.2. 不使用HTML的API，只使用JavaScript</a></li>
-<li><a href="#org91bd8af">4.3. add more validation with functional programming</a></li>
-<li><a href="#org97ceb36">4.4. react + ramda</a></li>
-<li><a href="#orge9dfd2a">4.5. with promise</a></li>
+<li><a href="#org8f27fa4">4.2. 不使用HTML的API，只使用JavaScript</a></li>
+<li><a href="#org3847eff">4.3. 用函数式编程优化代码并扩展更多可能</a></li>
+<li><a href="#org286b712">4.4. 用reactJS和RamdaJS实现前端校验</a></li>
+<li><a href="#org76fa648">4.5. 添加异步校验</a></li>
 </ul>
 </li>
-<li><a href="#org8fde74b">5. 总结</a></li>
+<li><a href="#orgbb7a44d">5. 总结</a></li>
 </ul>
 </div>
 </div>
 
-<div id="outline-container-org57ffba7" class="outline-2">
-<h2 id="org57ffba7"><span class="section-number-2">1.</span> 什么是前端校验？</h2>
+<div id="outline-container-org213b69b" class="outline-2">
+<h2 id="org213b69b"><span class="section-number-2">1.</span> 什么是前端校验？</h2>
 <div class="outline-text-2" id="text-1">
 <p>
 你去任何一个需要注册的网站，当你进入登录注册页面时，网站要求你输入一些信息进行登录或注册，当你输入正确时就是登录或注册成功然后跳到个人页面，当你输入不正确时，例如输入格式不对或者密码输入错误时，网页就会弹出红色提示框说你的输入不正确给予你提示，你可以根据提示，重新输入正确的信息，直到成功为止，然后用户的信息会被保存到数据库上。
@@ -264,8 +264,8 @@
 </ul>
 </div>
 
-<div id="outline-container-org5d812e3" class="outline-3">
-<h3 id="org5d812e3"><span class="section-number-3">1.1.</span> 如何实现前端校验</h3>
+<div id="outline-container-orgce3aed1" class="outline-3">
+<h3 id="orgce3aed1"><span class="section-number-3">1.1.</span> 如何实现前端校验</h3>
 <div class="outline-text-3" id="text-1-1">
 <ul class="org-ul">
 <li><p>
@@ -288,8 +288,8 @@
 </div>
 </div>
 
-<div id="outline-container-org438995a" class="outline-2">
-<h2 id="org438995a"><span class="section-number-2">2.</span> 一个简单的用做开始的范例</h2>
+<div id="outline-container-orge950230" class="outline-2">
+<h2 id="orge950230"><span class="section-number-2">2.</span> 一个简单的用做开始的范例</h2>
 <div class="outline-text-2" id="text-2">
 <p>
 前端开发最原生的就是三个文件类型：HTML，CSS和JavaScript。只是发展到后面为了提升开发效率，获得更好的开发体验，衍生出了很多框架。例如：React, VUE, TypeScript, jQuery, SASS等。而我们想要最简单的实现前端校验，就用最原生的前端。
@@ -304,7 +304,7 @@
 在 <code>form</code> 标签中加入一个输入框和一个按钮，这时候还没有加入任何校验。
 </p>
 <div class="org-src-container">
-<pre class="src src-html" id="orgca76887">&lt;<span style="color: #c678dd;">form</span>&gt;
+<pre class="src src-html" id="org18cb777">&lt;<span style="color: #c678dd;">form</span>&gt;
   &lt;<span style="color: #c678dd;">label</span> <span style="color: #dcaeea;">for</span>=<span style="color: #98be65;">"choose"</span>&gt;Would you prefer a banana or cherry?&lt;/<span style="color: #c678dd;">label</span>&gt;
   &lt;<span style="color: #c678dd;">input</span> <span style="color: #dcaeea;">id</span>=<span style="color: #98be65;">"choose"</span> <span style="color: #dcaeea;">name</span>=<span style="color: #98be65;">"i-like"</span> /&gt;
   &lt;<span style="color: #c678dd;">button</span>&gt;Submit&lt;/<span style="color: #c678dd;">button</span>&gt;
@@ -320,7 +320,7 @@
 我们添加了无效的和有效的输入框样式，即加了不同的边框颜色用以区分它们。
 </p>
 <div class="org-src-container">
-<pre class="src src-css" id="org69cacd2"><span style="color: #51afef;">input:invalid </span><span style="color: #51afef;">{</span>
+<pre class="src src-css" id="orgeee1674"><span style="color: #51afef;">input:invalid </span><span style="color: #51afef;">{</span>
   <span style="color: #98be65;">border</span>: 2px dashed <span style="color: #ffffff; background-color: #ff0000;">red</span>;
 <span style="color: #51afef;">}</span>
 <span style="color: #51afef;">input:valid </span><span style="color: #51afef;">{</span>
@@ -334,8 +334,8 @@
 </div>
 </div>
 
-<div id="outline-container-orga6cd251" class="outline-2">
-<h2 id="orga6cd251"><span class="section-number-2">3.</span> 只用HTML和CSS实现前端校验</h2>
+<div id="outline-container-org7aa2fb6" class="outline-2">
+<h2 id="org7aa2fb6"><span class="section-number-2">3.</span> 只用HTML和CSS实现前端校验</h2>
 <div class="outline-text-2" id="text-3">
 <p>
 HTML的标签本身包含了很多属性，而 <code>&lt;input&gt;</code> 标签也包含了一些校验输入的属性。其中包括：
@@ -348,12 +348,12 @@ HTML的标签本身包含了很多属性，而 <code>&lt;input&gt;</code> 标签
 <li><code>type</code> :输入框的类型，指定输入框的类型，即这个是数字输入框还是邮箱输入框还是只是做为一个按钮，数字输入框就只能输入数字，邮箱输入框就只能输入邮箱等。</li>
 </ul>
 <p>
-而在我们使用这些属性之后，输入框就具备了一定的校验功能了。当输入的信息満足这些要求，就会提交信息到后台处理，否则就无法提交信息。然后在<a href="#org438995a">一个简单的用做开始的范例</a>的基础之上，我们就用这些属性编写我们的代码。
+而在我们使用这些属性之后，输入框就具备了一定的校验功能了。当输入的信息満足这些要求，就会提交信息到后台处理，否则就无法提交信息。然后在<a href="#orge950230">一个简单的用做开始的范例</a>的基础之上，我们就用这些属性编写我们的代码。
 </p>
 </div>
 
-<div id="outline-container-orgcc154a6" class="outline-3">
-<h3 id="orgcc154a6"><span class="section-number-3">3.1.</span> 当我们使用 <code>require</code> 属性</h3>
+<div id="outline-container-org0f99af5" class="outline-3">
+<h3 id="org0f99af5"><span class="section-number-3">3.1.</span> 当我们使用 <code>require</code> 属性</h3>
 <div class="outline-text-3" id="text-3-1">
 <p>
 这时我们是要求必须输入内容，只要有内容输入就算満足了我们的校验要求。当输入框为空时不満足要求，输入框边框为红色，当你输入任何内容，边框就变为了黑色(你可以在下面的输入框中试试)。当你不満足要求是直接按 <code>Submit</code> 按钮就会提示你必须输入内容。
@@ -363,7 +363,7 @@ HTML的标签本身包含了很多属性，而 <code>&lt;input&gt;</code> 标签
 我们的HTML代码：
 </p>
 <div class="org-src-container">
-<pre class="src src-html" id="org05691df">&lt;<span style="color: #c678dd;">form</span>&gt;
+<pre class="src src-html" id="org0a445f0">&lt;<span style="color: #c678dd;">form</span>&gt;
   &lt;<span style="color: #c678dd;">label</span> <span style="color: #dcaeea;">for</span>=<span style="color: #98be65;">"choose"</span>&gt;Would you prefer a banana or cherry? (required)&lt;/<span style="color: #c678dd;">label</span>&gt;
   <span style="color: #969896; font-style: italic;">&lt;!-- </span><span style="color: #5B6268; font-style: italic;">&#30452;&#25509;&#22312;input&#20013;&#21152;&#19978;required&#23601;&#34892;&#20102;</span><span style="color: #969896; font-style: italic;"> --&gt;</span>
   &lt;<span style="color: #c678dd;">input</span> <span style="color: #dcaeea;">id</span>=<span style="color: #98be65;">"choose"</span> <span style="color: #dcaeea;">name</span>=<span style="color: #98be65;">"i-like"</span> required /&gt;
@@ -376,7 +376,7 @@ HTML的标签本身包含了很多属性，而 <code>&lt;input&gt;</code> 标签
 我们的CSS的代码：
 </p>
 <div class="org-src-container">
-<pre class="src src-css" id="orgd21c1f6"><span style="color: #51afef;">input:invalid </span><span style="color: #51afef;">{</span>
+<pre class="src src-css" id="org29ff6e6"><span style="color: #51afef;">input:invalid </span><span style="color: #51afef;">{</span>
   <span style="color: #98be65;">border</span>: 2px dashed <span style="color: #ffffff; background-color: #ff0000;">red</span>;
 <span style="color: #51afef;">}</span>
 <span style="color: #51afef;">input:valid </span><span style="color: #51afef;">{</span>
@@ -389,8 +389,8 @@ HTML的标签本身包含了很多属性，而 <code>&lt;input&gt;</code> 标签
 </div>
 </div>
 
-<div id="outline-container-org0a17823" class="outline-3">
-<h3 id="org0a17823"><span class="section-number-3">3.2.</span> 用正则表过式规范输入</h3>
+<div id="outline-container-org0a2cc32" class="outline-3">
+<h3 id="org0a2cc32"><span class="section-number-3">3.2.</span> 用正则表过式规范输入</h3>
 <div class="outline-text-3" id="text-3-2">
 <p>
 现在我们要用 <code>pattern</code> 属性来校验输入，在 <code>pattern</code> 中用正则表达式作为它的值。前端正则包括<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions">这些</a>。这里我们只会用一些简单的表达式介绍这个属性。
@@ -420,8 +420,8 @@ HTML代码是：
 </div>
 </div>
 
-<div id="outline-container-org3a1f65e" class="outline-3">
-<h3 id="org3a1f65e"><span class="section-number-3">3.3.</span> 用 <code>minlength</code> 和 <code>maxlength</code> 规范字符串的长度</h3>
+<div id="outline-container-org242ea64" class="outline-3">
+<h3 id="org242ea64"><span class="section-number-3">3.3.</span> 用 <code>minlength</code> 和 <code>maxlength</code> 规范字符串的长度</h3>
 <div class="outline-text-3" id="text-3-3">
 <p>
 在前端你可以用 <code>minlength</code> 和 <code>maxlength</code> 在输入框中直接限制用户可输入内容的长度，例如限制字符为20, 即 <code>maxlength="20"</code> ， 当用户输入20个字符之后，用户再输入则输入框不会有任何反应，然后会告知用户你输入内容已超出最大长度限制，一般很多网站的用户名都有这个限制，为了防止用户名占用太多空间，这些网站都会限制用户输入过长的用户名。
@@ -449,8 +449,8 @@ HTML代码是：
 </div>
 </div>
 
-<div id="outline-container-org789e828" class="outline-3">
-<h3 id="org789e828"><span class="section-number-3">3.4.</span> 确定输入框的类型</h3>
+<div id="outline-container-orgaa93e81" class="outline-3">
+<h3 id="orgaa93e81"><span class="section-number-3">3.4.</span> 确定输入框的类型</h3>
 <div class="outline-text-3" id="text-3-4">
 <p>
 输入框 <code>&lt;input&gt;</code> 提供了一个类型的选项 <code>type</code> , <code>type</code> 包括哪些在<a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input#input_types">这里</a>。这里我们展示 <code>type="number"</code> 即数字输入框，且再用 <code>min</code> 和 <code>max</code> 限定它的最小值和最大值，如果输入的数字超出范围则边框变红色。
@@ -476,8 +476,8 @@ HTML代码如下，CSS不变：
 </div>
 </div>
 
-<div id="outline-container-orgb2ab056" class="outline-3">
-<h3 id="orgb2ab056"><span class="section-number-3">3.5.</span> 总结下HTML+CSS的方法</h3>
+<div id="outline-container-org96a3623" class="outline-3">
+<h3 id="org96a3623"><span class="section-number-3">3.5.</span> 总结下HTML+CSS的方法</h3>
 <div class="outline-text-3" id="text-3-5">
 <p>
 对于代码我们秉承着能简单就不要复杂，原生能实现就不要用框架的原则。如果你不需要复杂的校验，上面的代码能満足你的需求就尽量用简单的方法实现它，毕竟大型软件的本质就是管理复杂，而其中能简单的地方就简单化。而如果你已经使用了一套框架的流程，上面的方法无法満足，或许你可以试试以下使用JavaScript的实现。
@@ -486,27 +486,27 @@ HTML代码如下，CSS不变：
 </div>
 </div>
 
-<div id="outline-container-org497843f" class="outline-2">
-<h2 id="org497843f"><span class="section-number-2">4.</span> 用JavaScript实现前端校验</h2>
+<div id="outline-container-org5c4bf7e" class="outline-2">
+<h2 id="org5c4bf7e"><span class="section-number-2">4.</span> 用JavaScript实现前端校验</h2>
 <div class="outline-text-2" id="text-4">
 <p>
 作为前端语言，JavaScript给了我们更多的选择。不管是更深的定制化还是使用框架节省时间，都大大的提升了效率和可能性。首先在JavaScript中我们可以使HTML标签内置的<a href="https://developer.mozilla.org/en-US/docs/Web/API/HTMLInputElement">API</a>了，所以在剩下章节中我会先使用该API在原有基础上进行一些定制。或者你并不喜欢使用这些内置的方法，那么我就会用JavaScript写出我们自己需要的校验代码。然后关于框架我会展示使用ReactJS框架如何进行校验并配合<a href="https://ramdajs.com/">RamdaJS</a><sup><a id="fnr.1" class="footref" href="#fn.1" role="doc-backlink">1</a></sup>框架进行函数式编程。最后我会加入 <code>Promise</code> <sup><a id="fnr.2" class="footref" href="#fn.2" role="doc-backlink">2</a></sup>进行异步式校验，例如验证账号是否已被注册就需要异步验证需要后端处理后返回结果给我们，然后我们再提醒用户账号名已存在等。
 </p>
 </div>
 
-<div id="outline-container-orgf89f3e5" class="outline-3">
-<h3 id="orgf89f3e5"><span class="section-number-3">4.1.</span> 在JavaScript中调用 <code>&lt;input&gt;</code> 的API</h3>
+<div id="outline-container-org9f18959" class="outline-3">
+<h3 id="org9f18959"><span class="section-number-3">4.1.</span> 在JavaScript中调用 <code>&lt;input&gt;</code> 的API</h3>
 <div class="outline-text-3" id="text-4-1">
 <p>
 每个HTML标签都有自己的API，在JS(后面就用于指代JavaScript)中用DOM来指这些标签，例如我们使用的输入框 <code>&lt;input&gt;</code> 在JS中是HTMLInputElement(意思就是html中的input元素)。什么是DOM呢？简单的理解就是JS中的全局变量 <code>document</code> ，我们可以使用这个全局变量来操作HTML中的所有元素。这里只展示操用 <code>&lt;input&gt;</code> 元素，然后代码我们也要添加JS代码了。
 </p>
 </div>
 
-<div id="outline-container-org18cf8de" class="outline-4">
-<h4 id="org18cf8de"><span class="section-number-4">4.1.1.</span> 定制报错提示框中的内容</h4>
+<div id="outline-container-org0800eae" class="outline-4">
+<h4 id="org0800eae"><span class="section-number-4">4.1.1.</span> 定制报错提示框中的内容</h4>
 <div class="outline-text-4" id="text-4-1-1">
 <p>
-就是当你的输入不符合规则时会提示哪里出错了。这里我们使用邮箱输入框，当你输入不是邮箱格式就会报错，并且提交后也会弹出错误提示，
+就是当你的输入不符合规则时会提示哪里出错了。这里我们使用邮箱输入框，当你输入不是邮箱格式就会报错，并且提交后也会弹出错误提示。
 </p>
 
 <p>
@@ -563,30 +563,132 @@ email.addEventListener<span style="color: #51afef;">(</span><span style="color: 
 </div>
 </div>
 
-<div id="outline-container-orgc78c131" class="outline-4">
-<h4 id="orgc78c131"><span class="section-number-4">4.1.2.</span> 更多输入限制和更多校验定制</h4>
+<div id="outline-container-org39a49a5" class="outline-4">
+<h4 id="org39a49a5"><span class="section-number-4">4.1.2.</span> 更多的校验定制</h4>
+<div class="outline-text-4" id="text-4-1-2">
+<p>
+现在我们用一个更全面的例子来定制我们的校验，展示了HTML的API更强大的功能。我们会在用户输入时进行校验，在提交时也会校验，我们会取消默认的提示框，定制我们自己的错误提示框。
+</p>
+
+<p>
+HTML代码如下，在 <code>form</code> 加 <code>novalidate</code> 是取消默认提示框，我们自己加提示框，然后 <code>&lt;input&gt;</code> 用于输入邮箱，必须输入值且至少8个字符，我们的提示框是在 <code>&lt;div class="error"&gt;</code> 这个标签下：
+</p>
+<div class="org-src-container">
+<pre class="src src-html">&lt;<span style="color: #c678dd;">form</span> novalidate <span style="color: #dcaeea;">class</span>=<span style="color: #98be65;">"more-api-form"</span>&gt;
+  &lt;<span style="color: #c678dd;">label</span> <span style="color: #dcaeea;">for</span>=<span style="color: #98be65;">"mail"</span>&gt;
+    Please enter an email address:
+  &lt;/<span style="color: #c678dd;">label</span>&gt;
+  &lt;<span style="color: #c678dd;">p</span>&gt;
+    &lt;<span style="color: #c678dd;">input</span> <span style="color: #dcaeea;">type</span>=<span style="color: #98be65;">"email"</span> <span style="color: #dcaeea;">id</span>=<span style="color: #98be65;">"more-api-mail"</span> <span style="color: #dcaeea;">name</span>=<span style="color: #98be65;">"mail"</span> required <span style="color: #dcaeea;">minlength</span>=<span style="color: #98be65;">"8"</span> /&gt;
+    &lt;<span style="color: #c678dd;">span</span> <span style="color: #dcaeea;">class</span>=<span style="color: #98be65;">"error"</span> <span style="color: #dcaeea;">aria-live</span>=<span style="color: #98be65;">"polite"</span>&gt;&lt;/<span style="color: #c678dd;">span</span>&gt;
+  &lt;/<span style="color: #c678dd;">p</span>&gt;
+  &lt;<span style="color: #c678dd;">button</span>&gt;Submit&lt;/<span style="color: #c678dd;">button</span>&gt;
+&lt;/<span style="color: #c678dd;">form</span>&gt;
+</pre>
+</div>
+
+<p>
+CSS代码：
+</p>
+<div class="org-src-container">
+<pre class="src src-css"><span style="color: #51afef;">p </span><span style="color: #51afef;">{</span>
+    <span style="color: #98be65;">width</span>: 200px;
+<span style="color: #51afef;">}</span>
+<span style="color: #51afef;">input:invalid </span><span style="color: #51afef;">{</span>
+  <span style="color: #98be65;">border</span>: 2px dashed <span style="color: #ffffff; background-color: #ff0000;">red</span>;
+<span style="color: #51afef;">}</span>
+<span style="color: #51afef;">input:valid </span><span style="color: #51afef;">{</span>
+  <span style="color: #98be65;">border</span>: 2px solid <span style="color: #ffffff; background-color: #000000;">black</span>;
+<span style="color: #51afef;">}</span>
+<span style="color: #969896; font-style: italic;">/* </span><span style="color: #5B6268; font-style: italic;">&#28155;&#21152;&#38169;&#35823;&#25552;&#31034;&#26694;&#26679;&#24335;</span><span style="color: #969896; font-style: italic;"> */</span>
+<span style="color: #51afef;">.error </span><span style="color: #51afef;">{</span>
+    <span style="color: #98be65;">color</span>: <span style="color: #000000; background-color: #ffffff;">hsl(0, 0%, 100%)</span>;
+    <span style="color: #98be65;">border-radius</span>: 0 0 5px 5px;
+    <span style="color: #98be65;">background-color</span>: <span style="color: #ffffff; background-color: #fe385f;">hsl(348, 100%, 61%)</span>;
+    <span style="color: #98be65;">padding</span>: 0;
+    <span style="color: #98be65;">display</span>: block;
+<span style="color: #51afef;">}</span>
+<span style="color: #51afef;">.error.active </span><span style="color: #51afef;">{</span>
+    <span style="color: #98be65;">padding</span>: 0.25em;
+<span style="color: #51afef;">}</span>
+</pre>
+</div>
+
+<p>
+JS代码：
+</p>
+<div class="org-src-container">
+<pre class="src src-js"><span style="color: #969896; font-style: italic;">// </span><span style="color: #5B6268; font-style: italic;">&#33719;&#21462;form&#34920;&#21333;</span>
+<span style="color: #51afef;">const</span> <span style="color: #dcaeea;">form</span> = document.querySelector<span style="color: #51afef;">(</span><span style="color: #98be65;">".more-api-form"</span><span style="color: #51afef;">)</span>;
+<span style="color: #969896; font-style: italic;">// </span><span style="color: #5B6268; font-style: italic;">&#33719;&#21462;&#37038;&#31665;&#36755;&#20837;&#26694;</span>
+<span style="color: #51afef;">const</span> <span style="color: #dcaeea;">email</span> = document.getElementById<span style="color: #51afef;">(</span><span style="color: #98be65;">"more-api-mail"</span><span style="color: #51afef;">)</span>;
+<span style="color: #969896; font-style: italic;">// </span><span style="color: #5B6268; font-style: italic;">&#33719;&#21462;&#38169;&#35823;&#25552;&#31034;&#26694;&#20803;&#32032;</span>
+<span style="color: #51afef;">const</span> <span style="color: #dcaeea;">emailError</span> = document.querySelector<span style="color: #51afef;">(</span><span style="color: #98be65;">"#more-api-mail + span.error"</span><span style="color: #51afef;">)</span>;
+
+email.addEventListener<span style="color: #51afef;">(</span><span style="color: #98be65;">"input"</span>, <span style="color: #c678dd;">(</span>event<span style="color: #c678dd;">)</span> =&gt; <span style="color: #c678dd;">{</span>
+  <span style="color: #969896; font-style: italic;">// </span><span style="color: #5B6268; font-style: italic;">&#29992;&#25143;&#30340;&#27599;&#27425;&#36755;&#20837;&#37117;&#20250;&#26816;&#26597;&#26159;&#21542;&#21512;&#35268;</span>
+  <span style="color: #51afef;">if</span> <span style="color: #98be65;">(</span>email.validity.valid<span style="color: #98be65;">)</span> <span style="color: #98be65;">{</span>
+    <span style="color: #969896; font-style: italic;">// </span><span style="color: #5B6268; font-style: italic;">&#21512;&#35268;&#23601;&#19981;&#26174;&#31034;&#20869;&#23481;</span>
+    emailError.textContent = <span style="color: #98be65;">""</span>;
+    emailError.className = <span style="color: #98be65;">"error"</span>;
+  <span style="color: #98be65;">}</span> <span style="color: #51afef;">else</span> <span style="color: #98be65;">{</span>
+    <span style="color: #969896; font-style: italic;">// </span><span style="color: #5B6268; font-style: italic;">&#19981;&#21512;&#35268;&#23601;&#26174;&#31034;&#38169;&#35823;&#20449;&#24687;</span>
+    showError<span style="color: #a9a1e1;">()</span>;
+  <span style="color: #98be65;">}</span>
+<span style="color: #c678dd;">}</span><span style="color: #51afef;">)</span>;
+
+form.addEventListener<span style="color: #51afef;">(</span><span style="color: #98be65;">"submit"</span>, <span style="color: #c678dd;">(</span>event<span style="color: #c678dd;">)</span> =&gt; <span style="color: #c678dd;">{</span>
+  <span style="color: #969896; font-style: italic;">// </span><span style="color: #5B6268; font-style: italic;">&#21512;&#35268;&#23601;&#25552;&#20132;</span>
+  <span style="color: #51afef;">if</span> <span style="color: #98be65;">(</span>!email.validity.valid<span style="color: #98be65;">)</span> <span style="color: #98be65;">{</span>
+    <span style="color: #969896; font-style: italic;">// </span><span style="color: #5B6268; font-style: italic;">&#19981;&#21512;&#35268;&#23601;&#26174;&#31034;&#38169;&#35823;&#20449;&#24687;&#19988;&#38459;&#27490;&#25552;&#20132;</span>
+    showError<span style="color: #a9a1e1;">()</span>;
+    event.preventDefault<span style="color: #a9a1e1;">()</span>;
+  <span style="color: #98be65;">}</span>
+<span style="color: #c678dd;">}</span><span style="color: #51afef;">)</span>;
+
+<span style="color: #51afef;">function</span> <span style="color: #c678dd;">showError</span><span style="color: #51afef;">()</span> <span style="color: #51afef;">{</span>
+  <span style="color: #969896; font-style: italic;">// </span><span style="color: #5B6268; font-style: italic;">&#20123;&#20989;&#25968;&#29992;&#26469;&#26816;&#26597;&#36755;&#20837;&#20869;&#23481;&#26159;&#21542;&#21512;&#35268;</span>
+  <span style="color: #51afef;">if</span> <span style="color: #c678dd;">(</span>email.validity.valueMissing<span style="color: #c678dd;">)</span> <span style="color: #c678dd;">{</span>
+    <span style="color: #969896; font-style: italic;">// </span><span style="color: #5B6268; font-style: italic;">&#26816;&#26597;&#20869;&#23481;&#19981;&#20801;&#35768;&#20026;&#31354;&#65292;&#20026;&#31354;&#23601;&#25552;&#31034;&#22914;&#19979;&#65306;</span>
+    emailError.textContent = <span style="color: #98be65;">"You need to enter an email address."</span>;
+  <span style="color: #c678dd;">}</span> <span style="color: #51afef;">else</span> <span style="color: #51afef;">if</span> <span style="color: #c678dd;">(</span>email.validity.typeMismatch<span style="color: #c678dd;">)</span> <span style="color: #c678dd;">{</span>
+    <span style="color: #969896; font-style: italic;">// </span><span style="color: #5B6268; font-style: italic;">&#26816;&#26597;&#37038;&#31665;&#26684;&#24335;&#26159;&#21542;&#27491;&#30830;&#65292;&#19981;&#27491;&#30830;&#23601;&#26174;&#31034;&#22914;&#19979;&#20449;&#24687;&#65306;</span>
+    emailError.textContent = <span style="color: #98be65;">"Entered value needs to be an email address."</span>;
+  <span style="color: #c678dd;">}</span> <span style="color: #51afef;">else</span> <span style="color: #51afef;">if</span> <span style="color: #c678dd;">(</span>email.validity.tooShort<span style="color: #c678dd;">)</span> <span style="color: #c678dd;">{</span>
+    <span style="color: #969896; font-style: italic;">// </span><span style="color: #5B6268; font-style: italic;">&#26816;&#26483;&#23383;&#31526;&#26159;&#21542;&#22826;&#30701;&#65292;&#22826;&#30701;&#23601;&#26174;&#31034;&#22914;&#19979;&#20449;&#24687;&#65306;</span>
+    emailError.textContent = <span style="color: #98be65;">`Email should be at least ${email.minLength} characters; you entered ${email.value.length}.`</span>;
+  <span style="color: #c678dd;">}</span>
+
+  <span style="color: #969896; font-style: italic;">// </span><span style="color: #5B6268; font-style: italic;">&#28155;&#21152;&#38169;&#35823;&#20449;&#24687;&#26679;&#24335;</span>
+  emailError.className = <span style="color: #98be65;">"error active"</span>;
+<span style="color: #51afef;">}</span>
+</pre>
+</div>
+
+<form novalidate class="more-api-form"><style>form.more-api-form p {width: 200px}input:invalid {border: 2px dashed red;}input:valid {border: 2px solid black;}.error {color: hsl(0, 0%, 100%); border-radius: 0 0 5px 5px; background-color: hsl(348, 100%, 61%); padding: 0;display:block;} .error.active {padding: 0.25em;}</style><label for="mail">Please enter an email address:</label><p><input type="email" id="more-api-mail" name="mail" required minlength="8" /><span class="error" aria-live="polite"></span></p><button>Submit</button><script>const form = document.querySelector(".more-api-form");const moreApiEmail = document.getElementById("more-api-mail"); const emailError = document.querySelector("#more-api-mail + span.error"); moreApiEmail.addEventListener("input", function(event) {if (moreApiEmail.validity.valid) {emailError.textContent = ""; emailError.className = "error";} else {showError();}}); form.addEventListener("submit", function(event) {if (!moreApiEmail.validity.valid) {showError(); event.preventDefault();}}); function showError() {if (moreApiEmail.validity.valueMissing) {emailError.textContent = "You need to enter an email address.";} else if (moreApiEmail.validity.typeMismatch) {emailError.textContent = "Entered value needs to be an email address.";} else if (moreApiEmail.validity.tooShort) {emailError.textContent = `Email should be at least ${moreApiEmail.minLength} characters; you entered ${email.value.length}.`;} emailError.className = "error active";}</script></form>
+</div>
 </div>
 </div>
 
-<div id="outline-container-orgc17315e" class="outline-3">
-<h3 id="orgc17315e"><span class="section-number-3">4.2.</span> 不使用HTML的API，只使用JavaScript</h3>
+<div id="outline-container-org8f27fa4" class="outline-3">
+<h3 id="org8f27fa4"><span class="section-number-3">4.2.</span> 不使用HTML的API，只使用JavaScript</h3>
 </div>
 
-<div id="outline-container-org91bd8af" class="outline-3">
-<h3 id="org91bd8af"><span class="section-number-3">4.3.</span> add more validation with functional programming</h3>
+<div id="outline-container-org3847eff" class="outline-3">
+<h3 id="org3847eff"><span class="section-number-3">4.3.</span> 用函数式编程优化代码并扩展更多可能</h3>
 </div>
 
-<div id="outline-container-org97ceb36" class="outline-3">
-<h3 id="org97ceb36"><span class="section-number-3">4.4.</span> react + ramda</h3>
+<div id="outline-container-org286b712" class="outline-3">
+<h3 id="org286b712"><span class="section-number-3">4.4.</span> 用reactJS和RamdaJS实现前端校验</h3>
 </div>
 
-<div id="outline-container-orge9dfd2a" class="outline-3">
-<h3 id="orge9dfd2a"><span class="section-number-3">4.5.</span> with promise</h3>
+<div id="outline-container-org76fa648" class="outline-3">
+<h3 id="org76fa648"><span class="section-number-3">4.5.</span> 添加异步校验</h3>
 </div>
 </div>
 
-<div id="outline-container-org8fde74b" class="outline-2">
-<h2 id="org8fde74b"><span class="section-number-2">5.</span> 总结</h2>
+<div id="outline-container-orgbb7a44d" class="outline-2">
+<h2 id="orgbb7a44d"><span class="section-number-2">5.</span> 总结</h2>
 </div>
 <div id="footnotes">
 <h2 class="footnotes">Footnotes: </h2>
@@ -605,7 +707,7 @@ email.addEventListener<span style="color: #51afef;">(</span><span style="color: 
 </div></div>
 <div id="postamble" class="status">
 <p class="author">Author: JaneGwaww</p>
-<p class="date">Created: 2023-04-09 Sun 18:25</p>
+<p class="date">Created: 2023-04-10 Mon 13:01</p>
 </div>
 </body>
 </html>

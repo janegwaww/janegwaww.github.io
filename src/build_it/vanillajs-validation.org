@@ -4,7 +4,7 @@
 #+startup: showall
 #+options: toc:nil
 #+author: JaneGwaww
-#+title: 用简单的方式实现前验校验也许并不需要任何插件
+#+title: 用最简单的方式实现前验校验，也许你并不需要任何框架
 
 *前端校验只是对用户的输入做一个简单的检测和提示，它并不是必须的选项。因为前端传入后端的数据一般都是不可靠的，它可以很容易的用一些手段跳过，这是由前端的特性造成的。但是做为一个负责任的工程师，前端传入给你的任何数据都必须经过检验。而前端做到的只是一些基本的校验，而真正的校验需要后端更严格的检测。但是为了用户体验，前端校验又是不得不做的一个基础功能，他针对用户输入的数据做一个提示与反馈来告诉用户当前输入的数据是否有效。*
 
@@ -218,15 +218,107 @@ JS代码如下，这里原本会显示的错误信息是 ~Please enter an email 
 
 *** 更多的校验定制
 
+现在我们用一个更全面的例子来定制我们的校验，展示了HTML的API更强大的功能。我们会在用户输入时进行校验，在提交时也会校验，我们会取消默认的提示框，定制我们自己的错误提示框。
 
+HTML代码如下，在 ~form~ 加 ~novalidate~ 是取消默认提示框，我们自己加提示框，然后 ~<input>~ 用于输入邮箱，必须输入值且至少8个字符，我们的提示框是在 ~<div class="error">~ 这个标签下：
+#+begin_src html
+  <form novalidate class="more-api-form">
+    <label for="mail">
+      Please enter an email address:
+    </label>
+    <p>
+      <input type="email" id="more-api-mail" name="mail" required minlength="8" />
+      <span class="error" aria-live="polite"></span>
+    </p>
+    <button>Submit</button>
+  </form>
+#+end_src
+
+CSS代码，添加提示框样式，其他不变：
+#+begin_src css
+  p {
+      width: 200px;
+  }
+  input:invalid {
+    border: 2px dashed red;
+  }
+  input:valid {
+    border: 2px solid black;
+  }
+  /* 添加错误提示框样式 */
+  .error {
+      color: hsl(0, 0%, 100%);
+      border-radius: 0 0 5px 5px;
+      background-color: hsl(348, 100%, 61%);
+      padding: 0;
+      display: block;
+  }
+  .error.active {
+      padding: 0.25em;
+  }
+#+end_src
+
+JS代码：
+#+begin_src js
+  // 获取form表单
+  const form = document.querySelector(".more-api-form");
+  // 获取邮箱输入框
+  const email = document.getElementById("more-api-mail");
+  // 获取错误提示框元素
+  const emailError = document.querySelector("#more-api-mail + span.error");
+
+  email.addEventListener("input", (event) => {
+    // 用户的每次输入都会检查是否合规
+    if (email.validity.valid) {
+      // 合规就不显示内容
+      emailError.textContent = "";
+      emailError.className = "error";
+    } else {
+      // 不合规就显示错误信息
+      showError();
+    }
+  });
+
+  form.addEventListener("submit", (event) => {
+    // 合规就提交
+    if (!email.validity.valid) {
+      // 不合规就显示错误信息且阻止提交
+      showError();
+      event.preventDefault();
+    }
+  });
+
+  function showError() {
+    // 些函数用来检查输入内容是否合规
+    if (email.validity.valueMissing) {
+      // 检查内容不允许为空，为空就提示如下：
+      emailError.textContent = "You need to enter an email address.";
+    } else if (email.validity.typeMismatch) {
+      // 检查邮箱格式是否正确，不正确就显示如下信息：
+      emailError.textContent = "Entered value needs to be an email address.";
+    } else if (email.validity.tooShort) {
+      // 检杳字符是否太短，太短就显示如下信息：
+      emailError.textContent = `Email should be at least ${email.minLength} characters; you entered ${email.value.length}.`;
+    }
+
+    // 添加错误信息样式
+    emailError.className = "error active";
+  }
+#+end_src
+
+#+html: <form novalidate class="more-api-form"><style>form.more-api-form p {width: 200px}input:invalid {border: 2px dashed red;}input:valid {border: 2px solid black;}.error {color: hsl(0, 0%, 100%); border-radius: 0 0 5px 5px; background-color: hsl(348, 100%, 61%); padding: 0;display:block;} .error.active {padding: 0.25em;}</style><label for="mail">Please enter an email address:</label><p><input type="email" id="more-api-mail" name="mail" required minlength="8" /><span class="error" aria-live="polite"></span></p><button>Submit</button><script>const form = document.querySelector(".more-api-form");const moreApiEmail = document.getElementById("more-api-mail"); const emailError = document.querySelector("#more-api-mail + span.error"); moreApiEmail.addEventListener("input", function(event) {if (moreApiEmail.validity.valid) {emailError.textContent = ""; emailError.className = "error";} else {showError();}}); form.addEventListener("submit", function(event) {if (!moreApiEmail.validity.valid) {showError(); event.preventDefault();}}); function showError() {if (moreApiEmail.validity.valueMissing) {emailError.textContent = "You need to enter an email address.";} else if (moreApiEmail.validity.typeMismatch) {emailError.textContent = "Entered value needs to be an email address.";} else if (moreApiEmail.validity.tooShort) {emailError.textContent = `Email should be at least ${moreApiEmail.minLength} characters; you entered ${email.value.length}.`;} emailError.className = "error active";}</script></form>
 
 ** 不使用HTML的API，只使用JavaScript
 
-** add more validation with functional programming
+你不想用HTML的API，
 
-** react + ramda
+#+html: <form novalidate class="more-api-form"><style>form.more-api-form p {width: 200px}input:invalid {border: 2px dashed red;}input:valid {border: 2px solid black;}.error {color: hsl(0, 0%, 100%); border-radius: 0 0 5px 5px; background-color: hsl(348, 100%, 61%); padding: 0;display:block;} .error.active {padding: 0.25em;}</style><label for="mail">Please enter an email address:</label><p><input type="email" id="more-api-mail" name="mail" required minlength="8" /><span class="error" aria-live="polite"></span></p><button>Submit</button><script>const form = document.querySelector(".more-api-form");const moreApiEmail = document.getElementById("more-api-mail"); const emailError = document.querySelector("#more-api-mail + span.error"); moreApiEmail.addEventListener("input", function(event) {if (moreApiEmail.validity.valid) {emailError.textContent = ""; emailError.className = "error";} else {showError();}}); form.addEventListener("submit", function(event) {if (!moreApiEmail.validity.valid) {showError(); event.preventDefault();}}); function showError() {if (moreApiEmail.validity.valueMissing) {emailError.textContent = "You need to enter an email address.";} else if (moreApiEmail.validity.typeMismatch) {emailError.textContent = "Entered value needs to be an email address.";} else if (moreApiEmail.validity.tooShort) {emailError.textContent = `Email should be at least ${moreApiEmail.minLength} characters; you entered ${email.value.length}.`;} emailError.className = "error active";}</script></form>
 
-** with promise
+** 用函数式编程优化代码并扩展更多可能
+
+** 用reactJS和RamdaJS实现前端校验
+
+** 添加异步校验
 
 * 总结
 
