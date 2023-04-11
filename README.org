@@ -40,7 +40,7 @@ AND HAVE FUN!
 
 *** [[file:src/build_it/how_to_stop_caring.zh.org::*程序员在职场中如何缓解过度焦虑][程序员在职场中如何缓解过度焦虑]]
 
-*** [[file:src/build_it/vanillajs-validation.html][用最简单的方式实现前验校验，也许你并不需要任何框架]]
+*** [[file:src/build_it/vanillajs-validation.html][用最简单的方式实现前端校验，也许你并不需要任何框架]]
 
 ** 相关链接
 

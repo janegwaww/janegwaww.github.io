@@ -14,7 +14,7 @@
 |   9 | [[./share_it/share_note_app.zh.html][分享最近使用过的记笔记软件]]                         |
 |  10 | [[./share_it/recent_reading5.zh.html][分享最近阅读的书籍清单(五)]]                         |
 |  11 | [[./share_it/functional-programming.html][函数编程在JavaScript中的简单应用]]                   |
-|  12 | [[./build_it/vanillajs-validation.html][用最简单的方式实现前验校验，也许你并不需要任何框架]] |
+|  12 | [[./build_it/vanillajs-validation.html][用最简单的方式实现前端校验，也许你并不需要任何框架]] |
 |-----+----------------------------------------------------|
 |     | 如果喜欢该文章欢迎Star我的[[https://github.com/janegwaww/article][github]]                   |
 |     | [[https://paypal.me/janegwaww][捐助]]我的创作                                       |
