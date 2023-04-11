@@ -537,7 +537,88 @@ JS代码，样式CSS代码保持不变，HTML和JS代码通过ReactJS框架合�
 
 ** 添加异步校验
 
+异步校验一般是需要后端的校验，后端根据前端传回的数据，与数据库中的数据进行比对，看数据是否合规。一般包括注册时用户名是否已经存在，输入的用户名和密码是否正确等。
+
+JS代码如下，其他代码不变，因为异步校验比较耗资源，这里我们取消了根据输入同步校验：
+#+begin_src js
+  import { useState } from "react"
+  import * as R from "ramda"
+
+  export default function Validation() {
+    const [value,setValue] = useState("")
+    const [err,setErr] = useState("")
+
+    const handleChange = (event) => {
+      setValue(event.target.value)
+      // 这里取消了根据输入同步校验
+    }
+
+    const handleSubmit = (event) => {
+      event.preventDefault();
+      isValid(value).then(({valid, err}) => {
+        if(valid) {
+          setValue("")
+        } else {
+          setErr(err)
+        }
+      })
+    }
+
+    function isValid(value) {
+      const toObj = R.applySpec({v:R.identity, valid:false, err:""});
+
+      const notEmpty = R.ifElse(
+        R.prop("v"),
+        R.mergetLeft({valid:true}),
+        R.mergeLeft({valid:false, err:"字符不能为空!"})
+      )
+
+      const tooShort = R.ifElse(
+        R.pipe(R.prop("v"), R.gt(R.__, 8)),
+        R.mergeLeft({valid:true}),
+        R.mergeLeft({valid:false, err:"字符长度不能太短!"});
+      )
+
+      const isFormat = R.ifElse({
+        R.pipe(R.prop("v"), R.test(emailRegExp)),
+        R.mergeLeft({valid:true}),
+        R.mergeLeft({valid:false, err:"邮箱格式不符!"})
+      })
+
+      const isExist = (obj) => {
+        const exist = "banana";
+        return new Promise((resolve, reject) => setTimeout(() => {
+          if(obj.v === exist) {
+            resolve({...obj, valid:false, err:"字符串已存在!"})
+          }
+          resolve({...obj, valid:true})
+        }, 300))
+      }
+
+      return  R.pipeWith(
+        (f, res) => R.andThen(f, Promise.resolve(res)),
+        [toObj, notEmpty, tooShort, isFormat, isExist]
+      )(value)
+    }
+
+    return (
+        <form onSubmit={handleSubmit}>
+          <label for="mail">
+            Please enter an email address:
+          </label>
+          <p>
+            <input type="text" name="mail" value={value} onChange={handleChange} />
+            <span className={`error ${!err&&"active"}`}>{err}</span>
+          </p>
+          <button>Submit</button>
+        </form>
+    )
+  }
+#+end_src
+
 * 总结
+
+前端校验说到底是为了用户的体验服务的，你必须准确的告知用户为什么错的错误的信息，哪里出现了错误，保证用户输入体验的一致性，特别对于有大量需要校验的场景。
 
 * Footnotes
 
