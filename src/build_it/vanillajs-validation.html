@@ -3,7 +3,7 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
-<!-- 2023-04-11 Tue 20:30 -->
+<!-- 2023-04-11 Tue 20:33 -->
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>用最简单的方式实现前端校验，也许你并不需要任何框架</title>
@@ -205,43 +205,43 @@
 <h2>Table of Contents</h2>
 <div id="text-table-of-contents" role="doc-toc">
 <ul>
-<li><a href="#org5ff0f17">1. 什么是前端校验？</a>
+<li><a href="#org527b870">1. 什么是前端校验？</a>
 <ul>
-<li><a href="#orgd9d9c67">1.1. 如何实现前端校验</a></li>
+<li><a href="#org8879907">1.1. 如何实现前端校验</a></li>
 </ul>
 </li>
-<li><a href="#org3d5e697">2. 一个简单的用做开始的范例</a></li>
-<li><a href="#org671425b">3. 只用HTML和CSS实现前端校验</a>
+<li><a href="#org4e73c69">2. 一个简单的用做开始的范例</a></li>
+<li><a href="#org40c6e49">3. 只用HTML和CSS实现前端校验</a>
 <ul>
-<li><a href="#org44899cd">3.1. 当我们使用 <code>require</code> 属性</a></li>
-<li><a href="#org3d2082c">3.2. 用正则表过式规范输入</a></li>
-<li><a href="#orgab6aec1">3.3. 用 <code>minlength</code> 和 <code>maxlength</code> 规范字符串的长度</a></li>
-<li><a href="#org3156dca">3.4. 确定输入框的类型</a></li>
-<li><a href="#org6be7b8d">3.5. 总结下HTML+CSS的方法</a></li>
+<li><a href="#org0f3eb53">3.1. 当我们使用 <code>require</code> 属性</a></li>
+<li><a href="#org8f0ad24">3.2. 用正则表过式规范输入</a></li>
+<li><a href="#org32108d2">3.3. 用 <code>minlength</code> 和 <code>maxlength</code> 规范字符串的长度</a></li>
+<li><a href="#orgb8f8da6">3.4. 确定输入框的类型</a></li>
+<li><a href="#org092b8c7">3.5. 总结下HTML+CSS的方法</a></li>
 </ul>
 </li>
-<li><a href="#org8308a40">4. 用JavaScript实现前端校验</a>
+<li><a href="#orgdb7318d">4. 用JavaScript实现前端校验</a>
 <ul>
-<li><a href="#org7725789">4.1. 在JavaScript中调用 <code>&lt;input&gt;</code> 的API</a>
+<li><a href="#org1656e8b">4.1. 在JavaScript中调用 <code>&lt;input&gt;</code> 的API</a>
 <ul>
-<li><a href="#orgba6dea2">4.1.1. 定制报错提示框中的内容</a></li>
-<li><a href="#org93ec7ce">4.1.2. 更多的校验定制</a></li>
+<li><a href="#org534373c">4.1.1. 定制报错提示框中的内容</a></li>
+<li><a href="#org5d5a36f">4.1.2. 更多的校验定制</a></li>
 </ul>
 </li>
-<li><a href="#org8135635">4.2. 不使用HTML的API，只使用JavaScript</a></li>
-<li><a href="#orgacaa7c3">4.3. 用函数式编程优化代码并扩展更多可能</a></li>
-<li><a href="#org96a384d">4.4. 用reactJS和RamdaJS实现前端校验</a></li>
-<li><a href="#orgbabb4cd">4.5. 添加异步校验</a></li>
+<li><a href="#org0b5b085">4.2. 不使用HTML的API，只使用JS</a></li>
+<li><a href="#org37f1554">4.3. 用函数式编程优化代码并扩展更多可能</a></li>
+<li><a href="#org68893a4">4.4. 用reactJS和RamdaJS实现前端校验</a></li>
+<li><a href="#org706a148">4.5. 添加异步校验</a></li>
 </ul>
 </li>
-<li><a href="#org8bd8048">5. 总结</a></li>
-<li><a href="#orgf109530">6. 写在后面</a></li>
+<li><a href="#org9a4a077">5. 总结</a></li>
+<li><a href="#orgbd449de">6. 写在后面</a></li>
 </ul>
 </div>
 </div>
 
-<div id="outline-container-org5ff0f17" class="outline-2">
-<h2 id="org5ff0f17"><span class="section-number-2">1.</span> 什么是前端校验？</h2>
+<div id="outline-container-org527b870" class="outline-2">
+<h2 id="org527b870"><span class="section-number-2">1.</span> 什么是前端校验？</h2>
 <div class="outline-text-2" id="text-1">
 <p>
 你去任何一个需要注册的网站，当你进入登录注册页面时，网站要求你输入一些信息进行登录或注册，当你输入正确时就是登录或注册成功然后跳到个人页面，当你输入不正确时，例如输入格式不对或者密码输入错误时，网页就会弹出红色提示框说你的输入不正确给予你提示，你可以根据提示，重新输入正确的信息，直到成功为止，然后用户的信息会被保存到数据库上。
@@ -265,8 +265,8 @@
 </ul>
 </div>
 
-<div id="outline-container-orgd9d9c67" class="outline-3">
-<h3 id="orgd9d9c67"><span class="section-number-3">1.1.</span> 如何实现前端校验</h3>
+<div id="outline-container-org8879907" class="outline-3">
+<h3 id="org8879907"><span class="section-number-3">1.1.</span> 如何实现前端校验</h3>
 <div class="outline-text-3" id="text-1-1">
 <ul class="org-ul">
 <li><p>
@@ -289,8 +289,8 @@
 </div>
 </div>
 
-<div id="outline-container-org3d5e697" class="outline-2">
-<h2 id="org3d5e697"><span class="section-number-2">2.</span> 一个简单的用做开始的范例</h2>
+<div id="outline-container-org4e73c69" class="outline-2">
+<h2 id="org4e73c69"><span class="section-number-2">2.</span> 一个简单的用做开始的范例</h2>
 <div class="outline-text-2" id="text-2">
 <p>
 前端开发最原生的就是三个文件类型：HTML，CSS和JavaScript。只是发展到后面为了提升开发效率，获得更好的开发体验，衍生出了很多框架。例如：React, VUE, TypeScript, jQuery, SASS等。而我们想要最简单的实现前端校验，就用最原生的前端。
@@ -305,7 +305,7 @@
 在 <code>form</code> 标签中加入一个输入框和一个按钮，这时候还没有加入任何校验。
 </p>
 <div class="org-src-container">
-<pre class="src src-html" id="orgbd14793">&lt;<span style="color: #c678dd;">form</span>&gt;
+<pre class="src src-html" id="org6748eb7">&lt;<span style="color: #c678dd;">form</span>&gt;
   &lt;<span style="color: #c678dd;">label</span> <span style="color: #dcaeea;">for</span>=<span style="color: #98be65;">"choose"</span>&gt;Would you prefer a banana or cherry?&lt;/<span style="color: #c678dd;">label</span>&gt;
   &lt;<span style="color: #c678dd;">input</span> <span style="color: #dcaeea;">id</span>=<span style="color: #98be65;">"choose"</span> <span style="color: #dcaeea;">name</span>=<span style="color: #98be65;">"i-like"</span> /&gt;
   &lt;<span style="color: #c678dd;">button</span>&gt;Submit&lt;/<span style="color: #c678dd;">button</span>&gt;
@@ -321,7 +321,7 @@
 我们添加了无效的和有效的输入框样式，即加了不同的边框颜色用以区分它们。
 </p>
 <div class="org-src-container">
-<pre class="src src-css" id="org4ed9cdc"><span style="color: #51afef;">input:invalid </span><span style="color: #51afef;">{</span>
+<pre class="src src-css" id="orgec43eef"><span style="color: #51afef;">input:invalid </span><span style="color: #51afef;">{</span>
   <span style="color: #98be65;">border</span>: 2px dashed <span style="color: #ffffff; background-color: #ff0000;">red</span>;
 <span style="color: #51afef;">}</span>
 <span style="color: #51afef;">input:valid </span><span style="color: #51afef;">{</span>
@@ -335,8 +335,8 @@
 </div>
 </div>
 
-<div id="outline-container-org671425b" class="outline-2">
-<h2 id="org671425b"><span class="section-number-2">3.</span> 只用HTML和CSS实现前端校验</h2>
+<div id="outline-container-org40c6e49" class="outline-2">
+<h2 id="org40c6e49"><span class="section-number-2">3.</span> 只用HTML和CSS实现前端校验</h2>
 <div class="outline-text-2" id="text-3">
 <p>
 HTML的标签本身包含了很多属性，而 <code>&lt;input&gt;</code> 标签也包含了一些校验输入的属性。其中包括：
@@ -349,12 +349,12 @@ HTML的标签本身包含了很多属性，而 <code>&lt;input&gt;</code> 标签
 <li><code>type</code> :输入框的类型，指定输入框的类型，即这个是数字输入框还是邮箱输入框还是只是做为一个按钮，数字输入框就只能输入数字，邮箱输入框就只能输入邮箱等。</li>
 </ul>
 <p>
-而在我们使用这些属性之后，输入框就具备了一定的校验功能了。当输入的信息満足这些要求，就会提交信息到后台处理，否则就无法提交信息。然后在<a href="#org3d5e697">一个简单的用做开始的范例</a>的基础之上，我们就用这些属性编写我们的代码。
+而在我们使用这些属性之后，输入框就具备了一定的校验功能了。当输入的信息満足这些要求，就会提交信息到后台处理，否则就无法提交信息。然后在<a href="#org4e73c69">一个简单的用做开始的范例</a>的基础之上，我们就用这些属性编写我们的代码。
 </p>
 </div>
 
-<div id="outline-container-org44899cd" class="outline-3">
-<h3 id="org44899cd"><span class="section-number-3">3.1.</span> 当我们使用 <code>require</code> 属性</h3>
+<div id="outline-container-org0f3eb53" class="outline-3">
+<h3 id="org0f3eb53"><span class="section-number-3">3.1.</span> 当我们使用 <code>require</code> 属性</h3>
 <div class="outline-text-3" id="text-3-1">
 <p>
 这时我们是要求必须输入内容，只要有内容输入就算満足了我们的校验要求。当输入框为空时不満足要求，输入框边框为红色，当你输入任何内容，边框就变为了黑色(你可以在下面的输入框中试试)。当你不満足要求是直接按 <code>Submit</code> 按钮就会提示你必须输入内容。
@@ -364,7 +364,7 @@ HTML的标签本身包含了很多属性，而 <code>&lt;input&gt;</code> 标签
 我们的HTML代码：
 </p>
 <div class="org-src-container">
-<pre class="src src-html" id="orgd63488f">&lt;<span style="color: #c678dd;">form</span>&gt;
+<pre class="src src-html" id="org0ca21aa">&lt;<span style="color: #c678dd;">form</span>&gt;
   &lt;<span style="color: #c678dd;">label</span> <span style="color: #dcaeea;">for</span>=<span style="color: #98be65;">"choose"</span>&gt;Would you prefer a banana or cherry? (required)&lt;/<span style="color: #c678dd;">label</span>&gt;
   <span style="color: #969896; font-style: italic;">&lt;!-- </span><span style="color: #5B6268; font-style: italic;">&#30452;&#25509;&#22312;input&#20013;&#21152;&#19978;required&#23601;&#34892;&#20102;</span><span style="color: #969896; font-style: italic;"> --&gt;</span>
   &lt;<span style="color: #c678dd;">input</span> <span style="color: #dcaeea;">id</span>=<span style="color: #98be65;">"choose"</span> <span style="color: #dcaeea;">name</span>=<span style="color: #98be65;">"i-like"</span> required /&gt;
@@ -377,7 +377,7 @@ HTML的标签本身包含了很多属性，而 <code>&lt;input&gt;</code> 标签
 我们的CSS的代码：
 </p>
 <div class="org-src-container">
-<pre class="src src-css" id="org8ae4f4f"><span style="color: #51afef;">input:invalid </span><span style="color: #51afef;">{</span>
+<pre class="src src-css" id="org36b6997"><span style="color: #51afef;">input:invalid </span><span style="color: #51afef;">{</span>
   <span style="color: #98be65;">border</span>: 2px dashed <span style="color: #ffffff; background-color: #ff0000;">red</span>;
 <span style="color: #51afef;">}</span>
 <span style="color: #51afef;">input:valid </span><span style="color: #51afef;">{</span>
@@ -390,8 +390,8 @@ HTML的标签本身包含了很多属性，而 <code>&lt;input&gt;</code> 标签
 </div>
 </div>
 
-<div id="outline-container-org3d2082c" class="outline-3">
-<h3 id="org3d2082c"><span class="section-number-3">3.2.</span> 用正则表过式规范输入</h3>
+<div id="outline-container-org8f0ad24" class="outline-3">
+<h3 id="org8f0ad24"><span class="section-number-3">3.2.</span> 用正则表过式规范输入</h3>
 <div class="outline-text-3" id="text-3-2">
 <p>
 现在我们要用 <code>pattern</code> 属性来校验输入，在 <code>pattern</code> 中用正则表达式作为它的值。前端正则包括<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions">这些</a>。这里我们只会用一些简单的表达式介绍这个属性。
@@ -421,8 +421,8 @@ HTML代码是：
 </div>
 </div>
 
-<div id="outline-container-orgab6aec1" class="outline-3">
-<h3 id="orgab6aec1"><span class="section-number-3">3.3.</span> 用 <code>minlength</code> 和 <code>maxlength</code> 规范字符串的长度</h3>
+<div id="outline-container-org32108d2" class="outline-3">
+<h3 id="org32108d2"><span class="section-number-3">3.3.</span> 用 <code>minlength</code> 和 <code>maxlength</code> 规范字符串的长度</h3>
 <div class="outline-text-3" id="text-3-3">
 <p>
 在前端你可以用 <code>minlength</code> 和 <code>maxlength</code> 在输入框中直接限制用户可输入内容的长度，例如限制字符为20, 即 <code>maxlength="20"</code> ， 当用户输入20个字符之后，用户再输入则输入框不会有任何反应，然后会告知用户你输入内容已超出最大长度限制，一般很多网站的用户名都有这个限制，为了防止用户名占用太多空间，这些网站都会限制用户输入过长的用户名。
@@ -450,8 +450,8 @@ HTML代码是：
 </div>
 </div>
 
-<div id="outline-container-org3156dca" class="outline-3">
-<h3 id="org3156dca"><span class="section-number-3">3.4.</span> 确定输入框的类型</h3>
+<div id="outline-container-orgb8f8da6" class="outline-3">
+<h3 id="orgb8f8da6"><span class="section-number-3">3.4.</span> 确定输入框的类型</h3>
 <div class="outline-text-3" id="text-3-4">
 <p>
 输入框 <code>&lt;input&gt;</code> 提供了一个类型的选项 <code>type</code> , <code>type</code> 包括哪些在<a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input#input_types">这里</a>。这里我们展示 <code>type="number"</code> 即数字输入框，且再用 <code>min</code> 和 <code>max</code> 限定它的最小值和最大值，如果输入的数字超出范围则边框变红色。
@@ -477,8 +477,8 @@ HTML代码如下，CSS不变：
 </div>
 </div>
 
-<div id="outline-container-org6be7b8d" class="outline-3">
-<h3 id="org6be7b8d"><span class="section-number-3">3.5.</span> 总结下HTML+CSS的方法</h3>
+<div id="outline-container-org092b8c7" class="outline-3">
+<h3 id="org092b8c7"><span class="section-number-3">3.5.</span> 总结下HTML+CSS的方法</h3>
 <div class="outline-text-3" id="text-3-5">
 <p>
 对于代码我们秉承着能简单就不要复杂，原生能实现就不要用框架的原则。如果你不需要复杂的校验，上面的代码能満足你的需求就尽量用简单的方法实现它，毕竟大型软件的本质就是管理复杂，而其中能简单的地方就简单化。而如果你已经使用了一套框架的流程，上面的方法无法満足，或许你可以试试以下使用JavaScript的实现。
@@ -487,24 +487,24 @@ HTML代码如下，CSS不变：
 </div>
 </div>
 
-<div id="outline-container-org8308a40" class="outline-2">
-<h2 id="org8308a40"><span class="section-number-2">4.</span> 用JavaScript实现前端校验</h2>
+<div id="outline-container-orgdb7318d" class="outline-2">
+<h2 id="orgdb7318d"><span class="section-number-2">4.</span> 用JavaScript实现前端校验</h2>
 <div class="outline-text-2" id="text-4">
 <p>
 作为前端语言，JavaScript给了我们更多的选择。不管是更深的定制化还是使用框架节省时间，都大大的提升了效率和可能性。首先在JavaScript中我们可以使HTML标签内置的<a href="https://developer.mozilla.org/en-US/docs/Web/API/HTMLInputElement">API</a>了，所以在剩下章节中我会先使用该API在原有基础上进行一些定制。或者你并不喜欢使用这些内置的方法，那么我就会用JavaScript写出我们自己需要的校验代码。然后关于框架我会展示使用ReactJS框架如何进行校验并配合<a href="https://ramdajs.com/">RamdaJS</a><sup><a id="fnr.1" class="footref" href="#fn.1" role="doc-backlink">1</a></sup>框架进行函数式编程。最后我会加入 <code>Promise</code> <sup><a id="fnr.2" class="footref" href="#fn.2" role="doc-backlink">2</a></sup>进行异步式校验，例如验证账号是否已被注册就需要异步验证需要后端处理后返回结果给我们，然后我们再提醒用户账号名已存在等。
 </p>
 </div>
 
-<div id="outline-container-org7725789" class="outline-3">
-<h3 id="org7725789"><span class="section-number-3">4.1.</span> 在JavaScript中调用 <code>&lt;input&gt;</code> 的API</h3>
+<div id="outline-container-org1656e8b" class="outline-3">
+<h3 id="org1656e8b"><span class="section-number-3">4.1.</span> 在JavaScript中调用 <code>&lt;input&gt;</code> 的API</h3>
 <div class="outline-text-3" id="text-4-1">
 <p>
 每个HTML标签都有自己的API，在JS(后面就用于指代JavaScript)中用DOM来指这些标签，例如我们使用的输入框 <code>&lt;input&gt;</code> 在JS中是HTMLInputElement(意思就是html中的input元素)。什么是DOM呢？简单的理解就是JS中的全局变量 <code>document</code> ，我们可以使用这个全局变量来操作HTML中的所有元素。这里只展示操用 <code>&lt;input&gt;</code> 元素，然后代码我们也要添加JS代码了。
 </p>
 </div>
 
-<div id="outline-container-orgba6dea2" class="outline-4">
-<h4 id="orgba6dea2"><span class="section-number-4">4.1.1.</span> 定制报错提示框中的内容</h4>
+<div id="outline-container-org534373c" class="outline-4">
+<h4 id="org534373c"><span class="section-number-4">4.1.1.</span> 定制报错提示框中的内容</h4>
 <div class="outline-text-4" id="text-4-1-1">
 <p>
 就是当你的输入不符合规则时会提示哪里出错了。这里我们使用邮箱输入框，当你输入不是邮箱格式就会报错，并且提交后也会弹出错误提示。
@@ -564,8 +564,8 @@ email.addEventListener<span style="color: #51afef;">(</span><span style="color: 
 </div>
 </div>
 
-<div id="outline-container-org93ec7ce" class="outline-4">
-<h4 id="org93ec7ce"><span class="section-number-4">4.1.2.</span> 更多的校验定制</h4>
+<div id="outline-container-org5d5a36f" class="outline-4">
+<h4 id="org5d5a36f"><span class="section-number-4">4.1.2.</span> 更多的校验定制</h4>
 <div class="outline-text-4" id="text-4-1-2">
 <p>
 现在我们用一个更全面的例子来定制我们的校验，展示了HTML的API更强大的功能。我们会在用户输入时进行校验，在提交时也会校验，我们会取消默认的提示框，定制我们自己的错误提示框。
@@ -671,8 +671,8 @@ form.addEventListener<span style="color: #51afef;">(</span><span style="color: #
 </div>
 </div>
 
-<div id="outline-container-org8135635" class="outline-3">
-<h3 id="org8135635"><span class="section-number-3">4.2.</span> 不使用HTML的API，只使用JavaScript</h3>
+<div id="outline-container-org0b5b085" class="outline-3">
+<h3 id="org0b5b085"><span class="section-number-3">4.2.</span> 不使用HTML的API，只使用JS</h3>
 <div class="outline-text-3" id="text-4-2">
 <p>
 你不喜欢用HTML的API，那我们只用JS就可以了。前面的HTML，CSS代码保持不变，我们只要在JS代码中把涉及HTML API的部份更改为“手动”校验。
@@ -760,8 +760,8 @@ form.addEventListener<span style="color: #51afef;">(</span><span style="color: #
 </div>
 </div>
 
-<div id="outline-container-orgacaa7c3" class="outline-3">
-<h3 id="orgacaa7c3"><span class="section-number-3">4.3.</span> 用函数式编程优化代码并扩展更多可能</h3>
+<div id="outline-container-org37f1554" class="outline-3">
+<h3 id="org37f1554"><span class="section-number-3">4.3.</span> 用函数式编程优化代码并扩展更多可能</h3>
 <div class="outline-text-3" id="text-4-3">
 <p>
 到这里基础功能讲完了，后面就要做一些优化和扩展了，方便我们对于更复杂需求和更多场景下的使用。首先我们对上面的代码做一些优化，使用函数式编程，好处就是对于复杂场景也能用简单易懂的代码表达清楚，关于函数式编程可以看下我的这篇文章<a href="file:///home/dipper/WorkSpace/article/src/share_it/functional-programming.html">函数编程在JavaScript中的简单应用</a>。只更改JS代码，其他代码保持不变。
@@ -848,8 +848,8 @@ form.addEventListener<span style="color: #51afef;">(</span><span style="color: #
 </div>
 </div>
 
-<div id="outline-container-org96a384d" class="outline-3">
-<h3 id="org96a384d"><span class="section-number-3">4.4.</span> 用reactJS和RamdaJS实现前端校验</h3>
+<div id="outline-container-org68893a4" class="outline-3">
+<h3 id="org68893a4"><span class="section-number-3">4.4.</span> 用reactJS和RamdaJS实现前端校验</h3>
 <div class="outline-text-3" id="text-4-4">
 <p>
 后面因为要用到框架就没法展示，参考下代码就行。我们选择ReactJS UI<sup><a id="fnr.4" class="footref" href="#fn.4" role="doc-backlink">4</a></sup>框架作展示算是当下最流行的UI框架吧。函数式编程我们用RamdaJS框架，用框架的好处是我们不用自己测试了，我们直接用框架提供给我们的函数就可以了。这里的用RamdaJS写的代码不懂也没关系，反正它实现的功能和上面的例子是一样的，如果对RamdaJS编程感兴趣可以看<a href="https://randycoulman.com/blog/categories/thinking-in-ramda/">这里</a>。
@@ -928,8 +928,8 @@ JS代码，样式CSS代码保持不变，HTML和JS代码通过ReactJS框架合�
 </div>
 </div>
 
-<div id="outline-container-orgbabb4cd" class="outline-3">
-<h3 id="orgbabb4cd"><span class="section-number-3">4.5.</span> 添加异步校验</h3>
+<div id="outline-container-org706a148" class="outline-3">
+<h3 id="org706a148"><span class="section-number-3">4.5.</span> 添加异步校验</h3>
 <div class="outline-text-3" id="text-4-5">
 <p>
 异步校验一般是需要后端的校验，后端根据前端传回的数据，与数据库中的数据进行比对，看数据是否合规。一般包括注册时用户名是否已经存在，输入的用户名和密码是否正确等。
@@ -1018,8 +1018,8 @@ JS代码如下，其他代码不变，因为异步校验比较耗资源，这里
 </div>
 </div>
 
-<div id="outline-container-org8bd8048" class="outline-2">
-<h2 id="org8bd8048"><span class="section-number-2">5.</span> 总结</h2>
+<div id="outline-container-org9a4a077" class="outline-2">
+<h2 id="org9a4a077"><span class="section-number-2">5.</span> 总结</h2>
 <div class="outline-text-2" id="text-5">
 <p>
 前端校验说到底是为了用户的体验服务的，你必须准确的告知用户为什么错的错误的信息，哪里出现了错误，保证用户输入体验的一致性，特别对于有大量需要校验的场景。
@@ -1027,8 +1027,8 @@ JS代码如下，其他代码不变，因为异步校验比较耗资源，这里
 </div>
 </div>
 
-<div id="outline-container-orgf109530" class="outline-2">
-<h2 id="orgf109530"><span class="section-number-2">6.</span> 写在后面</h2>
+<div id="outline-container-orgbd449de" class="outline-2">
+<h2 id="orgbd449de"><span class="section-number-2">6.</span> 写在后面</h2>
 <div class="outline-text-2" id="text-6">
 <table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
 
@@ -1102,7 +1102,7 @@ JS代码如下，其他代码不变，因为异步校验比较耗资源，这里
 
 <tr>
 <td class="org-right">12</td>
-<td class="org-left"><a href="vanillajs-validation.html">用最简单的方式实现前验校验，也许你并不需要任何框架</a></td>
+<td class="org-left"><a href="vanillajs-validation.html">用最简单的方式实现前端校验，也许你并不需要任何框架</a></td>
 </tr>
 </tbody>
 <tbody>
@@ -1160,7 +1160,7 @@ JS代码如下，其他代码不变，因为异步校验比较耗资源，这里
 </div></div>
 <div id="postamble" class="status">
 <p class="author">Author: JaneGwaww</p>
-<p class="date">Created: 2023-04-11 Tue 20:30</p>
+<p class="date">Created: 2023-04-11 Tue 20:33</p>
 </div>
 </body>
 </html>

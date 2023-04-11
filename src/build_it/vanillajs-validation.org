@@ -308,7 +308,7 @@ JS代码：
 
 #+html: <form novalidate class="more-api-form"><style>form.more-api-form p {width: 200px}input:invalid {border: 2px dashed red;}input:valid {border: 2px solid black;}.error {color: hsl(0, 0%, 100%); border-radius: 0 0 5px 5px; background-color: hsl(348, 100%, 61%); padding: 0;display:block;} .error.active {padding: 0.25em;}</style><label for="mail">Please enter an email address:</label><p><input type="email" id="more-api-mail" name="mail" required minlength="8" /><span class="error" aria-live="polite"></span></p><button>Submit</button><script>const form = document.querySelector(".more-api-form");const moreApiEmail = document.getElementById("more-api-mail"); const emailError = document.querySelector("#more-api-mail + span.error"); moreApiEmail.addEventListener("input", function(event) {if (moreApiEmail.validity.valid) {emailError.textContent = ""; emailError.className = "error";} else {showError();}}); form.addEventListener("submit", function(event) {if (!moreApiEmail.validity.valid) {showError(); event.preventDefault();}}); function showError() {if (moreApiEmail.validity.valueMissing) {emailError.textContent = "You need to enter an email address.";} else if (moreApiEmail.validity.typeMismatch) {emailError.textContent = "Entered value needs to be an email address.";} else if (moreApiEmail.validity.tooShort) {emailError.textContent = `Email should be at least ${moreApiEmail.minLength} characters; you entered ${email.value.length}.`;} emailError.className = "error active";}</script></form>
 
-** 不使用HTML的API，只使用JavaScript
+** 不使用HTML的API，只使用JS
 
 你不喜欢用HTML的API，那我们只用JS就可以了。前面的HTML，CSS代码保持不变，我们只要在JS代码中把涉及HTML API的部份更改为“手动”校验。
 
