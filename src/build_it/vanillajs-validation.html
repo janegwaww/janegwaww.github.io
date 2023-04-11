@@ -1,0 +1,1056 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<!-- 2023-04-11 Tue 16:20 -->
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>用最简单的方式实现前验校验，也许你并不需要任何框架</title>
+<meta name="author" content="JaneGwaww" />
+<meta name="generator" content="Org Mode" />
+<style>
+  #content { max-width: 60em; margin: auto; }
+  .title  { text-align: center;
+             margin-bottom: .2em; }
+  .subtitle { text-align: center;
+              font-size: medium;
+              font-weight: bold;
+              margin-top:0; }
+  .todo   { font-family: monospace; color: red; }
+  .done   { font-family: monospace; color: green; }
+  .priority { font-family: monospace; color: orange; }
+  .tag    { background-color: #eee; font-family: monospace;
+            padding: 2px; font-size: 80%; font-weight: normal; }
+  .timestamp { color: #bebebe; }
+  .timestamp-kwd { color: #5f9ea0; }
+  .org-right  { margin-left: auto; margin-right: 0px;  text-align: right; }
+  .org-left   { margin-left: 0px;  margin-right: auto; text-align: left; }
+  .org-center { margin-left: auto; margin-right: auto; text-align: center; }
+  .underline { text-decoration: underline; }
+  #postamble p, #preamble p { font-size: 90%; margin: .2em; }
+  p.verse { margin-left: 3%; }
+  pre {
+    border: 1px solid #e6e6e6;
+    border-radius: 3px;
+    background-color: #f2f2f2;
+    padding: 8pt;
+    font-family: monospace;
+    overflow: auto;
+    margin: 1.2em;
+  }
+  pre.src {
+    position: relative;
+    overflow: auto;
+  }
+  pre.src:before {
+    display: none;
+    position: absolute;
+    top: -8px;
+    right: 12px;
+    padding: 3px;
+    color: #555;
+    background-color: #f2f2f299;
+  }
+  pre.src:hover:before { display: inline; margin-top: 14px;}
+  /* Languages per Org manual */
+  pre.src-asymptote:before { content: 'Asymptote'; }
+  pre.src-awk:before { content: 'Awk'; }
+  pre.src-authinfo::before { content: 'Authinfo'; }
+  pre.src-C:before { content: 'C'; }
+  /* pre.src-C++ doesn't work in CSS */
+  pre.src-clojure:before { content: 'Clojure'; }
+  pre.src-css:before { content: 'CSS'; }
+  pre.src-D:before { content: 'D'; }
+  pre.src-ditaa:before { content: 'ditaa'; }
+  pre.src-dot:before { content: 'Graphviz'; }
+  pre.src-calc:before { content: 'Emacs Calc'; }
+  pre.src-emacs-lisp:before { content: 'Emacs Lisp'; }
+  pre.src-fortran:before { content: 'Fortran'; }
+  pre.src-gnuplot:before { content: 'gnuplot'; }
+  pre.src-haskell:before { content: 'Haskell'; }
+  pre.src-hledger:before { content: 'hledger'; }
+  pre.src-java:before { content: 'Java'; }
+  pre.src-js:before { content: 'Javascript'; }
+  pre.src-latex:before { content: 'LaTeX'; }
+  pre.src-ledger:before { content: 'Ledger'; }
+  pre.src-lisp:before { content: 'Lisp'; }
+  pre.src-lilypond:before { content: 'Lilypond'; }
+  pre.src-lua:before { content: 'Lua'; }
+  pre.src-matlab:before { content: 'MATLAB'; }
+  pre.src-mscgen:before { content: 'Mscgen'; }
+  pre.src-ocaml:before { content: 'Objective Caml'; }
+  pre.src-octave:before { content: 'Octave'; }
+  pre.src-org:before { content: 'Org mode'; }
+  pre.src-oz:before { content: 'OZ'; }
+  pre.src-plantuml:before { content: 'Plantuml'; }
+  pre.src-processing:before { content: 'Processing.js'; }
+  pre.src-python:before { content: 'Python'; }
+  pre.src-R:before { content: 'R'; }
+  pre.src-ruby:before { content: 'Ruby'; }
+  pre.src-sass:before { content: 'Sass'; }
+  pre.src-scheme:before { content: 'Scheme'; }
+  pre.src-screen:before { content: 'Gnu Screen'; }
+  pre.src-sed:before { content: 'Sed'; }
+  pre.src-sh:before { content: 'shell'; }
+  pre.src-sql:before { content: 'SQL'; }
+  pre.src-sqlite:before { content: 'SQLite'; }
+  /* additional languages in org.el's org-babel-load-languages alist */
+  pre.src-forth:before { content: 'Forth'; }
+  pre.src-io:before { content: 'IO'; }
+  pre.src-J:before { content: 'J'; }
+  pre.src-makefile:before { content: 'Makefile'; }
+  pre.src-maxima:before { content: 'Maxima'; }
+  pre.src-perl:before { content: 'Perl'; }
+  pre.src-picolisp:before { content: 'Pico Lisp'; }
+  pre.src-scala:before { content: 'Scala'; }
+  pre.src-shell:before { content: 'Shell Script'; }
+  pre.src-ebnf2ps:before { content: 'ebfn2ps'; }
+  /* additional language identifiers per "defun org-babel-execute"
+       in ob-*.el */
+  pre.src-cpp:before  { content: 'C++'; }
+  pre.src-abc:before  { content: 'ABC'; }
+  pre.src-coq:before  { content: 'Coq'; }
+  pre.src-groovy:before  { content: 'Groovy'; }
+  /* additional language identifiers from org-babel-shell-names in
+     ob-shell.el: ob-shell is the only babel language using a lambda to put
+     the execution function name together. */
+  pre.src-bash:before  { content: 'bash'; }
+  pre.src-csh:before  { content: 'csh'; }
+  pre.src-ash:before  { content: 'ash'; }
+  pre.src-dash:before  { content: 'dash'; }
+  pre.src-ksh:before  { content: 'ksh'; }
+  pre.src-mksh:before  { content: 'mksh'; }
+  pre.src-posh:before  { content: 'posh'; }
+  /* Additional Emacs modes also supported by the LaTeX listings package */
+  pre.src-ada:before { content: 'Ada'; }
+  pre.src-asm:before { content: 'Assembler'; }
+  pre.src-caml:before { content: 'Caml'; }
+  pre.src-delphi:before { content: 'Delphi'; }
+  pre.src-html:before { content: 'HTML'; }
+  pre.src-idl:before { content: 'IDL'; }
+  pre.src-mercury:before { content: 'Mercury'; }
+  pre.src-metapost:before { content: 'MetaPost'; }
+  pre.src-modula-2:before { content: 'Modula-2'; }
+  pre.src-pascal:before { content: 'Pascal'; }
+  pre.src-ps:before { content: 'PostScript'; }
+  pre.src-prolog:before { content: 'Prolog'; }
+  pre.src-simula:before { content: 'Simula'; }
+  pre.src-tcl:before { content: 'tcl'; }
+  pre.src-tex:before { content: 'TeX'; }
+  pre.src-plain-tex:before { content: 'Plain TeX'; }
+  pre.src-verilog:before { content: 'Verilog'; }
+  pre.src-vhdl:before { content: 'VHDL'; }
+  pre.src-xml:before { content: 'XML'; }
+  pre.src-nxml:before { content: 'XML'; }
+  /* add a generic configuration mode; LaTeX export needs an additional
+     (add-to-list 'org-latex-listings-langs '(conf " ")) in .emacs */
+  pre.src-conf:before { content: 'Configuration File'; }
+
+  table { border-collapse:collapse; }
+  caption.t-above { caption-side: top; }
+  caption.t-bottom { caption-side: bottom; }
+  td, th { vertical-align:top;  }
+  th.org-right  { text-align: center;  }
+  th.org-left   { text-align: center;   }
+  th.org-center { text-align: center; }
+  td.org-right  { text-align: right;  }
+  td.org-left   { text-align: left;   }
+  td.org-center { text-align: center; }
+  dt { font-weight: bold; }
+  .footpara { display: inline; }
+  .footdef  { margin-bottom: 1em; }
+  .figure { padding: 1em; }
+  .figure p { text-align: center; }
+  .equation-container {
+    display: table;
+    text-align: center;
+    width: 100%;
+  }
+  .equation {
+    vertical-align: middle;
+  }
+  .equation-label {
+    display: table-cell;
+    text-align: right;
+    vertical-align: middle;
+  }
+  .inlinetask {
+    padding: 10px;
+    border: 2px solid gray;
+    margin: 10px;
+    background: #ffffcc;
+  }
+  #org-div-home-and-up
+   { text-align: right; font-size: 70%; white-space: nowrap; }
+  textarea { overflow-x: auto; }
+  .linenr { font-size: smaller }
+  .code-highlighted { background-color: #ffff00; }
+  .org-info-js_info-navigation { border-style: none; }
+  #org-info-js_console-label
+    { font-size: 10px; font-weight: bold; white-space: nowrap; }
+  .org-info-js_search-highlight
+    { background-color: #ffff00; color: #000000; font-weight: bold; }
+  .org-svg { }
+</style>
+</head>
+<body>
+<div id="content" class="content">
+<h1 class="title">用最简单的方式实现前验校验，也许你并不需要任何框架</h1>
+<p>
+<b>前端校验只是对用户的输入做一个简单的检测和提示，它并不是必须的选项。因为前端传入后端的数据一般都是不可靠的，它可以很容易的用一些手段跳过，这是由前端的特性造成的。但是做为一个负责任的工程师，前端传入给你的任何数据都必须经过检验。而前端做到的只是一些基本的校验，而真正的校验需要后端更严格的检测。但是为了用户体验，前端校验又是不得不做的一个基础功能，他针对用户输入的数据做一个提示与反馈来告诉用户当前输入的数据是否有效。</b>
+</p>
+
+<div id="table-of-contents" role="doc-toc">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents" role="doc-toc">
+<ul>
+<li><a href="#org3b123b2">1. 什么是前端校验？</a>
+<ul>
+<li><a href="#org8e5a3dd">1.1. 如何实现前端校验</a></li>
+</ul>
+</li>
+<li><a href="#orgc495213">2. 一个简单的用做开始的范例</a></li>
+<li><a href="#orga82c78d">3. 只用HTML和CSS实现前端校验</a>
+<ul>
+<li><a href="#orgf00cbbe">3.1. 当我们使用 <code>require</code> 属性</a></li>
+<li><a href="#orgf4ad2d9">3.2. 用正则表过式规范输入</a></li>
+<li><a href="#orgfab8454">3.3. 用 <code>minlength</code> 和 <code>maxlength</code> 规范字符串的长度</a></li>
+<li><a href="#org2561a02">3.4. 确定输入框的类型</a></li>
+<li><a href="#orgadff653">3.5. 总结下HTML+CSS的方法</a></li>
+</ul>
+</li>
+<li><a href="#orgfbe6c61">4. 用JavaScript实现前端校验</a>
+<ul>
+<li><a href="#org8013559">4.1. 在JavaScript中调用 <code>&lt;input&gt;</code> 的API</a>
+<ul>
+<li><a href="#org22c0810">4.1.1. 定制报错提示框中的内容</a></li>
+<li><a href="#org0402e3c">4.1.2. 更多的校验定制</a></li>
+</ul>
+</li>
+<li><a href="#orgff83603">4.2. 不使用HTML的API，只使用JavaScript</a></li>
+<li><a href="#org5de6663">4.3. 用函数式编程优化代码并扩展更多可能</a></li>
+<li><a href="#org19b0449">4.4. 用reactJS和RamdaJS实现前端校验</a></li>
+<li><a href="#org50f565a">4.5. 添加异步校验</a></li>
+</ul>
+</li>
+<li><a href="#org510604a">5. 总结</a></li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-org3b123b2" class="outline-2">
+<h2 id="org3b123b2"><span class="section-number-2">1.</span> 什么是前端校验？</h2>
+<div class="outline-text-2" id="text-1">
+<p>
+你去任何一个需要注册的网站，当你进入登录注册页面时，网站要求你输入一些信息进行登录或注册，当你输入正确时就是登录或注册成功然后跳到个人页面，当你输入不正确时，例如输入格式不对或者密码输入错误时，网页就会弹出红色提示框说你的输入不正确给予你提示，你可以根据提示，重新输入正确的信息，直到成功为止，然后用户的信息会被保存到数据库上。
+</p>
+
+<p>
+你可以不做前端校验，只放一个输入框在页面上，让用户输入你所需要的信息。但是这样做对用户，对后端都会有很大的困扰。
+</p>
+<ul class="org-ul">
+<li>在用户这边是：
+<ol class="org-ol">
+<li>我已经输入确认完成了为什么还是停在这个页面，哪里出错了？</li>
+<li>用户无法得到及时的反馈很容易消耗耐心。</li>
+</ol></li>
+<li>在后端这边是：
+<ol class="org-ol">
+<li>一个简单的前端校验可以大大提升用户的输入体验，何乐而不为呢。</li>
+<li>计算机做任何动作都需要消耗资源，而前端校验可以过滤掉一些不必要的动作，例如邮箱格式错误，手机号格式错误等。</li>
+<li>软件开发中外部输入的是一种非常不可靠的数据，它有可能传入任何数据，而我们想要保护我们的软件正确运行，就必须对外部传入的数据进行校验，而前端校验也是其中的一环。</li>
+</ol></li>
+</ul>
+</div>
+
+<div id="outline-container-org8e5a3dd" class="outline-3">
+<h3 id="org8e5a3dd"><span class="section-number-3">1.1.</span> 如何实现前端校验</h3>
+<div class="outline-text-3" id="text-1-1">
+<ul class="org-ul">
+<li><p>
+简单的用HTML内置方法
+</p>
+
+<p>
+如果简单直接的用HTML标签中的属性就能满足你的需求，那就JavaScript都不需要了，直接HTML，CSS就能实现了。只是缺少了一定的定制性了。
+</p></li>
+
+<li><p>
+用JavaScript
+</p>
+
+<p>
+用JavaScript实现就可以完全定制你的需求了，还有JavaScript的海量框架。
+</p></li>
+</ul>
+</div>
+</div>
+</div>
+
+<div id="outline-container-orgc495213" class="outline-2">
+<h2 id="orgc495213"><span class="section-number-2">2.</span> 一个简单的用做开始的范例</h2>
+<div class="outline-text-2" id="text-2">
+<p>
+前端开发最原生的就是三个文件类型：HTML，CSS和JavaScript。只是发展到后面为了提升开发效率，获得更好的开发体验，衍生出了很多框架。例如：React, VUE, TypeScript, jQuery, SASS等。而我们想要最简单的实现前端校验，就用最原生的前端。
+</p>
+
+<ul class="org-ul">
+<li><p>
+我们的HTML文件:
+</p>
+
+<p>
+在 <code>form</code> 标签中加入一个输入框和一个按钮，这时候还没有加入任何校验。
+</p>
+<div class="org-src-container">
+<pre class="src src-html" id="org4c8a9a3">&lt;<span style="color: #c678dd;">form</span>&gt;
+  &lt;<span style="color: #c678dd;">label</span> <span style="color: #dcaeea;">for</span>=<span style="color: #98be65;">"choose"</span>&gt;Would you prefer a banana or cherry?&lt;/<span style="color: #c678dd;">label</span>&gt;
+  &lt;<span style="color: #c678dd;">input</span> <span style="color: #dcaeea;">id</span>=<span style="color: #98be65;">"choose"</span> <span style="color: #dcaeea;">name</span>=<span style="color: #98be65;">"i-like"</span> /&gt;
+  &lt;<span style="color: #c678dd;">button</span>&gt;Submit&lt;/<span style="color: #c678dd;">button</span>&gt;
+&lt;/<span style="color: #c678dd;">form</span>&gt;
+</pre>
+</div></li>
+
+<li><p>
+我们的css文件:
+</p>
+
+<p>
+我们添加了无效的和有效的输入框样式，即加了不同的边框颜色用以区分它们。
+</p>
+<div class="org-src-container">
+<pre class="src src-css" id="org87751d5"><span style="color: #51afef;">input:invalid </span><span style="color: #51afef;">{</span>
+  <span style="color: #98be65;">border</span>: 2px dashed <span style="color: #ffffff; background-color: #ff0000;">red</span>;
+<span style="color: #51afef;">}</span>
+<span style="color: #51afef;">input:valid </span><span style="color: #51afef;">{</span>
+  <span style="color: #98be65;">border</span>: 2px solid <span style="color: #ffffff; background-color: #000000;">black</span>;
+<span style="color: #51afef;">}</span>
+</pre>
+</div></li>
+</ul>
+
+<form><style>input:invalid{border: 2px dashed red;}input:valid{border: 2px solid black;}form{border:1px solid gray;border-radius:4px;padding:16px;}</style><label for="choose">Would you prefer a banana or cherry?</label><input id="choose" name="i-like" /><button>Submit</button></form>
+</div>
+</div>
+
+<div id="outline-container-orga82c78d" class="outline-2">
+<h2 id="orga82c78d"><span class="section-number-2">3.</span> 只用HTML和CSS实现前端校验</h2>
+<div class="outline-text-2" id="text-3">
+<p>
+HTML的标签本身包含了很多属性，而 <code>&lt;input&gt;</code> 标签也包含了一些校验输入的属性。其中包括：
+</p>
+<ul class="org-ul">
+<li><code>required</code> :即输入框不能为空，这个输入框是必须输入内容的，例如用户名、密码等是必须要输入的。</li>
+<li><code>pattern</code> :用正则进行校验，即你输入的内容要符合正则表达式。</li>
+<li><code>minlength</code> 和 <code>maxlength</code> :即你可输入的字符串最短长度和最长长度。</li>
+<li><code>min</code> 和 <code>max</code> : 你可输入的最小数字和最大数字。</li>
+<li><code>type</code> :输入框的类型，指定输入框的类型，即这个是数字输入框还是邮箱输入框还是只是做为一个按钮，数字输入框就只能输入数字，邮箱输入框就只能输入邮箱等。</li>
+</ul>
+<p>
+而在我们使用这些属性之后，输入框就具备了一定的校验功能了。当输入的信息満足这些要求，就会提交信息到后台处理，否则就无法提交信息。然后在<a href="#orgc495213">一个简单的用做开始的范例</a>的基础之上，我们就用这些属性编写我们的代码。
+</p>
+</div>
+
+<div id="outline-container-orgf00cbbe" class="outline-3">
+<h3 id="orgf00cbbe"><span class="section-number-3">3.1.</span> 当我们使用 <code>require</code> 属性</h3>
+<div class="outline-text-3" id="text-3-1">
+<p>
+这时我们是要求必须输入内容，只要有内容输入就算満足了我们的校验要求。当输入框为空时不満足要求，输入框边框为红色，当你输入任何内容，边框就变为了黑色(你可以在下面的输入框中试试)。当你不満足要求是直接按 <code>Submit</code> 按钮就会提示你必须输入内容。
+</p>
+
+<p>
+我们的HTML代码：
+</p>
+<div class="org-src-container">
+<pre class="src src-html" id="org265690e">&lt;<span style="color: #c678dd;">form</span>&gt;
+  &lt;<span style="color: #c678dd;">label</span> <span style="color: #dcaeea;">for</span>=<span style="color: #98be65;">"choose"</span>&gt;Would you prefer a banana or cherry? (required)&lt;/<span style="color: #c678dd;">label</span>&gt;
+  <span style="color: #969896; font-style: italic;">&lt;!-- </span><span style="color: #5B6268; font-style: italic;">&#30452;&#25509;&#22312;input&#20013;&#21152;&#19978;required&#23601;&#34892;&#20102;</span><span style="color: #969896; font-style: italic;"> --&gt;</span>
+  &lt;<span style="color: #c678dd;">input</span> <span style="color: #dcaeea;">id</span>=<span style="color: #98be65;">"choose"</span> <span style="color: #dcaeea;">name</span>=<span style="color: #98be65;">"i-like"</span> required /&gt;
+  &lt;<span style="color: #c678dd;">button</span>&gt;Submit&lt;/<span style="color: #c678dd;">button</span>&gt;
+&lt;/<span style="color: #c678dd;">form</span>&gt;
+</pre>
+</div>
+
+<p>
+我们的CSS的代码：
+</p>
+<div class="org-src-container">
+<pre class="src src-css" id="orgf7698f8"><span style="color: #51afef;">input:invalid </span><span style="color: #51afef;">{</span>
+  <span style="color: #98be65;">border</span>: 2px dashed <span style="color: #ffffff; background-color: #ff0000;">red</span>;
+<span style="color: #51afef;">}</span>
+<span style="color: #51afef;">input:valid </span><span style="color: #51afef;">{</span>
+  <span style="color: #98be65;">border</span>: 2px solid <span style="color: #ffffff; background-color: #000000;">black</span>;
+<span style="color: #51afef;">}</span>
+</pre>
+</div>
+
+<form><style>input:invalid{border: 2px dashed red;}input:valid {border: 2px solid black;}</style><label for="choose">Would you prefer a banana or cherry? (required)</label><input id="choose" name="i-like" required /><button>Submit</button></form>
+</div>
+</div>
+
+<div id="outline-container-orgf4ad2d9" class="outline-3">
+<h3 id="orgf4ad2d9"><span class="section-number-3">3.2.</span> 用正则表过式规范输入</h3>
+<div class="outline-text-3" id="text-3-2">
+<p>
+现在我们要用 <code>pattern</code> 属性来校验输入，在 <code>pattern</code> 中用正则表达式作为它的值。前端正则包括<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions">这些</a>。这里我们只会用一些简单的表达式介绍这个属性。
+</p>
+
+<p>
+HTML代码是：
+</p>
+<div class="org-src-container">
+<pre class="src src-html">&lt;<span style="color: #c678dd;">form</span>&gt;
+  &lt;<span style="color: #c678dd;">label</span> <span style="color: #dcaeea;">for</span>=<span style="color: #98be65;">"choose"</span>&gt;Would you prefer a banana or a cherry?&lt;/<span style="color: #c678dd;">label</span>&gt;
+  &lt;<span style="color: #c678dd;">input</span> <span style="color: #dcaeea;">id</span>=<span style="color: #98be65;">"choose"</span> <span style="color: #dcaeea;">name</span>=<span style="color: #98be65;">"i-like"</span> required <span style="color: #dcaeea;">pattern</span>=<span style="color: #98be65;">"[Bb]anana|[Cc]herry"</span> /&gt;
+  &lt;<span style="color: #c678dd;">button</span>&gt;Submit&lt;/<span style="color: #c678dd;">button</span>&gt;
+&lt;/<span style="color: #c678dd;">form</span>&gt;
+</pre>
+</div>
+
+<p>
+在这个代码里我们在 <code>&lt;input&gt;</code> 中加入了 <code>pattern="[Bb]anana|[Cc]herry"</code> ，这里就是你只能输入：banana或cherry，首字母大小写都可以。CSS代码跟上面一样不变。(在下面试试吧)
+</p>
+
+<p>
+可以使用正则大大扩展了 <code>&lt;input&gt;</code> 校验的可用性，因为你可以使用正则表达式的强大功能去实现一些复杂的校验，例如： <code>/^([A-Za-z0-9]|[A-Za-z0-9][\w\-\/\\ ]*[A-Za-z0-9])$/</code> 就是你只能输入英文字符，且字符串前后不能是空格。
+</p>
+
+<form><style>input:invalid{border: 2px dashed red;}input:valid {border: 2px solid black;}</style><label for="choose">Would you prefer a banana or cherry? (required)</label><input id="choose" name="i-like" required pattern="[Bb]anana|[Cc]herry" /><button>Submit</button></form>
+</div>
+</div>
+
+<div id="outline-container-orgfab8454" class="outline-3">
+<h3 id="orgfab8454"><span class="section-number-3">3.3.</span> 用 <code>minlength</code> 和 <code>maxlength</code> 规范字符串的长度</h3>
+<div class="outline-text-3" id="text-3-3">
+<p>
+在前端你可以用 <code>minlength</code> 和 <code>maxlength</code> 在输入框中直接限制用户可输入内容的长度，例如限制字符为20, 即 <code>maxlength="20"</code> ， 当用户输入20个字符之后，用户再输入则输入框不会有任何反应，然后会告知用户你输入内容已超出最大长度限制，一般很多网站的用户名都有这个限制，为了防止用户名占用太多空间，这些网站都会限制用户输入过长的用户名。
+</p>
+
+<p>
+在HTML中的应用，CSS保持不变(在下面试试吧)，这里为了方便展示我们限制字符最短为6最长也为6：
+</p>
+<div class="org-src-container">
+<pre class="src src-html">&lt;<span style="color: #c678dd;">form</span>&gt;
+  &lt;<span style="color: #c678dd;">label</span> <span style="color: #dcaeea;">for</span>=<span style="color: #98be65;">"choose"</span>&gt;Would you prefer a banana or a cherry?&lt;/<span style="color: #c678dd;">label</span>&gt;
+  &lt;<span style="color: #c678dd;">input</span>
+    <span style="color: #dcaeea;">type</span>=<span style="color: #98be65;">"text"</span>
+    <span style="color: #dcaeea;">id</span>=<span style="color: #98be65;">"choose"</span>
+    <span style="color: #dcaeea;">name</span>=<span style="color: #98be65;">"i-like"</span>
+    required
+    <span style="color: #dcaeea;">minlength</span>=<span style="color: #98be65;">"6"</span>
+    <span style="color: #dcaeea;">maxlength</span>=<span style="color: #98be65;">"6"</span> /&gt;
+  &lt;<span style="color: #c678dd;">button</span>&gt;Submit&lt;/<span style="color: #c678dd;">button</span>&gt;
+&lt;/<span style="color: #c678dd;">form</span>&gt;
+</pre>
+</div>
+
+<form><style>input:invalid{border: 2px dashed red;}input:valid {border: 2px solid black;}</style><label for="choose">Would you prefer a banana or cherry? (required)</label><input type="text" id="choose" name="i-like" required minlength="6" maxlength="6" /><button>Submit</button></form>
+</div>
+</div>
+
+<div id="outline-container-org2561a02" class="outline-3">
+<h3 id="org2561a02"><span class="section-number-3">3.4.</span> 确定输入框的类型</h3>
+<div class="outline-text-3" id="text-3-4">
+<p>
+输入框 <code>&lt;input&gt;</code> 提供了一个类型的选项 <code>type</code> , <code>type</code> 包括哪些在<a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input#input_types">这里</a>。这里我们展示 <code>type="number"</code> 即数字输入框，且再用 <code>min</code> 和 <code>max</code> 限定它的最小值和最大值，如果输入的数字超出范围则边框变红色。
+</p>
+
+<p>
+HTML代码如下，CSS不变：
+</p>
+<div class="org-src-container">
+<pre class="src src-html">&lt;<span style="color: #c678dd;">form</span>&gt;
+  &lt;<span style="color: #c678dd;">label</span> <span style="color: #dcaeea;">for</span>=<span style="color: #98be65;">"number"</span>&gt;How many would you like?&lt;/<span style="color: #c678dd;">label</span>&gt;
+  &lt;<span style="color: #c678dd;">input</span> <span style="color: #dcaeea;">type</span>=<span style="color: #98be65;">"number"</span> <span style="color: #dcaeea;">id</span>=<span style="color: #98be65;">"number"</span> <span style="color: #dcaeea;">name</span>=<span style="color: #98be65;">"amount"</span> <span style="color: #dcaeea;">value</span>=<span style="color: #98be65;">"1"</span> <span style="color: #dcaeea;">min</span>=<span style="color: #98be65;">"1"</span> <span style="color: #dcaeea;">max</span>=<span style="color: #98be65;">"10"</span> /&gt;
+  &lt;<span style="color: #c678dd;">button</span>&gt;Submit&lt;/<span style="color: #c678dd;">button</span>&gt;
+&lt;/<span style="color: #c678dd;">form</span>&gt;
+</pre>
+</div>
+
+<form><style>input:invalid{border: 2px dashed red;}input:valid {border: 2px solid black;}</style><label for="choose">Would you prefer a banana or cherry? (required)</label><input id="choose" name="i-like" type="number" value="1" min="1" max="10" /><button>Submit</button></form>
+
+<p>
+当然这里展示的只是 <code>&lt;input&gt;</code> 标签的部份属性，关于更多&lt;input&gt;标签的属性，例如更多的类型 <code>type</code> ，可以到<a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input">这里</a>查看。
+</p>
+</div>
+</div>
+
+<div id="outline-container-orgadff653" class="outline-3">
+<h3 id="orgadff653"><span class="section-number-3">3.5.</span> 总结下HTML+CSS的方法</h3>
+<div class="outline-text-3" id="text-3-5">
+<p>
+对于代码我们秉承着能简单就不要复杂，原生能实现就不要用框架的原则。如果你不需要复杂的校验，上面的代码能満足你的需求就尽量用简单的方法实现它，毕竟大型软件的本质就是管理复杂，而其中能简单的地方就简单化。而如果你已经使用了一套框架的流程，上面的方法无法満足，或许你可以试试以下使用JavaScript的实现。
+</p>
+</div>
+</div>
+</div>
+
+<div id="outline-container-orgfbe6c61" class="outline-2">
+<h2 id="orgfbe6c61"><span class="section-number-2">4.</span> 用JavaScript实现前端校验</h2>
+<div class="outline-text-2" id="text-4">
+<p>
+作为前端语言，JavaScript给了我们更多的选择。不管是更深的定制化还是使用框架节省时间，都大大的提升了效率和可能性。首先在JavaScript中我们可以使HTML标签内置的<a href="https://developer.mozilla.org/en-US/docs/Web/API/HTMLInputElement">API</a>了，所以在剩下章节中我会先使用该API在原有基础上进行一些定制。或者你并不喜欢使用这些内置的方法，那么我就会用JavaScript写出我们自己需要的校验代码。然后关于框架我会展示使用ReactJS框架如何进行校验并配合<a href="https://ramdajs.com/">RamdaJS</a><sup><a id="fnr.1" class="footref" href="#fn.1" role="doc-backlink">1</a></sup>框架进行函数式编程。最后我会加入 <code>Promise</code> <sup><a id="fnr.2" class="footref" href="#fn.2" role="doc-backlink">2</a></sup>进行异步式校验，例如验证账号是否已被注册就需要异步验证需要后端处理后返回结果给我们，然后我们再提醒用户账号名已存在等。
+</p>
+</div>
+
+<div id="outline-container-org8013559" class="outline-3">
+<h3 id="org8013559"><span class="section-number-3">4.1.</span> 在JavaScript中调用 <code>&lt;input&gt;</code> 的API</h3>
+<div class="outline-text-3" id="text-4-1">
+<p>
+每个HTML标签都有自己的API，在JS(后面就用于指代JavaScript)中用DOM来指这些标签，例如我们使用的输入框 <code>&lt;input&gt;</code> 在JS中是HTMLInputElement(意思就是html中的input元素)。什么是DOM呢？简单的理解就是JS中的全局变量 <code>document</code> ，我们可以使用这个全局变量来操作HTML中的所有元素。这里只展示操用 <code>&lt;input&gt;</code> 元素，然后代码我们也要添加JS代码了。
+</p>
+</div>
+
+<div id="outline-container-org22c0810" class="outline-4">
+<h4 id="org22c0810"><span class="section-number-4">4.1.1.</span> 定制报错提示框中的内容</h4>
+<div class="outline-text-4" id="text-4-1-1">
+<p>
+就是当你的输入不符合规则时会提示哪里出错了。这里我们使用邮箱输入框，当你输入不是邮箱格式就会报错，并且提交后也会弹出错误提示。
+</p>
+
+<p>
+HTML代码如下，我在 <code>form</code> 中添加了一个 <code>id</code> 属性方便我们在JS中的操作：
+</p>
+<div class="org-src-container">
+<pre class="src src-html">&lt;<span style="color: #c678dd;">form</span> <span style="color: #dcaeea;">id</span>=<span style="color: #98be65;">"input-api-mail-form"</span>&gt;
+  &lt;<span style="color: #c678dd;">label</span> <span style="color: #dcaeea;">for</span>=<span style="color: #98be65;">"mail"</span>&gt;
+    I would like you to provide me with an email address:
+  &lt;/<span style="color: #c678dd;">label</span>&gt;
+  &lt;<span style="color: #c678dd;">input</span> <span style="color: #dcaeea;">type</span>=<span style="color: #98be65;">"email"</span> <span style="color: #dcaeea;">name</span>=<span style="color: #98be65;">"mail"</span> /&gt;
+  &lt;<span style="color: #c678dd;">button</span>&gt;Submit&lt;/<span style="color: #c678dd;">button</span>&gt;
+&lt;/<span style="color: #c678dd;">form</span>&gt;
+</pre>
+</div>
+
+<p>
+CSS代码我们保持不变：
+</p>
+<div class="org-src-container">
+<pre class="src src-css"><span style="color: #51afef;">input:invalid </span><span style="color: #51afef;">{</span>
+  <span style="color: #98be65;">border</span>: 2px dashed <span style="color: #ffffff; background-color: #ff0000;">red</span>;
+<span style="color: #51afef;">}</span>
+<span style="color: #51afef;">input:valid </span><span style="color: #51afef;">{</span>
+  <span style="color: #98be65;">border</span>: 2px solid <span style="color: #ffffff; background-color: #000000;">black</span>;
+<span style="color: #51afef;">}</span>
+</pre>
+</div>
+
+<p>
+JS代码如下，这里原本会显示的错误信息是 <code>Please enter an email address.</code> ，这里被我们改成了 <code>I am expecting an email address!</code> ，所以当你输入错误然后提交之后就会弹出这个信息：
+</p>
+<div class="org-src-container">
+<pre class="src src-js"><span style="color: #969896; font-style: italic;">// </span><span style="color: #5B6268; font-style: italic;">&#36890;&#36807;id&#33719;&#21462;&#25105;&#20204;&#30340;form&#20803;&#32032;</span>
+<span style="color: #51afef;">const</span> <span style="color: #dcaeea;">email</span> = document.getElementById<span style="color: #51afef;">(</span><span style="color: #98be65;">"input-api-mail-form"</span><span style="color: #51afef;">)</span>;
+
+email.addEventListener<span style="color: #51afef;">(</span><span style="color: #98be65;">"submit"</span>, <span style="color: #c678dd;">(</span>event<span style="color: #c678dd;">)</span> =&gt; <span style="color: #c678dd;">{</span>
+  <span style="color: #969896; font-style: italic;">// </span><span style="color: #5B6268; font-style: italic;">&#36890;&#36807;validity.typeMismatch&#36820;&#22238;&#37038;&#31665;&#26684;&#24335;&#26159;&#21542;&#27491;&#30830;</span>
+  <span style="color: #51afef;">if</span> <span style="color: #98be65;">(</span>email.validity.typeMismatch<span style="color: #98be65;">)</span> <span style="color: #98be65;">{</span>
+    <span style="color: #969896; font-style: italic;">// </span><span style="color: #5B6268; font-style: italic;">&#36820;&#22238;true&#21017;&#35828;&#26126;&#26684;&#24335;&#19981;&#23545;&#65292;&#29992;setCustomValidity&#35774;&#23450;&#25552;&#31034;&#20449;&#24687;</span>
+    email.setCustomValidity<span style="color: #a9a1e1;">(</span><span style="color: #98be65;">"I am expecting an email address!"</span><span style="color: #a9a1e1;">)</span>;
+  <span style="color: #98be65;">}</span> <span style="color: #51afef;">else</span> <span style="color: #98be65;">{</span>
+    email.setCustomValidity<span style="color: #a9a1e1;">(</span><span style="color: #98be65;">""</span><span style="color: #a9a1e1;">)</span>;
+  <span style="color: #98be65;">}</span>
+<span style="color: #c678dd;">}</span><span style="color: #51afef;">)</span>;
+</pre>
+</div>
+
+<p>
+在下面试试吧:
+</p>
+
+<form id="input-api-mail-form"><style>input:invalid{border: 2px dashed red;}input:valid {border: 2px solid black;}</style><label for="input-api-mail">I would like you to provide me with an email address:</label><input id="input-api-mail" name="mail" type="email" /><button>Submit</button><script>const email = document.getElementById("input-api-mail-form");email.addEventListener("submit", function(event) {event.preventDefault();if (email.validity.typeMismatch) {email.setCustomValidity("I am expecting an email address!");} else {email.setCustomValidity("");}});</script></form>
+</div>
+</div>
+
+<div id="outline-container-org0402e3c" class="outline-4">
+<h4 id="org0402e3c"><span class="section-number-4">4.1.2.</span> 更多的校验定制</h4>
+<div class="outline-text-4" id="text-4-1-2">
+<p>
+现在我们用一个更全面的例子来定制我们的校验，展示了HTML的API更强大的功能。我们会在用户输入时进行校验，在提交时也会校验，我们会取消默认的提示框，定制我们自己的错误提示框。
+</p>
+
+<p>
+HTML代码如下，在 <code>form</code> 加 <code>novalidate</code> 是取消默认提示框，我们自己加提示框，然后 <code>&lt;input&gt;</code> 用于输入邮箱，必须输入值且至少8个字符，我们的提示框是在 <code>&lt;div class="error"&gt;</code> 这个标签下：
+</p>
+<div class="org-src-container">
+<pre class="src src-html">&lt;<span style="color: #c678dd;">form</span> novalidate <span style="color: #dcaeea;">class</span>=<span style="color: #98be65;">"more-api-form"</span>&gt;
+  &lt;<span style="color: #c678dd;">label</span> <span style="color: #dcaeea;">for</span>=<span style="color: #98be65;">"mail"</span>&gt;
+    Please enter an email address:
+  &lt;/<span style="color: #c678dd;">label</span>&gt;
+  &lt;<span style="color: #c678dd;">p</span>&gt;
+    &lt;<span style="color: #c678dd;">input</span> <span style="color: #dcaeea;">type</span>=<span style="color: #98be65;">"email"</span> <span style="color: #dcaeea;">id</span>=<span style="color: #98be65;">"more-api-mail"</span> <span style="color: #dcaeea;">name</span>=<span style="color: #98be65;">"mail"</span> required <span style="color: #dcaeea;">minlength</span>=<span style="color: #98be65;">"8"</span> /&gt;
+    &lt;<span style="color: #c678dd;">span</span> <span style="color: #dcaeea;">class</span>=<span style="color: #98be65;">"error"</span>&gt;&lt;/<span style="color: #c678dd;">span</span>&gt;
+  &lt;/<span style="color: #c678dd;">p</span>&gt;
+  &lt;<span style="color: #c678dd;">button</span>&gt;Submit&lt;/<span style="color: #c678dd;">button</span>&gt;
+&lt;/<span style="color: #c678dd;">form</span>&gt;
+</pre>
+</div>
+
+<p>
+CSS代码，添加提示框样式，其他不变：
+</p>
+<div class="org-src-container">
+<pre class="src src-css"><span style="color: #51afef;">p </span><span style="color: #51afef;">{</span>
+    <span style="color: #98be65;">width</span>: 200px;
+<span style="color: #51afef;">}</span>
+<span style="color: #51afef;">input:invalid </span><span style="color: #51afef;">{</span>
+  <span style="color: #98be65;">border</span>: 2px dashed <span style="color: #ffffff; background-color: #ff0000;">red</span>;
+<span style="color: #51afef;">}</span>
+<span style="color: #51afef;">input:valid </span><span style="color: #51afef;">{</span>
+  <span style="color: #98be65;">border</span>: 2px solid <span style="color: #ffffff; background-color: #000000;">black</span>;
+<span style="color: #51afef;">}</span>
+<span style="color: #969896; font-style: italic;">/* </span><span style="color: #5B6268; font-style: italic;">&#28155;&#21152;&#38169;&#35823;&#25552;&#31034;&#26694;&#26679;&#24335;</span><span style="color: #969896; font-style: italic;"> */</span>
+<span style="color: #51afef;">.error </span><span style="color: #51afef;">{</span>
+    <span style="color: #98be65;">color</span>: <span style="color: #000000; background-color: #ffffff;">hsl(0, 0%, 100%)</span>;
+    <span style="color: #98be65;">border-radius</span>: 0 0 5px 5px;
+    <span style="color: #98be65;">background-color</span>: <span style="color: #ffffff; background-color: #fe385f;">hsl(348, 100%, 61%)</span>;
+    <span style="color: #98be65;">padding</span>: 0;
+    <span style="color: #98be65;">display</span>: block;
+<span style="color: #51afef;">}</span>
+<span style="color: #51afef;">.error.active </span><span style="color: #51afef;">{</span>
+    <span style="color: #98be65;">padding</span>: 0.25em;
+<span style="color: #51afef;">}</span>
+</pre>
+</div>
+
+<p>
+JS代码：
+</p>
+<div class="org-src-container">
+<pre class="src src-js"><span style="color: #969896; font-style: italic;">// </span><span style="color: #5B6268; font-style: italic;">&#33719;&#21462;form&#34920;&#21333;</span>
+<span style="color: #51afef;">const</span> <span style="color: #dcaeea;">form</span> = document.querySelector<span style="color: #51afef;">(</span><span style="color: #98be65;">".more-api-form"</span><span style="color: #51afef;">)</span>;
+<span style="color: #969896; font-style: italic;">// </span><span style="color: #5B6268; font-style: italic;">&#33719;&#21462;&#37038;&#31665;&#36755;&#20837;&#26694;</span>
+<span style="color: #51afef;">const</span> <span style="color: #dcaeea;">email</span> = document.getElementById<span style="color: #51afef;">(</span><span style="color: #98be65;">"more-api-mail"</span><span style="color: #51afef;">)</span>;
+<span style="color: #969896; font-style: italic;">// </span><span style="color: #5B6268; font-style: italic;">&#33719;&#21462;&#38169;&#35823;&#25552;&#31034;&#26694;&#20803;&#32032;</span>
+<span style="color: #51afef;">const</span> <span style="color: #dcaeea;">emailError</span> = document.querySelector<span style="color: #51afef;">(</span><span style="color: #98be65;">"#more-api-mail + span.error"</span><span style="color: #51afef;">)</span>;
+
+email.addEventListener<span style="color: #51afef;">(</span><span style="color: #98be65;">"input"</span>, <span style="color: #c678dd;">(</span>event<span style="color: #c678dd;">)</span> =&gt; <span style="color: #c678dd;">{</span>
+  <span style="color: #969896; font-style: italic;">// </span><span style="color: #5B6268; font-style: italic;">&#29992;&#25143;&#30340;&#27599;&#27425;&#36755;&#20837;&#37117;&#20250;&#26816;&#26597;&#26159;&#21542;&#21512;&#35268;</span>
+  <span style="color: #51afef;">if</span> <span style="color: #98be65;">(</span>email.validity.valid<span style="color: #98be65;">)</span> <span style="color: #98be65;">{</span>
+    <span style="color: #969896; font-style: italic;">// </span><span style="color: #5B6268; font-style: italic;">&#21512;&#35268;&#23601;&#19981;&#26174;&#31034;&#20869;&#23481;</span>
+    emailError.textContent = <span style="color: #98be65;">""</span>;
+    emailError.className = <span style="color: #98be65;">"error"</span>;
+  <span style="color: #98be65;">}</span> <span style="color: #51afef;">else</span> <span style="color: #98be65;">{</span>
+    <span style="color: #969896; font-style: italic;">// </span><span style="color: #5B6268; font-style: italic;">&#19981;&#21512;&#35268;&#23601;&#26174;&#31034;&#38169;&#35823;&#20449;&#24687;</span>
+    showError<span style="color: #a9a1e1;">()</span>;
+  <span style="color: #98be65;">}</span>
+<span style="color: #c678dd;">}</span><span style="color: #51afef;">)</span>;
+
+form.addEventListener<span style="color: #51afef;">(</span><span style="color: #98be65;">"submit"</span>, <span style="color: #c678dd;">(</span>event<span style="color: #c678dd;">)</span> =&gt; <span style="color: #c678dd;">{</span>
+  <span style="color: #969896; font-style: italic;">// </span><span style="color: #5B6268; font-style: italic;">&#21512;&#35268;&#23601;&#25552;&#20132;</span>
+  <span style="color: #51afef;">if</span> <span style="color: #98be65;">(</span>!email.validity.valid<span style="color: #98be65;">)</span> <span style="color: #98be65;">{</span>
+    <span style="color: #969896; font-style: italic;">// </span><span style="color: #5B6268; font-style: italic;">&#19981;&#21512;&#35268;&#23601;&#26174;&#31034;&#38169;&#35823;&#20449;&#24687;&#19988;&#38459;&#27490;&#25552;&#20132;</span>
+    showError<span style="color: #a9a1e1;">()</span>;
+    event.preventDefault<span style="color: #a9a1e1;">()</span>;
+  <span style="color: #98be65;">}</span>
+<span style="color: #c678dd;">}</span><span style="color: #51afef;">)</span>;
+
+<span style="color: #51afef;">function</span> <span style="color: #c678dd;">showError</span><span style="color: #51afef;">()</span> <span style="color: #51afef;">{</span>
+  <span style="color: #969896; font-style: italic;">// </span><span style="color: #5B6268; font-style: italic;">&#20123;&#20989;&#25968;&#29992;&#26469;&#26816;&#26597;&#36755;&#20837;&#20869;&#23481;&#26159;&#21542;&#21512;&#35268;</span>
+  <span style="color: #51afef;">if</span> <span style="color: #c678dd;">(</span>email.validity.valueMissing<span style="color: #c678dd;">)</span> <span style="color: #c678dd;">{</span>
+    <span style="color: #969896; font-style: italic;">// </span><span style="color: #5B6268; font-style: italic;">&#26816;&#26597;&#20869;&#23481;&#19981;&#20801;&#35768;&#20026;&#31354;&#65292;&#20026;&#31354;&#23601;&#25552;&#31034;&#22914;&#19979;&#65306;</span>
+    emailError.textContent = <span style="color: #98be65;">"You need to enter an email address."</span>;
+  <span style="color: #c678dd;">}</span> <span style="color: #51afef;">else</span> <span style="color: #51afef;">if</span> <span style="color: #c678dd;">(</span>email.validity.typeMismatch<span style="color: #c678dd;">)</span> <span style="color: #c678dd;">{</span>
+    <span style="color: #969896; font-style: italic;">// </span><span style="color: #5B6268; font-style: italic;">&#26816;&#26597;&#37038;&#31665;&#26684;&#24335;&#26159;&#21542;&#27491;&#30830;&#65292;&#19981;&#27491;&#30830;&#23601;&#26174;&#31034;&#22914;&#19979;&#20449;&#24687;&#65306;</span>
+    emailError.textContent = <span style="color: #98be65;">"Entered value needs to be an email address."</span>;
+  <span style="color: #c678dd;">}</span> <span style="color: #51afef;">else</span> <span style="color: #51afef;">if</span> <span style="color: #c678dd;">(</span>email.validity.tooShort<span style="color: #c678dd;">)</span> <span style="color: #c678dd;">{</span>
+    <span style="color: #969896; font-style: italic;">// </span><span style="color: #5B6268; font-style: italic;">&#26816;&#26483;&#23383;&#31526;&#26159;&#21542;&#22826;&#30701;&#65292;&#22826;&#30701;&#23601;&#26174;&#31034;&#22914;&#19979;&#20449;&#24687;&#65306;</span>
+    emailError.textContent = <span style="color: #98be65;">`Email should be at least ${email.minLength} characters; you entered ${email.value.length}.`</span>;
+  <span style="color: #c678dd;">}</span>
+
+  <span style="color: #969896; font-style: italic;">// </span><span style="color: #5B6268; font-style: italic;">&#28155;&#21152;&#38169;&#35823;&#20449;&#24687;&#26679;&#24335;</span>
+  emailError.className = <span style="color: #98be65;">"error active"</span>;
+<span style="color: #51afef;">}</span>
+</pre>
+</div>
+
+<form novalidate class="more-api-form"><style>form.more-api-form p {width: 200px}input:invalid {border: 2px dashed red;}input:valid {border: 2px solid black;}.error {color: hsl(0, 0%, 100%); border-radius: 0 0 5px 5px; background-color: hsl(348, 100%, 61%); padding: 0;display:block;} .error.active {padding: 0.25em;}</style><label for="mail">Please enter an email address:</label><p><input type="email" id="more-api-mail" name="mail" required minlength="8" /><span class="error" aria-live="polite"></span></p><button>Submit</button><script>const form = document.querySelector(".more-api-form");const moreApiEmail = document.getElementById("more-api-mail"); const emailError = document.querySelector("#more-api-mail + span.error"); moreApiEmail.addEventListener("input", function(event) {if (moreApiEmail.validity.valid) {emailError.textContent = ""; emailError.className = "error";} else {showError();}}); form.addEventListener("submit", function(event) {if (!moreApiEmail.validity.valid) {showError(); event.preventDefault();}}); function showError() {if (moreApiEmail.validity.valueMissing) {emailError.textContent = "You need to enter an email address.";} else if (moreApiEmail.validity.typeMismatch) {emailError.textContent = "Entered value needs to be an email address.";} else if (moreApiEmail.validity.tooShort) {emailError.textContent = `Email should be at least ${moreApiEmail.minLength} characters; you entered ${email.value.length}.`;} emailError.className = "error active";}</script></form>
+</div>
+</div>
+</div>
+
+<div id="outline-container-orgff83603" class="outline-3">
+<h3 id="orgff83603"><span class="section-number-3">4.2.</span> 不使用HTML的API，只使用JavaScript</h3>
+<div class="outline-text-3" id="text-4-2">
+<p>
+你不喜欢用HTML的API，那我们只用JS就可以了。前面的HTML，CSS代码保持不变，我们只要在JS代码中把涉及HTML API的部份更改为“手动”校验。
+</p>
+
+<p>
+HTML代码，把HTML校验的属性移除：
+</p>
+<div class="org-src-container">
+<pre class="src src-html">&lt;<span style="color: #c678dd;">form</span> novalidate <span style="color: #dcaeea;">class</span>=<span style="color: #98be65;">"more-api-form"</span>&gt;
+  &lt;<span style="color: #c678dd;">label</span> <span style="color: #dcaeea;">for</span>=<span style="color: #98be65;">"mail"</span>&gt;
+    Please enter an email address:
+  &lt;/<span style="color: #c678dd;">label</span>&gt;
+  &lt;<span style="color: #c678dd;">p</span>&gt;
+    &lt;<span style="color: #c678dd;">input</span> <span style="color: #dcaeea;">type</span>=<span style="color: #98be65;">"text"</span> <span style="color: #dcaeea;">id</span>=<span style="color: #98be65;">"more-api-mail"</span> <span style="color: #dcaeea;">name</span>=<span style="color: #98be65;">"mail"</span> /&gt;
+    &lt;<span style="color: #c678dd;">span</span> <span style="color: #dcaeea;">class</span>=<span style="color: #98be65;">"error"</span>&gt;&lt;/<span style="color: #c678dd;">span</span>&gt;
+  &lt;/<span style="color: #c678dd;">p</span>&gt;
+  &lt;<span style="color: #c678dd;">button</span>&gt;Submit&lt;/<span style="color: #c678dd;">button</span>&gt;
+&lt;/<span style="color: #c678dd;">form</span>&gt;
+</pre>
+</div>
+
+<p>
+CSS代码，因为不用API了所以我们css class类型选择器用于样式区分：
+</p>
+<div class="org-src-container">
+<pre class="src src-css"><span style="color: #51afef;">input.invalid </span><span style="color: #51afef;">{</span>
+  <span style="color: #98be65;">border</span>: 2px dashed <span style="color: #ffffff; background-color: #ff0000;">red</span>;
+<span style="color: #51afef;">}</span>
+<span style="color: #51afef;">input.valid </span><span style="color: #51afef;">{</span>
+  <span style="color: #98be65;">border</span>: 2px solid <span style="color: #ffffff; background-color: #000000;">black</span>;
+<span style="color: #51afef;">}</span>
+</pre>
+</div>
+
+<p>
+JS代码：
+</p>
+<div class="org-src-container">
+<pre class="src src-js"><span style="color: #969896; font-style: italic;">// </span><span style="color: #5B6268; font-style: italic;">&#33719;&#21462;form&#34920;&#21333;</span>
+<span style="color: #51afef;">const</span> <span style="color: #dcaeea;">form</span> = document.querySelector<span style="color: #51afef;">(</span><span style="color: #98be65;">".more-api-form"</span><span style="color: #51afef;">)</span>;
+<span style="color: #969896; font-style: italic;">// </span><span style="color: #5B6268; font-style: italic;">&#33719;&#21462;&#37038;&#31665;&#36755;&#20837;&#26694;</span>
+<span style="color: #51afef;">const</span> <span style="color: #dcaeea;">email</span> = document.getElementById<span style="color: #51afef;">(</span><span style="color: #98be65;">"more-api-mail"</span><span style="color: #51afef;">)</span>;
+<span style="color: #969896; font-style: italic;">// </span><span style="color: #5B6268; font-style: italic;">&#33719;&#21462;&#38169;&#35823;&#25552;&#31034;&#26694;&#20803;&#32032;</span>
+<span style="color: #51afef;">const</span> <span style="color: #dcaeea;">error</span> = document.querySelector<span style="color: #51afef;">(</span><span style="color: #98be65;">"#more-api-mail + span.error"</span><span style="color: #51afef;">)</span>;
+<span style="color: #969896; font-style: italic;">// </span><span style="color: #5B6268; font-style: italic;">&#29992;&#20110;&#26657;&#39564;&#30340;&#27491;&#21017;&#34920;&#36798;&#24335;&#65292;&#36319;&#19978;&#38754;&#19968;&#26679;&#36825;&#20010;&#34920;&#36798;&#24335;&#20063;&#26159;&#26657;&#39564;&#37038;&#31665;&#30340;</span>
+<span style="color: #51afef;">const</span> <span style="color: #dcaeea;">emailRegExp</span> =
+      <span style="color: #98be65;">/^[a-zA-Z0-9.!#$%&amp;'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:</span><span style="color: #51afef; font-weight: bold;">\</span><span style="color: #51afef; font-weight: bold;">.</span><span style="color: #98be65;">[a-zA-Z0-9-]+)*$/</span>;
+
+email.addEventListener<span style="color: #51afef;">(</span><span style="color: #98be65;">"input"</span>, <span style="color: #c678dd;">()</span> =&gt; <span style="color: #c678dd;">{</span>
+  <span style="color: #969896; font-style: italic;">// </span><span style="color: #5B6268; font-style: italic;">&#36319;&#25454;&#29992;&#25143;&#36755;&#20837;&#33258;&#21160;&#26657;&#39564;</span>
+  <span style="color: #51afef;">const</span> <span style="color: #dcaeea;">isValid</span> = email.value.length === 0 || emailRegExp.test<span style="color: #98be65;">(</span>email.value<span style="color: #98be65;">)</span>;
+  <span style="color: #51afef;">if</span> <span style="color: #98be65;">(</span>isValid<span style="color: #98be65;">)</span> <span style="color: #98be65;">{</span>
+    <span style="color: #969896; font-style: italic;">// </span><span style="color: #5B6268; font-style: italic;">&#31526;&#21512;&#35268;&#33539;&#65292;&#23601;&#28155;&#21152;class&#21040;&#20803;&#32032;&#20013;</span>
+    email.className = <span style="color: #98be65;">"valid"</span>;
+    error.textContent = <span style="color: #98be65;">""</span>;
+    error.className = <span style="color: #98be65;">"error"</span>;
+  <span style="color: #98be65;">}</span> <span style="color: #51afef;">else</span> <span style="color: #98be65;">{</span>
+    <span style="color: #969896; font-style: italic;">// </span><span style="color: #5B6268; font-style: italic;">&#19981;&#31526;&#21512;&#35268;&#33539;</span>
+    email.className = <span style="color: #98be65;">"invalid"</span>;
+  <span style="color: #98be65;">}</span>
+<span style="color: #c678dd;">}</span><span style="color: #51afef;">)</span>;
+
+<span style="color: #969896; font-style: italic;">// </span><span style="color: #5B6268; font-style: italic;">&#36825;&#37324;&#25105;&#20204;&#35201;&#25163;&#21160;&#28155;&#21152;&#26657;&#39564;&#28040;&#24687;</span>
+form.addEventListener<span style="color: #51afef;">(</span><span style="color: #98be65;">"submit"</span>, <span style="color: #c678dd;">(</span>event<span style="color: #c678dd;">)</span> =&gt; <span style="color: #c678dd;">{</span>
+  event.preventDefault<span style="color: #98be65;">()</span>;
+
+  <span style="color: #51afef;">const</span> <span style="color: #dcaeea;">isValid</span> = email.value.length === 0 || emailRegExp.test<span style="color: #98be65;">(</span>email.value<span style="color: #98be65;">)</span>;
+  <span style="color: #51afef;">if</span> <span style="color: #98be65;">(</span>!isValid<span style="color: #98be65;">)</span> <span style="color: #98be65;">{</span>
+    <span style="color: #969896; font-style: italic;">// </span><span style="color: #5B6268; font-style: italic;">&#19981;&#21512;&#35268;&#23601;&#26174;&#31034;&#38169;&#35823;&#20449;&#24687;&#19988;&#38459;&#27490;&#25552;&#20132;</span>
+    email.className = <span style="color: #98be65;">"invalid"</span>;
+    error.textContent = <span style="color: #98be65;">"I expect an email, darling!"</span>;
+    error.className = <span style="color: #98be65;">"error active"</span>;
+  <span style="color: #98be65;">}</span> <span style="color: #51afef;">else</span> <span style="color: #98be65;">{</span>
+    <span style="color: #969896; font-style: italic;">// </span><span style="color: #5B6268; font-style: italic;">&#21512;&#35268;&#23601;&#25552;&#20132;</span>
+    email.className = <span style="color: #98be65;">"valid"</span>;
+    error.textContent = <span style="color: #98be65;">""</span>;
+    error.className = <span style="color: #98be65;">"error"</span>;
+  <span style="color: #98be65;">}</span>
+<span style="color: #c678dd;">}</span><span style="color: #51afef;">)</span>;
+</pre>
+</div>
+
+<form novalidate class="more-api-form2"><style>form.more-api-form2 p {width: 200px}input.invalid {border: 2px dashed red;}input.valid {border: 2px solid black;}.error {color: hsl(0, 0%, 100%); border-radius: 0 0 5px 5px; background-color: hsl(348, 100%, 61%); padding: 0;display:block;} .error.active {padding: 0.25em;}</style><label for="mail">Please enter an email address:</label><p><input type="text" id="more-api-mail2" name="mail" /><span class="error" aria-live="polite"></span></p><button>Submit</button><script> const form2 = document.querySelector(".more-api-form2"); const email3 = document.getElementById("more-api-mail2"); const error2 = email3.nextElementSibling; const emailRegExp = /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/; email3.addEventListener("input", function() {const isValid = email3.value.length === 0 || emailRegExp.test(email3.value); if (isValid) {email3.className = "valid"; error2.textContent = ""; error2.className = "error";} else {email3.className = "invalid";}}); form2.addEventListener("submit", function(event) {event.preventDefault(); const isValid = email3.value.length === 0 || emailRegExp.test(email3.value); if (!isValid) {email3.className = "invalid"; error2.textContent = "I expect an email, darling!"; error2.className = "error active";} else {email3.className = "valid"; error2.textContent = ""; error2.className = "error";}}); </script></form>
+</div>
+</div>
+
+<div id="outline-container-org5de6663" class="outline-3">
+<h3 id="org5de6663"><span class="section-number-3">4.3.</span> 用函数式编程优化代码并扩展更多可能</h3>
+<div class="outline-text-3" id="text-4-3">
+<p>
+到这里基础功能讲完了，后面就要做一些优化和扩展了，方便我们对于更复杂需求和更多场景下的使用。首先我们对上面的代码做一些优化，使用函数式编程，好处就是对于复杂场景也能用简单易懂的代码表达清楚，关于函数式编程可以看下我的这篇文章<a href="file:///home/dipper/WorkSpace/article/src/share_it/functional-programming.html">函数编程在JavaScript中的简单应用</a>。只更改JS代码，其他代码保持不变。
+</p>
+
+<p>
+JS代码，在这段代码中我们会加入高阶函数 <code>pipe</code> <sup><a id="fnr.3" class="footref" href="#fn.3" role="doc-backlink">3</a></sup>用于函数组合，就像拼积木一样，把函数一块一块的拼在一起：
+</p>
+<div class="org-src-container">
+<pre class="src src-js"><span style="color: #969896; font-style: italic;">// </span><span style="color: #5B6268; font-style: italic;">&#33719;&#21462;form&#34920;&#21333;</span>
+<span style="color: #51afef;">const</span> <span style="color: #dcaeea;">form</span> = document.querySelector<span style="color: #51afef;">(</span><span style="color: #98be65;">".more-api-form"</span><span style="color: #51afef;">)</span>;
+<span style="color: #969896; font-style: italic;">// </span><span style="color: #5B6268; font-style: italic;">&#33719;&#21462;&#37038;&#31665;&#36755;&#20837;&#26694;</span>
+<span style="color: #51afef;">const</span> <span style="color: #dcaeea;">email</span> = document.getElementById<span style="color: #51afef;">(</span><span style="color: #98be65;">"more-api-mail"</span><span style="color: #51afef;">)</span>;
+<span style="color: #969896; font-style: italic;">// </span><span style="color: #5B6268; font-style: italic;">&#33719;&#21462;&#38169;&#35823;&#25552;&#31034;&#26694;&#20803;&#32032;</span>
+<span style="color: #51afef;">const</span> <span style="color: #dcaeea;">error</span> = document.querySelector<span style="color: #51afef;">(</span><span style="color: #98be65;">"#more-api-mail + span.error"</span><span style="color: #51afef;">)</span>;
+<span style="color: #969896; font-style: italic;">// </span><span style="color: #5B6268; font-style: italic;">&#29992;&#20110;&#26657;&#39564;&#30340;&#27491;&#21017;&#34920;&#36798;&#24335;&#65292;&#36319;&#19978;&#38754;&#19968;&#26679;&#36825;&#20010;&#34920;&#36798;&#24335;&#20063;&#26159;&#26657;&#39564;&#37038;&#31665;&#30340;</span>
+<span style="color: #51afef;">const</span> <span style="color: #dcaeea;">emailRegExp</span> =
+      <span style="color: #98be65;">/^[a-zA-Z0-9.!#$%&amp;'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:</span><span style="color: #51afef; font-weight: bold;">\</span><span style="color: #51afef; font-weight: bold;">.</span><span style="color: #98be65;">[a-zA-Z0-9-]+)*$/</span>;
+<span style="color: #969896; font-style: italic;">// </span><span style="color: #5B6268; font-style: italic;">&#20989;&#25968;&#32452;&#21512;</span>
+<span style="color: #51afef;">const</span> <span style="color: #dcaeea;">pipe</span> = <span style="color: #51afef;">(</span>...fns<span style="color: #51afef;">)</span> =&gt; x =&gt; fns.reduce<span style="color: #51afef;">(</span><span style="color: #c678dd;">(</span>y, f<span style="color: #c678dd;">)</span> =&gt; f<span style="color: #c678dd;">(</span>y<span style="color: #c678dd;">)</span>, x<span style="color: #51afef;">)</span>;
+
+<span style="color: #969896; font-style: italic;">// </span><span style="color: #5B6268; font-style: italic;">&#25226;&#25152;&#26377;&#25152;&#38656;&#35201;&#30340;&#26657;&#39564;&#37117;&#25918;&#36825;&#20010;&#20989;&#25968;&#37324;</span>
+<span style="color: #51afef;">function</span> <span style="color: #c678dd;">isValid</span><span style="color: #51afef;">(</span><span style="color: #dcaeea;">value</span><span style="color: #51afef;">)</span> <span style="color: #51afef;">{</span>
+  <span style="color: #51afef;">const</span> <span style="color: #dcaeea;">toObj</span> = <span style="color: #c678dd;">(</span>v<span style="color: #c678dd;">)</span> =&gt; <span style="color: #c678dd;">{</span>v, valid:<span style="color: #a9a1e1;">false</span>, err:<span style="color: #98be65;">""</span><span style="color: #c678dd;">}</span>;
+
+  <span style="color: #51afef;">const</span> <span style="color: #dcaeea;">notEmpty</span> = <span style="color: #c678dd;">(</span>obj<span style="color: #c678dd;">)</span> =&gt; <span style="color: #c678dd;">{</span>
+    <span style="color: #969896; font-style: italic;">// </span><span style="color: #5B6268; font-style: italic;">&#19981;&#33021;&#20026;&#31354;</span>
+    <span style="color: #51afef;">if</span><span style="color: #98be65;">(</span>obj.v.length === 0<span style="color: #98be65;">)</span> <span style="color: #98be65;">{</span>
+      <span style="color: #51afef;">return</span> <span style="color: #a9a1e1;">{</span>...obj, valid:<span style="color: #a9a1e1;">false</span>, err:<span style="color: #98be65;">"&#23383;&#31526;&#19981;&#33021;&#20026;&#31354;!"</span><span style="color: #a9a1e1;">}</span>
+    <span style="color: #98be65;">}</span>;
+    <span style="color: #51afef;">return</span> <span style="color: #98be65;">{</span>...obj, valid:<span style="color: #a9a1e1;">true</span><span style="color: #98be65;">}</span>;
+  <span style="color: #c678dd;">}</span>
+  <span style="color: #51afef;">const</span> <span style="color: #dcaeea;">tooShort</span> = <span style="color: #c678dd;">(</span>obj<span style="color: #c678dd;">)</span> =&gt; <span style="color: #c678dd;">{</span>
+    <span style="color: #969896; font-style: italic;">// </span><span style="color: #5B6268; font-style: italic;">&#19981;&#33021;&#22826;&#30701;</span>
+    <span style="color: #51afef;">if</span><span style="color: #98be65;">(</span>obj.v.length &gt;= 8<span style="color: #98be65;">)</span> <span style="color: #51afef;">return</span> <span style="color: #98be65;">{</span>...obj, valid:<span style="color: #a9a1e1;">true</span><span style="color: #98be65;">}</span>;
+    <span style="color: #51afef;">return</span> <span style="color: #98be65;">{</span>...obj, valid:<span style="color: #a9a1e1;">false</span>, err:<span style="color: #98be65;">"&#23383;&#31526;&#38271;&#24230;&#19981;&#33021;&#22826;&#30701;!"</span><span style="color: #98be65;">}</span>;
+  <span style="color: #c678dd;">}</span>
+  <span style="color: #51afef;">const</span> <span style="color: #dcaeea;">isFormat</span> = <span style="color: #c678dd;">(</span>obj<span style="color: #c678dd;">)</span> =&gt; <span style="color: #c678dd;">{</span>
+    <span style="color: #969896; font-style: italic;">// </span><span style="color: #5B6268; font-style: italic;">&#37038;&#31665;&#26684;&#24335;&#35201;&#27491;&#30830;</span>
+    <span style="color: #51afef;">if</span><span style="color: #98be65;">(</span>emailRegExp.test<span style="color: #a9a1e1;">(</span>obj.v<span style="color: #a9a1e1;">)</span><span style="color: #98be65;">)</span> <span style="color: #51afef;">return</span> <span style="color: #98be65;">{</span>...obj, valid:<span style="color: #a9a1e1;">true</span><span style="color: #98be65;">}</span>;
+    <span style="color: #51afef;">return</span> <span style="color: #98be65;">{</span>...obj, valid:<span style="color: #a9a1e1;">false</span>, err:<span style="color: #98be65;">"&#37038;&#31665;&#26684;&#24335;&#19981;&#31526;!"</span><span style="color: #98be65;">}</span>;
+  <span style="color: #c678dd;">}</span>
+
+  <span style="color: #969896; font-style: italic;">// </span><span style="color: #5B6268; font-style: italic;">&#25105;&#20204;&#21487;&#20197;&#22312;&#36825;&#37324;&#28155;&#21152;&#26356;&#22810;&#26657;&#39564;&#26465;&#20214;&#65292;&#20363;&#22914;&#23383;&#31526;&#19981;&#33021;&#22826;&#38271;&#31561;</span>
+
+  <span style="color: #51afef;">return</span>  pipe<span style="color: #c678dd;">(</span>toObj, notEmpty, tooShort, isFormat<span style="color: #c678dd;">)(</span>value<span style="color: #c678dd;">)</span>
+<span style="color: #51afef;">}</span>
+
+email.addEventListener<span style="color: #51afef;">(</span><span style="color: #98be65;">"input"</span>, <span style="color: #c678dd;">()</span> =&gt; <span style="color: #c678dd;">{</span>
+  <span style="color: #969896; font-style: italic;">// </span><span style="color: #5B6268; font-style: italic;">&#36319;&#25454;&#29992;&#25143;&#36755;&#20837;&#33258;&#21160;&#26657;&#39564;</span>
+  <span style="color: #51afef;">const</span> <span style="color: #dcaeea;">obj</span> = isValid<span style="color: #98be65;">(</span>email.value<span style="color: #98be65;">)</span>
+  <span style="color: #51afef;">if</span> <span style="color: #98be65;">(</span>obj.valid<span style="color: #98be65;">)</span> <span style="color: #98be65;">{</span>
+    <span style="color: #969896; font-style: italic;">// </span><span style="color: #5B6268; font-style: italic;">&#31526;&#21512;&#35268;&#33539;&#65292;&#23601;&#28155;&#21152;class&#21040;&#20803;&#32032;&#20013;</span>
+    email.className = <span style="color: #98be65;">"valid"</span>;
+    error.textContent = <span style="color: #98be65;">""</span>;
+    error.className = <span style="color: #98be65;">"error"</span>;
+  <span style="color: #98be65;">}</span> <span style="color: #51afef;">else</span> <span style="color: #98be65;">{</span>
+    <span style="color: #969896; font-style: italic;">// </span><span style="color: #5B6268; font-style: italic;">&#19981;&#31526;&#21512;&#35268;&#33539;</span>
+    email.className = <span style="color: #98be65;">"invalid"</span>;
+  <span style="color: #98be65;">}</span>
+<span style="color: #c678dd;">}</span><span style="color: #51afef;">)</span>;
+
+<span style="color: #969896; font-style: italic;">// </span><span style="color: #5B6268; font-style: italic;">&#36825;&#37324;&#25105;&#20204;&#35201;&#25163;&#21160;&#28155;&#21152;&#26657;&#39564;&#28040;&#24687;</span>
+form.addEventListener<span style="color: #51afef;">(</span><span style="color: #98be65;">"submit"</span>, <span style="color: #c678dd;">(</span>event<span style="color: #c678dd;">)</span> =&gt; <span style="color: #c678dd;">{</span>
+  event.preventDefault<span style="color: #98be65;">()</span>;
+
+  <span style="color: #51afef;">const</span> <span style="color: #dcaeea;">obj</span> = isValid<span style="color: #98be65;">(</span>email.value<span style="color: #98be65;">)</span>
+  <span style="color: #51afef;">if</span> <span style="color: #98be65;">(</span>!obj.valid<span style="color: #98be65;">)</span> <span style="color: #98be65;">{</span>
+    <span style="color: #969896; font-style: italic;">// </span><span style="color: #5B6268; font-style: italic;">&#19981;&#21512;&#35268;&#23601;&#26174;&#31034;&#38169;&#35823;&#20449;&#24687;&#19988;&#38459;&#27490;&#25552;&#20132;</span>
+    email.className = <span style="color: #98be65;">"invalid"</span>;
+    error.textContent = obj.err
+    error.className = <span style="color: #98be65;">"error active"</span>;
+  <span style="color: #98be65;">}</span> <span style="color: #51afef;">else</span> <span style="color: #98be65;">{</span>
+    <span style="color: #969896; font-style: italic;">// </span><span style="color: #5B6268; font-style: italic;">&#21512;&#35268;&#23601;&#25552;&#20132;</span>
+    email.className = <span style="color: #98be65;">"valid"</span>;
+    error.textContent = <span style="color: #98be65;">""</span>;
+    error.className = <span style="color: #98be65;">"error"</span>;
+  <span style="color: #98be65;">}</span>
+<span style="color: #c678dd;">}</span><span style="color: #51afef;">)</span>;
+</pre>
+</div>
+
+<form novalidate class="more-api-form3"><style>form.more-api-form3 p {width: 200px}input.invalid {border: 2px dashed red;}input.valid {border: 2px solid black;}.error {color: hsl(0, 0%, 100%); border-radius: 0 0 5px 5px; background-color: hsl(348, 100%, 61%); padding: 0;display:block;} .error.active {padding: 0.25em;}</style><label for="mail">Please enter an email address:</label><p><input type="text" id="more-api-mail5" name="mail" /><span class="error" aria-live="polite"></span></p><button>Submit</button><script> const form3 = document.querySelector(".more-api-form3"); const email5 = document.getElementById("more-api-mail5"); const error3 = email5.nextElementSibling; const emailRegExp2 = /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/; const pipe = (...fns) => x => fns.reduce((y, f) => f(y), x); function isValid(value) {const validObj = {v:value, valid:false, err:""}; const notEmpty = function(obj) {if(obj.v.length === 0) {return {...obj, valid:false, err:"字符不能为空!"};}; return {...obj, valid:true};}; const tooShort = function(obj) {if(obj.v.length >= 8) return {...obj, valid:true}; return {...obj, valid:false, err:"字符长度不能太短!"};}; const isFormat = function(obj) {if(emailRegExp2.test(obj.v)) return {...obj, valid:true}; return {...obj, valid:false, err:"邮箱格式不符!"};}; return  pipe(notEmpty, tooShort, isFormat)(validObj);} email5.addEventListener("input", function() {const obj = isValid(email5.value); if (obj.valid) {email5.className = "valid"; error3.textContent = ""; error3.className = "error";} else {email5.className = "invalid";}}); form3.addEventListener("submit", function(event) {event.preventDefault(); const obj = isValid(email5.value); if (!obj.valid) {email5.className = "invalid"; error3.textContent = obj.err; error3.className = "error active";} else {email5.className = "valid"; error3.textContent = ""; error3.className = "error";}}); </script></form>
+</div>
+</div>
+
+<div id="outline-container-org19b0449" class="outline-3">
+<h3 id="org19b0449"><span class="section-number-3">4.4.</span> 用reactJS和RamdaJS实现前端校验</h3>
+<div class="outline-text-3" id="text-4-4">
+<p>
+后面因为要用到框架就没法展示，参考下代码就行。我们选择ReactJS UI<sup><a id="fnr.4" class="footref" href="#fn.4" role="doc-backlink">4</a></sup>框架作展示算是当下最流行的UI框架吧。函数式编程我们用RamdaJS框架，用框架的好处是我们不用自己测试了，我们直接用框架提供给我们的函数就可以了。这里的用RamdaJS写的代码不懂也没关系，反正它实现的功能和上面的例子是一样的，如果对RamdaJS编程感兴趣可以看<a href="https://randycoulman.com/blog/categories/thinking-in-ramda/">这里</a>。
+</p>
+
+<p>
+JS代码，样式CSS代码保持不变，HTML和JS代码通过ReactJS框架合并到下面中：
+</p>
+<div class="org-src-container">
+<pre class="src src-js"><span style="color: #51afef;">import</span> <span style="color: #51afef;">{</span> useState <span style="color: #51afef;">}</span> from <span style="color: #98be65;">"react"</span>
+<span style="color: #51afef;">import</span> * as R from <span style="color: #98be65;">"ramda"</span>
+
+<span style="color: #51afef;">export</span> <span style="color: #51afef;">default</span> <span style="color: #51afef;">function</span> Validation<span style="color: #51afef;">()</span> <span style="color: #51afef;">{</span>
+  <span style="color: #51afef;">const</span> <span style="color: #c678dd;">[</span><span style="color: #dcaeea;">value</span>,<span style="color: #dcaeea;">setValue</span><span style="color: #c678dd;">]</span> = useState<span style="color: #c678dd;">(</span><span style="color: #98be65;">""</span><span style="color: #c678dd;">)</span>
+  <span style="color: #51afef;">const</span> <span style="color: #c678dd;">[</span><span style="color: #dcaeea;">err</span>,<span style="color: #dcaeea;">setErr</span><span style="color: #c678dd;">]</span> = useState<span style="color: #c678dd;">(</span><span style="color: #98be65;">""</span><span style="color: #c678dd;">)</span>
+
+  <span style="color: #51afef;">const</span> <span style="color: #dcaeea;">handleChange</span> = <span style="color: #c678dd;">(</span>event<span style="color: #c678dd;">)</span> =&gt; <span style="color: #c678dd;">{</span>
+    setValue<span style="color: #98be65;">(</span>event.target.value<span style="color: #98be65;">)</span>
+    <span style="color: #51afef;">const</span> <span style="color: #dcaeea;">obj</span> = isValid<span style="color: #98be65;">(</span>event.target.value<span style="color: #98be65;">)</span>
+    <span style="color: #51afef;">if</span><span style="color: #98be65;">(</span>!obj.valid<span style="color: #98be65;">)</span> <span style="color: #98be65;">{</span>
+      setErr<span style="color: #a9a1e1;">(</span>obj.err<span style="color: #a9a1e1;">)</span>
+    <span style="color: #98be65;">}</span>
+  <span style="color: #c678dd;">}</span>
+
+  <span style="color: #51afef;">const</span> <span style="color: #dcaeea;">handleSubmit</span> = <span style="color: #c678dd;">(</span>event<span style="color: #c678dd;">)</span> =&gt; <span style="color: #c678dd;">{</span>
+    event.preventDefault<span style="color: #98be65;">()</span>;
+    <span style="color: #51afef;">const</span> <span style="color: #dcaeea;">obj</span> = isValid<span style="color: #98be65;">(</span>value<span style="color: #98be65;">)</span>
+    <span style="color: #51afef;">if</span><span style="color: #98be65;">(</span>obj.valid<span style="color: #98be65;">)</span> <span style="color: #98be65;">{</span>
+      setValue<span style="color: #a9a1e1;">(</span><span style="color: #98be65;">""</span><span style="color: #a9a1e1;">)</span>
+      <span style="color: #969896; font-style: italic;">// </span><span style="color: #5B6268; font-style: italic;">&#25552;&#20132;&#25968;&#25454;</span>
+    <span style="color: #98be65;">}</span> <span style="color: #51afef;">else</span> <span style="color: #98be65;">{</span>
+      setErr<span style="color: #a9a1e1;">(</span>obj.err<span style="color: #a9a1e1;">)</span>
+    <span style="color: #98be65;">}</span>
+  <span style="color: #c678dd;">}</span>
+
+  <span style="color: #969896; font-style: italic;">// </span><span style="color: #5B6268; font-style: italic;">&#25226;&#25152;&#26377;&#25152;&#38656;&#35201;&#30340;&#26657;&#39564;&#37117;&#25918;&#36825;&#20010;&#20989;&#25968;&#37324;</span>
+  <span style="color: #51afef;">function</span> <span style="color: #c678dd;">isValid</span><span style="color: #c678dd;">(</span><span style="color: #dcaeea;">value</span><span style="color: #c678dd;">)</span> <span style="color: #c678dd;">{</span>
+    <span style="color: #51afef;">const</span> <span style="color: #dcaeea;">toObj</span> = R.applySpec<span style="color: #98be65;">(</span><span style="color: #a9a1e1;">{</span>v:R.identity, valid:<span style="color: #a9a1e1;">false</span>, err:<span style="color: #98be65;">""</span><span style="color: #a9a1e1;">}</span><span style="color: #98be65;">)</span>;
+
+    <span style="color: #51afef;">const</span> <span style="color: #dcaeea;">notEmpty</span> = R.ifElse<span style="color: #98be65;">(</span>
+      R.prop<span style="color: #a9a1e1;">(</span><span style="color: #98be65;">"v"</span><span style="color: #a9a1e1;">)</span>,
+      R.mergetLeft<span style="color: #a9a1e1;">(</span><span style="color: #4db5bd;">{</span>valid:<span style="color: #a9a1e1;">true</span><span style="color: #4db5bd;">}</span><span style="color: #a9a1e1;">)</span>,
+      R.mergeLeft<span style="color: #a9a1e1;">(</span><span style="color: #4db5bd;">{</span>valid:<span style="color: #a9a1e1;">false</span>, err:<span style="color: #98be65;">"&#23383;&#31526;&#19981;&#33021;&#20026;&#31354;!"</span><span style="color: #4db5bd;">}</span><span style="color: #a9a1e1;">)</span>
+    <span style="color: #98be65;">)</span>
+
+    <span style="color: #51afef;">const</span> <span style="color: #dcaeea;">tooShort</span> = R.ifElse<span style="color: #98be65;">(</span>
+      R.pipe<span style="color: #a9a1e1;">(</span>R.prop<span style="color: #4db5bd;">(</span><span style="color: #98be65;">"v"</span><span style="color: #4db5bd;">)</span>, R.gt<span style="color: #4db5bd;">(</span>R.__, 8<span style="color: #4db5bd;">)</span><span style="color: #a9a1e1;">)</span>,
+      R.mergeLeft<span style="color: #a9a1e1;">(</span><span style="color: #4db5bd;">{</span>valid:<span style="color: #a9a1e1;">true</span><span style="color: #4db5bd;">}</span><span style="color: #a9a1e1;">)</span>,
+      R.mergeLeft<span style="color: #a9a1e1;">(</span><span style="color: #4db5bd;">{</span>valid:<span style="color: #a9a1e1;">false</span>, err:<span style="color: #98be65;">"&#23383;&#31526;&#38271;&#24230;&#19981;&#33021;&#22826;&#30701;!"</span><span style="color: #4db5bd;">}</span><span style="color: #a9a1e1;">)</span>;
+    <span style="color: #98be65;">)</span>
+
+    <span style="color: #51afef;">const</span> <span style="color: #dcaeea;">isFormat</span> = R.ifElse<span style="color: #98be65;">(</span><span style="color: #a9a1e1;">{</span>
+      R.pipe<span style="color: #4db5bd;">(</span>R.prop<span style="color: #51afef;">(</span><span style="color: #98be65;">"v"</span><span style="color: #51afef;">)</span>, R.test<span style="color: #51afef;">(</span>emailRegExp<span style="color: #51afef;">)</span><span style="color: #4db5bd;">)</span>,
+      R.mergeLeft<span style="color: #4db5bd;">(</span><span style="color: #51afef;">{</span>valid:<span style="color: #a9a1e1;">true</span><span style="color: #51afef;">}</span><span style="color: #4db5bd;">)</span>,
+      R.mergeLeft<span style="color: #4db5bd;">(</span><span style="color: #51afef;">{</span>valid:<span style="color: #a9a1e1;">false</span>, err:<span style="color: #98be65;">"&#37038;&#31665;&#26684;&#24335;&#19981;&#31526;!"</span><span style="color: #51afef;">}</span><span style="color: #4db5bd;">)</span>
+    <span style="color: #a9a1e1;">}</span><span style="color: #98be65;">)</span>
+
+    <span style="color: #51afef;">return</span>  R.pipe<span style="color: #98be65;">(</span>toObj, notEmpty, tooShort, isFormat<span style="color: #98be65;">)(</span>value<span style="color: #98be65;">)</span>
+  <span style="color: #c678dd;">}</span>
+
+  <span style="color: #51afef;">return</span> <span style="color: #c678dd;">(</span>
+      &lt;form onSubmit=<span style="color: #98be65;">{</span>handleSubmit<span style="color: #98be65;">}</span>&gt;
+        &lt;label <span style="color: #51afef;">for</span>=<span style="color: #98be65;">"mail"</span>&gt;
+          Please enter an email address:
+        &lt;/label&gt;
+        &lt;p&gt;
+          &lt;input type=<span style="color: #98be65;">"text"</span> name=<span style="color: #98be65;">"mail"</span> value=<span style="color: #98be65;">{</span>value<span style="color: #98be65;">}</span> onChange=<span style="color: #98be65;">{</span>handleChange<span style="color: #98be65;">}</span> /&gt;
+          &lt;span className=<span style="color: #98be65;">{</span><span style="color: #98be65;">`error ${!err&amp;&amp;"active"}`</span><span style="color: #98be65;">}</span>&gt;<span style="color: #98be65;">{</span>err<span style="color: #98be65;">}</span>&lt;/span&gt;
+        &lt;/p&gt;
+        &lt;button&gt;Submit&lt;/button&gt;
+      &lt;/form&gt;
+  <span style="color: #c678dd;">)</span>
+<span style="color: #51afef;">}</span>
+</pre>
+</div>
+</div>
+</div>
+
+<div id="outline-container-org50f565a" class="outline-3">
+<h3 id="org50f565a"><span class="section-number-3">4.5.</span> 添加异步校验</h3>
+<div class="outline-text-3" id="text-4-5">
+<p>
+异步校验一般是需要后端的校验，后端根据前端传回的数据，与数据库中的数据进行比对，看数据是否合规。一般包括注册时用户名是否已经存在，输入的用户名和密码是否正确等。
+</p>
+
+<p>
+JS代码如下，其他代码不变，因为异步校验比较耗资源，这里我们取消了根据输入同步校验：
+</p>
+<div class="org-src-container">
+<pre class="src src-js"><span style="color: #51afef;">import</span> <span style="color: #51afef;">{</span> useState <span style="color: #51afef;">}</span> from <span style="color: #98be65;">"react"</span>
+<span style="color: #51afef;">import</span> * as R from <span style="color: #98be65;">"ramda"</span>
+
+<span style="color: #51afef;">export</span> <span style="color: #51afef;">default</span> <span style="color: #51afef;">function</span> Validation<span style="color: #51afef;">()</span> <span style="color: #51afef;">{</span>
+  <span style="color: #51afef;">const</span> <span style="color: #c678dd;">[</span><span style="color: #dcaeea;">value</span>,<span style="color: #dcaeea;">setValue</span><span style="color: #c678dd;">]</span> = useState<span style="color: #c678dd;">(</span><span style="color: #98be65;">""</span><span style="color: #c678dd;">)</span>
+  <span style="color: #51afef;">const</span> <span style="color: #c678dd;">[</span><span style="color: #dcaeea;">err</span>,<span style="color: #dcaeea;">setErr</span><span style="color: #c678dd;">]</span> = useState<span style="color: #c678dd;">(</span><span style="color: #98be65;">""</span><span style="color: #c678dd;">)</span>
+
+  <span style="color: #51afef;">const</span> <span style="color: #dcaeea;">handleChange</span> = <span style="color: #c678dd;">(</span>event<span style="color: #c678dd;">)</span> =&gt; <span style="color: #c678dd;">{</span>
+    setValue<span style="color: #98be65;">(</span>event.target.value<span style="color: #98be65;">)</span>
+    <span style="color: #969896; font-style: italic;">// </span><span style="color: #5B6268; font-style: italic;">&#36825;&#37324;&#21462;&#28040;&#20102;&#26681;&#25454;&#36755;&#20837;&#21516;&#27493;&#26657;&#39564;</span>
+  <span style="color: #c678dd;">}</span>
+
+  <span style="color: #51afef;">const</span> <span style="color: #dcaeea;">handleSubmit</span> = <span style="color: #c678dd;">(</span>event<span style="color: #c678dd;">)</span> =&gt; <span style="color: #c678dd;">{</span>
+    event.preventDefault<span style="color: #98be65;">()</span>;
+    isValid<span style="color: #98be65;">(</span>value<span style="color: #98be65;">)</span>.then<span style="color: #98be65;">(</span><span style="color: #a9a1e1;">(</span><span style="color: #4db5bd;">{</span>valid, err<span style="color: #4db5bd;">}</span><span style="color: #a9a1e1;">)</span> =&gt; <span style="color: #a9a1e1;">{</span>
+      <span style="color: #51afef;">if</span><span style="color: #4db5bd;">(</span>valid<span style="color: #4db5bd;">)</span> <span style="color: #4db5bd;">{</span>
+        setValue<span style="color: #51afef;">(</span><span style="color: #98be65;">""</span><span style="color: #51afef;">)</span>
+      <span style="color: #4db5bd;">}</span> <span style="color: #51afef;">else</span> <span style="color: #4db5bd;">{</span>
+        setErr<span style="color: #51afef;">(</span>err<span style="color: #51afef;">)</span>
+      <span style="color: #4db5bd;">}</span>
+    <span style="color: #a9a1e1;">}</span><span style="color: #98be65;">)</span>
+  <span style="color: #c678dd;">}</span>
+
+  <span style="color: #51afef;">function</span> <span style="color: #c678dd;">isValid</span><span style="color: #c678dd;">(</span><span style="color: #dcaeea;">value</span><span style="color: #c678dd;">)</span> <span style="color: #c678dd;">{</span>
+    <span style="color: #51afef;">const</span> <span style="color: #dcaeea;">toObj</span> = R.applySpec<span style="color: #98be65;">(</span><span style="color: #a9a1e1;">{</span>v:R.identity, valid:<span style="color: #a9a1e1;">false</span>, err:<span style="color: #98be65;">""</span><span style="color: #a9a1e1;">}</span><span style="color: #98be65;">)</span>;
+
+    <span style="color: #51afef;">const</span> <span style="color: #dcaeea;">notEmpty</span> = R.ifElse<span style="color: #98be65;">(</span>
+      R.prop<span style="color: #a9a1e1;">(</span><span style="color: #98be65;">"v"</span><span style="color: #a9a1e1;">)</span>,
+      R.mergetLeft<span style="color: #a9a1e1;">(</span><span style="color: #4db5bd;">{</span>valid:<span style="color: #a9a1e1;">true</span><span style="color: #4db5bd;">}</span><span style="color: #a9a1e1;">)</span>,
+      R.mergeLeft<span style="color: #a9a1e1;">(</span><span style="color: #4db5bd;">{</span>valid:<span style="color: #a9a1e1;">false</span>, err:<span style="color: #98be65;">"&#23383;&#31526;&#19981;&#33021;&#20026;&#31354;!"</span><span style="color: #4db5bd;">}</span><span style="color: #a9a1e1;">)</span>
+    <span style="color: #98be65;">)</span>
+
+    <span style="color: #51afef;">const</span> <span style="color: #dcaeea;">tooShort</span> = R.ifElse<span style="color: #98be65;">(</span>
+      R.pipe<span style="color: #a9a1e1;">(</span>R.prop<span style="color: #4db5bd;">(</span><span style="color: #98be65;">"v"</span><span style="color: #4db5bd;">)</span>, R.gt<span style="color: #4db5bd;">(</span>R.__, 8<span style="color: #4db5bd;">)</span><span style="color: #a9a1e1;">)</span>,
+      R.mergeLeft<span style="color: #a9a1e1;">(</span><span style="color: #4db5bd;">{</span>valid:<span style="color: #a9a1e1;">true</span><span style="color: #4db5bd;">}</span><span style="color: #a9a1e1;">)</span>,
+      R.mergeLeft<span style="color: #a9a1e1;">(</span><span style="color: #4db5bd;">{</span>valid:<span style="color: #a9a1e1;">false</span>, err:<span style="color: #98be65;">"&#23383;&#31526;&#38271;&#24230;&#19981;&#33021;&#22826;&#30701;!"</span><span style="color: #4db5bd;">}</span><span style="color: #a9a1e1;">)</span>;
+    <span style="color: #98be65;">)</span>
+
+    <span style="color: #51afef;">const</span> <span style="color: #dcaeea;">isFormat</span> = R.ifElse<span style="color: #98be65;">(</span><span style="color: #a9a1e1;">{</span>
+      R.pipe<span style="color: #4db5bd;">(</span>R.prop<span style="color: #51afef;">(</span><span style="color: #98be65;">"v"</span><span style="color: #51afef;">)</span>, R.test<span style="color: #51afef;">(</span>emailRegExp<span style="color: #51afef;">)</span><span style="color: #4db5bd;">)</span>,
+      R.mergeLeft<span style="color: #4db5bd;">(</span><span style="color: #51afef;">{</span>valid:<span style="color: #a9a1e1;">true</span><span style="color: #51afef;">}</span><span style="color: #4db5bd;">)</span>,
+      R.mergeLeft<span style="color: #4db5bd;">(</span><span style="color: #51afef;">{</span>valid:<span style="color: #a9a1e1;">false</span>, err:<span style="color: #98be65;">"&#37038;&#31665;&#26684;&#24335;&#19981;&#31526;!"</span><span style="color: #51afef;">}</span><span style="color: #4db5bd;">)</span>
+    <span style="color: #a9a1e1;">}</span><span style="color: #98be65;">)</span>
+
+    <span style="color: #51afef;">const</span> <span style="color: #dcaeea;">isExist</span> = <span style="color: #98be65;">(</span>obj<span style="color: #98be65;">)</span> =&gt; <span style="color: #98be65;">{</span>
+      <span style="color: #51afef;">const</span> <span style="color: #dcaeea;">exist</span> = <span style="color: #98be65;">"banana"</span>;
+      <span style="color: #51afef;">return</span> <span style="color: #51afef;">new</span> <span style="color: #ECBE7B;">Promise</span><span style="color: #a9a1e1;">(</span><span style="color: #4db5bd;">(</span>resolve, reject<span style="color: #4db5bd;">)</span> =&gt; setTimeout<span style="color: #4db5bd;">(</span><span style="color: #51afef;">()</span> =&gt; <span style="color: #51afef;">{</span>
+        <span style="color: #51afef;">if</span><span style="color: #c678dd;">(</span>obj.v === exist<span style="color: #c678dd;">)</span> <span style="color: #c678dd;">{</span>
+          resolve<span style="color: #98be65;">(</span><span style="color: #a9a1e1;">{</span>...obj, valid:<span style="color: #a9a1e1;">false</span>, err:<span style="color: #98be65;">"&#23383;&#31526;&#20018;&#24050;&#23384;&#22312;!"</span><span style="color: #a9a1e1;">}</span><span style="color: #98be65;">)</span>
+        <span style="color: #c678dd;">}</span>
+        resolve<span style="color: #c678dd;">(</span><span style="color: #98be65;">{</span>...obj, valid:<span style="color: #a9a1e1;">true</span><span style="color: #98be65;">}</span><span style="color: #c678dd;">)</span>
+      <span style="color: #51afef;">}</span>, 300<span style="color: #4db5bd;">)</span><span style="color: #a9a1e1;">)</span>
+    <span style="color: #98be65;">}</span>
+
+    <span style="color: #51afef;">return</span>  R.pipeWith<span style="color: #98be65;">(</span>
+      <span style="color: #a9a1e1;">(</span>f, res<span style="color: #a9a1e1;">)</span> =&gt; R.andThen<span style="color: #a9a1e1;">(</span>f, Promise.resolve<span style="color: #4db5bd;">(</span>res<span style="color: #4db5bd;">)</span><span style="color: #a9a1e1;">)</span>,
+      <span style="color: #a9a1e1;">[</span>toObj, notEmpty, tooShort, isFormat, isExist<span style="color: #a9a1e1;">]</span>
+    <span style="color: #98be65;">)(</span>value<span style="color: #98be65;">)</span>
+  <span style="color: #c678dd;">}</span>
+
+  <span style="color: #51afef;">return</span> <span style="color: #c678dd;">(</span>
+      &lt;form onSubmit=<span style="color: #98be65;">{</span>handleSubmit<span style="color: #98be65;">}</span>&gt;
+        &lt;label <span style="color: #51afef;">for</span>=<span style="color: #98be65;">"mail"</span>&gt;
+          Please enter an email address:
+        &lt;/label&gt;
+        &lt;p&gt;
+          &lt;input type=<span style="color: #98be65;">"text"</span> name=<span style="color: #98be65;">"mail"</span> value=<span style="color: #98be65;">{</span>value<span style="color: #98be65;">}</span> onChange=<span style="color: #98be65;">{</span>handleChange<span style="color: #98be65;">}</span> /&gt;
+          &lt;span className=<span style="color: #98be65;">{</span><span style="color: #98be65;">`error ${!err&amp;&amp;"active"}`</span><span style="color: #98be65;">}</span>&gt;<span style="color: #98be65;">{</span>err<span style="color: #98be65;">}</span>&lt;/span&gt;
+        &lt;/p&gt;
+        &lt;button&gt;Submit&lt;/button&gt;
+      &lt;/form&gt;
+  <span style="color: #c678dd;">)</span>
+<span style="color: #51afef;">}</span>
+</pre>
+</div>
+</div>
+</div>
+</div>
+
+<div id="outline-container-org510604a" class="outline-2">
+<h2 id="org510604a"><span class="section-number-2">5.</span> 总结</h2>
+<div class="outline-text-2" id="text-5">
+<p>
+前端校验说到底是为了用户的体验服务的，你必须准确的告知用户为什么错的错误的信息，哪里出现了错误，保证用户输入体验的一致性，特别对于有大量需要校验的场景。
+</p>
+</div>
+</div>
+<div id="footnotes">
+<h2 class="footnotes">Footnotes: </h2>
+<div id="text-footnotes">
+
+<div class="footdef"><sup><a id="fn.1" class="footnum" href="#fnr.1" role="doc-backlink">1</a></sup> <div class="footpara" role="doc-footnote"><p class="footpara">
+<a href="https://randycoulman.com/blog/categories/thinking-in-ramda/">https://randycoulman.com/blog/categories/thinking-in-ramda/</a>
+</p></div></div>
+
+<div class="footdef"><sup><a id="fn.2" class="footnum" href="#fnr.2" role="doc-backlink">2</a></sup> <div class="footpara" role="doc-footnote"><p class="footpara">
+<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise">https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise</a>
+</p></div></div>
+
+<div class="footdef"><sup><a id="fn.3" class="footnum" href="#fnr.3" role="doc-backlink">3</a></sup> <div class="footpara" role="doc-footnote"><p class="footpara">
+<a href="https://medium.com/javascript-scene/curry-and-function-composition-2c208d774983">https://medium.com/javascript-scene/curry-and-function-composition-2c208d774983</a>
+</p></div></div>
+
+<div class="footdef"><sup><a id="fn.4" class="footnum" href="#fnr.4" role="doc-backlink">4</a></sup> <div class="footpara" role="doc-footnote"><p class="footpara">
+<a href="https://www.react.dev/">https://www.react.dev/</a>
+</p></div></div>
+
+
+</div>
+</div></div>
+<div id="postamble" class="status">
+<p class="author">Author: JaneGwaww</p>
+<p class="date">Created: 2023-04-11 Tue 16:20</p>
+</div>
+</body>
+</html>

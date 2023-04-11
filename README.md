@@ -50,6 +50,9 @@
 ### [程序员在职场中如何缓解过度焦虑](src/build_it/how_to_stop_caring.zh.md)
 
 
+### [用最简单的方式实现前验校验，也许你并不需要任何框架](src/build_it/vanillajs-validation.html)
+
+
 ## 相关链接
 
 -   Web: [www.janegwaww.com](https://www.janegwaww.com/)
