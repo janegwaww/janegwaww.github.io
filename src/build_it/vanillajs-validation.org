@@ -403,7 +403,7 @@ JS代码，在这段代码中我们会加入高阶函数 ~pipe~ [fn:3]用于函�
 
   // 把所有所需要的校验都放这个函数里
   function isValid(value) {
-    const validObj = {v:value, valid:false, err:""};
+    const toObj = (v) => {v, valid:false, err:""};
 
     const notEmpty = (obj) => {
       // 不能为空
@@ -417,7 +417,7 @@ JS代码，在这段代码中我们会加入高阶函数 ~pipe~ [fn:3]用于函�
       if(obj.v.length >= 8) return {...obj, valid:true};
       return {...obj, valid:false, err:"字符长度不能太短!"};
     }
-    const isFormat = () => {
+    const isFormat = (obj) => {
       // 邮箱格式要正确
       if(emailRegExp.test(obj.v)) return {...obj, valid:true};
       return {...obj, valid:false, err:"邮箱格式不符!"};
@@ -425,7 +425,7 @@ JS代码，在这段代码中我们会加入高阶函数 ~pipe~ [fn:3]用于函�
 
     // 我们可以在这里添加更多校验条件，例如字符不能太长等
 
-    return  pipe(notEmpty, tooShort, isFormat)(validObj)
+    return  pipe(toObj, notEmpty, tooShort, isFormat)(value)
   }
 
   email.addEventListener("input", () => {
@@ -478,11 +478,16 @@ JS代码：
 
     const handleChange = (event) => setValue(event.target.value)
 
+    const handleSubmit = (event) => {
+      event.preventDefault();
+    }
+
     return (
-      <div>
+      <form onSubmit={handleSubmit}>
         <input type="text" name="mail" value={value} onChange={handleChange} />
-        <span>{err}</span>
-      </div>
+        <span className={`error ${err&&"active"}`}>{err}</span>
+        <button>Submit</button>
+      </form>
     )
   }
 #+end_src
