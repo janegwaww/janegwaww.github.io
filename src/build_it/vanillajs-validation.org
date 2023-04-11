@@ -620,6 +620,9 @@ JS代码如下，其他代码不变，因为异步校验比较耗资源，这里
 
 前端校验说到底是为了用户的体验服务的，你必须准确的告知用户为什么错的错误的信息，哪里出现了错误，保证用户输入体验的一致性，特别对于有大量需要校验的场景。
 
+* 写在后面
+#+include: "../footer.zh.org"
+
 * Footnotes
 
 [fn:1] https://randycoulman.com/blog/categories/thinking-in-ramda/
