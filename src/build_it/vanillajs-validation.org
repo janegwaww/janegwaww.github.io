@@ -465,9 +465,9 @@ JS代码，在这段代码中我们会加入高阶函数 ~pipe~ [fn:3]用于函�
 
 ** 用reactJS和RamdaJS实现前端校验
 
-后面因为要用到框架就没法展示，参考下代码就行。我们选择ReactJS UI[fn:4]框架作展示算是当下最流行的UI框架吧。
+后面因为要用到框架就没法展示，参考下代码就行。我们选择ReactJS UI[fn:4]框架作展示算是当下最流行的UI框架吧。函数式编程我们用RamdaJS框架，用框架的好处是我们不用自己测试了，我们直接用框架提供给我们的函数就可以了。这里的用RamdaJS写的代码不懂也没关系，反正它实现的功能和上面的例子是一样的，如果对RamdaJS编程感兴趣可以看[[https://randycoulman.com/blog/categories/thinking-in-ramda/][这里]]。
 
-JS代码：
+JS代码，样式CSS代码保持不变，HTML和JS代码通过ReactJS框架合并到下面中：
 #+begin_src js
   import { useState } from "react"
   import * as R from "ramda"
@@ -476,18 +476,61 @@ JS代码：
     const [value,setValue] = useState("")
     const [err,setErr] = useState("")
 
-    const handleChange = (event) => setValue(event.target.value)
+    const handleChange = (event) => {
+      setValue(event.target.value)
+      const obj = isValid(event.target.value)
+      if(!obj.valid) {
+        setErr(obj.err)
+      }
+    }
 
     const handleSubmit = (event) => {
       event.preventDefault();
+      const obj = isValid(value)
+      if(obj.valid) {
+        setValue("")
+        // 提交数据
+      } else {
+        setErr(obj.err)
+      }
+    }
+
+    // 把所有所需要的校验都放这个函数里
+    function isValid(value) {
+      const toObj = R.applySpec({v:R.identity, valid:false, err:""});
+
+      const notEmpty = R.ifElse(
+        R.prop("v"),
+        R.mergetLeft({valid:true}),
+        R.mergeLeft({valid:false, err:"字符不能为空!"})
+      )
+
+      const tooShort = R.ifElse(
+        R.pipe(R.prop("v"), R.gt(R.__, 8)),
+        R.mergeLeft({valid:true}),
+        R.mergeLeft({valid:false, err:"字符长度不能太短!"});
+      )
+
+      const isFormat = R.ifElse({
+        R.pipe(R.prop("v"), R.test(emailRegExp)),
+        R.mergeLeft({valid:true}),
+        R.mergeLeft({valid:false, err:"邮箱格式不符!"})
+      })
+
+      return  R.pipe(toObj, notEmpty, tooShort, isFormat)(value)
     }
 
     return (
-      <form onSubmit={handleSubmit}>
-        <input type="text" name="mail" value={value} onChange={handleChange} />
-        <span className={`error ${err&&"active"}`}>{err}</span>
-        <button>Submit</button>
-      </form>
+        <form onSubmit={handleSubmit}>
+          <label for="mail">
+            Please enter an email address:
+          </label>
+          <p>
+            <input type="text" name="mail" value={value} onChange={handleChange} />
+            <span className={`error ${!err&&"active"}`}>{err}</span>
+          </p>
+          <button>Submit</button>
+        </form>
     )
   }
 #+end_src
