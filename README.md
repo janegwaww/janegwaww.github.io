@@ -35,6 +35,12 @@
 ### [函数编程在JavaScript中的简单应用](./src/share_it/functional-programming.md)
 
 
+## 庆祝
+
+
+### [记笔记的终极大法-卡片笔记写作法](src/celebrate_it/zettel.md)
+
+
 ## 构建
 
 

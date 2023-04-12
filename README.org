@@ -30,6 +30,10 @@ AND HAVE FUN!
 
 *** [[./src/share_it/functional-programming.md][函数编程在JavaScript中的简单应用]]
 
+** 庆祝
+
+*** [[file:src/celebrate_it/zettel.org][记笔记的终极大法-卡片笔记写作法]]
+
 ** 构建
 
 *** [[./src/build_it/how_face_midnight.md][如何面对35岁]]
