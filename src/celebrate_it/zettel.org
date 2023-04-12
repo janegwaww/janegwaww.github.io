@@ -1,0 +1,4 @@
+#+startup: showall
+#+options: toc:nil
+
+* 记笔记的终极大法-卡片笔记写作法
