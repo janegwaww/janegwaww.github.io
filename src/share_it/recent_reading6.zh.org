@@ -22,11 +22,26 @@
 
 ** Programming in Haskell[fn:6]
 
-编程的尽头是数学，[[https://www.youtube.com/watch?v=4Z6BlLqAqt8&t=656s][Functional Programming Fundamentals]]
+*Haskell编程*
+
+#+begin_quote
+#+end_quote
+
+*我的结论*
+
+自从我在JavaScript中用上函数编程之后，就无法自拔凡是遇到问题都喜欢用函数解决，反正没有一个问题是函数不能解决的，大的问题就把它拆分成小问题再用组合把它们组合在一起解决大问题，更复杂点上Monads。这样的代码看起来简洁又有效，而且BUG还少。既然函数式编程代码如此优雅，那我为什么不直接使用专门为此而生的语言Haskell呢。如果你为数不尽的类，继承，BUG所折磨，那来试试这清爽的函数式编程吧。毕尽编程的尽头是数学，如果你对此感兴趣可以看看这个入门教程[[https://www.youtube.com/watch?v=4Z6BlLqAqt8&t=656s][Functional Programming Fundamentals]]。
 
 ** 呂世浩講史記[fn:7], 吕世浩讲秦始皇[fn:8]
 
+*我的结论*
+
+如果你不喜欢历史，那推存你看看吕世浩老师的历史公开课。讲述如何正确的学习历史，陪养正确的历史观，会让你从此爱上历史。
+
 ** 贫穷的本质[fn:9]
+
+*我的结论*
+
+贫穷的本质来自两个方面：一个是错误的信念，另一个是闭塞的信息。
 
 ** 斯坦福大学公开课：死亡哲学[fn:10]
 
