@@ -1,4 +1,21 @@
+:PROPERTIES:
+:ID:       dadee581-a1c2-4a88-9f18-627d4ad11f41
+:END:
 #+startup: showall
 #+options: toc:nil
 
 * 记笔记的终极大法-卡片笔记写作法
+
+#+toc: headlines local
+
+** 什么是卡片笔记写作法
+
+*** 好处
+
+** 如何实现
+
+*** 工具
+
+*** 方法
+
+** 我开发的软件
