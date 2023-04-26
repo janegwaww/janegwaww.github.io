@@ -24,7 +24,7 @@
 
 ** Data Visualization with D3 Cookbook[fn:5]
 
-** Programming in Haskell[fn:6]
+** Learn You a Haskell for Great Good![fn:6]
 
 *Haskell编程*
 
@@ -86,7 +86,7 @@
 
 [fn:5] https://www.oreilly.com/library/view/data-visualization-with/9781786468253/
 
-[fn:6] https://www.cs.nott.ac.uk/~pszgmh/pih.html
+[fn:6] http://learnyouahaskell.com/
 
 [fn:7] [[https://www.bilibili.com/video/BV1ii4y157Xo/?spm_id_from=333.788.recommend_more_video.0&vd_source=35ad3ca8835c204ff8357c31e80ea7e6][呂世浩講史記]]
 
