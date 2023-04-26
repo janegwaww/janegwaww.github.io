@@ -10,11 +10,20 @@
 
 ** ANSI Common Lisp[fn:1]
 
+#+begin_quote
+#+end_quote
+
 ** Building Browser Extensions[fn:2]
 /Create Modern Extensionsfor Chrome, Safari, Firefox,and Edge/
 
+#+begin_quote
+#+end_quote
+
 ** The Art of Functional Programming[fn:3]
 /with examples in OCaml, Haskell, and Java/
+
+#+begin_quote
+#+end_quote
 
 *我的结论*
 
@@ -22,7 +31,13 @@
 
 ** Interactive Data Visualization for the Web[fn:4]
 
+#+begin_quote
+#+end_quote
+
 ** Data Visualization with D3 Cookbook[fn:5]
+
+#+begin_quote
+#+end_quote
 
 ** Learn You a Haskell for Great Good![fn:6]
 
