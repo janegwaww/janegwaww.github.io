@@ -126,7 +126,11 @@
 
 * 相关阅读
 
-
+- [[file:recent_reading.org::*分享最近阅读的书籍清单（一）][分享最近阅读的书籍清单(一)]]
+- [[file:recent_reading2.zh.org::*分享最近阅读的书籍清单(二)][分享最近阅读的书籍清单(二)]]
+- [[file:recent_reading3.zh.org::*分享最近阅读的书藉清单(三)][分享最近阅读的书藉清单(三)]]
+- [[file:recent_reading4.zh.org::*分享最近阅读的书籍清单(四)][分享最近阅读的书籍清单(四)]]
+- [[file:recent_reading5.zh.org][分享最近阅读的书籍清单(五)]]
 
 * 写在后面
 #+include: "../footer.zh.org"
