@@ -30,6 +30,8 @@ AND HAVE FUN!
 
 *** [[./src/share_it/functional-programming.md][函数编程在JavaScript中的简单应用]]
 
+*** [[./src/share_it/recent_reading6.zh.md][分享最近阅读的书籍清单（六）]]
+
 ** 构建
 
 *** [[./src/build_it/how_face_midnight.md][如何面对35岁]]
@@ -47,7 +49,7 @@ AND HAVE FUN!
 - Web: [[https://www.janegwaww.com/][www.janegwaww.com]]
 - Email: [[mailto:tiglapiles@gmail.com][tiglapiles@gmail.com]]
 - GitHub: [[https://github.com/janegwaww][@JaneGwaww]]
-- Podcast: [[https://podcast.janegwaww.com/][English Learning Mine]]
+- Project: [[https://chrome.google.com/webstore/detail/fleetmarks/fjbndejcdmoakifmbilbjnnooiamophd?hl=en][Chrome Web Store]] | [[https://github.com/janegwaww/fleetmarks-official/releases][Github]]
 
 ** Donate
 

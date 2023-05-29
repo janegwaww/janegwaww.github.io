@@ -35,6 +35,9 @@
 ### [函数编程在JavaScript中的简单应用](./src/share_it/functional-programming.md)
 
 
+### [分享最近阅读的书籍清单（六）](./src/share_it/recent_reading6.zh.md)
+
+
 ## 构建
 
 
@@ -58,7 +61,7 @@
 -   Web: [www.janegwaww.com](https://www.janegwaww.com/)
 -   Email: [tiglapiles@gmail.com](mailto:tiglapiles@gmail.com)
 -   GitHub: [@JaneGwaww](https://github.com/janegwaww)
--   Podcast: [English Learning Mine](https://podcast.janegwaww.com/)
+-   Project: [Chrome Web Store](https://chrome.google.com/webstore/detail/fleetmarks/fjbndejcdmoakifmbilbjnnooiamophd?hl=en) | [Github](https://github.com/janegwaww/fleetmarks-official/releases)
 
 
 ## Donate
