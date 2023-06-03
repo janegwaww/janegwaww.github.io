@@ -7,23 +7,23 @@
 
 # Table of Contents
 
-1.  [分享最近阅读的书籍清单（六）](#org83e0328)
-    1.  [Building Browser Extensions](#org50057c2)
-    2.  [The Art of Functional Programming](#org8c8b69d)
-    3.  [Interactive Data Visualization for the Web](#orga627f10)
-    4.  [Learn You a Haskell for Great Good!](#orgc518fd8)
-    5.  [呂世浩講史記, 吕世浩讲秦始皇](#org3a5f9c1)
-    6.  [贫穷的本质](#orgae0c00b)
-    7.  [斯坦福大学公开课：死亡哲学](#org7c752b6)
-2.  [相关阅读](#orgd5262c9)
-3.  [写在后面](#org1e26e8e)
+1.  [分享最近阅读的书籍清单（六）](#org9360dfb)
+    1.  [Building Browser Extensions](#org2a651f2)
+    2.  [The Art of Functional Programming](#org93cd423)
+    3.  [Interactive Data Visualization for the Web](#org7983199)
+    4.  [Learn You a Haskell for Great Good!](#org9064785)
+    5.  [呂世浩講史記, 吕世浩讲秦始皇](#orga495c32)
+    6.  [Poor Economics: A Radical Rethinking of the Way to Fight Global Poverty](#org003126f)
+    7.  [YaleCourses: Philosophy of Death ](#org7e55b29)
+2.  [相关阅读](#org5617a1b)
+3.  [写在后面](#orgc744472)
 
 > 人二三十年讀圣人书，一旦遇事，便与巷人无异，&#x2026;&#x2026;，只缘讀书不作有用看故也。&#x2026;&#x2026;何取？觀史如身在其中，見事之利害，時之禍患，必掩卷自思，使我遇此等事，當作何處之。如此觀史，学問亦可以進，智識亦可以高，方为有益。
 > 
 > &#x2013;吕祖谦
 
 
-<a id="org50057c2"></a>
+<a id="org2a651f2"></a>
 
 ## Building Browser Extensions<sup><a id="fnr.1" class="footref" href="#fn.1" role="doc-backlink">1</a></sup>
 
@@ -44,7 +44,7 @@
 一本普通的技术书籍，说它普通是因为里面介绍了并不是什么新颖的技术，都是前端相关的技术，更多的加上游览器权限对开发的限制。说它技术是因为它确实填补了一个空白，填补了游览器扩展开发的一个市场空白。游览器扩展开发即是你在游览器这个平台上，对游览器的功能进行扩展的开发。因为是在游览器这个平台上开发，所以很多方面都受到的限制，例如也有跨域的限制，也有权限的限制等。它都是使用前端的技术开发，js写逻辑，css负责渲染，html写页面，还有js的各种框架也可以使用。因为是基于平台的小体量开发，所以它也成为了很多人的个人创业选项，基于平台做小体量开发保证了一定的用户量，开发成本也非常低，而你只需要一个非常好的创意。这里推介一下我个人的chrome扩展软件FleetMarks，一个管理游览器书签的神器：[Chrome WebStore](https://chrome.google.com/webstore/detail/fleetmarks/fjbndejcdmoakifmbilbjnnooiamophd?hl=en)和[Github](https://github.com/janegwaww/fleetmarks-official/releases)。
 
 
-<a id="org8c8b69d"></a>
+<a id="org93cd423"></a>
 
 ## The Art of Functional Programming<sup><a id="fnr.2" class="footref" href="#fn.2" role="doc-backlink">2</a></sup>
 
@@ -65,7 +65,7 @@
 这本书可以做为函数式编程的入门书。函数式编程是一个编程思想，他使得数学应用于编程更加的容易，产生了像[范畴论](recent_reading3.zh.md)这样的数学理论应用于编程，而数学还有更多像这样的数之不尽的理论还没有被挖掘。函数式编程中输入与输出永远是一一对应的，你输入什么值就会输出什么值，没有任何的副作用。而使用这本书，你可以慢慢建立起对函数式编程的思维，在编程过程中原来值绝对不能改变，你只能复制返回新值，不同于其他的编程泛式通过赋值和副作用获取功能。当然函数式编程也有副作用，例如都会有IO，只是这些都被放在了项目的最外层。
 
 
-<a id="orga627f10"></a>
+<a id="org7983199"></a>
 
 ## Interactive Data Visualization for the Web<sup><a id="fnr.3" class="footref" href="#fn.3" role="doc-backlink">3</a></sup>
 
@@ -81,7 +81,7 @@
 数据可视化的好处是让普通人也能看懂数据的走向，而不用看那死死的数字了。而前端作为天然与用户行为交互的载体，数据可视化是一个大大能提升用户体验的事，为此而生的框架[D3JS](https://d3js.org/)就非常好的做到的了这一点，他让大量的数据可视化成为可能。虽然现在市面上存在很多前端3D可视化框架，但在数据可视化这一块d3应该是做的最好的了。如果你有大量的可视化数据的需求，那d3与现代游览器交互的功能，强大的可视化组件和数据驱动的操作DOM是你的不二之选。基于这样的选择，这本书是初学者学习这个工具的不二之选，但对于中级或高级开发者里面的内容并不值得你花这个钱。你最好有些JS的基础知识，这样学起来比较轻松点。因为里面的操作涉及到大量的数据，所以对于D3开发你最好也是有一定的函数编程的思维，这样开发起来也比较有趣一点。
 
 
-<a id="orgc518fd8"></a>
+<a id="org9064785"></a>
 
 ## Learn You a Haskell for Great Good!<sup><a id="fnr.4" class="footref" href="#fn.4" role="doc-backlink">4</a></sup>
 
@@ -100,7 +100,7 @@ Haskell编程
 自从我在JavaScript中用上函数编程之后，就无法自拔凡是遇到问题都喜欢用函数解决，反正没有一个问题是函数不能解决的，大点的问题就把它拆分成小问题，再用组合把它们组合在一起解决这个大问题，更复杂点的上[Monads](https://en.wikipedia.org/wiki/Monad_(functional_programming))。这样的代码看起来简洁又有效，而且BUG还少，我听说90%的BUG都是因为赋值引发的，没有赋值减少90%的BUG，再加上强大的类型系统保证你代码输入输出的正确，让BUG无处躲藏。既然函数式编程代码如此优雅, 如此让人有安全感，那我为什么不直接使用专门为此而生的语言Haskell呢。如果你为数不尽的类，超类，继承等各种相关联的概念和随便写一个方法都要一个class所折磨，那来试试这清爽的函数式编程吧。毕竟编程的尽头就是数学，如果你对此感兴趣可以配合这个入门教程视频[Functional Programming Fundamentals](https://www.youtube.com/watch?v=4Z6BlLqAqt8&t=656s)更佳。
 
 
-<a id="org3a5f9c1"></a>
+<a id="orga495c32"></a>
 
 ## 呂世浩講史記<sup><a id="fnr.5" class="footref" href="#fn.5" role="doc-backlink">5</a></sup>, 吕世浩讲秦始皇<sup><a id="fnr.6" class="footref" href="#fn.6" role="doc-backlink">6</a></sup>
 
@@ -115,11 +115,15 @@ Haskell编程
 这是史记记载的汉初三杰张良年轻时的故事。史记花了如此多的笔墨不可能只是告诉我们要尊敬老人和约会不能迟到。注意开头提到的从容步游，这就要讲讲故事背景了，张良刚刚做了一件惊天动地的大事：在博浪沙刺杀秦始皇，正在被全国通缉，可是他还能从容步游，换成其他人早就是恍恍不安度日了。此时张良步游应该也是在想下一步应该怎么办，好这一刻如果是你你会怎么办？而张良迎来了命运的转折点，遇到一个老人。衣褐强调了这是一个穷人家，如果此刻碰上的是你你会怎么做？肯定是避开这个陌生人远远走开吧，正常人都会这么做的，但是老人家显然也是有备而来的，他想试探张良，所以张良刚开始的反应也是想打这个老人，但是张良忍住了，用理智控制了感情，强忍。但是老人非但没有谢谢还且还得寸进尺的说：替我穿上。这一刻是你你又会怎么做？正常人应该都是我他妈都把鞋给你取回来了还要我替你穿上，早就骂你一通然后甩手离开了，但是张良没有，他不但是替他穿上，而且是长跪的替他穿上，也由此可见张良的忍耐力了。而老人的反应是大笑而去，也由此可见老人的从容不迫。老人离开后又折返回来了，此时老人怎么知道张良还在原地，因为经过刚才的交峰双方都明白了对方是什么人物，所以张良在原地等着他回来，因为老人做了这么多肯定是有事交待不可能让你穿穿鞋这么简单，所以老人说了句孺子可教也，这就是老人对张良悟性的肯定，老人是道家代表，不像儒家道家教人讲求悟性。并说了五日后早上见，张良乖乖答应，可见张良也看出了老人的不简单了。后面我们也看到了，老人总是比张良先一步到，这里我们就要怀疑了，老人到底是要干什么？老人其实是在和张良争先，争谁先到桥上，也是老人在教张良先发制人后发则受制于人。这也是老人用行动教育张良兵法的忍与先。忍就是兵法中的让敌人以为你没有威胁，先就是兵法中的占住先机出奇制胜。这又回到了张良刺杀失败后思考下一步怎么办了，张良知道下一步怎么做了吗？很显然，老人就是在点拔张良为什么会刺杀失败，而老人就是教育他为他后来的成功奠定基础。
 
 
-<a id="orgae0c00b"></a>
+<a id="org003126f"></a>
 
-## 贫穷的本质<sup><a id="fnr.7" class="footref" href="#fn.7" role="doc-backlink">7</a></sup>
+## Poor Economics: A Radical Rethinking of the Way to Fight Global Poverty<sup><a id="fnr.7" class="footref" href="#fn.7" role="doc-backlink">7</a></sup>
 
-*如何逃离贫穷陷阱*
+<div class="org-center">
+<p>
+贫穷的本质-<i>如何逃离贫穷陷阱</i>
+</p>
+</div>
 
 > 求仁得仁，又何怨乎？
 > 
@@ -134,9 +138,15 @@ Haskell编程
 而不充分的信息和错误的信念也高度关联，互为因果，在生活中无处不在，例如小时候父母们反覆向我们灌输说只有成绩好才能改变命运，小时候也坚定不移认真读书，但是出来工作后我也发现了，考试成绩在工作中没有任何鸟用，而我通过自己努力学习的能力帮助自己获得了不错的工作机会，又或者到了一定年龄后长者教育我们成家立业，养儿防老，可我最清楚养儿能不能防老了，因为我就是从孩子一步步长大的。又或者有一段时间到处都在宣传买房才能结婚，男女也都这样想的，可当真的买了房结了婚，就会发现生活并没有什么变化，只是多了个房货让你永远都翻不身。这个时候你再怀疑这些信念时也没有改变的机会了。而这种父母的所谓的善意的信念并不会让事情变好，你也无法指责他们。但是还有一些恶意的信念例如某某月入过万的等，他们的动机就是想让年轻人陷入自责，这个社会没有问题，有问题的只是你自己，你就别抱怨社会了来回避责任，这就更可恶了，也间接导致了天门山事件，最后RIP。
 
 
-<a id="org7c752b6"></a>
+<a id="org7e55b29"></a>
 
-## 斯坦福大学公开课：死亡哲学<sup><a id="fnr.8" class="footref" href="#fn.8" role="doc-backlink">8</a></sup>
+## YaleCourses: Philosophy of Death <sup><a id="fnr.8" class="footref" href="#fn.8" role="doc-backlink">8</a></sup>
+
+<div class="org-center">
+<p>
+耶鲁大学公开课：死亡哲学
+</p>
+</div>
 
 
 **我的结论**
