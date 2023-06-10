@@ -1,0 +1,29 @@
+:PROPERTIES:
+:ID:       99c90788-6d86-4c96-b322-3545af67c3f5
+:END:
+#+startup: showall
+#+options: toc:nil
+
+* 分享最近阅读的书籍清单（七）
+
+这些都是在人生中的好书藉或好内容，我想把这些优秀的东西分享出来，并赋上自己的一些主观想法，能让更多人知道并从中受益。这里只是做一个引荐，精彩需要你自己亲自拜读从中感受。
+
+#+toc: headlines
+
+#+begin_quote
+
+#+end_quote
+
+** The Fun of Programming[fn:1]
+
+** Google generative AI learning path[fn:2]
+
+* 相关阅读
+
+* 写在后面
+
+* Footnotes
+
+[fn:1] https://www.cs.ox.ac.uk/publications/books/fop/
+
+[fn:2] https://www.cloudskillsboost.google/paths/118
