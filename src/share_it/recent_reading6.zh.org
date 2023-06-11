@@ -31,7 +31,7 @@
 
 *我的结论*
 
-一本普通的技术书籍，说它普通是因为里面介绍了并不是什么新颖的技术，都是前端相关的技术，更多的加上游览器权限对开发的限制。说它技术是因为它确实填补了一个空白，填补了游览器扩展开发的一个市场空白。游览器扩展开发即是你在游览器这个平台上，对游览器的功能进行扩展的开发。因为是在游览器这个平台上开发，所以很多方面都受到的限制，例如也有跨域的限制，也有权限的限制等。它都是使用前端的技术开发，js写逻辑，css负责渲染，html写页面，还有js的各种框架也可以使用。因为是基于平台的小体量开发，所以它也成为了很多人的个人创业选项，基于平台做小体量开发保证了一定的用户量，开发成本也非常低，而你只需要一个非常好的创意。这里推介一下我个人的chrome扩展软件FleetMarks，一个管理游览器书签的神器：[[https://chrome.google.com/webstore/detail/fleetmarks/fjbndejcdmoakifmbilbjnnooiamophd?hl=en][Chrome WebStore]]和[[https://github.com/janegwaww/fleetmarks-official/releases][Github]]。
+一本普通的技术书籍，说它普通是因为里面介绍了并不是什么新颖的技术，都是前端相关的技术，更多的加上游览器权限对开发的限制。说它技术是因为它确实填补了一个空白，填补了游览器扩展开发的一个市场空白。游览器扩展开发即是你在游览器这个平台上，对游览器的功能进行扩展的开发。因为是在游览器这个平台上开发，所以很多方面都受到的限制，例如也有跨域的限制，也有权限的限制等。它都是使用前端的技术开发，js写逻辑，css负责渲染，html写页面，还有js的各种框架也可以使用。因为是基于平台的小体量开发，所以它也成为了很多人的个人创业选项，基于平台做小体量开发保证了一定的用户量，开发成本也非常低，而你只需要一个非常好的创意。这里推荐一下我个人的chrome扩展软件FleetMarks，一个管理游览器书签的神器：[[https://chrome.google.com/webstore/detail/fleetmarks/fjbndejcdmoakifmbilbjnnooiamophd?hl=en][Chrome WebStore]]和[[https://github.com/janegwaww/fleetmarks-official/releases][Github]]。
 
 ** The Art of Functional Programming[fn:2]
 /with examples in OCaml, Haskell, and Java/
