@@ -18,6 +18,12 @@
 
 ** Google generative AI learning path[fn:2]
 
+** The Chrysanthemum and the Sword[fn:3]
+
+#+begin_center
+菊与刀
+#+end_center
+
 * 相关阅读
 
 * 写在后面
@@ -27,3 +33,5 @@
 [fn:1] https://www.cs.ox.ac.uk/publications/books/fop/
 
 [fn:2] https://www.cloudskillsboost.google/paths/118
+
+[fn:3] https://book.douban.com/subject/1022238/
