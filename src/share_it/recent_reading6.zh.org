@@ -154,7 +154,9 @@ Lambda演算：它的语法和语义
 #+end_center
 
 #+begin_quote
+设身处地，揣摩通透，体贴入微，洞见表里。
 
+--读史16字决
 #+end_quote
 
 *我的结论*
