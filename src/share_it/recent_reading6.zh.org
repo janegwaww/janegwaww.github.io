@@ -150,7 +150,7 @@
 ** The Lambda Calculus: Its Syntax and Semantics[fn:9]
 
 #+begin_center
-Lambda演算：它的语法和语义
+Lambda演算法：它的语法和语义
 #+end_center
 
 #+begin_quote
@@ -160,6 +160,8 @@ Lambda演算：它的语法和语义
 #+end_quote
 
 *我的结论*
+
+
 
 * 相关阅读
 
