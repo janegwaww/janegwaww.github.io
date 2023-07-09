@@ -11,24 +11,55 @@
 #+toc: headlines
 
 #+begin_quote
+子曰：学而时习之，不亦悦乎，有朋自远方来，不亦乐乎，人不知而不愠，不亦君子乎。
 
+--论语学而第一
 #+end_quote
+
+** 论语
+
+#+begin_quote
+天不生仲尼，万古如长夜。
+
+--朱熹
+#+end_quote
+
+*我的结论*
+
+了解中国不得不读的一本书。子曰专属，天下至圣。
 
 ** The Fun of Programming[fn:1]
 
+#+begin_quote
+#+end_quote
+
 ** Google generative AI learning path[fn:2]
 
-** The Chrysanthemum and the Sword[fn:3]
+#+begin_quote
+#+end_quote
 
-** Programming Language Pragmatics(4th edition)[fn:4]
+** The Chrysanthemum and the Sword[fn:3]
 
 #+begin_center
 菊与刀
 #+end_center
 
+** Programming Language Pragmatics(4th edition)[fn:4]
+
+#+begin_quote
+#+end_quote
+
 * 相关阅读
 
+- [[file:recent_reading.org::*分享最近阅读的书籍清单（一）][分享最近阅读的书籍清单(一)]]
+- [[file:recent_reading2.zh.org::*分享最近阅读的书籍清单(二)][分享最近阅读的书籍清单(二)]]
+- [[file:recent_reading3.zh.org::*分享最近阅读的书藉清单(三)][分享最近阅读的书藉清单(三)]]
+- [[file:recent_reading4.zh.org::*分享最近阅读的书籍清单(四)][分享最近阅读的书籍清单(四)]]
+- [[file:recent_reading5.zh.org][分享最近阅读的书籍清单(五)]]
+- [[file:recent_reading5.zh.org][分享最近阅读的书籍清单(六)]]
+
 * 写在后面
+#+include: "../footer.zh.org"
 
 * Footnotes
 
