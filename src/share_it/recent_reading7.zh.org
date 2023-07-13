@@ -28,6 +28,11 @@
 
 了解中国不得不读的一本书。子曰专属，天下至圣。
 
+** 传習录
+
+#+begin_quote
+#+end_quote
+
 ** The Fun of Programming[fn:1]
 
 #+begin_quote
