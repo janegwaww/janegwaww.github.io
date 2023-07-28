@@ -56,6 +56,9 @@
 ### [用最简单的方式实现前端校验，也许你并不需要任何框架](src/build_it/vanillajs-validation.html)
 
 
+### [天道是否有报－从三个层次解读『求仁得仁又何怨乎』](src/build_it/no_pain_no_gain.zh.html)
+
+
 ## 相关链接
 
 -   Web: [www.janegwaww.com](https://www.janegwaww.com/)
