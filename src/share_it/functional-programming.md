@@ -2,18 +2,23 @@
 
 # 函数编程在JavaScript中的简单应用
 
-1.  [什么是函数编程](#org90b6742)
-    1.  [函数编程介绍](#org7eec430)
-    2.  [JavaScript简单介绍](#orga6c2e26)
-    3.  [JavaScript中的函数编程](#org365139e)
+
+# Table of Contents
+
+1.  [函数编程在JavaScript中的简单应用](#orgc0f2dbe)
+    1.  [什么是函数编程](#org2627e29)
+        1.  [函数编程介绍](#org89c640d)
+        2.  [JavaScript简单介绍](#org36df034)
+        3.  [JavaScript中的函数编程](#org995e558)
+2.  [写在后面](#org333b496)
 
 
-<a id="org90b6742"></a>
+<a id="org2627e29"></a>
 
 ## 什么是函数编程
 
 
-<a id="org7eec430"></a>
+<a id="org89c640d"></a>
 
 ### 函数编程介绍
 
@@ -44,7 +49,7 @@
     -   命令式：做什么，我们代码描述数据流
 
 
-<a id="orga6c2e26"></a>
+<a id="org36df034"></a>
 
 ### JavaScript简单介绍
 
@@ -75,7 +80,7 @@ JavaScript（JS）是函数为第一类级的轻量级，解释性，即时编�
     add (x,y) //=> 7
 
 
-<a id="org365139e"></a>
+<a id="org995e558"></a>
 
 ### JavaScript中的函数编程
 
@@ -186,6 +191,24 @@ javascript中可以这样声明一个函数：
 <tr>
 <td class="org-right">11</td>
 <td class="org-left"><a href="functional-programming.html">函数编程在JavaScript中的简单应用</a></td>
+</tr>
+
+
+<tr>
+<td class="org-right">12</td>
+<td class="org-left"><a href="../build_it/vanillajs-validation.html">用最简单的方式实现前端校验，也许你并不需要任何框架</a></td>
+</tr>
+
+
+<tr>
+<td class="org-right">13</td>
+<td class="org-left"><a href="recent_reading6.zh.html">分享最近阅读的书籍清单(六)</a></td>
+</tr>
+
+
+<tr>
+<td class="org-right">14</td>
+<td class="org-left"><a href="../build_it/no_pain_no_gain.zh.html">天道是否有报－从三个层次解读『求仁得仁又何怨乎』</a></td>
 </tr>
 </tbody>
 
