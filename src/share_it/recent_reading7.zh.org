@@ -31,21 +31,25 @@
 ** 传習录
 
 #+begin_quote
+todo
 #+end_quote
 
 ** 罗织经
 
 #+begin_quote
+todo
 #+end_quote
 
 ** The Fun of Programming[fn:1]
 
 #+begin_quote
+todo
 #+end_quote
 
 ** Google generative AI learning path[fn:2]
 
 #+begin_quote
+todo
 #+end_quote
 
 ** The Chrysanthemum and the Sword[fn:3]
@@ -57,7 +61,10 @@
 ** Programming Language Pragmatics(4th edition)[fn:4]
 
 #+begin_quote
+todo
 #+end_quote
+
+** Structure and Interpretation of Computer Programs — Comparison Edition[fn:5]
 
 * 相关阅读
 
@@ -80,3 +87,5 @@
 [fn:3] https://book.douban.com/subject/1022238/
 
 [fn:4] https://shop.elsevier.com/books/programming-language-pragmatics/scott/978-0-12-410409-9
+
+[fn:5] https://sicp.sourceacademy.org/
