@@ -46,6 +46,8 @@ AND HAVE FUN!
 
 *** [[file:src/build_it/no_pain_no_gain.zh.html][天道是否有报－从三个层次解读『求仁得仁又何怨乎』]]
 
+*** [[file:src/build_it/renan_letter.html][读报任少卿书-司马迁作史记的心境]]
+
 ** 相关链接
 
 - Web: [[https://www.janegwaww.com/][www.janegwaww.com]]

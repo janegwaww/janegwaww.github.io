@@ -59,6 +59,9 @@
 ### [天道是否有报－从三个层次解读『求仁得仁又何怨乎』](src/build_it/no_pain_no_gain.zh.html)
 
 
+### [读报任少卿书-司马迁作史记的心境](src/build_it/renan_letter.html)
+
+
 ## 相关链接
 
 -   Web: [www.janegwaww.com](https://www.janegwaww.com/)
