@@ -59,6 +59,9 @@
 ### [天道是否有报－从三个层次解读『求仁得仁又何怨乎』](src/build_it/no_pain_no_gain.zh.html)
 
 
+### [读伯夷列傳第一-儻所謂天道，是邪非邪？](src/build_it/boyi_record.html)
+
+
 ## 相关链接
 
 -   Web: [www.janegwaww.com](https://www.janegwaww.com/)
