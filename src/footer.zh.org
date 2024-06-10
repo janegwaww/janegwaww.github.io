@@ -18,7 +18,8 @@
 |  13 | [[./share_it/recent_reading6.zh.html][分享最近阅读的书籍清单(六)]]                     |
 |  14 | [[./build_it/no_pain_no_gain.zh.html][天道是否有报－从三个层次解读『求仁得仁又何怨乎』]]  |
 |  15 | [[./build_it/renan_letter.html][读报任少卿书-司马迁作史记的心境]]                 |
-|  16 | [[./build_it/boyi_record.html][读伯夷列傳第一-儻所謂天道，是邪非邪？]]                                            |
+|  16 | [[./build_it/boyi_record.html][读伯夷列傳第一-儻所謂天道，是邪非邪？]]            |
+|  17 | [[./build_it/shiji_zixu.html\]][读太史公自序--什么是中国的责任]]                                            |
 |-----+---------------------------------------------|
 |     | 如果喜欢该文章欢迎Star我的[[https://github.com/janegwaww/article][github]]               |
 |     | [[https://paypal.me/janegwaww][捐助]]我的创作                                  |

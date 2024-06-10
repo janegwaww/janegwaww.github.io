@@ -50,6 +50,8 @@ AND HAVE FUN!
 
 *** [[file:src/build_it/boyi_record.md][读伯夷列傳第一-儻所謂天道，是邪非邪？]]
 
+*** [[file:src/build_it/shiji_zixu.md][读太史公自序--什么是中国的责任]]
+
 ** 相关链接
 
 - Web: [[https://www.janegwaww.com/][www.janegwaww.com]]
