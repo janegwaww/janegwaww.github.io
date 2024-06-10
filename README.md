@@ -65,6 +65,9 @@
 ### [读伯夷列傳第一-儻所謂天道，是邪非邪？](src/build_it/boyi_record.md)
 
 
+### [读太史公自序&#x2013;什么是中国的责任](src/build_it/shiji_zixu.md)
+
+
 ## 相关链接
 
 -   Web: [www.janegwaww.com](https://www.janegwaww.com/)
