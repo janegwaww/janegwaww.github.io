@@ -4,7 +4,7 @@
 #+startup: showall
 #+options: toc:nil
 
-* 读吴太伯世家--什么是中国的让
+* 读吴太伯世家--道德与成败
 
 # todo
 

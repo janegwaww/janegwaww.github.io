@@ -20,6 +20,7 @@
 |  15 | [[./build_it/renan_letter.html][读报任少卿书-司马迁作史记的心境]]                 |
 |  16 | [[./build_it/boyi_record.html][读伯夷列傳第一-儻所謂天道，是邪非邪？]]            |
 |  17 | [[./build_it/shiji_zixu.html][读太史公自序--什么是中国的责任]]                  |
+|  18 | [[./build_it/shiji_wutaibo.html][读吴太伯世家--道德与成败]]                                            |
 |-----+---------------------------------------------|
 |     | 如果喜欢该文章欢迎Star我的[[https://github.com/janegwaww/article][github]]               |
 |     | [[https://paypal.me/janegwaww][捐助]]我的创作                                  |

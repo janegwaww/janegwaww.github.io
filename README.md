@@ -68,6 +68,9 @@
 ### [读太史公自序&#x2013;什么是中国的责任](src/build_it/shiji_zixu.md)
 
 
+### [读吴太伯世家&#x2013;道德与成败](src/build_it/shiji_wutaibo.zh.md)
+
+
 ## 相关链接
 
 -   Web: [www.janegwaww.com](https://www.janegwaww.com/)
