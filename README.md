@@ -76,7 +76,9 @@
 -   Web: [www.janegwaww.com](https://www.janegwaww.com/)
 -   Email: [tiglapiles@gmail.com](mailto:tiglapiles@gmail.com)
 -   GitHub: [@JaneGwaww](https://github.com/janegwaww)
--   Project: [Chrome Web Store](https://chrome.google.com/webstore/detail/fleetmarks/fjbndejcdmoakifmbilbjnnooiamophd?hl=en)/[Github](https://github.com/janegwaww/fleetmarks-official/releases)
+-   Projects:
+    -   FleetMarks: [Chrome Web Store](https://chrome.google.com/webstore/detail/fleetmarks/fjbndejcdmoakifmbilbjnnooiamophd?hl=en)/[Github](https://github.com/janegwaww/fleetmarks-official/releases)
+    -   JaneGwaww: [My Blog](https://expo.dev/accounts/jamegwaww/projects/JaneGwaww/builds/b594728b-4b97-4b33-a9d2-961c5b50298a)
 
 
 ## Donate

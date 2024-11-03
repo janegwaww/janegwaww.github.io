@@ -35,6 +35,8 @@ Better Reading Experience([EN](https://www.janegwaww.com/README.en.html)/[中文
 -   Email: [tiglapiles@gmail.com](mailto:tiglapiles@gmail.com)
 -   GitHub: [@JaneGwaww](https://github.com/janegwaww)
 -   Podcast: [English Learning Mine](https://podcast.janegwaww.com/)
+-   Projects:
+    -   FleetMarks: [Chrome Web Store](https://chrome.google.com/webstore/detail/fleetmarks/fjbndejcdmoakifmbilbjnnooiamophd?hl=en)/[Github](https://github.com/janegwaww/fleetmarks-official/releases)
 
 
 ## Donate
