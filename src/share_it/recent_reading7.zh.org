@@ -76,7 +76,9 @@ todo
 从第一原理开始学习Haskell编程
 #+end_quote
 
-**
+** Continuous Integration (CI) and Continuous Delivery (CD)-A Practical Guide to Designing and Developing Pipelines[fn:10]
+
+** Podman in Action[fn:11]
 
 * 相关阅读
 
@@ -109,3 +111,7 @@ todo
 [fn:8] https://sicp.sourceacademy.org/
 
 [fn:9] https://haskellbook.com/
+
+[fn:10] [[https://www.amazon.com/Continuous-Integration-Delivery-Practical-Developing/dp/1484292278][A Practical Guide to Designing and Developing Pipelines]]
+
+[fn:11] https://www.manning.com/books/podman-in-action
