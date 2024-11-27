@@ -16,69 +16,73 @@
 --论语学而第一
 #+end_quote
 
-** 论语[fn:1]
-
-#+begin_quote
-天不生仲尼，万古如长夜。
-
---朱熹
-#+end_quote
-
-*我的结论*
-
-了解中国不得不读的一本书。子曰专属，天下至圣。
-
-** 传習录[fn:2]
+** 传習录[fn:1]
 
 #+begin_quote
 todo
 #+end_quote
 
-** 罗织经[fn:3]
+** 罗织经[fn:2]
 
 #+begin_quote
 todo
 #+end_quote
 
-** The Fun of Programming[fn:4]
+** The Fun of Programming[fn:3]
 
 #+begin_quote
 todo
 #+end_quote
 
-** Google generative AI learning path[fn:5]
+** Google generative AI learning path[fn:4]
 
 #+begin_quote
 todo
 #+end_quote
 
-** The Chrysanthemum and the Sword[fn:6]
+** The Chrysanthemum and the Sword[fn:5]
 
 #+begin_center
 菊与刀
 #+end_center
 
-** Programming Language Pragmatics(4th edition)[fn:7]
+** Programming Language Pragmatics(4th edition)[fn:6]
 
 #+begin_quote
 todo
 #+end_quote
 
-** Structure and Interpretation of Computer Programs — Comparison Edition[fn:8]
+** Structure and Interpretation of Computer Programs — Comparison Edition[fn:7]
 
-#+begin_quote
+#+begin_center
 计算机程序的结构和解释-JS版
-#+end_quote
-
-** Haskell Programming from first principles[fn:9]
+#+end_center
 
 #+begin_quote
-从第一原理开始学习Haskell编程
+
 #+end_quote
 
-** Continuous Integration (CI) and Continuous Delivery (CD)-A Practical Guide to Designing and Developing Pipelines[fn:10]
+** Haskell Programming from first principles[fn:8]
 
-** Podman in Action[fn:11]
+#+begin_center
+从第一原理开始学习Haskell编程
+#+end_center
+
+#+begin_quote
+
+#+end_quote
+
+** Continuous Integration (CI) and Continuous Delivery (CD)-A Practical Guide to Designing and Developing Pipelines[fn:9]
+
+#+begin_center
+持续集成 (CI) 和持续交付 (CD)：设计和开发管道的实用指南
+#+end_center
+
+** Podman in Action[fn:10]
+
+#+begin_center
+Podman实战指南
+#+end_center
 
 * 相关阅读
 
@@ -94,24 +98,22 @@ todo
 
 * Footnotes
 
-[fn:1] https://ctext.org/analects/zhs
+[fn:1] https://ctext.org/wiki.pl?if=gb&res=873181&remap=gb
 
-[fn:2] https://ctext.org/wiki.pl?if=gb&res=873181&remap=gb
+[fn:2] https://zh.wikisource.org/zh-hant/%E7%BE%85%E7%B9%94%E7%B6%93
 
-[fn:3] https://zh.wikisource.org/zh-hant/%E7%BE%85%E7%B9%94%E7%B6%93
+[fn:3] https://www.cs.ox.ac.uk/publications/books/fop/
 
-[fn:4] https://www.cs.ox.ac.uk/publications/books/fop/
+[fn:4] https://www.cloudskillsboost.google/paths/118
 
-[fn:5] https://www.cloudskillsboost.google/paths/118
+[fn:5] https://book.douban.com/subject/1022238/
 
-[fn:6] https://book.douban.com/subject/1022238/
+[fn:6] https://shop.elsevier.com/books/programming-language-pragmatics/scott/978-0-12-410409-9
 
-[fn:7] https://shop.elsevier.com/books/programming-language-pragmatics/scott/978-0-12-410409-9
+[fn:7] https://sicp.sourceacademy.org/
 
-[fn:8] https://sicp.sourceacademy.org/
+[fn:8] https://haskellbook.com/
 
-[fn:9] https://haskellbook.com/
+[fn:9] [[https://www.amazon.com/Continuous-Integration-Delivery-Practical-Developing/dp/1484292278][A Practical Guide to Designing and Developing Pipelines]]
 
-[fn:10] [[https://www.amazon.com/Continuous-Integration-Delivery-Practical-Developing/dp/1484292278][A Practical Guide to Designing and Developing Pipelines]]
-
-[fn:11] https://www.manning.com/books/podman-in-action
+[fn:10] https://www.manning.com/books/podman-in-action
