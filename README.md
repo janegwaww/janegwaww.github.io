@@ -78,7 +78,7 @@
 -   GitHub: [@JaneGwaww](https://github.com/janegwaww)
 -   Projects:
     -   FleetMarks: [Chrome Web Store](https://chrome.google.com/webstore/detail/fleetmarks/fjbndejcdmoakifmbilbjnnooiamophd?hl=en)/[Github](https://github.com/janegwaww/fleetmarks-official/releases)
-    -   JaneGwaww: [My Blog APP](https://expo.dev/accounts/jamegwaww/projects/JaneGwaww/builds/b594728b-4b97-4b33-a9d2-961c5b50298a)
+    -   JaneGwaww: [My Blog APP](https://github.com/janegwaww/janegwaww.github.io/releases)
 
 
 ## Donate
