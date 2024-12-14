@@ -7,48 +7,48 @@
 
 # Table of Contents
 
-1.  [分享最近阅读的书籍清单（七）](#org568ff90)
-    1.  [罗织经](#org2c4f364)
-    2.  [The Fun of Programming](#orgfd61989)
-    3.  [Google generative AI learning path](#orgbc73c3e)
-    4.  [The Chrysanthemum and the Sword](#org312b933)
-    5.  [Programming Language Pragmatics(4th edition)](#org8e06b88)
-    6.  [Structure and Interpretation of Computer Programs — Comparison Edition](#org6f3d479)
-    7.  [Haskell Programming from first principles](#orgca6e24b)
-    8.  [Continuous Integration (CI) and Continuous Delivery (CD)-A Practical Guide to Designing and Developing Pipelines](#orgb559443)
-    9.  [Podman in Action](#org1bf8de4)
-    10. [The Kubernetes Book](#orgbb092b5)
-2.  [相关阅读](#orgaad8efe)
-3.  [评论](#org8eb7299)
-4.  [写在后面](#org1c053e8)
+1.  [分享最近阅读的书籍清单（七）](#org9f03799)
+    1.  [罗织经](#org99c73a9)
+    2.  [The Fun of Programming](#org7625954)
+    3.  [Google generative AI learning path](#org7d2e8dd)
+    4.  [The Chrysanthemum and the Sword](#org0d094d2)
+    5.  [Programming Language Pragmatics(4th edition)](#org217cfdc)
+    6.  [Structure and Interpretation of Computer Programs — Comparison Edition](#org2de3003)
+    7.  [Haskell Programming from first principles](#org79dc6ff)
+    8.  [Continuous Integration (CI) and Continuous Delivery (CD)-A Practical Guide to Designing and Developing Pipelines](#org85f02fe)
+    9.  [Podman in Action](#orgdbb80a2)
+    10. [The Kubernetes Book](#org22c1a5e)
+2.  [相关阅读](#org370e87d)
+3.  [我想评论](#org10a2ce4)
+4.  [写在后面](#org1be47c9)
 
 > 子曰：学而时习之，不亦悦乎，有朋自远方来，不亦乐乎，人不知而不愠，不亦君子乎。
 > 
 > &#x2013;论语学而第一
 
 
-<a id="org2c4f364"></a>
+<a id="org99c73a9"></a>
 
 ## 罗织经<sup><a id="fnr.1" class="footref" href="#fn.1" role="doc-backlink">1</a></sup>
 
 > todo
 
 
-<a id="orgfd61989"></a>
+<a id="org7625954"></a>
 
 ## The Fun of Programming<sup><a id="fnr.2" class="footref" href="#fn.2" role="doc-backlink">2</a></sup>
 
 > todo
 
 
-<a id="orgbc73c3e"></a>
+<a id="org7d2e8dd"></a>
 
 ## Google generative AI learning path<sup><a id="fnr.3" class="footref" href="#fn.3" role="doc-backlink">3</a></sup>
 
 > todo
 
 
-<a id="org312b933"></a>
+<a id="org0d094d2"></a>
 
 ## The Chrysanthemum and the Sword<sup><a id="fnr.4" class="footref" href="#fn.4" role="doc-backlink">4</a></sup>
 
@@ -59,14 +59,14 @@
 </div>
 
 
-<a id="org8e06b88"></a>
+<a id="org217cfdc"></a>
 
 ## Programming Language Pragmatics(4th edition)<sup><a id="fnr.5" class="footref" href="#fn.5" role="doc-backlink">5</a></sup>
 
 > todo
 
 
-<a id="org6f3d479"></a>
+<a id="org2de3003"></a>
 
 ## Structure and Interpretation of Computer Programs — Comparison Edition<sup><a id="fnr.6" class="footref" href="#fn.6" role="doc-backlink">6</a></sup>
 
@@ -77,7 +77,7 @@
 </div>
 
 
-<a id="orgca6e24b"></a>
+<a id="org79dc6ff"></a>
 
 ## Haskell Programming from first principles<sup><a id="fnr.7" class="footref" href="#fn.7" role="doc-backlink">7</a></sup>
 
@@ -88,7 +88,7 @@
 </div>
 
 
-<a id="orgb559443"></a>
+<a id="org85f02fe"></a>
 
 ## Continuous Integration (CI) and Continuous Delivery (CD)-A Practical Guide to Designing and Developing Pipelines<sup><a id="fnr.8" class="footref" href="#fn.8" role="doc-backlink">8</a></sup>
 
@@ -99,7 +99,7 @@
 </div>
 
 
-<a id="org1bf8de4"></a>
+<a id="orgdbb80a2"></a>
 
 ## Podman in Action<sup><a id="fnr.9" class="footref" href="#fn.9" role="doc-backlink">9</a></sup>
 
@@ -109,16 +109,26 @@ Podman实战指南
 </p>
 </div>
 
+> 大约在10年前docker的出现，引发了人们在互联网上分发和运行应用程序方式的革命。当我在研究Docker时，我觉得它可以设计得更好。
+> 
+> &#x2013;摘要
 
-<a id="orgbb092b5"></a>
+工具的出现是为人们能够轻松的解决问题，你不需要去深究工具背后的原理。而作为一本工具使用指南，这本书也做了很好的指导，从简单的使用试范到更多更杂的功能，从容器的建造到启动，再到pod,系统命令，安全性。而podman的对于docker的优势就在于他的安全性上，这本书也做了重点说明。
+
+
+<a id="org22c1a5e"></a>
 
 ## The Kubernetes Book<sup><a id="fnr.10" class="footref" href="#fn.10" role="doc-backlink">10</a></sup>
 
 <div class="org-center">
 <p>
-Kubernates入门
+Kubernates入门书
 </p>
 </div>
+
+> 教育是启发智慧和创造机会。我希望这本书，和我的讲解视频，能够启发你为你带来更多机会。
+> 
+> &#x2013;摘要
 
 
 # 相关阅读
@@ -131,7 +141,7 @@ Kubernates入门
 -   [分享最近阅读的书籍清单(六)](recent_reading5.zh.md)
 
 
-# 评论
+# 我想评论
 
 [github issues](https://github.com/janegwaww/janegwaww.github.io/issues)
 

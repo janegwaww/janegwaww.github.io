@@ -78,11 +78,27 @@ todo
 Podman实战指南
 #+end_center
 
+#+begin_quote
+大约在10年前docker的出现，引发了人们在互联网上分发和运行应用程序方式的革命。当我在研究Docker时，我觉得它可以设计得更好。
+
+--摘要
+#+end_quote
+
+工具的出现是为人们能够轻松的解决问题，你不需要去深究工具背后的原理。而作为一本工具使用指南，这本书也做了很好的指导，从简单的使用试范到更多更杂的功能，从容器的建造到启动，再到pod,系统命令，安全性。而podman的对于docker的优势就在于他的安全性上，这本书也做了重点说明。
+
 ** The Kubernetes Book[fn:10]
 
 #+begin_center
-Kubernates入门
+Kubernates入门书
 #+end_center
+
+#+begin_quote
+教育是启发智慧和创造机会。我希望这本书，和我的讲解视频，能够启发你为你带来更多机会。
+
+--摘要
+#+end_quote
+
+
 
 * 相关阅读
 
@@ -93,7 +109,7 @@ Kubernates入门
 - [[file:recent_reading5.zh.org][分享最近阅读的书籍清单(五)]]
 - [[file:recent_reading5.zh.org][分享最近阅读的书籍清单(六)]]
 
-* 评论
+* 我想评论
 
 [[https://github.com/janegwaww/janegwaww.github.io/issues][github issues]]
 
