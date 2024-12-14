@@ -7,67 +7,50 @@
 
 # Table of Contents
 
-1.  [分享最近阅读的书籍清单（七）](#orgd84cd62)
-    1.  [论语](#orgd637e53)
-    2.  [传習录](#org79a6e47)
-    3.  [罗织经](#orgacaa9f2)
-    4.  [The Fun of Programming](#org8677e09)
-    5.  [Google generative AI learning path](#org685ecfc)
-    6.  [The Chrysanthemum and the Sword](#orgdf07e16)
-    7.  [Programming Language Pragmatics(4th edition)](#org9103159)
-    8.  [Structure and Interpretation of Computer Programs — Comparison Edition](#org296b598)
-2.  [相关阅读](#org494eae5)
-3.  [写在后面](#org84de89a)
+1.  [分享最近阅读的书籍清单（七）](#org568ff90)
+    1.  [罗织经](#org2c4f364)
+    2.  [The Fun of Programming](#orgfd61989)
+    3.  [Google generative AI learning path](#orgbc73c3e)
+    4.  [The Chrysanthemum and the Sword](#org312b933)
+    5.  [Programming Language Pragmatics(4th edition)](#org8e06b88)
+    6.  [Structure and Interpretation of Computer Programs — Comparison Edition](#org6f3d479)
+    7.  [Haskell Programming from first principles](#orgca6e24b)
+    8.  [Continuous Integration (CI) and Continuous Delivery (CD)-A Practical Guide to Designing and Developing Pipelines](#orgb559443)
+    9.  [Podman in Action](#org1bf8de4)
+    10. [The Kubernetes Book](#orgbb092b5)
+2.  [相关阅读](#orgaad8efe)
+3.  [评论](#org8eb7299)
+4.  [写在后面](#org1c053e8)
 
 > 子曰：学而时习之，不亦悦乎，有朋自远方来，不亦乐乎，人不知而不愠，不亦君子乎。
 > 
 > &#x2013;论语学而第一
 
 
-<a id="orgd637e53"></a>
+<a id="org2c4f364"></a>
 
-## 论语
-
-> 天不生仲尼，万古如长夜。
-> 
-> &#x2013;朱熹
-
-**我的结论**
-
-了解中国不得不读的一本书。子曰专属，天下至圣。
-
-
-<a id="org79a6e47"></a>
-
-## 传習录
+## 罗织经<sup><a id="fnr.1" class="footref" href="#fn.1" role="doc-backlink">1</a></sup>
 
 > todo
 
 
-<a id="orgacaa9f2"></a>
+<a id="orgfd61989"></a>
 
-## 罗织经
-
-> todo
-
-
-<a id="org8677e09"></a>
-
-## The Fun of Programming<sup><a id="fnr.1" class="footref" href="#fn.1" role="doc-backlink">1</a></sup>
+## The Fun of Programming<sup><a id="fnr.2" class="footref" href="#fn.2" role="doc-backlink">2</a></sup>
 
 > todo
 
 
-<a id="org685ecfc"></a>
+<a id="orgbc73c3e"></a>
 
-## Google generative AI learning path<sup><a id="fnr.2" class="footref" href="#fn.2" role="doc-backlink">2</a></sup>
+## Google generative AI learning path<sup><a id="fnr.3" class="footref" href="#fn.3" role="doc-backlink">3</a></sup>
 
 > todo
 
 
-<a id="orgdf07e16"></a>
+<a id="org312b933"></a>
 
-## The Chrysanthemum and the Sword<sup><a id="fnr.3" class="footref" href="#fn.3" role="doc-backlink">3</a></sup>
+## The Chrysanthemum and the Sword<sup><a id="fnr.4" class="footref" href="#fn.4" role="doc-backlink">4</a></sup>
 
 <div class="org-center">
 <p>
@@ -76,16 +59,66 @@
 </div>
 
 
-<a id="org9103159"></a>
+<a id="org8e06b88"></a>
 
-## Programming Language Pragmatics(4th edition)<sup><a id="fnr.4" class="footref" href="#fn.4" role="doc-backlink">4</a></sup>
+## Programming Language Pragmatics(4th edition)<sup><a id="fnr.5" class="footref" href="#fn.5" role="doc-backlink">5</a></sup>
 
 > todo
 
 
-<a id="org296b598"></a>
+<a id="org6f3d479"></a>
 
-## Structure and Interpretation of Computer Programs — Comparison Edition<sup><a id="fnr.5" class="footref" href="#fn.5" role="doc-backlink">5</a></sup>
+## Structure and Interpretation of Computer Programs — Comparison Edition<sup><a id="fnr.6" class="footref" href="#fn.6" role="doc-backlink">6</a></sup>
+
+<div class="org-center">
+<p>
+计算机程序的结构和解释-JS版
+</p>
+</div>
+
+
+<a id="orgca6e24b"></a>
+
+## Haskell Programming from first principles<sup><a id="fnr.7" class="footref" href="#fn.7" role="doc-backlink">7</a></sup>
+
+<div class="org-center">
+<p>
+从第一原理开始学习Haskell编程
+</p>
+</div>
+
+
+<a id="orgb559443"></a>
+
+## Continuous Integration (CI) and Continuous Delivery (CD)-A Practical Guide to Designing and Developing Pipelines<sup><a id="fnr.8" class="footref" href="#fn.8" role="doc-backlink">8</a></sup>
+
+<div class="org-center">
+<p>
+持续集成 (CI) 和持续交付 (CD)：设计和开发管道的实用指南
+</p>
+</div>
+
+
+<a id="org1bf8de4"></a>
+
+## Podman in Action<sup><a id="fnr.9" class="footref" href="#fn.9" role="doc-backlink">9</a></sup>
+
+<div class="org-center">
+<p>
+Podman实战指南
+</p>
+</div>
+
+
+<a id="orgbb092b5"></a>
+
+## The Kubernetes Book<sup><a id="fnr.10" class="footref" href="#fn.10" role="doc-backlink">10</a></sup>
+
+<div class="org-center">
+<p>
+Kubernates入门
+</p>
+</div>
 
 
 # 相关阅读
@@ -96,6 +129,11 @@
 -   [分享最近阅读的书籍清单(四)](recent_reading4.zh.md)
 -   [分享最近阅读的书籍清单(五)](recent_reading5.zh.md)
 -   [分享最近阅读的书籍清单(六)](recent_reading5.zh.md)
+
+
+# 评论
+
+[github issues](https://github.com/janegwaww/janegwaww.github.io/issues)
 
 
 # 写在后面
@@ -230,12 +268,22 @@
 
 # Footnotes
 
-<sup><a id="fn.1" href="#fnr.1">1</a></sup> <https://www.cs.ox.ac.uk/publications/books/fop/>
+<sup><a id="fn.1" href="#fnr.1">1</a></sup> <https://zh.wikisource.org/zh-hant/%E7%BE%85%E7%B9%94%E7%B6%93>
 
-<sup><a id="fn.2" href="#fnr.2">2</a></sup> <https://www.cloudskillsboost.google/paths/118>
+<sup><a id="fn.2" href="#fnr.2">2</a></sup> <https://www.cs.ox.ac.uk/publications/books/fop/>
 
-<sup><a id="fn.3" href="#fnr.3">3</a></sup> <https://book.douban.com/subject/1022238/>
+<sup><a id="fn.3" href="#fnr.3">3</a></sup> <https://www.cloudskillsboost.google/paths/118>
 
-<sup><a id="fn.4" href="#fnr.4">4</a></sup> <https://shop.elsevier.com/books/programming-language-pragmatics/scott/978-0-12-410409-9>
+<sup><a id="fn.4" href="#fnr.4">4</a></sup> <https://book.douban.com/subject/1022238/>
 
-<sup><a id="fn.5" href="#fnr.5">5</a></sup> <https://sicp.sourceacademy.org/>
+<sup><a id="fn.5" href="#fnr.5">5</a></sup> <https://shop.elsevier.com/books/programming-language-pragmatics/scott/978-0-12-410409-9>
+
+<sup><a id="fn.6" href="#fnr.6">6</a></sup> <https://sicp.sourceacademy.org/>
+
+<sup><a id="fn.7" href="#fnr.7">7</a></sup> <https://haskellbook.com/>
+
+<sup><a id="fn.8" href="#fnr.8">8</a></sup> [A Practical Guide to Designing and Developing Pipelines](https://www.amazon.com/Continuous-Integration-Delivery-Practical-Developing/dp/1484292278)
+
+<sup><a id="fn.9" href="#fnr.9">9</a></sup> <https://www.manning.com/books/podman-in-action>
+
+<sup><a id="fn.10" href="#fnr.10">10</a></sup> <https://leanpub.com/thekubernetesbook>
