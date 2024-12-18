@@ -84,7 +84,7 @@ Podman实战指南
 --摘要
 #+end_quote
 
-工具的出现是为人们能够轻松的解决问题，你不需要去深究工具背后的原理。而作为一本工具使用指南，这本书也做了很好的指导，从简单的使用试范到更多更杂的功能，从容器的建造到启动，再到pod,系统命令，安全性。而podman的对于docker的优势就在于他的安全性上，这本书也做了重点说明。
+工具的出现是为人们能够轻松的解决问题，你不需要去深究工具背后的原理。而作为一本工具使用指南，这本书也做了很好的指导，从简单的使用试范到更多更杂的功能，从容器的建造到启动，再到pod,系统命令，安全性。而podman对于docker的优势就在于他的安全性上，这本书也做了重点说明。
 
 ** The Kubernetes Book[fn:10]
 
@@ -137,5 +137,3 @@ Kubernates入门书
 [fn:9] https://www.manning.com/books/podman-in-action
 
 [fn:10] https://leanpub.com/thekubernetesbook
-
-[fn:11] https://ctext.org/wiki.pl?if=gb&res=873181&remap=gb
