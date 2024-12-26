@@ -1,0 +1,33 @@
+:PROPERTIES:
+:ID:       d8aedb87-9886-42c1-b5e5-338f984aef15
+:END:
+#+startup: showall
+#+options: toc:nil
+
+* 讀五帝本紀[fn:1]-好學深思，心知其意
+
+#+toc: headlines
+
+** 黃帝是中華民族的始祖？
+
+** 一個由人類建立的偉大文明
+
+** 他真的想讓嗎？
+
+** 如何試驗一個繼承人？
+
+** 什麼是真正的孝？
+
+** 太史公最美好的政治理想
+
+** 中國歷史為什麼從黃帝開始？
+
+* 我想評論
+
+* 相關閱讀
+
+* 寫在後面
+
+* Footnotes
+
+[fn:1] https://ctext.org/shiji/wu-di-ben-ji/zh
