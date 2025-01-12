@@ -71,6 +71,9 @@
 ### [读吴太伯世家&#x2013;道德与成败](src/build_it/shiji_wutaibo.zh.md)
 
 
+### [讀五帝本紀-好學深思，心知其意](src/build_it/shiji_wudi.zh.md)
+
+
 ## 相关链接
 
 -   Web: [www.janegwaww.com](https://www.janegwaww.com/)
