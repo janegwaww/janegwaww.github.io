@@ -54,6 +54,8 @@ AND HAVE FUN!
 
 *** [[file:src/build_it/shiji_wutaibo.zh.md][读吴太伯世家--道德与成败]]
 
+*** [[file:src/build_it/shiji_wudi.zh.md][讀五帝本紀-好學深思，心知其意]]
+
 ** 相关链接
 
 - Web: [[https://www.janegwaww.com/][www.janegwaww.com]]
