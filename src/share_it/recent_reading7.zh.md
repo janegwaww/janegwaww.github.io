@@ -7,48 +7,48 @@
 
 # Table of Contents
 
-1.  [分享最近阅读的书籍清单（七）](#org8217904)
-    1.  [罗织经](#orgd59f8ad)
-    2.  [The Fun of Programming](#org995fa5c)
-    3.  [Google generative AI learning path](#org87679b3)
-    4.  [The Chrysanthemum and the Sword](#orgba4fb0b)
-    5.  [Programming Language Pragmatics(4th edition)](#orgb91d019)
-    6.  [Structure and Interpretation of Computer Programs — Comparison Edition](#orgad59e03)
-    7.  [Haskell Programming from first principles](#orgd5557ef)
-    8.  [Continuous Integration (CI) and Continuous Delivery (CD)-A Practical Guide to Designing and Developing Pipelines](#org8e05cff)
-    9.  [Podman in Action](#org84bfcbd)
-    10. [The Kubernetes Book](#orgc128e9a)
-2.  [相关阅读](#org63e4187)
-3.  [我想评论](#org1c91311)
-4.  [写在后面](#org06d4bcd)
+1.  [分享最近阅读的书籍清单（七）](#orgfc4ad63)
+    1.  [罗织经](#orga610847)
+    2.  [The Fun of Programming](#org9e73766)
+    3.  [Google generative AI learning path](#org28e53ce)
+    4.  [The Chrysanthemum and the Sword](#org94fb7fd)
+    5.  [毓老师说论语](#org2b3cba1)
+    6.  [Structure and Interpretation of Computer Programs — Comparison Edition](#org35d2d52)
+    7.  [Haskell Programming from first principles](#orgaf1ecc6)
+    8.  [Continuous Integration (CI) and Continuous Delivery (CD)-A Practical Guide to Designing and Developing Pipelines](#orga0e4d1c)
+    9.  [Podman in Action](#org6a8cb8a)
+    10. [The Kubernetes Book](#org2839d12)
+2.  [相关阅读](#orgb34ffdb)
+3.  [我想评论](#org88de6c4)
+4.  [写在后面](#orgb32f553)
 
 > 子曰：学而时习之，不亦悦乎，有朋自远方来，不亦乐乎，人不知而不愠，不亦君子乎。
 > 
 > &#x2013;论语学而第一
 
 
-<a id="orgd59f8ad"></a>
+<a id="orga610847"></a>
 
 ## 罗织经<sup><a id="fnr.1" class="footref" href="#fn.1" role="doc-backlink">1</a></sup>
 
 > todo
 
 
-<a id="org995fa5c"></a>
+<a id="org9e73766"></a>
 
 ## The Fun of Programming<sup><a id="fnr.2" class="footref" href="#fn.2" role="doc-backlink">2</a></sup>
 
 > todo
 
 
-<a id="org87679b3"></a>
+<a id="org28e53ce"></a>
 
 ## Google generative AI learning path<sup><a id="fnr.3" class="footref" href="#fn.3" role="doc-backlink">3</a></sup>
 
 > todo
 
 
-<a id="orgba4fb0b"></a>
+<a id="org94fb7fd"></a>
 
 ## The Chrysanthemum and the Sword<sup><a id="fnr.4" class="footref" href="#fn.4" role="doc-backlink">4</a></sup>
 
@@ -59,14 +59,18 @@
 </div>
 
 
-<a id="orgb91d019"></a>
+<a id="org2b3cba1"></a>
 
-## Programming Language Pragmatics(4th edition)<sup><a id="fnr.5" class="footref" href="#fn.5" role="doc-backlink">5</a></sup>
+## 毓老师说论语<sup><a id="fnr.5" class="footref" href="#fn.5" role="doc-backlink">5</a></sup>
 
-> todo
+> 牧师都离婚了，受戒的和尚都开了荤，掌教者都不知耻，真不知明年又变成什么样了？
+> 
+> &#x2013;摘要
+
+现在解读经典的太多了，而可能与经典想要表达的意思大相径庭了，这就违背了经典的初衷。他们的存在是为了答疑解惑，不是让人引经据典。毓老师是一个真正的儒者，他从小熟读四书五经，提出以经解经。这是只有熟读经典的人才能做到，也是非常有说服力的说法。而这些经典，这些四书五经，这本论语，为什么让人念念不忘，因为中国无王无圣久矣。而对于一个理工生来说，太需要这样的人文关怀了。
 
 
-<a id="orgad59e03"></a>
+<a id="org35d2d52"></a>
 
 ## Structure and Interpretation of Computer Programs — Comparison Edition<sup><a id="fnr.6" class="footref" href="#fn.6" role="doc-backlink">6</a></sup>
 
@@ -77,7 +81,7 @@
 </div>
 
 
-<a id="orgd5557ef"></a>
+<a id="orgaf1ecc6"></a>
 
 ## Haskell Programming from first principles<sup><a id="fnr.7" class="footref" href="#fn.7" role="doc-backlink">7</a></sup>
 
@@ -88,7 +92,7 @@
 </div>
 
 
-<a id="org8e05cff"></a>
+<a id="orga0e4d1c"></a>
 
 ## Continuous Integration (CI) and Continuous Delivery (CD)-A Practical Guide to Designing and Developing Pipelines<sup><a id="fnr.8" class="footref" href="#fn.8" role="doc-backlink">8</a></sup>
 
@@ -99,7 +103,7 @@
 </div>
 
 
-<a id="org84bfcbd"></a>
+<a id="org6a8cb8a"></a>
 
 ## Podman in Action<sup><a id="fnr.9" class="footref" href="#fn.9" role="doc-backlink">9</a></sup>
 
@@ -116,7 +120,7 @@ Podman实战指南
 工具的出现是为人们能够轻松的解决问题，你不需要去深究工具背后的原理。而作为一本工具使用指南，这本书也做了很好的指导，从简单的使用试范到更多更杂的功能，从容器的建造到启动，再到pod,系统命令，安全性。而podman对于docker的优势就在于他的安全性上，这本书也做了重点说明。
 
 
-<a id="orgc128e9a"></a>
+<a id="org2839d12"></a>
 
 ## The Kubernetes Book<sup><a id="fnr.10" class="footref" href="#fn.10" role="doc-backlink">10</a></sup>
 
@@ -286,7 +290,7 @@ Kubernates入门书
 
 <sup><a id="fn.4" href="#fnr.4">4</a></sup> <https://book.douban.com/subject/1022238/>
 
-<sup><a id="fn.5" href="#fnr.5">5</a></sup> <https://shop.elsevier.com/books/programming-language-pragmatics/scott/978-0-12-410409-9>
+<sup><a id="fn.5" href="#fnr.5">5</a></sup> <https://book.douban.com/subject/26770154/>
 
 <sup><a id="fn.6" href="#fnr.6">6</a></sup> <https://sicp.sourceacademy.org/>
 
