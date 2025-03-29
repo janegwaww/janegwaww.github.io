@@ -22,6 +22,8 @@
 todo
 #+end_quote
 
+好人并不好做,
+
 ** The Fun of Programming[fn:2]
 
 #+begin_quote
