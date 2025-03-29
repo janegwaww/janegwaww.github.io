@@ -56,12 +56,33 @@
 ### [用最简单的方式实现前端校验，也许你并不需要任何框架](src/build_it/vanillajs-validation.html)
 
 
+### [天道是否有报－从三个层次解读『求仁得仁又何怨乎』](src/build_it/no_pain_no_gain.zh.html)
+
+
+### [读报任少卿书-司马迁作史记的心境](src/build_it/renan_letter.md)
+
+
+### [读伯夷列傳第一-儻所謂天道，是邪非邪？](src/build_it/boyi_record.md)
+
+
+### [读太史公自序&#x2013;什么是中国的责任](src/build_it/shiji_zixu.md)
+
+
+### [读吴太伯世家&#x2013;道德与成败](src/build_it/shiji_wutaibo.zh.md)
+
+
+### [讀五帝本紀-好學深思，心知其意](src/build_it/shiji_wudi.zh.md)
+
+
 ## 相关链接
 
 -   Web: [www.janegwaww.com](https://www.janegwaww.com/)
 -   Email: [tiglapiles@gmail.com](mailto:tiglapiles@gmail.com)
 -   GitHub: [@JaneGwaww](https://github.com/janegwaww)
--   Project: [Chrome Web Store](https://chrome.google.com/webstore/detail/fleetmarks/fjbndejcdmoakifmbilbjnnooiamophd?hl=en)/[Github](https://github.com/janegwaww/fleetmarks-official/releases)
+-   Projects:
+    -   FleetMarks: [Chrome Web Store](https://chrome.google.com/webstore/detail/fleetmarks/fjbndejcdmoakifmbilbjnnooiamophd?hl=en)/[Github](https://github.com/janegwaww/fleetmarks-official/releases)
+    -   JaneGwaww: [My Blog APP](https://github.com/janegwaww/janegwaww.github.io/releases)
+    -   火曰炎上: [物联网监控APP](https://github.com/janegwaww/janegwaww.github.io/releases)
 
 
 ## Donate
