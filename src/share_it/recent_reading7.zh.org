@@ -24,7 +24,11 @@ todo
 
 好人并不好做,
 
-** The Fun of Programming[fn:2]
+** From Mathematics to Generic Programming[fn:2]
+
+#+begin_center
+从数学到泛型编程
+#+end_center
 
 #+begin_quote
 todo
@@ -126,7 +130,7 @@ Kubernates入门书
 
 [fn:1] https://zh.wikisource.org/zh-hant/%E7%BE%85%E7%B9%94%E7%B6%93
 
-[fn:2] https://www.cs.ox.ac.uk/publications/books/fop/
+[fn:2] https://www.fm2gp.com/
 
 [fn:3] https://www.cloudskillsboost.google/paths/118
 

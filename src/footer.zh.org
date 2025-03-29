@@ -22,7 +22,7 @@
 |  17 | [[./build_it/shiji_zixu.html][读太史公自序--什么是中国的责任]]                     |
 |  18 | [[./build_it/shiji_wutaibo.html][读吴太伯世家--道德与成败]]                           |
 |  19 | [[./build_it/shiji_wudi.zh.html][讀五帝本紀-好學深思,心知其意]]                       |
-|  20 | [[./share_it/recent_reading7.zh.html][分享最近阅读的书籍清单(七)]]                                                 |
+|  20 | [[./share_it/recent_reading7.zh.html][分享最近阅读的书籍清单(七)]]                         |
 |-----+----------------------------------------------------|
 |     | 如果喜欢该文章欢迎Star我的[[https://github.com/janegwaww/article][github]]                   |
 |     | [[https://paypal.me/janegwaww][捐助]]我的创作                                       |
