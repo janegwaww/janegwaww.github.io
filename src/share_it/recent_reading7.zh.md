@@ -7,48 +7,56 @@
 
 # Table of Contents
 
-1.  [分享最近阅读的书籍清单（七）](#orgfc4ad63)
-    1.  [罗织经](#orga610847)
-    2.  [The Fun of Programming](#org9e73766)
-    3.  [Google generative AI learning path](#org28e53ce)
-    4.  [The Chrysanthemum and the Sword](#org94fb7fd)
-    5.  [毓老师说论语](#org2b3cba1)
-    6.  [Structure and Interpretation of Computer Programs — Comparison Edition](#org35d2d52)
-    7.  [Haskell Programming from first principles](#orgaf1ecc6)
-    8.  [Continuous Integration (CI) and Continuous Delivery (CD)-A Practical Guide to Designing and Developing Pipelines](#orga0e4d1c)
-    9.  [Podman in Action](#org6a8cb8a)
-    10. [The Kubernetes Book](#org2839d12)
-2.  [相关阅读](#orgb34ffdb)
-3.  [我想评论](#org88de6c4)
-4.  [写在后面](#orgb32f553)
+1.  [分享最近阅读的书籍清单（七）](#org1a3372a)
+    1.  [罗织经](#org7b66371)
+    2.  [From Mathematics to Generic Programming](#org7411932)
+    3.  [Google generative AI learning path](#orgb6d6691)
+    4.  [The Chrysanthemum and the Sword](#org9edfa3e)
+    5.  [毓老师说论语](#org5036cc1)
+    6.  [Structure and Interpretation of Computer Programs — Comparison Edition](#org026cc5e)
+    7.  [Haskell Programming from first principles](#org3421250)
+    8.  [Continuous Integration (CI) and Continuous Delivery (CD)-A Practical Guide to Designing and Developing Pipelines](#org01f3bd1)
+    9.  [Podman in Action](#orgd6d7ee1)
+    10. [The Kubernetes Book](#org8df1c93)
+2.  [相关阅读](#org354338c)
+3.  [我想评论](#orga11af5a)
+4.  [写在后面](#orge99df82)
 
 > 子曰：学而时习之，不亦悦乎，有朋自远方来，不亦乐乎，人不知而不愠，不亦君子乎。
 > 
 > &#x2013;论语学而第一
 
 
-<a id="orga610847"></a>
+<a id="org7b66371"></a>
 
 ## 罗织经<sup><a id="fnr.1" class="footref" href="#fn.1" role="doc-backlink">1</a></sup>
 
 > todo
 
+好人并不好做,
 
-<a id="org9e73766"></a>
 
-## The Fun of Programming<sup><a id="fnr.2" class="footref" href="#fn.2" role="doc-backlink">2</a></sup>
+<a id="org7411932"></a>
+
+## From Mathematics to Generic Programming<sup><a id="fnr.2" class="footref" href="#fn.2" role="doc-backlink">2</a></sup>
+
+<div class="org-center">
+<p>
+从数学到泛型编程
+</p>
+</div>
 
 > todo
 
 
-<a id="org28e53ce"></a>
+<a id="orgb6d6691"></a>
 
 ## Google generative AI learning path<sup><a id="fnr.3" class="footref" href="#fn.3" role="doc-backlink">3</a></sup>
 
 > todo
 
 
-<a id="org94fb7fd"></a>
+<a id="org9edfa3e"></a>
 
 ## The Chrysanthemum and the Sword<sup><a id="fnr.4" class="footref" href="#fn.4" role="doc-backlink">4</a></sup>
 
@@ -59,7 +67,7 @@
 </div>
 
 
-<a id="org2b3cba1"></a>
+<a id="org5036cc1"></a>
 
 ## 毓老师说论语<sup><a id="fnr.5" class="footref" href="#fn.5" role="doc-backlink">5</a></sup>
 
@@ -70,7 +78,7 @@
 现在解读经典的太多了，而可能与经典想要表达的意思大相径庭了，这就违背了经典的初衷。他们的存在是为了答疑解惑，不是让人引经据典。毓老师是一个真正的儒者，他从小熟读四书五经，提出以经解经。这是只有熟读经典的人才能做到，也是非常有说服力的说法。而这些经典，这些四书五经，这本论语，为什么让人念念不忘，因为中国无王无圣久矣。而对于一个理工生来说，太需要这样的人文关怀了。
 
 
-<a id="org35d2d52"></a>
+<a id="org026cc5e"></a>
 
 ## Structure and Interpretation of Computer Programs — Comparison Edition<sup><a id="fnr.6" class="footref" href="#fn.6" role="doc-backlink">6</a></sup>
 
@@ -81,7 +89,7 @@
 </div>
 
 
-<a id="orgaf1ecc6"></a>
+<a id="org3421250"></a>
 
 ## Haskell Programming from first principles<sup><a id="fnr.7" class="footref" href="#fn.7" role="doc-backlink">7</a></sup>
 
@@ -92,7 +100,7 @@
 </div>
 
 
-<a id="orga0e4d1c"></a>
+<a id="org01f3bd1"></a>
 
 ## Continuous Integration (CI) and Continuous Delivery (CD)-A Practical Guide to Designing and Developing Pipelines<sup><a id="fnr.8" class="footref" href="#fn.8" role="doc-backlink">8</a></sup>
 
@@ -103,7 +111,7 @@
 </div>
 
 
-<a id="org6a8cb8a"></a>
+<a id="orgd6d7ee1"></a>
 
 ## Podman in Action<sup><a id="fnr.9" class="footref" href="#fn.9" role="doc-backlink">9</a></sup>
 
@@ -120,7 +128,7 @@ Podman实战指南
 工具的出现是为人们能够轻松的解决问题，你不需要去深究工具背后的原理。而作为一本工具使用指南，这本书也做了很好的指导，从简单的使用试范到更多更杂的功能，从容器的建造到启动，再到pod,系统命令，安全性。而podman对于docker的优势就在于他的安全性上，这本书也做了重点说明。
 
 
-<a id="org2839d12"></a>
+<a id="org8df1c93"></a>
 
 ## The Kubernetes Book<sup><a id="fnr.10" class="footref" href="#fn.10" role="doc-backlink">10</a></sup>
 
@@ -133,6 +141,8 @@ Kubernates入门书
 > 教育是启发智慧和创造机会。我希望这本书，和我的讲解视频，能够启发你为你带来更多机会。
 > 
 > &#x2013;摘要
+
+docker被发明出来之后下一步是什么?这些是许多公司在应用容器技术之后顺便会面临的问题.
 
 
 # 相关阅读
@@ -244,6 +254,48 @@ Kubernates入门书
 <td class="org-right">13</td>
 <td class="org-left"><a href="recent_reading6.zh.html">分享最近阅读的书籍清单(六)</a></td>
 </tr>
+
+
+<tr>
+<td class="org-right">14</td>
+<td class="org-left"><a href="../build_it/no_pain_no_gain.zh.html">天道是否有报－从三个层次解读『求仁得仁又何怨乎』</a></td>
+</tr>
+
+
+<tr>
+<td class="org-right">15</td>
+<td class="org-left"><a href="../build_it/renan_letter.html">读报任少卿书-司马迁作史记的心境</a></td>
+</tr>
+
+
+<tr>
+<td class="org-right">16</td>
+<td class="org-left"><a href="../build_it/boyi_record.html">读伯夷列傳第一-儻所謂天道，是邪非邪？</a></td>
+</tr>
+
+
+<tr>
+<td class="org-right">17</td>
+<td class="org-left"><a href="../build_it/shiji_zixu.html">读太史公自序&#x2013;什么是中国的责任</a></td>
+</tr>
+
+
+<tr>
+<td class="org-right">18</td>
+<td class="org-left"><a href="../build_it/shiji_wutaibo.html">读吴太伯世家&#x2013;道德与成败</a></td>
+</tr>
+
+
+<tr>
+<td class="org-right">19</td>
+<td class="org-left"><a href="../build_it/shiji_wudi.zh.html">讀五帝本紀-好學深思,心知其意</a></td>
+</tr>
+
+
+<tr>
+<td class="org-right">20</td>
+<td class="org-left"><a href="recent_reading7.zh.html">分享最近阅读的书籍清单(七)</a></td>
+</tr>
 </tbody>
 
 <tbody>
@@ -284,7 +336,7 @@ Kubernates入门书
 
 <sup><a id="fn.1" href="#fnr.1">1</a></sup> <https://zh.wikisource.org/zh-hant/%E7%BE%85%E7%B9%94%E7%B6%93>
 
-<sup><a id="fn.2" href="#fnr.2">2</a></sup> <https://www.cs.ox.ac.uk/publications/books/fop/>
+<sup><a id="fn.2" href="#fnr.2">2</a></sup> <https://www.fm2gp.com/>
 
 <sup><a id="fn.3" href="#fnr.3">3</a></sup> <https://www.cloudskillsboost.google/paths/118>
 
