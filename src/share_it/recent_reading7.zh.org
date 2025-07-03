@@ -22,7 +22,7 @@
 todo
 #+end_quote
 
-好人并不好做,
+好人并不好做,太史公作史记也是提醒后人不要犯同样的错误。
 
 ** From Mathematics to Generic Programming[fn:2]
 
