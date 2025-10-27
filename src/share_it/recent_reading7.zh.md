@@ -7,27 +7,27 @@
 
 # Table of Contents
 
-1.  [分享最近阅读的书籍清单（七）](#orgcbbe9f4)
-    1.  [罗织经](#orgb1a9cea)
-    2.  [From Mathematics to Generic Programming](#org31b30b7)
-    3.  [Google generative AI learning path](#org1d41ed5)
-    4.  [The Chrysanthemum and the Sword](#orgd2c9e1f)
-    5.  [毓老师说论语[Fn:5]](#orge936076)
-    6.  [Structure and Interpretation of Computer Programs — Comparison Edition](#org4b91287)
-    7.  [Haskell Programming from first principles](#orgc661af1)
-    8.  [Continuous Integration (CI) and Continuous Delivery (CD)-A Practical Guide to Designing and Developing Pipelines](#org4e0e8f2)
-    9.  [Podman in Action](#org83969dc)
-    10. [The Kubernetes Book](#orgbea74bd)
-2.  [相关阅读](#org2bbb9eb)
-3.  [我想评论](#org824e75d)
-4.  [写在后面](#org67257d6)
+1.  [分享最近阅读的书籍清单（七）](#orga4bf741)
+    1.  [罗织经](#orga96911e)
+    2.  [From Mathematics to Generic Programming](#orgf36f698)
+    3.  [Google generative AI learning path](#org6658b53)
+    4.  [The Chrysanthemum and the Sword](#org98608b6)
+    5.  [毓老师说论语](#org3cabed1)
+    6.  [Structure and Interpretation of Computer Programs — Comparison Edition](#org75c8525)
+    7.  [Haskell Programming from first principles](#org6abdd99)
+    8.  [Continuous Integration (CI) and Continuous Delivery (CD)-A Practical Guide to Designing and Developing Pipelines](#orgde7c94c)
+    9.  [Podman in Action](#orga96a9f1)
+    10. [The Kubernetes Book](#orga03e065)
+2.  [相关阅读](#org52ddc3e)
+3.  [我想评论](#org6bff3a3)
+4.  [写在后面](#org00957a7)
 
 > 子曰：学而时习之，不亦悦乎，有朋自远方来，不亦乐乎，人不知而不愠，不亦君子乎。
 > 
 > &#x2013;论语学而第一
 
 
-<a id="orgb1a9cea"></a>
+<a id="orga96911e"></a>
 
 ## 罗织经<sup><a id="fnr.1" class="footref" href="#fn.1" role="doc-backlink">1</a></sup>
 
@@ -42,7 +42,7 @@
 我想太史公作史记，写了很多事件，也把自己的亲身经历一五一十的写出来，也是想告诉后来的读书人不要犯同样的错误。罗织经以论语公冶长第五中的：“巧言、令色、足恭，左丘明耻之，丘亦耻之。”开头，并以此伸展开共讲述了阅人、事上、治下、控权、制敌、固荣、保身、察奸、谋划、问罪、刑罚、瓜蔓十二卷。而这本书也是总结了酷隶整人的结大成之作，给后面的坏人作参考，而它之所以叫经是因为只要人性不变这些整人的手段就一直有效，而天底下的坏人也逃不出这个框架，不会再有什么新意了。
 
 
-<a id="org31b30b7"></a>
+<a id="orgf36f698"></a>
 
 ## From Mathematics to Generic Programming<sup><a id="fnr.2" class="footref" href="#fn.2" role="doc-backlink">2</a></sup>
 
@@ -61,7 +61,7 @@
 这本书先简单的介绍了一些数学方法的知识，然后再一步一步讲解如何用编程语言去实现它，主要使用的是C++，它对于数学方面比较匮乏的程序员来说是一本不错的入门数学编程方面的好书。就像这本书所说的：要成为一名优秀的程序员，您需要了解通用编程的原理。要了解通用编程的原理，您需要了解抽象。要了解抽象，您需要了解它的基础：数学。
 
 
-<a id="org1d41ed5"></a>
+<a id="org6658b53"></a>
 
 ## Google generative AI learning path<sup><a id="fnr.3" class="footref" href="#fn.3" role="doc-backlink">3</a></sup>
 
@@ -80,7 +80,7 @@ Google生成式AI学习路径
 Google生成式AI学习路径更像是一本说明书，教你如何使用google的AI技术。如果AI对你来说还是比较新鲜的事物，那这个的全方位教学，视频加大纲加练习是一个不错的入门AI的免费课程。
 
 
-<a id="orgd2c9e1f"></a>
+<a id="org98608b6"></a>
 
 ## The Chrysanthemum and the Sword<sup><a id="fnr.4" class="footref" href="#fn.4" role="doc-backlink">4</a></sup>
 
@@ -97,9 +97,9 @@ Google生成式AI学习路径更像是一本说明书，教你如何使用google
 每个国家和民族都有其独特性，日本也是东亚的一个国家，肯定也有受到儒家文化的影响，所以他们保留了一些中国传统思想，例如忠、孝、家庭观念或舍生取义、恭让谦卑等，而且这些传统精神似乎保留的比中国还要完整，毕竟涯山之后无中国，中国近代文化断层太严重了，而日本则没有遭受如此大的文化毁灭。《菊与刀》与其说是美国人对日本的研究，并且基于此研究的观点决定对战后日本的重建工作，倒不如说这本书也是我们了解西方世界如何看待儒家文化的东亚国家。不是说我们不了解自己，更关键的是他们是如何了解我们的，而这本书在二战后的美国非常流行，并且影响其对日本战败后的善后工作，所以也很能反应出西方世界对东亚普遍的认知。我们为什么要去关心他们对我们的态度呢？ 因为西方世界现引领着现代文明。这本书具有时效性，它并不是对一个国家一个民族长期研究长期观察田野调查后的成果，它只是接受委托去调查日本人的一个政策性文件，所以不要去指望它能有什么深入的见解，但是也从科学的角度揭露了一些东亚国家的人性。例如里面有提到日本人的好面子，日本是一个人情社会，日本人的孝顺与感恩以及日本社会的等级制度等。推荐此书的目地是希望人们能通过有限的资源尽量科学的了解一个民族，而不是听信网络上的一些片面之词，或者只是怱怱的旅行一次的刻版印象，这些都是很难作为参考的。不管是现在我们这边的黑人陪读，贬低日本，还是台湾人的爱洋肠，都是对这一刻板印象的体现。
 
 
-<a id="orge936076"></a>
+<a id="org3cabed1"></a>
 
-## 毓老师说论语[Fn:5]
+## 毓老师说论语<sup><a id="fnr.5" class="footref" href="#fn.5" role="doc-backlink">5</a></sup>
 
 > 牧师都离婚了，受戒的和尚都开了荤，掌教者都不知耻，真不知明年又变成什么样了？
 > 
@@ -108,9 +108,9 @@ Google生成式AI学习路径更像是一本说明书，教你如何使用google
 现在解读经典的太多了，而可能与经典想要表达的意思大相径庭了，这就违背了经典的初衷。他们的存在是为了答疑解惑，不是让人引经据典。毓老师是一个真正的儒者，他从小熟读四书五经，提出以经解经。这是只有熟读经典的人才能做到，也是非常有说服力的说法。而这些经典，这些四书五经，这本论语，为什么让人念念不忘，因为中国无王无圣久矣。而对于一个理工生来说，太需要这样的人文关怀了。
 
 
-<a id="org4b91287"></a>
+<a id="org75c8525"></a>
 
-## Structure and Interpretation of Computer Programs — Comparison Edition<sup><a id="fnr.5" class="footref" href="#fn.5" role="doc-backlink">5</a></sup>
+## Structure and Interpretation of Computer Programs — Comparison Edition<sup><a id="fnr.6" class="footref" href="#fn.6" role="doc-backlink">6</a></sup>
 
 <div class="org-center">
 <p>
@@ -127,9 +127,9 @@ Google生成式AI学习路径更像是一本说明书，教你如何使用google
 虽然说这本书很经典，但是Lisp这门语言也非常古老了，用于学习是非常好的，可是现在很多的软件并不使用这样的语言了，或者说使用了类似的语言但是语法也是偏现代了例如common lisp、clojure、emacs lisp等，所以为了实用性语言的学习也需要做些相应的调整，如果你有更高的追求，你可以继续去学习这些古老的语言。而JS已然成为了目前最流行最简单的语言之一了，用它来讲解这些经典的编程思想，可以说是更容易让现在的人接受，也更易于他们的理解。虽然Lisp有无限的可能，那也是基于你有非富的经验，可是作为教学的目地，关键还是让学生理解这些思想，经验就让他们从后继的工作中学习，在理解了现代语言的局限性之后，有心之人自然会想去探索更多而学习Lisp。
 
 
-<a id="orgc661af1"></a>
+<a id="org6abdd99"></a>
 
-## Haskell Programming from first principles<sup><a id="fnr.6" class="footref" href="#fn.6" role="doc-backlink">6</a></sup>
+## Haskell Programming from first principles<sup><a id="fnr.7" class="footref" href="#fn.7" role="doc-backlink">7</a></sup>
 
 <div class="org-center">
 <p>
@@ -144,9 +144,9 @@ Google生成式AI学习路径更像是一本说明书，教你如何使用google
 \#todo
 
 
-<a id="org4e0e8f2"></a>
+<a id="orgde7c94c"></a>
 
-## Continuous Integration (CI) and Continuous Delivery (CD)-A Practical Guide to Designing and Developing Pipelines<sup><a id="fnr.7" class="footref" href="#fn.7" role="doc-backlink">7</a></sup>
+## Continuous Integration (CI) and Continuous Delivery (CD)-A Practical Guide to Designing and Developing Pipelines<sup><a id="fnr.8" class="footref" href="#fn.8" role="doc-backlink">8</a></sup>
 
 <div class="org-center">
 <p>
@@ -158,9 +158,9 @@ Google生成式AI学习路径更像是一本说明书，教你如何使用google
 \#todo
 
 
-<a id="org83969dc"></a>
+<a id="orga96a9f1"></a>
 
-## Podman in Action<sup><a id="fnr.8" class="footref" href="#fn.8" role="doc-backlink">8</a></sup>
+## Podman in Action<sup><a id="fnr.9" class="footref" href="#fn.9" role="doc-backlink">9</a></sup>
 
 <div class="org-center">
 <p>
@@ -175,9 +175,9 @@ Podman实战指南
 工具的出现是为人们能够轻松的解决问题，你不需要去深究工具背后的原理。而作为一本工具使用指南，这本书也做了很好的指导，从简单的使用试范到更多更杂的功能，从容器的建造到启动，再到pod,系统命令，安全性。而podman对于docker的优势就在于他的安全性上，这本书也做了重点说明。
 
 
-<a id="orgbea74bd"></a>
+<a id="orga03e065"></a>
 
-## The Kubernetes Book<sup><a id="fnr.9" class="footref" href="#fn.9" role="doc-backlink">9</a></sup>
+## The Kubernetes Book<sup><a id="fnr.10" class="footref" href="#fn.10" role="doc-backlink">10</a></sup>
 
 <div class="org-center">
 <p>
@@ -389,12 +389,14 @@ docker被发明出来之后下一步是什么?这些是许多公司在应用容�
 
 <sup><a id="fn.4" href="#fnr.4">4</a></sup> <https://book.douban.com/subject/1022238/>
 
-<sup><a id="fn.5" href="#fnr.5">5</a></sup> <https://sicp.sourceacademy.org/>
+<sup><a id="fn.5" href="#fnr.5">5</a></sup> <https://book.douban.com/subject/26770154/>
 
-<sup><a id="fn.6" href="#fnr.6">6</a></sup> <https://haskellbook.com/>
+<sup><a id="fn.6" href="#fnr.6">6</a></sup> <https://sicp.sourceacademy.org/>
 
-<sup><a id="fn.7" href="#fnr.7">7</a></sup> [A Practical Guide to Designing and Developing Pipelines](https://www.amazon.com/Continuous-Integration-Delivery-Practical-Developing/dp/1484292278)
+<sup><a id="fn.7" href="#fnr.7">7</a></sup> <https://haskellbook.com/>
 
-<sup><a id="fn.8" href="#fnr.8">8</a></sup> <https://www.manning.com/books/podman-in-action>
+<sup><a id="fn.8" href="#fnr.8">8</a></sup> [A Practical Guide to Designing and Developing Pipelines](https://www.amazon.com/Continuous-Integration-Delivery-Practical-Developing/dp/1484292278)
 
-<sup><a id="fn.9" href="#fnr.9">9</a></sup> <https://leanpub.com/thekubernetesbook>
+<sup><a id="fn.9" href="#fnr.9">9</a></sup> <https://www.manning.com/books/podman-in-action>
+
+<sup><a id="fn.10" href="#fnr.10">10</a></sup> <https://leanpub.com/thekubernetesbook>
