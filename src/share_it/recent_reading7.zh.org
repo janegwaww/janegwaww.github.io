@@ -167,7 +167,7 @@ docker被发明出来之后下一步是什么?这些是许多公司在应用容�
 
 * 我想评论
 
-不管您有任何想法，意见或建议，可以到这里[[https://github.com/janegwaww/janegwaww.github.io/issues][github issues]]评论，点击链接新建issues即可。
+不管您有任何想法，意见或建议，都可以到这里[[https://github.com/janegwaww/janegwaww.github.io/issues][github issues]]评论，点击链接新建issues即可。
 
 * 写在后面
 #+include: "../footer.zh.org"
