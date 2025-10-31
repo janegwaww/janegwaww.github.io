@@ -38,6 +38,9 @@
 ### [分享最近阅读的书籍清单（六）](./src/share_it/recent_reading6.zh.md)
 
 
+### [分享最近阅读的书籍清单（七）](./src/share_it/recent_reading7.zh.md)
+
+
 ## 构建
 
 
