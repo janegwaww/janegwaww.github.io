@@ -7,27 +7,27 @@
 
 # Table of Contents
 
-1.  [分享最近阅读的书籍清单（七）](#orgd921c69)
-    1.  [罗织经](#orgd84ff05)
-    2.  [From Mathematics to Generic Programming](#org41b9fb5)
-    3.  [Google generative AI learning path](#org8d4ffb7)
-    4.  [The Chrysanthemum and the Sword](#org5fae6b5)
-    5.  [毓老师说论语](#org7bda343)
-    6.  [Structure and Interpretation of Computer Programs — Comparison Edition](#org775d112)
-    7.  [Haskell Programming from first principles](#org8a04a81)
-    8.  [Continuous Integration (CI) and Continuous Delivery (CD)-A Practical Guide to Designing and Developing Pipelines](#orgeb2b504)
-    9.  [Podman in Action](#org790eb95)
-    10. [The Kubernetes Book](#org84be43f)
-2.  [相关阅读](#org16a9d3d)
-3.  [我想评论](#org1e96541)
-4.  [写在后面](#org009f4f7)
+1.  [分享最近阅读的书籍清单（七）](#orge821fcd)
+    1.  [罗织经](#orga99d034)
+    2.  [From Mathematics to Generic Programming](#orga00ae99)
+    3.  [Google generative AI learning path](#org290de0f)
+    4.  [The Chrysanthemum and the Sword](#orgf7234bf)
+    5.  [毓老师说论语](#orge6e2cc0)
+    6.  [Structure and Interpretation of Computer Programs — Comparison Edition](#org57a6937)
+    7.  [Haskell Programming from first principles](#org9a6a5cd)
+    8.  [Continuous Integration (CI) and Continuous Delivery (CD)-A Practical Guide to Designing and Developing Pipelines](#org4143124)
+    9.  [Podman in Action](#org7defc15)
+    10. [The Kubernetes Book](#org7d6af2b)
+2.  [相关阅读](#org6b2bb97)
+3.  [我想评论](#org62b5183)
+4.  [写在后面](#org05fe8cc)
 
 > 子曰：学而时习之，不亦悦乎，有朋自远方来，不亦乐乎，人不知而不愠，不亦君子乎。
 > 
 > &#x2013;论语学而第一
 
 
-<a id="orgd84ff05"></a>
+<a id="orga99d034"></a>
 
 ## 罗织经<sup><a id="fnr.1" class="footref" href="#fn.1" role="doc-backlink">1</a></sup>
 
@@ -42,7 +42,7 @@
 我想太史公作史记，写了很多事件，也把自己的亲身经历一五一十的写出来，也是想告诉后来的读书人不要犯同样的错误。罗织经以论语公冶长第五中的：“巧言、令色、足恭，左丘明耻之，丘亦耻之。”开头，并以此伸展开共讲述了阅人、事上、治下、控权、制敌、固荣、保身、察奸、谋划、问罪、刑罚、瓜蔓十二卷。而这本书也是总结了酷吏整人的结大成之作，给后面的坏人作参考，而它之所以叫经是因为只要人性不变这些整人的手段就一直有效，而天底下的坏人也逃不出这个框架，不会再有什么新意了。
 
 
-<a id="org41b9fb5"></a>
+<a id="orga00ae99"></a>
 
 ## From Mathematics to Generic Programming<sup><a id="fnr.2" class="footref" href="#fn.2" role="doc-backlink">2</a></sup>
 
@@ -61,7 +61,7 @@
 这本书先简单的介绍了一些数学方法的知识，然后再一步一步讲解如何用编程语言去实现它，主要使用的是C++，它对于数学方面比较匮乏的程序员来说是一本不错的入门数学编程方面的好书。就像这本书所说的：要成为一名优秀的程序员，您需要了解通用编程的原理。要了解通用编程的原理，您需要了解抽象。要了解抽象，您需要了解它的基础：数学。
 
 
-<a id="org8d4ffb7"></a>
+<a id="org290de0f"></a>
 
 ## Google generative AI learning path<sup><a id="fnr.3" class="footref" href="#fn.3" role="doc-backlink">3</a></sup>
 
@@ -80,7 +80,7 @@ Google生成式AI学习路径
 Google生成式AI学习路径更像是一本说明书，教你如何使用google的AI技术。如果AI对你来说还是比较新鲜的事物，那这个的全方位教学，视频加大纲加练习是一个不错的入门AI的免费课程。
 
 
-<a id="org5fae6b5"></a>
+<a id="orgf7234bf"></a>
 
 ## The Chrysanthemum and the Sword<sup><a id="fnr.4" class="footref" href="#fn.4" role="doc-backlink">4</a></sup>
 
@@ -99,7 +99,7 @@ Google生成式AI学习路径更像是一本说明书，教你如何使用google
 这本书具有时效性，它并不是对一个国家一个民族长期研究长期观察田野调查后的成果，它只是接受委托去调查日本人的一个政策性文件，所以不要去指望它能有什么深入的见解，但是也从科学的角度揭露了一些东亚国家的人性。例如里面有提到日本人的好面子，日本是一个人情社会，日本人的孝顺与感恩以及日本社会的等级制度等。推荐此书的目地是希望人们能通过有限的资源尽量科学的了解一个民族，而不是听信网络上的一些片面之词，或者只是怱怱旅行一次的刻版印象，这些都是很难作为参考的。不管是现在我们这边的黑人陪读，贬低日本，还是台湾人的爱洋肠，都是对这一刻板印象的体现。
 
 
-<a id="org7bda343"></a>
+<a id="orge6e2cc0"></a>
 
 ## 毓老师说论语<sup><a id="fnr.5" class="footref" href="#fn.5" role="doc-backlink">5</a></sup>
 
@@ -110,7 +110,7 @@ Google生成式AI学习路径更像是一本说明书，教你如何使用google
 现在解读经典的太多了，而可能与经典想要表达的意思大相径庭了，这就违背了经典的初衷。他们的存在是为了答疑解惑，不是让人引经据典。毓老师是一个真正的儒者，他从小熟读四书五经，提出以经解经。这是只有熟读经典的人才能做到，也是非常有说服力的说法。而这些经典，这些四书五经，这本论语，为什么让人念念不忘，因为中国无王无圣久矣。而对于一个理工生来说，太需要这样的人文关怀了。
 
 
-<a id="org775d112"></a>
+<a id="org57a6937"></a>
 
 ## Structure and Interpretation of Computer Programs — Comparison Edition<sup><a id="fnr.6" class="footref" href="#fn.6" role="doc-backlink">6</a></sup>
 
@@ -129,7 +129,7 @@ Google生成式AI学习路径更像是一本说明书，教你如何使用google
 虽然说这本书很经典，但是Lisp这门语言也非常古老了，用于学习是非常好的，可是现在很多的软件并不使用这样的语言了，或者说使用了类似的语言但是语法也是偏现代了例如common lisp、clojure、emacs lisp等，所以为了实用性语言的学习也需要做些相应的调整，如果你有更高的追求，你可以继续去学习这些古老的语言。而JS已然成为了目前最流行最简单的语言之一了，用它来讲解这些经典的编程思想，可以说是更容易让现在的人接受，也更易于他们的理解。虽然Lisp有无限的可能，那也是基于你有非富的经验，可是作为教学的目地，关键还是让学生理解这些思想，经验就让他们从后继的工作中学习，在理解了现代语言的局限性之后，有心之人自然会想去探索更多而学习Lisp。
 
 
-<a id="org8a04a81"></a>
+<a id="org9a6a5cd"></a>
 
 ## Haskell Programming from first principles<sup><a id="fnr.7" class="footref" href="#fn.7" role="doc-backlink">7</a></sup>
 
@@ -148,7 +148,7 @@ Haskell应该是目前最流行的纯函数式编程语言了，它刚开始写�
 读技术方面的书籍练习很重要，动手做了之后就能很容易理解书中的知识点了，要不然看过一遍就忘了，或者根本不知道它说的是什么。本书做为一门语言教学书也不例外，每章都会包含一些练习用于巩固这一章的知识点，容易与否不重要，重要的是动手去做，能在实际中运用刚学到的知识何尝不是一种正反馈。并且随着学习的推进，后面的知识密度也会不断的增加，所以每一章的学习最好都做个充分的理解，要不然看到后面因为前面有些知识没理解透，不能举一反三，就会越到后面学习起来越吃力。本书总体看起来还是挺有趣的，每一章的编排都是循序渐近的，而且也尽量贴合函数这一主题。看这一本1200多页的书好比一段有趣的冒险之旅。
 
 
-<a id="orgeb2b504"></a>
+<a id="org4143124"></a>
 
 ## Continuous Integration (CI) and Continuous Delivery (CD)-A Practical Guide to Designing and Developing Pipelines<sup><a id="fnr.8" class="footref" href="#fn.8" role="doc-backlink">8</a></sup>
 
@@ -162,10 +162,12 @@ Haskell应该是目前最流行的纯函数式编程语言了，它刚开始写�
 > 
 > &#x2013;摘要
 
-代码写完之后，后面应该干嘛，你可以像之前一样手动构建，测试，布署。小型或个人开发可能不在意这短暂的布署过程，但是大型公司有成百上千个项目，还有上万个的容器，上千个的本地服务器和云，上百个的k8s集群，如果每个项目都手动去操作那花费的时间是指数级的增长的，所以ci/cd刻不容缓，但是大型公司的ci/cd又是比较复杂的，所以有专门的语言用于ci/cd就顺理成章了。我也是抱着这样的想法想去找找有没有这样的系统性知识文档或书籍，于是就找到了这本书。代码写完了之后不可能就放那里，肯定要分发出去给合适的地方使用，毕竟它是技术不是艺术，没有合适的使用场景那就是一堆字符，所以怎样让它从开发者快速的过渡到使用者手上，这之间肯定有一系列操作，这些操作可能会很复杂，但是也并不是无迹可循，而让这些操作自动化就是CI/CD要做的事情。由于公司规模的不同，或者需求的不同，分发流程也是不一样的，这本书于是先进行了需求分析：是否只是在需要的时候才进行人工测试、是否每个微服务都要建立一条管道、是否分发的每个阶段都需要反馈、是否第三方包都要进行病毒扫描、是否进行代码的质量审查、是否进行法律层面的功能审查等，基于其中的某些功能再去设计一条管道。这本书就这样一步步的深入探讨，其实就类似于大型的软件设计，本书主旨也是这样的，管道开发就是软件设计，从需求到设计蓝图到管道开发再到管道的测试、发布、监控，这一系列的软件开发流程。
+代码写完之后，后面应该干嘛，你可以像之前一样手动构建，测试，布署。小型或个人开发可能不在意这短暂的布署过程，但是大型公司有成百上千个项目，还有上万个的容器，上千个的本地服务器和云，上百个的k8s集群，如果每个项目都手动去操作那花费的时间是指数级的增长的，所以ci/cd刻不容缓，但是大型公司的ci/cd又是比较复杂的，所以有专门的语言用于ci/cd就顺理成章了。我也是抱着这样的想法想去找找有没有这样的系统性知识文档或书籍，于是就找到了这本书。
+
+代码写完了之后不可能就放那里，肯定要分发出去给合适的地方使用，毕竟它是技术不是艺术，没有合适的使用场景那就是一堆字符，所以怎样让它从开发者快速的过渡到使用者手上，这之间肯定有一系列操作，这些操作可能会很复杂，但是也并不是无迹可循，而让这些操作自动化就是CI/CD要做的事情。由于公司规模的不同，或者需求的不同，分发流程也是不一样的，这本书于是先进行了需求分析：是否只是在需要的时候才进行人工测试、是否每个微服务都要建立一条管道、是否分发的每个阶段都需要反馈、是否第三方包都要进行病毒扫描、是否进行代码的质量审查、是否进行法律层面的功能审查等，基于其中的某些功能再去设计一条管道。这本书就这样一步步的深入探讨，其实就类似于大型的软件设计，本书主旨也是这样的，管道开发就是软件设计，从需求到设计蓝图到管道开发再到管道的测试、发布、监控，这一系列的软件开发流程。
 
 
-<a id="org790eb95"></a>
+<a id="org7defc15"></a>
 
 ## Podman in Action<sup><a id="fnr.9" class="footref" href="#fn.9" role="doc-backlink">9</a></sup>
 
@@ -182,7 +184,7 @@ Podman实战指南
 工具的出现是为人们能够轻松的解决问题，你不需要去深究工具背后的原理。docker毫无疑问是一次技术革命，而本书作为其的一本工具使用指南，也做了很好的指导，从简单的使用试范到更多更杂的功能，从容器的建造到启动，再到pod,系统命令，安全性。而podman对于docker的优势就在于他的安全性上，这本书也做了重点说明。
 
 
-<a id="org84be43f"></a>
+<a id="org7d6af2b"></a>
 
 ## The Kubernetes Book<sup><a id="fnr.10" class="footref" href="#fn.10" role="doc-backlink">10</a></sup>
 
