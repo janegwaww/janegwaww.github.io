@@ -13,3 +13,28 @@
 #+begin_quote
 
 #+end_quote
+
+** Kotlin In Action
+
+** Core Java
+
+** Programming Android with Kotlin
+
+** The Purely Functional Software Deployment Model
+
+#+begin_quote
+#+end_quote
+
+我自己手上的设备就有:手机，平板，电纸书，掌上笔记本，笔记本，游戏本，MacBook Pro，Mac Mini，Windows电脑等，其中涵盖了android系统，Linux系统，MacOS系统，Windows系统，如何保证我能在这些设备系统上获得相同的体验？于是就有了NixOS，而本书就是该系统的理论基础。
+
+** An Introduction to Functional Programming Through Lambda Calculus
+
+** Mathematical Proofs - A Transition to Advanced Mathematics
+
+** Analysis - With an Introduction to Proof
+
+** Head First Android Development
+
+** The System Programming of Linux
+
+** Android System Programming - Porting, Customizing, and Debugging Android HAL
