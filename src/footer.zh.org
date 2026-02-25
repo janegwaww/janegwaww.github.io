@@ -1,33 +1,34 @@
 #+startup: showall
 #+startup: align
 
-| NO. | Content                                            |
-|-----+----------------------------------------------------|
-|   1 | [[./share_it/recent_reading.html][分享最近阅读的书籍清单(一)]]                         |
-|   2 | [[./share_it/recent_reading2.zh.html][分享最近阅读的书籍清单(二)]]                         |
-|   3 | [[./share_it/recent_reading3.zh.html][分享最近阅读的书籍清单(三)]]                         |
-|   4 | [[./build_it/how_face_midnight.html][如何面对35岁]]                                       |
-|   5 | [[./share_it/recent_reading4.zh.html][分享最近阅读的书籍清单(四)]]                         |
-|   6 | [[./build_it/why_you_should_learn_several_programming_language_and_where_to_learn_them.html][为什么你应该学习多种语言及哪里可以学到他们]]         |
-|   7 | [[./build_it/older_developer.zh.html][作为大龄程序员，你如何持续的保持自己的竞争优势]]     |
-|   8 | [[./build_it/how_to_stop_caring.zh.html][程序员在职场中如何缓解过度焦虑]]                     |
-|   9 | [[./share_it/share_note_app.zh.html][分享最近使用过的记笔记软件]]                         |
-|  10 | [[./share_it/recent_reading5.zh.html][分享最近阅读的书籍清单(五)]]                         |
-|  11 | [[./share_it/functional-programming.html][函数编程在JavaScript中的简单应用]]                   |
+| NO. | Content                                     |
+|-----+---------------------------------------------|
+|   1 | [[./share_it/recent_reading.html][分享最近阅读的书籍清单(一)]]                     |
+|   2 | [[./share_it/recent_reading2.zh.html][分享最近阅读的书籍清单(二)]]                     |
+|   3 | [[./share_it/recent_reading3.zh.html][分享最近阅读的书籍清单(三)]]                     |
+|   4 | [[./build_it/how_face_midnight.html][如何面对35岁]]                                  |
+|   5 | [[./share_it/recent_reading4.zh.html][分享最近阅读的书籍清单(四)]]                     |
+|   6 | [[./build_it/why_you_should_learn_several_programming_language_and_where_to_learn_them.html][为什么你应该学习多种语言及哪里可以学到他们]]        |
+|   7 | [[./build_it/older_developer.zh.html][作为大龄程序员，你如何持续的保持自己的竞争优势]]    |
+|   8 | [[./build_it/how_to_stop_caring.zh.html][程序员在职场中如何缓解过度焦虑]]                  |
+|   9 | [[./share_it/share_note_app.zh.html][分享最近使用过的记笔记软件]]                      |
+|  10 | [[./share_it/recent_reading5.zh.html][分享最近阅读的书籍清单(五)]]                     |
+|  11 | [[./share_it/functional-programming.html][函数编程在JavaScript中的简单应用]]               |
 |  12 | [[./build_it/vanillajs-validation.html][用最简单的方式实现前端校验，也许你并不需要任何框架]] |
-|  13 | [[./share_it/recent_reading6.zh.html][分享最近阅读的书籍清单(六)]]                         |
-|  14 | [[./build_it/no_pain_no_gain.zh.html][天道是否有报－从三个层次解读『求仁得仁又何怨乎』]]   |
-|  15 | [[./build_it/renan_letter.html][读报任少卿书-司马迁作史记的心境]]                    |
-|  16 | [[./build_it/boyi_record.html][读伯夷列傳第一-儻所謂天道，是邪非邪？]]              |
-|  17 | [[./build_it/shiji_zixu.html][读太史公自序--什么是中国的责任]]                     |
-|  18 | [[./build_it/shiji_wutaibo.html][读吴太伯世家--道德与成败]]                           |
-|  19 | [[./build_it/shiji_wudi.zh.html][讀五帝本紀-好學深思,心知其意]]                       |
-|  20 | [[./share_it/recent_reading7.zh.html][分享最近阅读的书籍清单(七)]]                         |
-|-----+----------------------------------------------------|
-|     | 如果喜欢该文章欢迎Star我的[[https://github.com/janegwaww/article][github]]                   |
-|     | [[https://paypal.me/janegwaww][捐助]]我的创作                                       |
-|     | [[https://v2ex.com/member/mascteen/topics][我的社区更新地址]]                                   |
-|     | Email: [[mailto:tiglapiles@gmail.com][tiglapiles@gmail.com]]                        |
-|-----+----------------------------------------------------|
-|     | [[https://www.janegwaww.com][Home Page]]                                          |
-|-----+----------------------------------------------------|
+|  13 | [[./share_it/recent_reading6.zh.html][分享最近阅读的书籍清单(六)]]                     |
+|  14 | [[./build_it/no_pain_no_gain.zh.html][天道是否有报－从三个层次解读『求仁得仁又何怨乎』]]  |
+|  15 | [[./build_it/renan_letter.html][读报任少卿书-司马迁作史记的心境]]                 |
+|  16 | [[./build_it/boyi_record.html][读伯夷列傳第一-儻所謂天道，是邪非邪？]]            |
+|  17 | [[./build_it/shiji_zixu.html][读太史公自序--什么是中国的责任]]                  |
+|  18 | [[./build_it/shiji_wutaibo.html][读吴太伯世家--道德与成败]]                       |
+|  19 | [[./build_it/shiji_wudi.zh.html][讀五帝本紀-好學深思,心知其意]]                    |
+|  20 | [[./share_it/recent_reading7.zh.html][分享最近阅读的书籍清单(七)]]                     |
+|  21 | [[./build_it/shiji_qingshihuang.zh.html][读秦始皇本纪(一)-历史文献中的真实秦始皇]]          |
+|-----+---------------------------------------------|
+|     | 如果喜欢该文章欢迎Star我的[[https://github.com/janegwaww/article][github]]               |
+|     | [[https://paypal.me/janegwaww][捐助]]我的创作                                  |
+|     | [[https://v2ex.com/member/mascteen/topics][我的社区更新地址]]                              |
+|     | Email: [[mailto:tiglapiles@gmail.com][tiglapiles@gmail.com]]                 |
+|-----+---------------------------------------------|
+|     | [[https://www.janegwaww.com][Home Page]]                                   |
+|-----+---------------------------------------------|

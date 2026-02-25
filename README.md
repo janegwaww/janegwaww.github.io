@@ -77,6 +77,9 @@
 ### [讀五帝本紀-好學深思，心知其意](src/build_it/shiji_wudi.zh.md)
 
 
+### [读秦始皇本纪(一)-历史文献中的真实秦始皇](src/build_it/shiji_qingshihuang.zh.md)
+
+
 ## 相关链接
 
 -   Web: [www.janegwaww.com](https://www.janegwaww.com/)
