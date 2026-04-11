@@ -4,7 +4,7 @@
 #+startup: showall
 #+options: toc:nil
 
-* TODO 分享最近阅读的书籍清单（七）
+* TODO 分享最近阅读的书籍清单（八）
 
 这些都是在人生中的好书藉或好内容，我想把这些优秀的东西分享出来，并赋上自己的一些主观想法，能让更多人知道并从中受益。这里只是做一个引荐，精彩需要你自己亲自阅读从中感受。
 
@@ -16,11 +16,27 @@
 
 ** Kotlin In Action
 
+#+begin_center
+Kotlin实战
+#+end_center
+
 ** Core Java
+
+#+begin_center
+核心Java
+#+end_center
 
 ** Programming Android with Kotlin
 
+#+begin_center
+使用Kotlin进行Android编程
+#+end_center
+
 ** The Purely Functional Software Deployment Model
+
+#+begin_center
+纯函数式软件部署模型
+#+end_center
 
 #+begin_quote
 #+end_quote
@@ -29,12 +45,57 @@
 
 ** An Introduction to Functional Programming Through Lambda Calculus
 
-** Mathematical Proofs - A Transition to Advanced Mathematics
+#+begin_center
+通过Lambda演算入门函数式编程
+#+end_center
 
-** Analysis - With an Introduction to Proof
+#+begin_quote
 
-** Head First Android Development
+#+end_quote
+
+** Head First Android Development[fn:2]
+
+#+begin_center
+Head First系列安卓开发
+#+end_center
 
 ** The System Programming of Linux
 
+#+begin_center
+Linux系统编程
+#+end_center
+
 ** Android System Programming - Porting, Customizing, and Debugging Android HAL
+
+#+begin_center
+Android系统编程-Android HAL的移植、定制和调试
+#+end_center
+
+** 津巴多普通心理学[fn:1]
+
+#+begin_center
+Psychology Core Concepts
+#+end_center
+
+最近在许多地方看到论迹不论心这句话，当时第一时间没反应过来是对是错，因为似乎在哪里听过，好像挺有道理的，但是似乎又隐隐感觉哪里不对，就是想不起来。
+
+直到偶然的机会看到一副对联：百善孝為先，論心不論迹，論迹則貧家無孝子。万惡淫為首，論迹不論心，論心則亘古無完人。是呀，那些权势之人，可以让父母在高干病房24小时监护，身上零件随便换，插着管维持生命，普通人几个能做到，所以论心不论迹是美德。
+
+一个人最基本的仁爱做不到，你能相信他能对你善么？一个人无法节制自己的欲望，你能相信他不会做恶么？所以很多事主要看有没有做出来，如果你还要去考验人性，那没几个人做的到。所以论迹不论心是人性。
+
+现在人人都说几百万不算钱，可是全中国马上能拿出来的不到万分之几，大家都说男多女少，可是能达到所谓月入过万婚嫁条件的男人不到千分之六。现代的人拿起手机看透一切，放下手机虚无空洞，可是生活并没有任何改变。在这个平安就是福，不做恶便是善的社会，他人能做好事已经是很难得的事了，怎么可能还指望人性，所以论迹不论心不能说错，他只是顺从了人性，他只是做好了，并不能成为可称颂的标准。例如有人为博流量在短视频平台做慈善，他的主要目地在于流量，慈善只是刚好顺带了，这只是一个普通的商业行为，你很难把他与道德高地做关联。又例如秦始皇听从建议把母亲从雍和接回来，又或者郑伯为了不违背誓言挖了一条地道与母亲和好如初，这些都是论迹不论心。
+
+所以在这个时代健康最重要。包括身体上和心理上，推荐这本心理学书藉。
+
+** 問道中醫
+
+** The Rust Programming Language
+
+#+begin_center
+Rust编程语言
+#+end_center
+
+* Footnotes
+[fn:2] https://www.oreilly.com/library/view/head-first-android/9781492076513/
+
+[fn:1] https://book.douban.com/subject/35897952/
